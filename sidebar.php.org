@@ -1,0 +1,717 @@
+<div class="col-md-2 col-xs-4 sidebar">
+    <div class="nav-side-menu">
+        <div class="menu-list">
+            <ul class="side_menu_ul">
+                <li menu_id="m_1" class="dropdown ">
+                    <a href="javascript:;" class="side_menu_title" data-toggle="dropdown">
+                        <i class="fa fa-tachometer"></i><span>01</span><b class="caret"></b>
+                    </a>
+                    <ul class="sub_menu">
+                        <li class="dropdown">
+                            <a href="index.php">検針兼請求書作成指定</a>
+                        </li>
+                        <li menu_id="m_1_1" class="dropdown">
+                            <a href="#" href="javascript:;" class="side_menu_title side_menu_dropdown"
+                               data-toggle="dropdown"><i class="fa fa-chevron-right" aria-hidden="true"></i>SM/01-22</a>
+                                <ul class="sub_menu padding-left-10">
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="01-sm-01-22-01.php">検針伝票入力</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="__blank__.php">検針伝票連続入力</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="01-sm-01-22-03.php">検針伝票入力チェックリスト</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="1.5検針・配送履歴保守.php">検針配送履歴保守</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="1.6メータ交換入力.php">メータ交換入力</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="1.7メータ交換一覧表.php">メータ交換一覧表</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" href="javascript:;" class="side_menu_title side_menu_dropdown"
+                               data-toggle="dropdown"><i class="fa fa-chevron-right" aria-hidden="true"></i>SM/01-23</a>
+                            <ul class="sub_menu padding-left-10">
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="form-1.php">検針日報</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="1.9検針データ一覧表印刷指定.php">検針データ一覧表</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="1.10逆針・未検針一覧表印刷してい.php">逆針・未検針一覧表</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="1.11検針月報印刷指定.php">検針月報</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="1.12メータ交換伝票印刷指定.php">メータ交換伝票印刷</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="1.9検針データ一覧表印刷指定.php">検針結果伝票作成</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="1.14顧客選択テスト画面.php">引越用検針伝票印刷1</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="1.15引越用検針伝票印刷.php">引越用検針伝票印刷2</a>
+                        </li>
+                    </ul>
+                </li>
+                <li menu_id="m_2" class="dropdown ">
+                    <a href="javascript:;" class="side_menu_title" data-toggle="dropdown">
+                        <i class="fa fa-paper-plane"></i><span>02</span><b class="caret"></b>
+                    </a>
+                    <ul class="sub_menu">
+                        <li class="dropdown">
+                            <a href="2.1配送マスタ保守.php">配送マスタ保守</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="2.2配送日時更新処理.php">配送・容器日次更新</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" href="javascript:;" class="side_menu_title side_menu_dropdown"
+                               data-toggle="dropdown"><i class="fa fa-chevron-right"
+                                                         aria-hidden="true"></i>配送実績表印刷指定</a>
+                            <ul class="sub_menu padding-left-10">
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="2.3配送実績表印刷指定.php">配送実績表</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="2.4SM.php">SM/ 02-30</a>
+                        </li>
+                    </ul>
+                </li>
+                <li menu_id="m_3" class="dropdown ">
+                    <a href="javascript:;" class="side_menu_title" data-toggle="dropdown"> <i
+                                class="fa fa-feed"></i><span>03</span><b class="caret"></b></a>
+                    <ul class="sub_menu">
+
+                        <li class="dropdown">
+                            <a href="#" href="javascript:;" class="side_menu_title side_menu_dropdown"
+                               data-toggle="dropdown"><i class="fa fa-chevron-right" aria-hidden="true"></i>売上伝票入力</a>
+                            <ul class="sub_menu padding-left-10">
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="3.1売上伝票入力.php">売上伝票入力</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="3.2納品書発行印刷指定.php">納品書発行（消費者）</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="3.3売上伝票入力チェックリスト.php">売上伝票入力チェックリスト</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="3.4入金伝票入力.php">入金伝票入力</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="3.5F-46.php">入金伝票連続入力</a>
+                                </li>
+
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="3.6入金伝票入力チェックリスト.php">入金伝票入力チェックリスト</a>
+                                </li>
+
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="3.7F-50.php">納品書発行（化学事業部）</a>
+                                </li>
+
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="3.8得意先元帳問合せ.php">得意先元帳問合せ</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" href="javascript:;" class="side_menu_title side_menu_dropdown"
+                               data-toggle="dropdown"><i class="fa fa-chevron-right" aria-hidden="true"></i>SM/03-22</a>
+                            <ul class="sub_menu padding-left-10">
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="3.9得意先元帳一覧表（消費者）印刷指定.php">得意先元帳（消費者）</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="3.10売上・売掛金管理表印刷指定（消費者).php">売上・売掛金管理表（消費者）</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="3.11商品売上日報印刷指定.php">商品売上日報</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="3.12商品別消費者売上一覧表印刷指定（消費者).php">商品別消費者売上一覧表（消費者）</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="3.13入金区分別日計表印刷指定（消費者）.php">入金区分別日計表（消費者）</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="3.14延滞者（未納者）一覧表印刷指定.php">延滞（未納）一覧表</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="3.15延滞者（未納者）一覧表印刷指定.php">滞留売掛金回収状況一覧表</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" href="javascript:;" class="side_menu_title side_menu_dropdown"
+                               data-toggle="dropdown"><i class="fa fa-chevron-right" aria-hidden="true"></i>SM/03-23</a>
+                            <ul class="sub_menu padding-left-10">
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="3.16口座振替金額変更.php">口座振替金額変更</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="3.17口座振替消費者一括入金.php">口座振替消費者一括入金</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="3.18振替金額変更チェックリスト印刷指定.php">振替金額変更チェックリスト</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="3.19振替金額変更履歴.php">振替金額変更履歴</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="3.20振替データ読込.php">振替データＦＤ書込</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="3.21口座振替依頼表印刷指定.php">振替データＦＤ読込</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="3.22口座振替金額一覧表印刷指定.php">口座振替金額一覧表</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="3.23交差振替入金済一覧表印刷指定.php">口座振替入金済一覧表</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="3.24交差振替入金済一覧表印刷指定.php">口座振替不能者一覧表</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="3.25コンビニ手数料発行処理.php">コンビニ手数料発行処理</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" href="javascript:;" class="side_menu_title side_menu_dropdown"
+                               data-toggle="dropdown"><i class="fa fa-chevron-right" aria-hidden="true"></i>SM/03-25</a>
+                            <ul class="sub_menu padding-left-10">
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="3.26コンビニ手数料発行処理.php">コンビニ手数料計上</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="3.27コンビニ手数料削除処理.php">コンビニ手数料削除</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="3.28コンビニデータ出力指定.php">コンビニデータ出力</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="3.29コンビニ入金処理.php">コンビニ入金処理</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="3.30取込み履歴問合せ.php">コンビニ取込履歴</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li menu_id="m_4" class="dropdown ">
+                    <a href="javascript:;" class="side_menu_title" data-toggle="dropdown"> <i
+                                class="fa fa-plane"></i><span>04</span><b class="caret"></b></a>
+                    <ul class="sub_menu">
+                        <li class="dropdown">
+                            <a href="4.1-請求明細問合せ.php">請求明細問合せ</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="4.2ハガキ請求書印刷設定.php">ハガキ請求書作成</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="4.3SM.php">化学事業部用請求書作成</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="4.4業務用請求書印刷設定.php">事務用請求書（消費者）</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" href="javascript:;" class="side_menu_title side_menu_dropdown"
+                               data-toggle="dropdown"><i class="fa fa-chevron-right" aria-hidden="true"></i>SM/
+                                04-26</a>
+                            <ul class="sub_menu padding-left-10">
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="4.5請求一覧表印刷指定消費者.php">請求一覧表（消費者）</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="4.6売上明細付請求一覧表印刷指定（消費者）.php">売上明細付請求一覧表（消費者）</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="4.7集金予定一覧表印刷指定.php">集金予定一覧表</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="4.8sm.php">ポイント発行処理</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" href="javascript:;" class="side_menu_title side_menu_dropdown"
+                               data-toggle="dropdown"><i class="fa fa-chevron-right" aria-hidden="true"></i>SM/
+                                04-27</a>
+                            <ul class="sub_menu padding-left-10">
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="4.9売上締切作業指定画面（消費者）.php">締切処理（消費者）</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="4.10売上締切作業指定画面販売店.php">締切処理（販売店）</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="4.11売上締後更新処理指定画面.php">締後更新処理</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="4.12売上締後更新処理指定画面.php">月次更新処理</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="4.13締切処理漏れ一覧表印刷指定締切処理漏れ一覧表印刷指定.php">締切漏れ消費者一覧</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li menu_id="m_5" class="dropdown ">
+                    <a href="javascript:;" class="side_menu_title" data-toggle="dropdown"> <i
+                                class="fa fa-cab"></i><span>11</span><b class="caret"></b></a>
+                    <ul class="sub_menu">
+                        <li class="dropdown">
+                            <a href="11.1システム環境設定.php">システム環境設定</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="11.2ユーザ別環境設定.php">ユーザ別環境設定</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="11.3クライアント環境設定.php">クライアント環境設定</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="11.4ユーザ登録.php">ユーザ登録</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="11.5操作履歴.php">操作履歴</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="11.6運用環境設定.php">運用環境設定</a>
+                        </li>
+                    </ul>
+                </li>
+                <li menu_id="m_6" class="dropdown ">
+                    <a href="javascript:;" class="side_menu_title" data-toggle="dropdown"> <i
+                                class="fa fa-car"></i><span>14</span><b class="caret"></b></a>
+                    <ul class="sub_menu">
+                        <li class="dropdown">
+                            <a href="#" href="javascript:;" class="side_menu_title side_menu_dropdown"
+                               data-toggle="dropdown"><i class="fa fa-chevron-right" aria-hidden="true"></i>1</a>
+                            <ul class="sub_menu padding-left-10">
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="14.1.1保安台帳保守.php">保安台帳保守</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="14.1.2保安業務履歴保守.php">保安業務履歴保守</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="14.1.3保安点検調査票入力.php">保安点検調査票入力（液石法）</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="14.1.4周知文書一括発行指定.php">周知業務一括登録</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="14.1.5次回期限.php">保安担当者（調査員）一括変更</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="14.1.6保安業務実施者一括変換.php">保安業務実施者一括変更</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="14.1.7保安台帳等保安担当者一括変更.php">保安台帳等保安担当者一括変更</a>
+                                </li>
+
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="sub_menu">
+                        <li class="dropdown">
+                            <a href="#" href="javascript:;" class="side_menu_title side_menu_dropdown"
+                               data-toggle="dropdown"><i class="fa fa-chevron-right" aria-hidden="true"></i>2</a>
+                            <ul class="sub_menu padding-left-10">
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="14.2.1保安機関・調査員マスタ保守.php">保安機関・調査員保守</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="14.2.2都道府県保守.php">都道府県保守</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="14.2.3市越区分保守.php">市町村名保守</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="14.2.4供給設備種別保守.php">供給設備種別保守</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="14.2.5供給設備型式保守.php">供給設備型式保守</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="14.2.6都道府県保守.php">消費設備種別保守</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="14.2.7消費設備種別保守.php">消費設備種別保守</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="14.2.8安全器具種別保守.php">安全器具種別保守</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="14.2.9安全器具型式保守.php">安全器具型式保守</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="sub_menu">
+                        <li class="dropdown">
+                            <a href="#" href="javascript:;" class="side_menu_title side_menu_dropdown"
+                               data-toggle="dropdown"><i class="fa fa-chevron-right" aria-hidden="true"></i>3</a>
+                            <ul class="sub_menu padding-left-10">
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="14.3.1保安台帳印刷指定.php">保安台帳印刷</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="14.3.2消費者保安情報印刷指定.php">消費者保安情報明細一覧表</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="14.3.4保安管理台帳印刷指定.php">保安管理台帳印刷</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="14.3.5保安情報未登録一覧印刷指定.php">保安情報未登録一覧印刷</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="14.3.6保安業務委託件数問い合わせ.php">保安業務委託件数問合せ</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="14.3.7保安業務委託件数一覧表印刷指定.php">保安業務委託件数一覧表</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="14.3.8保安委託先提出用一覧表印刷指定.php">保安委託先提出用一覧表</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="14.3.9保安業務受託件数問い合わせ.php">保安業務受託件数問合せ</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="14.3.10保安業務受託件数一覧表印刷指定.php">保安業務受託件数一覧表</a>
+                                </li>
+
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="14.3.11保安受託先提出用一覧表印刷指定.php">保安受託先提出用一覧表</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="sub_menu">
+                        <li class="dropdown">
+                            <a href="#" href="javascript:;" class="side_menu_title side_menu_dropdown"
+                               data-toggle="dropdown"><i class="fa fa-chevron-right" aria-hidden="true"></i>4</a>
+                            <ul class="sub_menu padding-left-10">
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="14.4.1供給管期限管理帳票印刷指定.php">供給管期限管理一覧表</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="14.4.2供給管期限管理帳票印刷指定.php">供給管期限管理集計表</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="14.4.3供給設備部品一覧表印刷指定.php">供給設備部品一覧表（ホース）</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="14.4.6調整器等期限管理帳票印刷指定.php">調整器等期限管理一覧表</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="14.4.8ガスメータ期限管理帳票印刷指定.php">ガスメータ期限管理一覧表</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="14.4.10警報器期限管理帳票印刷指定.php">警報器期限管理一覧表</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="14.4.12集中監視端末帳票印刷指定.php">集中監視端末一覧表</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="14.4.14埋設管帳票印刷指定.php">理設管一覧表</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="14.4.16燃焼器具帳票印刷指定.php">燃焼器具一覧表</a>
+                                </li>
+
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="14.4.18末端ガス栓帳票印刷指定.php">末端ガス栓一覧表</a>
+                                </li>
+
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="14.4.20消費設備配管期限管理帳票印刷指定.php">消費設備配管期限管理一覧表</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="14.4.22.na.php">バルク貯槽管理票A</a>
+                                </li>
+
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <ul class="sub_menu">
+                        <li class="dropdown">
+                            <a href="#" href="javascript:;" class="side_menu_title side_menu_dropdown"
+                               data-toggle="dropdown"><i class="fa fa-chevron-right" aria-hidden="true"></i>5</a>
+                            <ul class="sub_menu padding-left-10">
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="14.5.1保安点検調査票印刷指定.php">保安点検調査票印刷</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="14.5.2保安点検調査票印刷指定.php">保安点検調査票印刷（液石法）</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="14.5.3保安点検調査管理帳票印刷指定.php">保安点検調査管理一覧表</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="14.5.7改善状況帳票印刷指定.php">改善・再調査状況一覧表</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="14.5.9周知文書配布管理帳票印刷指定.php">周知文書配布管理一覧表</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="14.5.13点検調査結果不良一覧印刷指定.php">点検調査結果不良一覧表</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="14.5.14na.php">担当者別作業予定表</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="14.5.15保安点検調査票印刷指定.php">保安点検調査未実施一覧表</a>
+                                </li>
+
+
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="sub_menu">
+                        <li class="dropdown">
+                            <a href="#" href="javascript:;" class="side_menu_title side_menu_dropdown"
+                               data-toggle="dropdown"><i class="fa fa-chevron-right" aria-hidden="true"></i>6</a>
+                            <ul class="sub_menu padding-left-10">
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="14.6.2市町村名一覧表印刷指定.php">保安機関別調査員名一覧表</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="14.6.3施設区分一覧表印刷指定.php">市町村名一覧表</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="14.6.4供給設備種別一覧表印刷指定.php">供給設備種別一覧表</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="14.6.5供給設備型式一覧表印刷指定.php">供給設備型式一覧表</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="14.6.6安全器具種別一覧表印刷指定.php">安全器具種別一覧表</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="14.6.7安全器具型式一覧表印刷指定.php">安全器具型式一覧表</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="14.6.8消費設備種別一覧表印刷指定.php">消費設備別一覧表</a>
+                                </li>
+
+
+
+                            </ul>
+                        <li class="dropdown">
+                            <i class="fa fa-minus" aria-hidden="true"></i>
+                            <a href="14.20保安点検調査票印刷指定.php">保安点検調査票</a>
+                        </li>
+                        <li class="dropdown">
+                            <i class="fa fa-minus" aria-hidden="true"></i>
+                            <a href="14.30警報器交換伝票印刷指定.php">警報器交換伝票印刷</a>
+                        </li>
+                        </li>
+                    </ul>
+                </li>
+
+
+
+                <li menu_id="m_7" class="dropdown ">
+                    <a href="javascript:;" class="side_menu_title" data-toggle="dropdown"> <i
+                                class="fa fa-plane"></i><span>17</span><b class="caret"></b></a>
+                    <ul class="sub_menu">
+                        <li class="dropdown"><a href="17.1顧客選択テスト画面.php">ＵＦＪ振替結果データ変換</a>
+                        </li>
+                        <li class="dropdown"><a href="17.2UFJ振替不能データ変換.php">UFJ振替不能データ変換</a>
+                        </li>
+                        <li class="dropdown"><a href="17.3EXCEL消費者データ出力.php">Ｅｘｃｅｌデータ出力</a>
+                        </li>
+
+
+                    </ul>
+                </li>
+                <li menu_id="m_8" class="dropdown ">
+                    <a href="javascript:;" class="side_menu_title" data-toggle="dropdown"> <i
+                                class="fa fa-fighter-jet"></i><span>25</span><b class="caret"></b></a>
+                    <ul class="sub_menu">
+                        <li class="dropdown">
+                            <a href="#" href="javascript:;" class="side_menu_title side_menu_dropdown"
+                               data-toggle="dropdown"><i class="fa fa-chevron-right" aria-hidden="true"></i>1</a>
+                            <ul class="sub_menu padding-left-10">
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="25.1受付項目保守（受付項目一覧）.php">受付項目保守（受付項目一覧）</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="25.2業務分類保守.php">業務分類保守</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="25.3業務詳細分類保守.php">業務詳細分類保守</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="25.4進捗度合分類保守.php">進捗度合分類保守</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="25.5受付項目一覧表印刷指定.php">受付項目一覧表</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="25.6業務分類一覧表印刷指定.php">業務分類一覧表</a>
+                                </li>
+
+
+                            </ul>
+
+                        </li>
+                    </ul>
+
+                    <ul class="sub_menu">
+                        <li class="dropdown">
+                            <a href="#" href="javascript:;" class="side_menu_title side_menu_dropdown"
+                               data-toggle="dropdown"><i class="fa fa-chevron-right" aria-hidden="true"></i>SM/25-2</a>
+                            <ul class="sub_menu padding-left-10">
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="25.7受付内容入力.php">受付内容入力</a>
+                                </li>
+                                <li class="dropdown">
+                                    <i class="fa fa-minus" aria-hidden="true"></i>
+                                    <a href="25.8作業内容入力.php">作業内容入力</a>
+                                </li>
+
+
+
+                            </ul>
+                        <li class="dropdown">
+                            <i class="fa fa-minus" aria-hidden="true"></i>
+                            <a href="25.9受付履歴帳票印刷指定.php">受付帳票履歴</a>
+                        </li>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
