@@ -9,9 +9,9 @@
             <div class="div1">
                 <div class="div2">
 
-                    <strong>コンビニデータの外部読みを開始します。
+                    <strong>コンビニデータの外部読みを開始します。 </strong> <br>
 
-                        開始する場合は[実行]を選択してください。</strong>
+                    <strong>    開始する場合は[実行]を選択してください。</strong>
 
                 </div>
             </div>

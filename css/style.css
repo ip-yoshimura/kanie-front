@@ -291,11 +291,11 @@ input[type=search] {
 }
 
 .bottom-bg {
-    background-color: #C9C9C9;
+    background-color: #fff;
     margin-left: -15px;
     position: fixed;
     bottom: 0;
-    width: 85%;
+    width: 84%;
 
 
 }

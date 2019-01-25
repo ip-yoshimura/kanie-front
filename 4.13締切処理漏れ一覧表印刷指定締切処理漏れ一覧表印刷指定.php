@@ -111,7 +111,7 @@ include "sidebar.php"
                             </div>
 
                             <div class="col-xs-1">
-                                <input type="text" class="form-control" placeholder="3">
+                                <input type="number" class="form-control" placeholder="3">
                             </div>
                             <div class="col-xs-1" style="margin-top:10px;">
                                 日

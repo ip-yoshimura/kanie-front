@@ -198,7 +198,7 @@
                 </div>
 
 
-                <div class="col-xs-12">
+                <div class="col-xs-12 col-xs-offset-1">
 
                     <div class="form-group">
                         <label class="col-xs-1 no-padding">改ページ指定
@@ -238,7 +238,7 @@
                 </div>
 
 
-                <div class="col-xs-12">
+                <div class="col-xs-12 col-xs-offset-1">
                     <div class="col-xs-12 no-padding">
                         <div class="col-xs-1 no-padding">
                             <p>営業所指定</p>
@@ -284,7 +284,7 @@
                     </div>
                 </div>
 
-                <div class="col-xs-12">
+                <div class="col-xs-12 col-xs-offset-1">
                     <div class="col-xs-12 no-padding">
                         <div class="col-xs-1 no-padding">
                             <p>販売店指定

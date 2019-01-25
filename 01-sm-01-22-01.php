@@ -80,6 +80,7 @@
                             <div class="col-xs-2">
                                 <input type="text" class="form-control">
                             </div>
+
                                 <div class="col-xs-10 col-xs-offset-1 bottom-box no-padding tbl-background" style="margin-top: 5px;">
 
                                     <table class="table table-bordered tbl-31-main">
@@ -160,13 +161,13 @@
                                     </table>
                                     <div class="col-xs-12 padding-right-0">
                                         <div class="col-xs-2">
-                                            <input type="checkbox">通常
+                                            <input type="radio">通常
                                         </div>
                                         <div class="col-xs-2">
-                                            <input type="checkbox">通常
+                                            <input type="radio">開栓
                                         </div>
                                         <div class="col-xs-2">
-                                            <input type="checkbox">通常
+                                            <input type="radio">閉栓
                                         </div>
                                         <div class="col-xs-3 no-padding">
                                             <div class="col-xs-4">
@@ -184,7 +185,20 @@
                                                 <input type="text" class="form-control">
                                             </div>
                                         </div>
+                                        <div class="col-xs-12">
+                                            <div class="col-xs-2 col-xs-offset-8 no-padding">
+                                                <p>個別基本料金</p>
+                                            </div>
+                                            <div class="col-xs-1 no-padding">
+                                                <input type="radio" name="office" id="office" value="all" onclick="$.fn.radioButtonSelectionChanged('office', 'officeId')"> <span>無 </span>
+                                            </div>
+                                            <div class="col-xs-1 no-padding">
+                                                <input type="radio" name="office" id="office"  value="directSales" onclick="$.fn.radioButtonSelectionChanged('office', 'officeId')"> <span>有</span>
+                                            </div>
+
+                                        </div>
                                     </div>
+
                                     <div class="col-xs-12"  style="margin-top: 15px">
                                         <div class="col-xs-8 no-padding">
                                             <table class="table table-bordered price-list ">
@@ -226,18 +240,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-xs-12">
-                                        <div class="col-xs-2 no-padding">
-                                            <p>営業所コード</p>
-                                        </div>
-                                        <div class="col-xs-1 no-padding">
-                                            <input type="radio" name="office" id="office" value="all" onclick="$.fn.radioButtonSelectionChanged('office', 'officeId')"> <span>全て</span>
-                                        </div>
-                                        <div class="col-xs-1 no-padding">
-                                            <input type="radio" name="office" id="office"  value="directSales" onclick="$.fn.radioButtonSelectionChanged('office', 'officeId')"> <span>選択</span>
-                                        </div>
 
-                                </div>
                         </div>
 
                     </div>
@@ -248,16 +251,16 @@
 
                     <div class="col-xs-12 bottom-box">
                         <div class="col-xs-2">
-                            <input type="text" class="form-control">
+                            <input type="text" value="今回新規" disabled class="form-control">
                         </div>
                         <div class="col-xs-2">
-                            <input type="text" class="form-control">
+                            <input type="text" value="自動切換なし" disabled class="form-control">
                         </div>
                         <div class="col-xs-2">
-                            <input type="text" class="form-control">
+                            <input type="text" value="自動計算" disabled class="form-control">
                         </div>
                         <div class="col-xs-2">
-                            <input type="text" class="form-control">
+                            <input type="text" value="伝票件数" disabled class="form-control">
                         </div>
                     </div>
 

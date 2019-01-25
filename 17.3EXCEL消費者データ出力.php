@@ -9,7 +9,7 @@ include "sidebar.php"
 
 
         <div class="col-xs-12 head-p">
-            <p>顧客選択テスト画面</p>
+            <p>ＥＸＣＥＬ消費者テータ出力（（おそらく　テータ＞データ））</p>
         </div>
         <div class="col-xs-12 no-padding">
 
@@ -331,7 +331,7 @@ include "sidebar.php"
 
 
         <div class="col-xs-12 border1 no-padding bottom-box">
-            <p class="backend">未選択</p>
+            <p class="backend">選択フィールド</p>
             <div class="tbl-scroll col-xs-12">
                 <table class="table table-bordered col-xs-12">
                     <thead>
@@ -340,8 +340,8 @@ include "sidebar.php"
                         <th class="td-style">フィールド名</th>
                         <th class="td-style">型</th>
                         <th class="td-style">取得元</th>
-                        <th class="td-style">条件</th>
-                        <th class="td-style">条件</th>
+                        <th class="td-style">'=条件</th>
+                        <th class="td-style"><>条件</th>
                         <th class="td-style">範囲開始</th>
                         <th class="td-style">範囲終了</th>
                         <th class="td-style">非出力</th>

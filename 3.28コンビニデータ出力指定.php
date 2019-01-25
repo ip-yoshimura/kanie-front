@@ -1,7 +1,7 @@
 <?php include 'header.php'; ?>
 <?php include 'sidebar.php';?>
-<div class="col-xs-8 col-md-10 col-xs-12 no-padding">
-    <div class="col-md-12 col-xs-12 no-padding body-background">
+<div class="col-xs-8 col-md-10 col-xs-12 no-padding body-background">
+    <div class="col-md-12 col-xs-10 no-padding ">
             <div class="head-p">
                 <p>コンビニデータ出力指定</p>
 
@@ -25,7 +25,7 @@
 
                     </div>
                     <div class="col-xs-1">
-                        <p>出力指定
+                        <p>発行日
 
                         </p>
                     </div>
@@ -36,7 +36,7 @@
                     </div>
 
                     <div class="col-xs-1">
-                        <p>支払期限
+                        <p>支払期限日
                         </p>
                     </div>
                     <div class="col-xs-2 no-padding">
@@ -426,13 +426,13 @@
                         <div class="col-xs-3">
                             <div class="form-group">
                                 <input class="form-control" id="officeCodeStartName" name="officeCodeStartName"
-                                       placeholder="000" type="text" value=""/>
+                                       placeholder="000" type="number" value=""/>
                             </div>
                         </div>
                         <div class="col-xs-7">
                             <div class="form-group">
                                 <input class="form-control" id="companyIdEndName" name="companyIdEndName"
-                                       placeholder="000" type="text" value=""/>
+                                       placeholder="000" type="number" value=""/>
                             </div>
                         </div>
                     </div>
@@ -441,7 +441,7 @@
         </div>
 
 
-    <div class="col-xs-12 border1 no-padding">
+    <div class="col-xs-12 border1 no-padding bottom-box">
         <p class="backend">出力指定</p>
 
             <div class="col-xs-12">
@@ -535,15 +535,7 @@
         </div>
 
 
-        <div class="col-xs-12">
-            <div class="form-group btn-save">
-                <button name="submit" class="btn btn-primary">Switch</button>
-                <button name="submit" class="btn float-right">サーチ</button>
-                <button name="submit" class="btn float-right">持続する (*)</button>
-                <button name="submit" class="btn btn-danger float-right">終わり</button>
-
-            </div>
-        </div>
+        <?php include 'footer.php'; ?>
 
         </form>
     </div>

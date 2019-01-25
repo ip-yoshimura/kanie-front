@@ -10,7 +10,8 @@
         <div class="div1">
             <div class="div2">
 
-                <strong>Not Open! </strong>
+                <strong>2018/10月度の売上月次更新処理を開始します <br>
+                    開始する場合は[実行]を選択して下さい。 </strong>
 
             </div>
         </div>

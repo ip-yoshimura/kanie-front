@@ -455,17 +455,19 @@
                         </table>
 
                     </div>
-                    <div class="container">
+                    <div class="container bottom-box">
                         <div class="col-xs-6 col-xs-offset-6">
                             <div class="col-xs-2">
-                                <p>レーベル</p>
+                                <p>単位
+
+                                </p>
                             </div>
-                            <div class="col-xs-5">
+                            <div class="col-xs-4">
                                 <div class="form-group">
                                     <input  name="officeCodeStartName" placeholder="0" class="form-control" type="text" value="" contenteditable="false"/>
                                 </div>
                             </div>
-                            <div class="col-xs-5">
+                            <div class="col-xs-4">
                                 <div class="form-group">
                                     <input  name="companyIdEndName" placeholder="0" class="form-control" type="text" value="" contenteditable="false"/>
                                 </div>
@@ -473,36 +475,9 @@
 
                         </div>
                     </div>
-                    <div class="col-xs-12" style="margin-bottom: 10px">
-                        <div style="border: 0.5px solid #E2E2E2">
 
-                        </div>
-                    </div>
 
-                    <div class="col-xs-12 bottom-box">
 
-                        <div class="col-xs-2">
-                            <div class="form-group">
-                                <input  name="officeCodeStartName" placeholder="" class="form-control" type="text" value="" contenteditable="false"/>
-                            </div>
-                        </div>
-                        <div class="col-xs-2">
-                            <div class="form-group">
-                                <input  name="companyIdEndName" placeholder="" class="form-control" type="text" value="" contenteditable="false"/>
-                            </div>
-                        </div>
-                        <div class="col-xs-2">
-                            <div class="form-group">
-                                <input  name="officeCodeStartName" placeholder="" class="form-control" type="text" value="" contenteditable="false"/>
-                            </div>
-                        </div>
-                        <div class="col-xs-2">
-                            <div class="form-group">
-                                <input  name="companyIdEndName" placeholder="" class="form-control" type="text" value="" contenteditable="false"/>
-                            </div>
-                        </div>
-
-                    </div>
 
                     <?php include 'footer.php';?>
 

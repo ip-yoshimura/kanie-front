@@ -20,18 +20,18 @@
 
                         <div class="col-xs-3 ">
                             <div class="form-group">
-                                <input id="consumeCodeEnd" name="consumeCodeEnd" placeholder="999" class="form-control" type="text" value="" onchange="$.fn.onInputValueChange('consumeCodeEnd', 'consumerCodeEndName')"/>
+                                <input id="consumeCodeEnd" name="consumeCodeEnd" placeholder="" class="form-control" type="text" value="" />
                             </div>
                         </div>
                         <div class="col-xs-2">
                             <div class="form-group">
-                                <input id="consumerCodeStartName" name="consumerCodeStartName" placeholder="Company 1" class="form-control" type="text" value=""/>
+                                <input id="consumerCodeStartName" name="consumerCodeStartName" placeholder="" class="form-control" type="text" value=""/>
                             </div>
                         </div>
 
                         <div class="col-xs-4">
                             <div class="form-group">
-                                <input id="consumerCodeEndName" name="consumerCodeEndName" placeholder="Company 2" class="form-control" type="text" value=""/>
+                                <input id="consumerCodeEndName" name="consumerCodeEndName" placeholder="" class="form-control" type="text" value=""/>
                             </div>
                         </div>
                     </div>
@@ -43,12 +43,12 @@
                         </div>
                         <div class="col-xs-2 ">
                             <div class="form-group">
-                                <input id="officeCodeStartId" name="officeCodeStartId" placeholder="------" class="form-control" type="text" value=""/>
+                                <input id="officeCodeStartId" name="officeCodeStartId" placeholder="000" class="form-control" type="number" value=""/>
                             </div>
                         </div>
                         <div class="col-xs-2  no-padding">
                             <div class="form-group">
-                                <input id="companyIdEndId" name="companyIdEndId" placeholder="999" class="form-control" type="text" value=""/>
+                                <input id="companyIdEndId" name="companyIdEndId" placeholder="" class="form-control" type="text" value=""/>
                             </div>
                         </div>
                         <div class="col-xs-1 col-xs-offset-1">
@@ -56,7 +56,7 @@
                         </div>
                         <div class="col-xs-4">
                             <div class="form-group">
-                                <input id="companyIdEndName" name="companyIdEndName" placeholder="Company 2" class="form-control" type="text" value=""/>
+                                <input id="companyIdEndName" name="companyIdEndName" placeholder="" class="form-control" type="text" value=""/>
                             </div>
                         </div>
                     </div>
@@ -65,7 +65,7 @@
 
                         <div class="col-xs-2 col-xs-offset-3 no-padding">
                             <div class="form-group">
-                                <input id="companyIdEndId" name="companyIdEndId" placeholder="999" class="form-control" type="text" value=""/>
+                                <input id="companyIdEndId" name="companyIdEndId" placeholder="1-5B" class="form-control" type="text" value=""/>
                             </div>
                         </div>
                         <div class="col-xs-1 col-xs-offset-1">
@@ -86,7 +86,7 @@
                         </div>
                         <div class="col-xs-1 no-padding">
                             <div class="form-group">
-                                <input id="companyIdEndName" name="companyIdEndName" placeholder="" class="form-control" type="text" value=""/>
+                                <input id="companyIdEndName" name="companyIdEndName" placeholder="" class="form-control" type="number" value=""/>
                             </div>
                         </div>
                     </div>
@@ -122,7 +122,7 @@
                         </div>
                         <div class="col-xs-1 no-padding">
                             <div class="form-group">
-                                <input id="officeCodeStartId" name="officeCodeStartId" placeholder="000" class="form-control" type="text" value=""/>
+                                <input id="officeCodeStartId" name="officeCodeStartId" placeholder="000" class="form-control" type="number" value=""/>
                             </div>
                         </div>
                         <div class="col-xs-4">
@@ -156,7 +156,7 @@
                         </div>
                         <div class="col-xs-4">
                             <div class="form-group">
-                                <input id="companyIdEndId" name="companyIdEndId" placeholder="999" class="form-control" type="text" value=""/>
+                                <input id="companyIdEndId" name="companyIdEndId" placeholder="" class="form-control" type="text" value=""/>
                             </div>
                         </div>
                         <div class="col-xs-1">
@@ -194,14 +194,19 @@
                             <thead class="tbl-31">
                             <tr>
                                 <th></th>
-                                <th>No.</th>
-                                <th>進捗度合分類名</th>
-                                <th>進捗度合分類名</th>
-                                <th>進捗度合分類名</th>
-                                <th>進捗度合分類名</th>
-                                <th>進捗度合分類名</th>
-                                <th>進捗度合分類名</th>
-                                <th>進捗度合分類名</th>
+                                <th>日付</th>
+                                <th>時刻</th>
+                                <th>受付項目/業務分類
+                                </th>
+                                <th>作業状況
+                                </th>
+                                <th>最終作業日
+                                </th>
+                                <th>受付者
+                                </th>
+                                <th>案件番号
+                                </th>
+                                <th>作業担当者</th>
 
 
                             </tr>

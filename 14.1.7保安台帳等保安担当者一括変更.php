@@ -229,7 +229,7 @@ include "sidebar.php"
                     </div>
                 </div>
                 </div>
-                <div class="col-xs-12 border1 no-padding bottom-box">
+                <div class="col-xs-12 border1 no-padding">
                     <p class="backend"> 変更後調査員</p>
                     <div class="form-group">
                     <div class="col-xs-1">
@@ -251,8 +251,13 @@ include "sidebar.php"
                         <input type="text" class="form-control" name="agency1EndName" id="agency1EndName" value="">
                     </div>
                 </div>
-                <div class="col-xs-12" style="margin-bottom:30px;">
 
+
+
+            </div>
+
+                <div class="col-xs-12">
+                    <div class="form-group">
                     <div class="col-xs-1 no-padding">
                         <p>登録訂正日</p>
                     </div>
@@ -264,7 +269,7 @@ include "sidebar.php"
                     </div>
 
                 </div>
-                <div class="col-xs-12" style="margin-bottom:30px;">
+                <div class="col-xs-12 bottom-box">
 
                     <div class="col-xs-1 no-padding">
                         <p>入居状況</p>
@@ -277,11 +282,6 @@ include "sidebar.php"
 
 
                 </div>
-
-
-            </div>
-
-            <!--Last-->
 
 
             <?php

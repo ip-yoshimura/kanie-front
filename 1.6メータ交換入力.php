@@ -13,7 +13,7 @@ include "sidebar.php"
             </p>
         </div>
         <form id="meter" action="/gas/meter-reading" method="POST">
-            <div class="col-xs-12">
+            <div class="col-xs-12 no-padding">
                 <div class="col-xs-12 no-padding">
                     <div class="col-xs-1 no-padding">
                         <p>消費者コード</p>
@@ -48,10 +48,10 @@ include "sidebar.php"
                         </div>
                     </div>
 
-                    <div class="col-xs-1">
+                    <div class="col-xs-1" >
                         <div class="form-group">
-                            <input id="trustEndName" name="trustEndName" class="form-control" type="text"
-                                   value=""/>
+                            <input id="trustEndName" name="trustEndName" class="form-control" type="text" style="color: red;"
+                                   value="閲覧"/>
                         </div>
                     </div>
                 </div>
@@ -65,110 +65,350 @@ include "sidebar.php"
                 </p>
                 <div class="col-xs-12">
 
-                    <div class="form-group">
 
-                        <label class="col-xs-1 no-padding">メータ交換日</label>
 
-                        <div class="col-xs-2">
-                            <div class="form-group">
-                                <input id="consumerCodeEndName" name="consumerCodeEndName" class="form-control"
-                                       type="date" value=""/>
-                            </div>
+                    <label class="col-xs-1 no-padding">メータ交換日</label>
+
+                    <div class="col-xs-2">
+                        <div class="form-group">
+                            <input id="consumerCodeEndName" name="consumerCodeEndName" class="form-control"
+                                   type="date" value=""/>
                         </div>
+                    </div>
 
-                        <div class="col-xs-2">
-                            <div class="form-group">
-                                <input id="consumerCodeEndName" name="consumerCodeEndName" class="form-control"
-                                       type="date" value=""/>
-                            </div>
+                    <div class="col-xs-2">
+                        <div class="form-group">
+                            <input id="consumerCodeEndName" name="consumerCodeEndName" class="form-control"
+                                   type="date" value=""/>
                         </div>
-                        <label class="col-xs-1 no-padding">最新メータ交換情報 交換日</label>
-                        <div class="col-xs-2">
-                            <div class="form-group">
-                                <input id="consumerCodeEndName" name="consumerCodeEndName" class="form-control"
-                                       type="date" value=""/>
-                            </div>
-                        </div>
+                    </div>
+                    <label class="col-xs-2 no-padding">最新メータ交換情報 </label>
+                    <label class="col-xs-1 no-padding">交換日 </label>
 
+                    <div class="col-xs-2">
+                        <div class="form-group">
+                            <input id="consumerCodeEndName" name="consumerCodeEndName" class="form-control"
+                                   type="date" value=""/>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="col-xs-12">
+                    <div class="col-xs-1 no-padding">
+                        <p>旧指針回転</p>
+                    </div>
+                    <div class="col-xs-1">
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="col-xs-3">
+                        <div class="col-xs-6 no-padding"><input type="radio" id="" name=""><span> 0:回転なし</span></div>
+                        <div class="col-xs-6 no-padding"><input type="radio" id="" name=""><span> 4,5,6:回転桁数</span></div>
+                    </div>
+                    <div class="col-xs-1 no-padding col-xs-offset-2">
+                        <p>旧指針回転</p>
+                    </div>
+                    <div class="col-xs-1">
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="col-xs-3">
+                        <div class="col-xs-6 no-padding"><input type="radio" id="" name=""><span> 0:回転なしし</span></div>
+                        <div class="col-xs-6 no-padding"><input type="radio" id="" name=""><span> 4,5,6:回転桁数</span></div>
                     </div>
                 </div>
+
+                <div class="col-xs-12 border-margin">
+                    <div class="col-xs-1 no-padding">
+                        <p>旧メータ指針</p>
+                    </div>
+                    <div class="col-xs-2">
+                        <input type="number" class="form-control" placeholder="0.0">
+                    </div>
+                    <div class="col-xs-2">
+                        <input type="number" class="form-control" placeholder="0.0">
+                    </div>
+                    <div class="col-xs-2">
+                        <input type="number" class="form-control" placeholder="0.0">
+                    </div>
+                    <div class="col-xs-1 no-padding">
+                        <p>旧指針</p>
+                    </div>
+                    <div class="col-xs-2">
+                        <input type="number" class="form-control" placeholder="0.0">
+                    </div>
+
+                </div>
+                <div class="col-xs-12 border-margin">
+                    <div class="col-xs-1 no-padding">
+                        <p>新メータ指針</p>
+                    </div>
+                    <div class="col-xs-2">
+                        <input type="number" class="form-control" placeholder="0.0">
+                    </div>
+                    <div class="col-xs-2">
+
+                    </div>
+                    <div class="col-xs-2">
+
+                    </div>
+                    <div class="col-xs-1 no-padding">
+                        <p>新指針</p>
+                    </div>
+                    <div class="col-xs-2">
+                        <input type="number" class="form-control" placeholder="0.0">
+                    </div>
+
+                </div>
+
+                <div class="col-xs-12 border-margin border-margin-bottom">
+                    <div class="col-xs-1 no-padding">
+                        <p>作業担当者</p>
+                    </div>
+                    <div class="col-xs-1">
+                        <input type="number" class="form-control" placeholder="0.0">
+                    </div>
+                    <div class="col-xs-2">
+                        <input type="number" class="form-control" placeholder="0.0">
+                    </div>
+                    <div class="col-xs-3">
+
+                    </div>
+                    <div class="col-xs-1 no-padding">
+                        <p>作業担当者</p>
+                    </div>
+                    <div class="col-xs-1">
+                        <input type="number" class="form-control" placeholder="0.0">
+                    </div>
+                    <div class="col-xs-2">
+                        <input type="number" class="form-control" placeholder="0.0">
+                    </div>
+
+                </div>
+
+
+
+
             </div>
+
+
+
             <div class="col-xs-12 border1 no-padding bottom-box">
 
-                <p class="backend">出力指定</p>
-                <div class="col-xs-12">
-                    <div class="form-group">
+                <p class="backend">設備情報</p>
 
-                        <label class="col-xs-1 no-padding"> 改ページ指定
-                        </label>
-                        <div class="col-xs-10">
-                            <div class="col-xs-3">
-                                <input type="radio"/>営業所・販売店
-                            </div>
-
-                            <div class="col-xs-3">
-                                <input type="radio"/>地区
-                            </div>
-
-                            <div class="col-xs-2">
-                                <input type="radio"/> 営業担当者
-                            </div>
-                            <div class="col-xs-2">
-                                <input type="radio"/> 工事担当者
-                            </div>
-                            <div class="col-xs-2">
-                                <input type="radio"/> なし
-                            </div>
-
-                        </div>
+                <div class="col-xs-12 border-margin border-">
+                    <div class="col-xs-1 no-padding font-exp-size1">
+                        <p>ガスメータ有無</p>
                     </div>
+                    <div class="col-xs-1">
+                        <input type="number" class="form-control" placeholder="0.0">
+                    </div>
+                    <div class="col-xs-2">
+                        <div class="col-xs-3 no-padding"><input type="radio" id="" name=""><span> 有</span></div>
+                        <div class="col-xs-3 no-padding"><input type="radio" id="" name=""><span> 無</span></div>
+                    </div>
+                    <div class="col-xs-3">
+
+                    </div>
+                    <div class="col-xs-1 no-padding">
+                        <p>設定区分</p>
+                    </div>
+                    <div class="col-xs-1">
+                        <input type="number" class="form-control" placeholder="0.0">
+                    </div>
+                    <div class="col-xs-2">
+                        <select class="form-control">
+                            <option>Ⅰ</option>
+                            <option>Ⅱ</option>
+                            <option>Ⅲ</option>
+                            <option>L</option>
+                            <option>M</option>
+                            <option>S</option>
+                            <option>自動</option>
+                        </select>
+                    </div>
+
                 </div>
 
-                <div class="col-xs-12">
-
-                    <div class="form-group">
-                        <label class="col-xs-1 no-padding">並び順
-                        </label>
-                        <div class="col-xs-10">
-                            <div class="col-xs-3">
-                                <input type="radio"/> 消費者コード順
-                            </div>
-
-                            <div class="col-xs-3">
-                                <input type="radio"/>検針順路順
-                            </div>
-                            <div class="col-xs-3">
-                                <input type="radio"/>検索名順
-                            </div>
-
-                        </div>
+                <div class="col-xs-12 border-margin">
+                    <div class="col-xs-1 no-padding">
+                        <p>種別</p>
                     </div>
+                    <div class="col-xs-1">
+                        <input type="number" class="form-control" placeholder="0.0">
+                    </div>
+                    <div class="col-xs-3">
+                        <input type="number" class="form-control" placeholder="0.0">
+                    </div>
+                    <div class="col-xs-2">
+
+                    </div>
+                    <div class="col-xs-1 no-padding">
+                        <p>S型調査日</p>
+                    </div>
+                    <div class="col-xs-2">
+                        <input type="date" class="form-control">
+                    </div>
+                    <div class="col-xs-1">
+
+                    </div>
+
                 </div>
 
-                <div class="col-xs-12">
-
-                    <div class="form-group">
-                        <label class="col-xs-1 no-padding">出力先
-                        </label>
-                        <div class="col-xs-10">
-                            <div class="col-xs-3">
-                                <input type="radio"/> プリンタ（印刷）
-                            </div>
-
-                            <div class="col-xs-3">
-                                <input type="radio"/>画面（印刷イメージ）
-                            </div>
-
-
-                        </div>
+                <div class="col-xs-12 border-margin">
+                    <div class="col-xs-1 no-padding">
+                        <p>メーカ</p>
                     </div>
+                    <div class="col-xs-1">
+                        <input type="number" class="form-control" placeholder="0.0">
+                    </div>
+                    <div class="col-xs-3">
+                        <input type="number" class="form-control" placeholder="0.0">
+                    </div>
+                    <div class="col-xs-2">
+
+                    </div>
+                    <div class="col-xs-1 no-padding">
+                        <p>設定内容</p>
+                    </div>
+                    <div class="col-xs-3">
+                        <div class="col-xs-3 no-padding"><input type="radio" id="" name=""><span> 標準 </span></div>
+                        <div class="col-xs-9 no-padding"><input type="radio" id="" name=""><span> 機能・圧力監視等</span></div>
+                    </div>
+
+
+                </div>
+
+                <div class="col-xs-12 border-margin">
+                    <div class="col-xs-1 no-padding">
+                        <p>型式</p>
+                    </div>
+                    <div class="col-xs-1">
+                        <input type="number" class="form-control" placeholder="0.0">
+                    </div>
+                    <div class="col-xs-3">
+                        <input type="number" class="form-control" placeholder="0.0">
+                    </div>
+                    <div class="col-xs-2">
+
+                    </div>
+                    <div class="col-xs-2 no-padding">
+                        <p>ストーブの有無</p>
+                    </div>
+                    <div class="col-xs-2">
+                        <div class="col-xs-6 no-padding"><input type="radio" id="" name=""><span> 有</span></div>
+                        <div class="col-xs-6 no-padding"><input type="radio" id="" name=""><span> 無</span></div>
+                    </div>
+
+
+                </div>
+
+
+                <div class="col-xs-12 border-margin">
+                    <div class="col-xs-1 no-padding">
+                        <p>容量</p>
+                    </div>
+                    <div class="col-xs-2">
+                        <input type="number" class="form-control" placeholder="0.0">
+                    </div>
+                    <div class="col-xs-2">
+
+                    </div>
+                    <div class="col-xs-2">
+
+                    </div>
+                    <div class="col-xs-2 no-padding">
+                        <p>警報機との接続状況</p>
+                    </div>
+                    <div class="col-xs-3">
+                        <div class="col-xs-3 no-padding"><input type="radio" id="" name=""><span> 接続</span></div>
+                        <div class="col-xs-2 no-padding"><input type="radio" id="" name=""><span class="font-exp-size2"> 併設</span></div>
+                        <div class="col-xs-5 no-padding"><input type="radio" id="" name=""><span class="font-exp-size"> DAアダプター</span></div>
+                        <div class="col-xs-2 no-padding"><input type="radio" id="" name=""><span class="font-exp-size2"> 不要</span></div>
+                    </div>
+
+
+                </div>
+
+                <div class="col-xs-12 border-margin">
+                    <div class="col-xs-1 no-padding">
+                        <p>設備年月</p>
+                    </div>
+                    <div class="col-xs-2">
+                        <input type="date" class="form-control">
+                    </div>
+                    <div class="col-xs-2">
+
+                    </div>
+                    <div class="col-xs-2">
+
+                    </div>
+                    <div class="col-xs-2 no-padding">
+                        <p>集中監視機能の有無</p>
+                    </div>
+                    <div class="col-xs-3">
+                        <div class="col-xs-3 no-padding"><input type="radio" id="" name=""><span> 接続</span></div>
+                        <div class="col-xs-2 no-padding"><input type="radio" id="" name=""><span class=" "> 無</span></div>
+
+                    </div>
+
+
+                </div>
+
+                <div class="col-xs-12 border-margin">
+                    <div class="col-xs-1 no-padding">
+                        <p>入口</p>
+                    </div>
+                    <div class="col-xs-2">
+                        <input type="date" class="form-control">
+                    </div>
+
+
+
                 </div>
 
 
 
-                <?php
-                include "footer.php"
-                ?>
+                <div class="col-xs-12 border-margin">
+                    <div class="col-xs-1 no-padding">
+                        <p>入口</p>
+                    </div>
+                    <div class="col-xs-1">
+                        <input type=" " class="form-control">
+                    </div>
+                    <div class="col-xs-3">
+                        <div class="col-xs-3 no-padding"><input type="radio" id="" name=""><span> 左</span></div>
+                        <div class="col-xs-2 no-padding"><input type="radio" id="" name=""><span class=" "> 右</span></div>
+                    </div>
+
+
+
+                </div>
+
+                <div class="col-xs-12 border-margin border-margin-bottom">
+                    <div class="col-xs-1 no-padding">
+                        <p>製造番号</p>
+                    </div>
+                    <div class="col-xs-2">
+                        <input type="date" class="form-control">
+                    </div>
+
+
+
+                </div>
+
+
+            </div>
+
+
+
+
+
+
+
+            <?php
+            include "footer.php"
+            ?>
 
         </form>
     </div>

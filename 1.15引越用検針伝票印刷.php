@@ -72,6 +72,7 @@
                         <div class="col-xs-6 no-padding">
                             <div class="form-group">
                                 <strong>0</strong>
+                                <strong>件</strong>
                             </div>
                         </div>
                     </div>
@@ -79,10 +80,10 @@
 
                 <div style="margin-top: -120px;margin-left: 120px;">
                     <div class="col-xs-12">
-                        <button name="submit" class="btn  bottom-button-group bottom-button-group-color-red"><span class="bottom-padding">追加</span></button>
+                        <button name="submit" class="btn  bottom-button-group" ><span class="bottom-padding" style="color: #0f0f0f">追加</span></button>
 
                         <div class="col-xs-6 ">
-                            <button name="submit" class="btn  bottom-button-group"><span class="bottom-padding">削除</span></button>
+                            <button name="submit" class="btn  bottom-button-group"><span class="bottom-padding" style="color: #0f0f0f">削除</span></button>
                         </div>
                     </div>
                 </div>

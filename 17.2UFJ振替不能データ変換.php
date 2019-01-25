@@ -15,7 +15,7 @@ include "sidebar.php"
             <div class="col-xs-12">
 
 
-                <span style="margin-left:11.8%;">UFJへ送信したデータを選択してください</span><br><br>
+                <span style="margin-left:11.8%;color: black">UFJへ送信したデータを選択してください</span><br><br>
 
             </div>
             <div class="col-xs-12">

@@ -2,7 +2,7 @@
 <?php include 'sidebar.php';?>
     <div class="col-xs-8 col-md-10 col-xs-12 no-padding">
 
-            <div class="col-md-12 col-xs-12 no-padding head-color">
+            <div class="col-md-12 col-xs-12 no-padding body-background">
                 <div class="head-p">
                 <p>入金伝票入力 </p>
                 </div>
@@ -13,10 +13,10 @@
 
                             </p>
                         </div>
-                        <div class="col-xs-3">
+                        <div class="col-xs-1">
                             <div class="form-group">
                                 <input class="form-control" id="consumerId" name="officeCodeStartName"
-                                       placeholder="" type="text" value="" onchange="$.fn.onInputValueChange('consumerId', 'consumerName')"/>
+                                       placeholder="" type="number" value="" onchange="$.fn.onInputValueChange('consumerId', 'consumerName')"/>
                             </div>
                         </div>
                         <div class="col-xs-3">
@@ -75,7 +75,7 @@
                         </div>
                         <div class="col-xs-1">
                             <div class="form-group">
-                                <input class="form-control" name="goldCollectiorId" id="goldCollectiorId" placeholder="" type="text"
+                                <input class="form-control" name="goldCollectiorId" id="goldCollectiorId" placeholder="" type="number"
                                        value="" onchange="$.fn.onInputValueChange('goldCollectiorId', 'goldCollectiorName')"/>
                             </div>
                         </div>
@@ -626,15 +626,24 @@
                     <div class="container ">
                         <div class="col-xs-6 col-xs-offset-6">
                             <div class="col-xs-2">
-                                <p>レーベル</p>
+                                <p>単位
+
+                                </p>
                             </div>
-                            <div class="col-xs-5">
+                            <div class="col-xs-3">
                                 <div class="form-group">
                                     <input class="form-control" contenteditable="false" name="officeCodeStartName" placeholder="0"
                                            type="text" value=""/>
                                 </div>
                             </div>
-                            <div class="col-xs-5">
+                            <div class="col-xs-3">
+                                <div class="form-group">
+                                    <input class="form-control" contenteditable="false" name="companyIdEndName" placeholder="0"
+                                           type="text" value=""/>
+                                </div>
+                            </div>
+
+                            <div class="col-xs-3">
                                 <div class="form-group">
                                     <input class="form-control" contenteditable="false" name="companyIdEndName" placeholder="0"
                                            type="text" value=""/>

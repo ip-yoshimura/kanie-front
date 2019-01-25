@@ -54,7 +54,7 @@
 
                         <span class=" " style="color: black;">接続先</span> </li>
                     <li class="">
-                        <input type="search"  placeholder="GAS2000SV2" class="form-control">
+                        <input type="search"  placeholder="GAS2000SV2" class="form-control" disabled>
                     </li>
                     <li class="navbar-right-bg"><a href="" class="navbar-right-link">ユーザー名</a></li>
                     <li class="img-li" style="">

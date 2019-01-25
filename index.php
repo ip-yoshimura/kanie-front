@@ -1,6 +1,6 @@
 <?php include 'header.php'; ?>
 <?php include 'sidebar.php'; ?>
-<div class="col-xs-8 col-md-10 col-xs-12 no-padding">
+<div class="col-xs-8 col-md-10 col-xs-12 no-padding body-background">
 
     <div class="col-md-12 col-xs-12 no-padding head-color">
         <div class="head-p">
@@ -11,47 +11,92 @@
         <form action="/gas/meter-reading" id="meter" method="POST">
 
             <div class="col-xs-12 border1 no-padding">
-                <p class="backend">作成範囲指定 </p>
+                <p class="backend">印刷範囲指定 </p>
                 <div class="col-xs-12">
-                    <div class="col-xs-12 no-padding">
-                        <div class="col-xs-1 no-padding">
-                            <p>営業所コード</p>
-                        </div>
-                        <div class="col-xs-1">
-                            <input type="radio" name="SalesCenterCode" id="all" value="all"> 全て
-                    	</div>
-                        <div class="col-xs-1 no-padding">
-                            <input type="radio" name="SalesCenterCode" value="custom"> 選択
-                        </div>
+                    <div class="col-xs-1 no-padding">
+                        <p>営業所コード</p>
                     </div>
-                    <div class="col-xs-12 no-padding">
-                        <div class="col-xs-1 col-xs-offset-1">
+                    <div class="col-xs-1">
+                        <input type="radio" name="officeSelection" id="officeSelection" value="all" checked onclick="$.fn.radioButtonSelectionChanged('officeSelection', 'officeSelectionId')"> 全て
+                    </div>
+                    <div class="col-xs-1  no-padding">
+                        <input type="radio" name="officeSelection" id="officeSelection" value="custom" onclick="$.fn.radioButtonSelectionChanged('officeSelection', 'officeSelectionId')"> 選択
+                    </div>
+                    <div id="officeSelectionId">
+                        <div class="col-xs-1">
                             <div class="form-group">
                                 <input id="officeCodeStartId" name="officeCodeStartId" placeholder="000"
-                                       class="form-control" type="text" value=""/>
+                                       class="form-control" type="text" value="" disabled onchange="$.fn.onInputValueChange('officeCodeStartId', 'officeCodeStartName')"/>
                             </div>
                         </div>
                         <div class="col-xs-1 no-padding ratio">~</div>
                         <div class="col-xs-1">
                             <div class="form-group">
                                 <input id="companyIdEndId" name="companyIdEndId" placeholder="999" class="form-control"
-                                       type="text" value=""/>
+                                       type="text" value="" disabled onchange="$.fn.onInputValueChange('companyIdEndId', 'companyIdEndName')"/>
                             </div>
                         </div>
                         <div class="col-xs-3">
                             <div class="form-group">
                                 <input id="officeCodeStartName" name="officeCodeStartName" placeholder="Company 1"
-                                       class="form-control" type="text" value=""/>
+                                       class="form-control" type="text" value="" disabled/>
                             </div>
                         </div>
                         <div class="col-xs-1 no-padding ratio">~</div>
                         <div class="col-xs-3">
                             <div class="form-group">
                                 <input id="companyIdEndName" name="companyIdEndName" placeholder="Company 2"
-                                       class="form-control" type="text" value=""/>
+                                       class="form-control" type="text" value="" disabled/>
                             </div>
                         </div>
                     </div>
+                    
+                </div>
+                <div class="col-xs-12">
+                    <div class="col-xs-12 no-padding">
+                        <div class="col-xs-1 no-padding">
+                            <p>受託区分</p>
+                        </div>
+                        <div class="col-xs-1">
+                            <input type="radio" name="trustSelection" id="trustSelection" value="all" checked onclick="$.fn.radioButtonSelectionChanged('trustSelection', 'trustSelectionId')"> 全て
+                        </div>
+                        <div class="col-xs-1 no-padding">
+                            <input type="radio" name="trustSelection" id="trustSelection" value="custom" onclick="$.fn.radioButtonSelectionChanged('trustSelection', 'trustSelectionId')"> 直売
+                        </div>
+                        <div class="col-xs-2">
+                            <input type="radio" name="trustSelection" id="trustSelection" value="custom" onclick="$.fn.radioButtonSelectionChanged('trustSelection', 'trustSelectionId')"> 販売店
+                        </div>
+                    </div>
+                    <div id="trustSelectionId">
+                        <div class="col-xs-12 no-padding">
+                            <div class="col-xs-1 col-xs-offset-1">
+                                <div class="form-group">
+                                    <input id="trustStartId" name="trustStartId" placeholder="000" class="form-control"
+                                           type="text" value="" disabled onchange="$.fn.onInputValueChange('trustStartId', 'trustStartName')"/>
+                                </div>
+                            </div>
+                            <div class="col-xs-1 no-padding ratio">~</div>
+                            <div class="col-xs-1">
+                                <div class="form-group">
+                                    <input id="trustEndId" name="trustEndId" placeholder="999" class="form-control"
+                                           type="text" value="" disabled onchange="$.fn.onInputValueChange('trustEndId', 'trustEndName')"/>
+                                </div>
+                            </div>
+                            <div class="col-xs-3">
+                                <div class="form-group">
+                                    <input id="trustStartName" name="trustStartName" class="form-control" type="text"
+                                           value="" disabled/>
+                                </div>
+                            </div>
+                            <div class="col-xs-1 no-padding ratio">~</div>
+                            <div class="col-xs-3">
+                                <div class="form-group">
+                                    <input id="trustEndName" name="trustEndName" class="form-control" type="text" value="" disabled/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  
                 </div>
 
                 <div class="col-xs-12">
@@ -60,90 +105,49 @@
                             <p>受託区分</p>
                         </div>
                         <div class="col-xs-1">
-                            <input type="radio" name="TrustType" value="all"> 全て
+                            <input type="radio"  name="trust1Selection" id="trust1Selection" value="all" checked onclick="$.fn.radioButtonSelectionChanged('trust1Selection', 'trust1SelectionId')"> 全て
                         </div>
-                        <div class="col-xs-1 no-padding">
-                            <input type="radio" name="TrustType" value="directSales"> 直売
-                        </div>
-                        <div class="col-xs-1 no-padding">
-                            <input type="radio" name="TrustType" value="salesOutlet"> 販売店
-                        </div>
-                    </div>
-                    <div class="col-xs-12 no-padding">
-                        <div class="col-xs-1 col-xs-offset-1">
-                            <div class="form-group">
-                                <input id="trustStartId" name="trustStartId" placeholder="000" class="form-control"
-                                       type="text" value=""/>
-                            </div>
-                        </div>
-                        <div class="col-xs-1 no-padding ratio">~</div>
                         <div class="col-xs-1">
-                            <div class="form-group">
-                                <input id="trustEndId" name="trustEndId" placeholder="999" class="form-control"
-                                       type="text" value=""/>
-                            </div>
+                            <input type="radio" name="trust1Selection" id="trust1Selection" value="custom" onclick="$.fn.radioButtonSelectionChanged('trust1Selection', 'trust1SelectionId')"> 地区
                         </div>
-                        <div class="col-xs-3">
-                            <div class="form-group">
-                                <input id="trustStartName" name="trustStartName" class="form-control" type="text"
-                                       value=""/>
-                            </div>
+                        <div class="col-xs-2">
+                            <input type="radio" name="trust1Selection" id="trust1Selection" value="custom" onclick="$.fn.radioButtonSelectionChanged('trust1Selection', 'trust1SelectionId')"> 検針担当者
                         </div>
-                        <div class="col-xs-1 no-padding ratio">~</div>
-                        <div class="col-xs-3">
-                            <div class="form-group">
-                                <input id="trustEndName" name="trustEndName" class="form-control" type="text" value=""/>
+                        <div class="col-xs-2">
+                            <input type="radio" name="trust1Selection" id="trust1Selection" value="custom" onclick="$.fn.radioButtonSelectionChanged('trust1Selection', 'trust1SelectionId')"> 配送委託先
+                        </div>
+                    </div>
+                    <div id="trust1SelectionId">
+                        <div class="col-xs-12 no-padding">
+                            <div class="col-xs-1 col-xs-offset-1">
+                                <div class="form-group">
+                                    <input id="trust1trust1StartId" name="trust1trust1StartId" placeholder="000" class="form-control"
+                                           type="text" value="" disabled onchange="$.fn.onInputValueChange('trust1trust1StartId', 'trust1trust1StartName')"/>
+                                </div>
+                            </div>
+                            <div class="col-xs-1 no-padding ratio">~</div>
+                            <div class="col-xs-1">
+                                <div class="form-group">
+                                    <input id="trust1trust1EndId" name="trust1trust1EndId" placeholder="999" class="form-control"
+                                           type="text" value="" disabled onchange="$.fn.onInputValueChange('trust1trust1EndId', 'trust1trust1EndName')"/>
+                                </div>
+                            </div>
+                            <div class="col-xs-3">
+                                <div class="form-group">
+                                    <input id="trust1trust1StartName" name="trust1trust1StartName" class="form-control" type="text"
+                                           value="" disabled/>
+                                </div>
+                            </div>
+                            <div class="col-xs-1 no-padding ratio">~</div>
+                            <div class="col-xs-3">
+                                <div class="form-group">
+                                    <input id="trust1trust1EndName" name="trust1trust1EndName" class="form-control" type="text"
+                                           value="" disabled/>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-
-                <div class="col-xs-12">
-                    <div class="col-xs-12 no-padding">
-                        <div class="col-xs-1 no-padding">
-                            <p>出力区分</p>
-                        </div>
-                        <div class="col-xs-1 no-padding">
-                            <input type="radio" name="OutputType" value="all"> 全て
-                        </div>
-                        <div class="col-xs-1 no-padding">
-                            <input type="radio" name="OutputType" value="directSales"> 地区
-                        </div>
-                        <div class="col-xs-1 no-padding">
-                            <input type="radio" name="OutputType" value="salesOutlet"> 検針担当者
-                        </div>
-                        <div class="col-xs-1 no-padding">
-                            <input type="radio" name="OutputType" value="salesOutlet"> 配送委託先
-                        </div>
-                    </div>
-                    <div class="col-xs-12 no-padding">
-                        <div class="col-xs-1 col-xs-offset-1">
-                            <div class="form-group">
-                                <input id="outputStartId" name="outputStartId" placeholder="000" class="form-control"
-                                       type="text" value=""/>
-                            </div>
-                        </div>
-                        <div class="col-xs-1 no-padding ratio">~</div>
-                        <div class="col-xs-1">
-                            <div class="form-group">
-                                <input id="outputEndId" name="outputEndId" placeholder="999" class="form-control"
-                                       type="text" value=""/>
-                            </div>
-                        </div>
-                        <div class="col-xs-3">
-                            <div class="form-group">
-                                <input id="outputStartName" name="outputStartName" class="form-control" type="text"
-                                       value=""/>
-                            </div>
-                        </div>
-                        <div class="col-xs-1 no-padding ratio">~</div>
-                        <div class="col-xs-3">
-                            <div class="form-group">
-                                <input id="outputEndName" name="outputEndName" class="form-control" type="text"
-                                       value=""/>
-                            </div>
-                        </div>
-                    </div>
+                    
                 </div>
                 <div class="col-xs-12">
                     <div class="col-xs-1 no-padding">
@@ -152,7 +156,7 @@
                     <div class="col-xs-3">
                         <div class="form-group">
                             <input id="meterReadingRouteStart" name="meterReadingRouteStart" placeholder="0"
-                                   class="form-control" type="text" value=""/>
+                                   class="form-control" type="text" value="" onchange="$.fn.onInputValueChange('meterReadingRouteStart', 'meterReadingRouteEnd')"/>
                         </div>
                     </div>
                     <div class="col-xs-1 no-padding ratio">~</div>
@@ -170,14 +174,14 @@
                     <div class="col-xs-2">
                         <div class="form-group">
                             <input id="consumerCodeStart" name="consumerCodeStart" placeholder="0" class="form-control"
-                                   type="text" value=""/>
+                                   type="text" value="" onchange="$.fn.onInputValueChange('consumerCodeStart', 'consumerCodeStartName')"/>
                         </div>
                     </div>
                     <div class="col-xs-1 no-padding ratio">~</div>
                     <div class="col-xs-2">
                         <div class="form-group">
                             <input id="consumeCodeEnd" name="consumeCodeEnd" placeholder="z" class="form-control"
-                                   type="text" value=""/>
+                                   type="text" value="" onchange="$.fn.onInputValueChange('consumeCodeEnd', 'consumerCodeEndName')"/>
                         </div>
                     </div>
                     <div class="col-xs-3">
@@ -196,16 +200,16 @@
                 </div>
                 <div class="col-xs-12">
                     <div class="col-xs-6 no-padding">
-                        <div class="col-xs-2 no-padding">
-                            <p>検針区分</p>
+                        <div class="col-xs-1 no-padding">
+                            <p class="p-size">検針区分</p>
                         </div>
-                        <div class="col-xs-6 col-xs-offset-1 no-padding">
+                        <div class="col-xs-10 col-xs-offset-1">
                             <input id="meterReadingClassification1" name="meterReadingClassification" type="radio"
-                                   value="手書伝票"/> 手書伝票
-                            <input id="meterReadingClassification2" name="meterReadingClassification" type="radio"
-                                   value="ハンディ"/> ハンディ
-                            <input id="meterReadingClassification3" name="meterReadingClassification" type="radio"
-                                   value="テレメ"/>テレメ
+                                   value="all" onclick="$.fn.radioButtonSelectionChanged('meterReadingClassification', 'meterReadingClassification1')"/> 手書伝票
+                            <input id="meterReadingClassification1" name="meterReadingClassification" type="radio"
+                                   value="ハンディ" onclick="$.fn.radioButtonSelectionChanged('meterReadingClassification', 'meterReadingClassification1')"/> ハンディ
+                            <input id="meterReadingClassification1" name="meterReadingClassification" type="radio"
+                                   value="テレメ" onclick="$.fn.radioButtonSelectionChanged('meterReadingClassification', 'meterReadingClassification1')"/>テレメ
                         </div>
                     </div>
                     <div class="col-xs-6 no-padding">
@@ -213,8 +217,8 @@
                             <p>検針状態</p>
                         </div>
                         <div class="col-xs-8 no-padding">
-                            <input id="meterReadingState1" name="meterReadingState" type="radio" value="全て"/> 全て
-                            <input id="meterReadingState2" name="meterReadingState" type="radio" value="未検針のみ"/>未検針のみ
+                            <input id="meterReadingState1" name="meterReadingState" type="radio" value="all" onclick="$.fn.radioButtonSelectionChanged('meterReadingState', 'meterReadingState1')"/> 全て
+                            <input id="meterReadingState2" name="meterReadingState" type="radio" value="未検針のみ" onclick="$.fn.radioButtonSelectionChanged('meterReadingState', 'meterReadingState1')"/>未検針のみ
                         </div>
                     </div>
                 </div>
@@ -246,6 +250,8 @@
                         <div class="col-xs-1">
                             <input type="text" class="form-control" placeholder="000"/>
                         </div>
+
+
                         <div class="col-xs-3">
                             <select class="form-control">
                                 <option value="消費者コード順">消費者コード順</option>
@@ -257,100 +263,107 @@
                                 <option value="">販売店コード順→担当者コード順</option>
                             </select>
                         </div>
+                        <div class="col-xs-3">
+                            <p>ドロップダウン選択による情報</p>
+                        </div>
                     </div>
                 </div>
 
+
                 <div class="col-xs-12">
                     <div class="col-xs-1 no-padding">
-                        <p>伝票作成日</p>
+                        <p>日付</p>
                     </div>
                     <div class="form-group">
                         <div class="col-xs-2">
                             <input type="date" class="form-control"/>
                         </div>
-                    </div>
-                </div>
-
-                <div class="col-xs-12">
-                    <div class="form-group">
-                        <div class="col-xs-1 no-padding">
+                        <div class="col-xs-2">
                             <p>営業所名印刷</p>
                         </div>
-                        <div class="col-xs-2">
-                            <input type="radio" name="SalesNamePrint"/>すべて
-                            <input type="radio" name="SalesNamePrint"/> 選択
+                        <div class="col-xs-2 no-padding">
+                            <input type="radio" name="printing" id="printingId" value="all" onclick="$.fn.radioButtonSelectionChanged('printing', 'printingId')"/> する
+                            <input type="radio" name="printing" id="printingId" value="custom" onclick="$.fn.radioButtonSelectionChanged('printing', 'printingId')"/> しない
                         </div>
-                        <div class="col-xs-2">
-                            <p>伝票番号変更</p>
+
+                        <div class="col-xs-1 no-padding">
+                            <p class="p-size">伝票番号変更</p>
                         </div>
+
                         <div class="col-xs-2">
                             <input type="text" placeholder="000000" class="form-control">
                         </div>
                     </div>
+
+
                 </div>
 
                 <div class="col-xs-12">
-                    <div class="col-xs-2 no-padding">
-                        <p>お知らせ文 (振替）</p>
+
+                    <div class="col-xs-1 no-padding">
+                        <p class="p-size">お知らせ文 (振替）</p>
                     </div>
                     <div class="form-group">
-                        <div class="col-xs-1">
-                            <input type="text" class="form-control" placeholder="00">
-                        </div>
-                        <div class="col-xs-3">
-                            <input type="text" placeholder="" class="form-control"/>
-                        </div>
+                    <div class="col-xs-1">
+                        <input type="text" class="form-control" placeholder="00" name="notificationStart" id="notificationStart" value="" onchange="$.fn.onInputValueChange('notificationStart', 'notificationStartName')">
                     </div>
-                </div>
+                    <div class="col-xs-3">
+                        <input type="text" placeholder="" class="form-control" name="notificationStartName" id="notificationStartName" value=""/>
+                    </div>
+                    </div>
 
+                </div>
                 <div class="col-xs-12">
-                    <div class="col-xs-2 no-padding">
+                    <div class="col-xs-1 no-padding">
                         <p>(現金）</p>
                     </div>
                     <div class="form-group">
-                        <div class="col-xs-1">
-                            <input type="text" class="form-control" placeholder="00">
-                        </div>
-                        <div class="col-xs-3">
-                            <input type="text" placeholder="" class="form-control"/>
-                        </div>
+                    <div class="col-xs-1">
+                        <input type="text" class="form-control" placeholder="00" name="cashStart" id="cashStart" value="" onchange="$.fn.onInputValueChange('cashStart', 'cashStartName')">
                     </div>
+                    <div class="col-xs-3">
+                        <input type="text" placeholder="" class="form-control" name="cashStartName" id="cashStartName" value=""/>
+                    </div>
+                    </div>
+
                 </div>
 
                 <div class="col-xs-12">
-                    <p class="col-xs-2 no-padding">(振込)</p>
+
+                    <p class="col-xs-1 no-padding">(振込)</p>
                     <div class="form-group">
-                        <div class="col-xs-1">
-                            <input type="text" class="form-control" placeholder="00">
-                        </div>
-                        <div class="col-xs-3">
-                            <input type="text" placeholder="" class="form-control"/>
-                        </div>
+                    <div class="col-xs-1">
+                        <input type="text" class="form-control" placeholder="00" name="transferStart" id="transferStart" value="" onchange="$.fn.onInputValueChange('transferStart', 'transferStartName')">
+                    </div>
+                    <div class="col-xs-3">
+                        <input type="text" placeholder="" class="form-control" name="transferStartName" id="transferStartName" value=""/>
+                    </div>
+                    </div>
+
+                </div>
+                <div class="col-xs-12">
+
+                    <p class="col-xs-1 no-padding">(コンビニ)</p>
+                    <div class="form-group">
+                    <div class="col-xs-1">
+                        <input type="text" class="form-control" placeholder="00" name="convenienceStart" id="convenienceStart" value="" onchange="$.fn.onInputValueChange('convenienceStart', 'convenienceStartName')">
+                    </div>
+                    <div class="col-xs-3">
+                        <input type="text" placeholder="" class="form-control" name="convenienceStartName" id="convenienceStartName" value=""/>
+                    </div>
+                    </div>
+
+                </div>
+                <div class="col-xs-12">
+                    <p class="col-xs-1 no-padding">(クレジット)</p>
+                    <div class="form-group">
+                    <div class="col-xs-1">
+                        <input type="text" class="form-control" placeholder="00" name="creditStart" id="creditStart" value="" onchange="$.fn.onInputValueChange('creditStart', 'creditStartName')">
+                    </div>
+                    <div class="col-xs-3">
+                        <input type="text" placeholder="" class="form-control" name="creditStartName" id="creditStartName" value=""/>
                     </div>
                 </div>
-                	
-                <div class="col-xs-12">
-                    <p class="col-xs-2 no-padding">(コンビニ)</p>
-                    <div class="form-group">
-                        <div class="col-xs-1">
-                            <input type="text" class="form-control" placeholder="00">
-                        </div>
-                        <div class="col-xs-3">
-                            <input type="text" placeholder="" class="form-control"/>
-                        </div>
-                    </div>
-                </div>
-                	
-                <div class="col-xs-12">
-                    <p class="col-xs-2 no-padding">(クレジット)</p>
-                    <div class="form-group">
-                        <div class="col-xs-1">
-                            <input type="text" class="form-control" placeholder="00">
-                        </div>
-                        <div class="col-xs-3">
-                            <input type="text" placeholder="" class="form-control"/>
-                        </div>
-                    </div>
                 </div>
 
             </div>

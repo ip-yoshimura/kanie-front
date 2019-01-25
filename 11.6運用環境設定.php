@@ -79,8 +79,7 @@ include "sidebar.php"
                                                 <option>コンビニ</option>
                                                 <option>充当</option>
                                                 <option>クレジット</option>
-                                                <option>償却</option>
-                                                <option>その他"</option>
+
                                                 </select>                           
               
                                         </div>
@@ -136,8 +135,7 @@ include "sidebar.php"
                                                 <option>コンビニ</option>
                                                 <option>充当</option>
                                                 <option>クレジット</option>
-                                                <option>償却</option>
-                                                <option>その他"</option>
+
                                                 </select>                           
               
                                         </div>

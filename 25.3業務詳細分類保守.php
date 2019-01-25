@@ -6,7 +6,7 @@ include "sidebar.php"
 ?>
 <div class="col-xs-8 col-md-10 col-xs-12 no-padding">
 
-    <div class="col-md-12 col-xs-12 no-padding head-color">
+    <div class="col-md-12 col-xs-12 no-padding body-background">
 
                 <div class="head-p ">
                     <p>業務詳細分類保守
@@ -14,16 +14,15 @@ include "sidebar.php"
                 </div>
                 <form action="/gas/meter-reading" id="meter" method="POST">
                     <div class="col-xs-12">
-                        <div class="col-xs-2">
+                        <div class="col-xs-1">
                             <p>業務分類</p>
                         </div>
-                        <div class="col-xs-3">
+                        <div class="col-xs-2">
                             <div class="form-group">
                                 <input class="form-control" id="officeCodeStartId" name="officeCodeStartId"
                                        placeholder="0" type="number" value=""/>
                             </div>
                         </div>
-                        <div class="col-xs-1 no-padding ratio">~</div>
 
                         <div class="col-xs-3 ">
                             <div class="form-group">

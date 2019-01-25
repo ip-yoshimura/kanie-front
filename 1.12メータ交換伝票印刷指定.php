@@ -194,7 +194,7 @@
                             <div class="form-group">
                                 <input name="meterReadingRouteStartId" id="meterReadingRouteStartId" placeholder="0"
                                        class="form-control"
-                                       type="text" value=""
+                                       type="number" value="0"
                                        onchange="$.fn.onInputValueChange('meterReadingRouteStartId', 'meterReadingRouteStartName')"/>
                             </div>
                         </div>
@@ -203,7 +203,7 @@
                             <div class="form-group">
                                 <input id="meterReadingRouteStartName" name="meterReadingRouteStartName" placeholder="z"
                                        class="form-control"
-                                       type="text" value=""/>
+                                       type="number" value="0"/>
                             </div>
                         </div>
 
@@ -219,16 +219,16 @@
                             <div class="form-group">
                                 <input id="consumerCodeStartId" name="consumerCodeStartId" placeholder="0"
                                        class="form-control"
-                                       type="text" value=""
+                                       type="number" value=""
                                        onchange="$.fn.onInputValueChange('consumerCodeStartId', 'consumerCodeStartName')"/>
                             </div>
                         </div>
                         <div class="col-xs-1 no-padding ratio">~</div>
                         <div class="col-xs-2">
                             <div class="form-group">
-                                <input id="consumeCodeEndId" name="consumeCodeEndId" placeholder="z"
+                                <input id="consumeCodeEndId" name="consumeCodeEndId" placeholder="0"
                                        class="form-control"
-                                       type="text" value=""
+                                       type="number" value=""
                                        onchange="$.fn.onInputValueChange('consumeCodeEndId', 'consumerCodeEndName')"/>
                             </div>
                         </div>

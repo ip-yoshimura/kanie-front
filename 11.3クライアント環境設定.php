@@ -27,7 +27,10 @@ include "sidebar.php"
                     </div>
                     <div class="col-xs-4">
 
-                        <input type="button " class="form-control btn-class" value="設定">
+
+                        <button type="button text-center" class="btn">設定
+
+                        </button>
                     </div>
                 </div>
 
@@ -40,7 +43,9 @@ include "sidebar.php"
                         <input type="text" class="form-control">
                     </div>
                     <div class="col-xs-4">
-                        <input type="button " class="form-control btn-class" value="設定">
+                        <button type="button text-center" class="btn">設定
+
+                        </button>
                     </div>
                 </div>
                 <div class="col-xs-8 border-margin-bottom" style="margin-top:5px;">
@@ -51,7 +56,9 @@ include "sidebar.php"
                         <input type="text" class="form-control">
                     </div>
                     <div class="col-xs-4">
-                        <input type="button " class="form-control btn-class" value="設定">
+                        <button type="button text-center" class="btn">設定
+
+                        </button>
                     </div>
                 </div>
 

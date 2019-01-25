@@ -155,6 +155,50 @@ include "sidebar.php"
                         </div>
                         </div>
                     </div>
+                    <div class="col-xs-12 no-padding">
+                        <div class="col-xs-12">
+                            <div class="col-xs-1 no-padding">
+                                <p>消費者区分</p>
+                            </div>
+                            <div class="col-xs-1">
+                                <input type="radio" name="outputSelection" id="outputSelection" value="all" checked onclick="$.fn.radioButtonSelectionChanged('outputSelection', 'outputSelectionId')"> 全て
+                            </div>
+                            <div class="col-xs-2">
+                                <input type="radio" name="outputSelection" id="outputSelection" value="directSales" onclick="$.fn.radioButtonSelectionChanged('outputSelection', 'outputSelectionId')"> 選択
+                            </div>
+
+                        </div>
+                        <div id="outputSelectionId">
+                            <div class="col-xs-12  ">
+                                <div class="col-xs-1 col-xs-offset-1">
+                                    <div class="form-group">
+                                        <input id="outputStartId" name="outputStartId" placeholder="000"
+                                               class="form-control" type="text" value="" disabled onchange="$.fn.onInputValueChange('outputStartId', 'outputStartName')"/>
+                                    </div>
+                                </div>
+                                <div class="col-xs-1 no-padding ratio">~</div>
+                                <div class="col-xs-1">
+                                    <div class="form-group">
+                                        <input id="outputEndId" name="outputEndId" placeholder="999" class="form-control"
+                                               type="text" value="" disabled onchange="$.fn.onInputValueChange('outputEndId', 'outputEndName')"/>
+                                    </div>
+                                </div>
+                                <div class="col-xs-3">
+                                    <div class="form-group">
+                                        <input id="outputStartName" name="outputStartName" class="form-control" type="text"
+                                               value="" disabled/>
+                                    </div>
+                                </div>
+                                <div class="col-xs-1 no-padding ratio">~</div>
+                                <div class="col-xs-3">
+                                    <div class="form-group">
+                                        <input id="outputEndName" name="outputEndName" class="form-control" type="text"
+                                               value="" disabled/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
                     <div class="col-xs-12  ">
                         <div class="col-xs-1 no-padding">

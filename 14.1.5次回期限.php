@@ -23,10 +23,11 @@ include "sidebar.php"
                         <p>保安機関</p>
                     </div>
                     <div class="col-xs-1">
-                        <input type="text" class="form-control" placeholder="999">
+                        <input type="text" class="form-control" placeholder="999" name="securityId" id="securityId" value=""
+                        onchange="$.fn.onInputValueChange('securityId', 'securityName')">
                     </div>
                     <div class="col-xs-4">
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" Name="securityName" id="securityName" value="">
                     </div>
                 </div>
             </div>
@@ -44,10 +45,11 @@ include "sidebar.php"
                         <p>保安機関</p>
                     </div>
                     <div class="col-xs-1">
-                        <input type="text" class="form-control" placeholder="999">
+                        <input type="text" class="form-control" placeholder="999" name="security_2Id" id="security_2Id" value=""
+                        onchange="$.fn.onInputValueChange('security_2Id', 'security_2Name')">
                     </div>
                     <div class="col-xs-4">
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" name="security_2Name" id="security_2Name" value="">
                     </div>
                 </div>
 

@@ -89,7 +89,7 @@
                     <div class="col-xs-1">
                         <div class="form-group">
                             <input name="actingBusinessId" id="actingBusinessId" placeholder="" class="form-control"
-                                   type="text" value="" onchange="$.fn.onInputValueChange('actingBusinessId', 'actingBusinessName')" />
+                                   type="number" value="001" onchange="$.fn.onInputValueChange('actingBusinessId', 'actingBusinessName')" />
                         </div>
                     </div>
                     <div class="col-xs-3">
@@ -135,8 +135,8 @@
                     </div>
                     <div class="col-xs-1">
                         <div class="form-group">
-                            <input name="initialId" id="initialId" placeholder="" class="form-control" type="text"
-                                   value="" onchange="$.fn.onSelectBoxChange('initialId', 'initialSelect')" />
+                            <input name="initialId" id="initialId" placeholder="" class="form-control" type="number"
+                                   value="001" onchange="$.fn.onSelectBoxChange('initialId', 'initialSelect')" />
                         </div>
                     </div>
                     <div class="col-xs-3">
@@ -571,17 +571,17 @@
 
                     <div class="col-xs-6 col-xs-offset-6" style="margin-left: 560px">
                         <div class="col-xs-2 no-padding">
-                            <p>レーベル</p>
+                            <p>単位</p>
                         </div>
                         <div class="col-xs-5 no-padding">
                             <div class="form-group">
-                                <input name="officeCodeStartName" placeholder="0" class="form-control" type="text"
+                                <input name="officeCodeStartName" placeholder="0" class="form-control" type="number"
                                        value="" contenteditable="false" />
                             </div>
                         </div>
                         <div class="col-xs-5">
                             <div class="form-group">
-                                <input name="companyIdEndName" placeholder="0" class="form-control" type="text" value=""
+                                <input name="companyIdEndName" placeholder="0" class="form-control" type="number" value=""
                                        contenteditable="false" />
                             </div>
                         </div>
@@ -616,7 +616,7 @@
                         </div>
                         <div class="col-xs-2">
                             <div class="form-group">
-                                <input name="companyIdEndName" placeholder="" class="form-control" type="text" value=""
+                                <input name="companyIdEndName" placeholder="" class="form-control" type="text" value="1/1"
                                        contenteditable="false" />
                             </div>
                         </div>

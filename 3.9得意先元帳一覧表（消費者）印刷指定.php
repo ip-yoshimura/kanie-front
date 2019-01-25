@@ -5,7 +5,7 @@
 
 <div class="col-xs-8 col-md-10 col-xs-12 no-padding">
 
-        <div class="col-md-12 col-xs-12 no-padding head-color">
+        <div class="col-md-12 col-xs-12 no-padding body-background">
 
             <div class="head-p">
                 <p> 得意先元帳一覧表（消費者）印刷指定

@@ -302,13 +302,13 @@
                     <div class="col-xs-1">
                         <div class="form-group">
                             <input id="classicStart" name="classicStart" placeholder="" class="form-control"
-                                   type="text" value="" disabled onchange="$.fn.onInputValueChange('classicStart', 'classicStartName')"/>
+                                   type="number" value="" disabled onchange="$.fn.onInputValueChange('classicStart', 'classicStartName')"/>
                         </div>
                     </div>
                     <div class="col-xs-3">
                         <div class="form-group">
                             <input id="classicStartName" name="classicStartName" placeholder="" class="form-control"
-                                   type="text" value="" disabled/>
+                                   type="number" value="" disabled/>
                         </div>
                     </div>
                     </div>
@@ -329,7 +329,7 @@
                     <div class="col-xs-1">
                         <div class="form-group">
                             <input id="trustStartId" name="trustStartId" placeholder="" class="form-control"
-                                   type="text" value=""/>
+                                   type="number" value=""/>
                         </div>
                     </div>
                     <div class="col-xs-1">

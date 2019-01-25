@@ -224,7 +224,7 @@
                         <div class="col-xs-2">
                             <div class="form-group">
                                 <input id="receptionDateStartName" name="receptionDateStartName" class="form-control"
-                                       type="text" value="" onchange="$.fn.onInputValueChange('receptionDateStartName', 'receptionDateStartEndName')"/>
+                                       type="date" value="" onchange="$.fn.onInputValueChange('receptionDateStartName', 'receptionDateStartEndName')"/>
                             </div>
                         </div>
                         <div class="col-xs-1 no-padding ratio">~</div>
@@ -232,7 +232,7 @@
                         <div class="col-xs-2">
                             <div class="form-group">
                                 <input id="receptionDateStartEndName" name="receptionDateStartEndName" class="form-control"
-                                       type="text" value=""/>
+                                       type="date" value=""/>
                             </div>
                         </div>
                         <label class="col-xs-1">受付月
@@ -241,7 +241,7 @@
                         <div class="col-xs-2">
                             <div class="form-group">
                                 <input id="receptionMonthStartName" name="receptionMonthStartName" class="form-control"
-                                       type="text" value="" onchange="$.fn.onInputValueChange('receptionMonthStartName', 'receptionMonthEndName')"/>
+                                       type="date" value="" onchange="$.fn.onInputValueChange('receptionMonthStartName', 'receptionMonthEndName')"/>
                             </div>
                         </div>
 
@@ -250,7 +250,7 @@
                         <div class="col-xs-2">
                             <div class="form-group">
                                 <input id="receptionMonthEndName" name="receptionMonthEndName" class="form-control"
-                                       type="text" value=""/>
+                                       type="date" value=""/>
                             </div>
                         </div>
 
@@ -266,10 +266,10 @@
                     <div class="form-group">
                         <label class="col-xs-1 no-padding">受付担当者
                         </label>
-                        <div class="col-xs-2">
+                        <div class="col-xs-1">
                             <div class="form-group">
                                 <input id="receptionistStartName" name="receptionistStartName" class="form-control"
-                                       type="text" value="" onchange="$.fn.onInputValueChange('receptionistStartName', 'receptionistEndName')"/>
+                                       type="number" value="" onchange="$.fn.onInputValueChange('receptionistStartName', 'receptionistEndName')"/>
                             </div>
                         </div>
 
@@ -362,7 +362,7 @@
                     <div class="col-xs-5">
                         <div class="form-group">
                             <input id="trustStartId" name="trustStartId" placeholder="" class="form-control"
-                                   type="number" value="200"/>
+                                   type="text" value=""/>
                         </div>
                     </div>
                     <div class="col-xs-3">
@@ -382,7 +382,7 @@
                 </p>
                 <div class="form-group">
 
-                    <label class="col-xs-1 p-size-1"> 改ページ指定</label>
+                    <label class="col-xs-1 p-size"> 改ページ指定</label>
                     <div class="col-xs-10">
                         <div class="col-xs-2">
                             <input type="radio" value="all" name="pageBreakSelection" id="pageBreakSelection" onclick="$.fn.radioButtonSelectionChanged('pageBreakSelection', 'pageBreakSelectionId')"/><span> 営業所・販売店</span>

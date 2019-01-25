@@ -9,7 +9,7 @@
                 </div>
                 <form action="/gas/meter-reading" id="meter" method="POST">
                     <div class="col-xs-12 border1 no-padding">
-                        <p class="backend">作成範囲指定</p>
+                        <p class="backend">消費者範囲指定</p>
 
 
                     <div class="col-xs-12">
@@ -112,37 +112,6 @@
                     </div>
 
 
-                    <div class="col-xs-12">
-                        <div class="col-xs-1 no-padding">
-                            <p>消費者コード </p>
-                        </div>
-                        <div class="col-xs-1">
-                            <div class="form-group">
-                                <input class="form-control" id="consumerCodeStartId" name="consumerCodeStartId"
-                                       placeholder="000" type="text" value="" onchange="$.fn.onInputValueChange('consumerCodeStartId', 'consumerCodeStartName')"/>
-                            </div>
-                        </div>
-                        <div class="col-xs-1 no-padding ratio">~</div>
-                        <div class="col-xs-1">
-                            <div class="form-group">
-                                <input class="form-control" id="consumerCodeIdEndId" name="consumerCodeIdEndId" placeholder="999"
-                                       type="text" value="" onchange="$.fn.onInputValueChange('consumerCodeIdEndId', 'consumerCodeIdEndName')"/>
-                            </div>
-                        </div>
-                        <div class="col-xs-3">
-                            <div class="form-group">
-                                <input class="form-control" id="consumerCodeStartName" name="consumerCodeStartName"
-                                       placeholder="Company 1" type="text" value=""/>
-                            </div>
-                        </div>
-                        <div class="col-xs-1 no-padding ratio">~</div>
-                        <div class="col-xs-3">
-                            <div class="form-group">
-                                <input class="form-control" id="consumerCodeIdEndName" name="consumerCodeIdEndName"
-                                       placeholder="Company 2" type="text" value=""/>
-                            </div>
-                        </div>
-                    </div>
                     </div>
                     <div class="col-xs-12 border1 no-padding bottom-box">
                         <p class="backend">作成範囲指定</p>

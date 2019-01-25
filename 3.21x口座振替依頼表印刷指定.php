@@ -3,7 +3,7 @@
 <div class="col-xs-8 col-md-10 col-xs-12 no-padding">
     <div class="col-md-12 col-xs-12 no-padding body-background">
         <div class="head-p">
-            <p>口座振替金額一覧表印刷指定</p>
+            <p>口座振替依頼表印刷指定</p>
 
         </div>
         <form action="/gas/meter-reading" id="meter" method="POST">

@@ -32,7 +32,7 @@
                         <div class="col-xs-1">
                             <div class="form-group">
                                 <input id="personStartId" name="personStartId" placeholder="" class="form-control"
-                                       type="text" value="" onchange="$.fn.onInputValueChange('personStartId', 'personEndName')"/>
+                                       type="number" value="" onchange="$.fn.onInputValueChange('personStartId', 'personEndName')"/>
                             </div>
                         </div>
                         <div class="col-xs-3 no-padding">
@@ -51,7 +51,7 @@
                         <div class="col-xs-1 ">
                             <div class="form-group">
                                 <input id="bankCodeStartId" name="bankCodeStartId" placeholder="" class="form-control"
-                                       type="text" value="" onchange="$.fn.onInputValueChange('bankCodeStartId', 'bankCodeEndId')"/>
+                                       type="number" value="" onchange="$.fn.onInputValueChange('bankCodeStartId', 'bankCodeEndId')"/>
                             </div>
                         </div>
                         <div class="col-xs-3 no-padding">

@@ -8,7 +8,7 @@
             </div>
             <form action="/gas/meter-reading" id="meter" method="POST">
                 <div class="col-xs-12 border1 no-padding">
-                    <p class="backend">作成範囲指定</p>
+                    <p class="backend">消費者範囲指定</p>
 
                     <div class="col-xs-12">
                         <div class="col-xs-12 no-padding">
@@ -326,10 +326,10 @@
                                        placeholder="000" type="number" value=""/>
                             </div>
                         </div>
-                        <div class="col-xs-1 no-padding ratio">~</div>
+
                         <div class="col-xs-2">
                             <div class="form-group">
-                                <input class="form-control" id="companyIdEndId" name="companyIdEndId" placeholder="999"
+                                <input class="form-control" id="companyIdEndId" name="companyIdEndId" placeholder=""
                                        type="text" value=""/>
                             </div>
                         </div>

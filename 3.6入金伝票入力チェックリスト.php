@@ -2,7 +2,7 @@
 <?php include 'sidebar.php'; ?>
 <div class="col-xs-8 col-md-10 col-xs-12 no-padding">
 
-    <div class="col-md-12 col-xs-12 no-padding head-color">
+    <div class="col-md-12 col-xs-12 no-padding body-background">
 
         <div class="head-p">
             <p>入金伝票入力チェックリスト </p>
@@ -12,7 +12,7 @@
                 <p class="backend">消費者範囲指定</p>
                 <div class="col-xs-12 ">
                     <div class="col-xs-1 no-padding">
-                        <p>伝票入力作業
+                        <p>伝票入力作業日
 
                         </p>
                     </div>

@@ -14,7 +14,7 @@
 
             <div class="col-xs-12 border1 no-padding">
 
-                <p class="backend">消費者範囲指定</p>
+                <p class="backend">出力指定</p>
 
                 <div class="col-xs-12">
 

@@ -9,7 +9,7 @@
                     <div class="div2">
 
                         <strong>
-                            This function is not available right now!
+                           Screenshot not found!
 
                         </strong>
 

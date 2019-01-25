@@ -241,7 +241,7 @@ include "sidebar.php"
                 <div class="col-xs-12 border-margin">
                     <label class="control-label col-xs-1 no-padding">締切日</label>
                     <div class="col-xs-1">
-                        <input type="text" class="form-control" placeholder="0">
+                        <input type="number" class="form-control" placeholder="0">
                     </div>
                     <div class="col-xs-1 border-margin-exp">
                         <span>日</span>

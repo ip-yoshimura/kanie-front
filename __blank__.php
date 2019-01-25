@@ -1,29 +1,295 @@
-<?php include 'header.php';?>
-<?php include 'sidebar.php';?>
-<div class="col-xs-8 col-md-10 col-xs-12 no-padding">
-    <div class="col-md-12 col-xs-12 no-padding head-color">
-        <div class="head-p">
-            <p>検針伝票連続入力</p>
-        </div>
-
-        <div class="div1">
-            <div class="div2">
-
-                <strong>それ以上のアクションはありません
-
-                </strong>
-
-            </div>
-        </div>
-
-        <br>
-        <br>
-        <br>
-
-        <?php include 'footer.php';?>
+<?php
+include "header.php"
+?>
+<?php
+include "sidebar.php"
+?>
+<div class="col-xs-10 col-md-10 no-padding body-background">
 
 
+    <div class="head-p">
+        <p class="">検針伝票連続入力</p>
     </div>
+
+
+
+    <div class="col-xs-12 no-padding">
+        <div class="col-xs-1 no-padding">
+            <p>伝票日付</p>
+        </div>
+        <div class="col-xs-2">
+            <input type="date" class="form-control">
+        </div>
+        <div class="col-xs-1 no-padding">
+            <p>検針担当</p>
+        </div>
+        <div class="col-xs-1">
+            <input type="text" class="form-control">
+        </div>
+        <div class="col-xs-2">
+            <input type="text" class="form-control">
+        </div>
+        <div class="col-xs-1 no-padding col-xs-offset-2">
+            <p>保安点検入力</p>
+        </div>
+        <div class="col-xs-2">
+            <input type="text" class="form-control">
+        </div>
+    </div>
+    <div class="col-xs-12 no-padding border-margin">
+        <div class="col-xs-1 no-padding col-xs-offset-3">
+            <p>前回検針</p>
+        </div>
+        <div class="col-xs-2">
+            <input type="text" class="form-control">
+        </div>
+        <div class="col-xs-1    ">
+            <p>指針</p>
+        </div>
+        <div class="col-xs-2">
+            <input type="text" class="form-control">
+        </div>
+        <div class="col-xs-1   ">
+            <p>使用量</p>
+        </div>
+        <div class="col-xs-2">
+            <input type="text" class="form-control">
+        </div>
+    </div>
+    <div class="col-xs-12 border-margin no-padding table-scroll">
+        <table class="table table-bordered col-xs-12">
+            <thead>
+            <tr class="bg-color">
+                <th></th>
+                <th class="col-xs-2">消費者コード</th>
+                <th class="col-xs-3">消費者名</th>
+                <th>回転</th>
+                <th>今回指針</th>
+                <th>使用量</th>
+                <th>消費税</th>
+                <th>ガス料金</th>
+                <th>入金額</th>
+                <th>入金値引</th>
+                <th>微少</th>
+            </tr>
+            </thead>
+            <tr>
+                <td class="bg-color td-style">1</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="bg-color td-style">2</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="bg-color td-style">3</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="bg-color td-style">4</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="bg-color td-style">5</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="bg-color td-style">6</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="bg-color td-style">7</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="bg-color td-style">8</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="bg-color td-style">9</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="bg-color td-style">10</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="bg-color td-style">11</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="bg-color td-style">12</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="bg-color td-style">13</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="col-xs-12 no-padding border-margin ">
+        <div class="col-xs-7 col-xs-offset-4">
+            <table class="tale table-bordered col-xs-12">
+                <tr class="bg-color">
+                    <td></td>
+                    <td class="td-style">使用量</td>
+                    <td class="td-style">消費税</td>
+                    <td class="td-style">ガス料金</td>
+                    <td class="td-style">入金額</td>
+                    <td class="td-style">入金値引</td>
+
+                </tr>
+                <tr>
+                    <td class="bg-color td-style">合計</td>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <td></td>
+
+                </tr>
+
+            </table>
+        </div>
+    </div>
+    <div class="col-xs-12 border-margin no-padding">
+        <div class="col-xs-5 no-padding">
+            <table class=" table table-bordered col-xs-12">
+                <tr>
+                    <th>今回新規</th>
+                    <th>自動切替なし</th>
+                    <th>自動計算</th>
+                    <th>伝票件数 0/0</th>
+                </tr>
+
+            </table>
+        </div>
+    </div>
+
+
+    <?php
+    include "footer.php"
+    ?>
+
+
 </div>
 </div>
 </div>
