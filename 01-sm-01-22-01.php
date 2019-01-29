@@ -89,9 +89,9 @@
                                     <table class="table  table-bordered tbl-31-main">
                                         <thead class="tbl-31">
                                         <tr>
-                                            <th class="col-xs-3"></th>
-                                            <th class="col-xs-2">前回</th>
-                                            <th >今回</th>
+                                            <th></th>
+                                            <th class="col-xs-4">前回</th>
+                                            <th class="col-sx-4">今回</th>
                                         </tr>
                                         </thead>
                                         <tbody>
@@ -164,7 +164,7 @@
                                     </table>
 
                                     <div class="col-xs-12 no-padding">
-                                    <div class="col-xs-5 no-padding">
+                                    <div class="col-xs-6 no-padding">
                                         <div class="col-xs-3 no-padding">
                                             <label>前回</label>
                                         </div>
@@ -184,7 +184,7 @@
                                         <div class="col-xs-6">
 
                                             <div class="col-xs-3 border-margin-exp">
-                                                <label>前回</label>
+                                                <label>今回</label>
                                             </div>
                                             <div class="col-xs-3 no-padding">
                                                 <input type="radio"> 通常
@@ -209,12 +209,8 @@
                                                     <td><input type="text" class="form-control tbl-input"></td>
                                                 </tr>
                                                 <tr>
-                                                    <td class="tbl-31-tr ">微少流量警報</td>
-                                                    <td><input type="text" class="form-control tbl-input"> </td>
-                                                </tr>
-                                                <tr>
                                                     <td class="tbl-31-tr ">個別基本料金</td>
-                                                    <td><input type="text" class="form-control tbl-input"></td>
+                                                    <td><input type="text" class="form-control tbl-input"> </td>
                                                 </tr>
                                                 <tr>
                                                     <td class="tbl-31-tr ">個別契約単価</td>
@@ -241,7 +237,7 @@
                                         </div>
                                         <div class="col-xs-6">
                                             <div class="col-xs-5">
-                                                <p>個別基本料金</p>
+                                                <p>微少流量警報</p>
                                             </div>
                                             <div class="col-xs-2 no-padding">
                                                 <input type="radio" name="office" id="office" value="all" onclick="$.fn.radioButtonSelectionChanged('office', 'officeId')"> 無
@@ -264,16 +260,16 @@
 
                     <div class="col-xs-12 bottom-box">
                         <div class="col-xs-2">
-                            <input type="text" value="今回新規" disabled class="form-control td-style">
+                            <input type="text" value="今回新規" disabled class="form-control td-style" disabled>
                         </div>
                         <div class="col-xs-2">
-                            <input type="text" value="自動切換なし" disabled class="form-control td-style">
+                            <input type="text" value="自動切換なし" disabled class="form-control td-style" disabled>
                         </div>
                         <div class="col-xs-2">
-                            <input type="text" value="自動計算" disabled class="form-control td-style">
+                            <input type="text" value="自動計算" disabled class="form-control td-style" disabled>
                         </div>
                         <div class="col-xs-2">
-                            <input type="text" value="伝票件数" disabled class="form-control td-style">
+                            <input type="text" value="伝票件数 0/0" disabled class="form-control td-style" disabled>
                         </div>
                     </div>
 
