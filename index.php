@@ -33,7 +33,7 @@
                                            type="text" value="" disabled onchange="$.fn.onInputValueChange('trustStartId', 'trustStartName')"/>
                                 </div>
                             </div>
-                            <div class="col-xs-1 no-padding ratio">~</div>
+                            <div class="col-xs-1 no-padding ratio">～</div>
                             <div class="col-xs-1">
                                 <div class="form-group">
                                     <input id="trustEndId" name="trustEndId" placeholder="999" class="form-control"
@@ -46,7 +46,7 @@
                                            value="" disabled/>
                                 </div>
                             </div>
-                            <div class="col-xs-1 no-padding ratio">~</div>
+                            <div class="col-xs-1 no-padding ratio">～</div>
                             <div class="col-xs-3">
                                 <div class="form-group">
                                     <input id="trustEndName" name="trustEndName" class="form-control" type="text" value="" disabled/>
@@ -79,7 +79,7 @@
                                            type="text" value="" disabled onchange="$.fn.onInputValueChange('trustStartId', 'trustStartName')"/>
                                 </div>
                             </div>
-                            <div class="col-xs-1 no-padding ratio">~</div>
+                            <div class="col-xs-1 no-padding ratio">～</div>
                             <div class="col-xs-1">
                                 <div class="form-group">
                                     <input id="trustEndId" name="trustEndId" placeholder="999" class="form-control"
@@ -92,7 +92,7 @@
                                            value="" disabled/>
                                 </div>
                             </div>
-                            <div class="col-xs-1 no-padding ratio">~</div>
+                            <div class="col-xs-1 no-padding ratio">～</div>
                             <div class="col-xs-3">
                                 <div class="form-group">
                                     <input id="trustEndName" name="trustEndName" class="form-control" type="text" value="" disabled/>
@@ -129,7 +129,7 @@
                                            type="text" value="" disabled onchange="$.fn.onInputValueChange('trust1trust1StartId', 'trust1trust1StartName')"/>
                                 </div>
                             </div>
-                            <div class="col-xs-1 no-padding ratio">~</div>
+                            <div class="col-xs-1 no-padding ratio">～</div>
                             <div class="col-xs-1">
                                 <div class="form-group">
                                     <input id="trust1trust1EndId" name="trust1trust1EndId" placeholder="999" class="form-control"
@@ -142,7 +142,7 @@
                                            value="" disabled/>
                                 </div>
                             </div>
-                            <div class="col-xs-1 no-padding ratio">~</div>
+                            <div class="col-xs-1 no-padding ratio">～</div>
                             <div class="col-xs-3">
                                 <div class="form-group">
                                     <input id="trust1trust1EndName" name="trust1trust1EndName" class="form-control" type="text"
@@ -163,7 +163,7 @@
                                    class="form-control" type="text" value="" onchange="$.fn.onInputValueChange('meterReadingRouteStart', 'meterReadingRouteEnd')"/>
                         </div>
                     </div>
-                    <div class="col-xs-1 no-padding ratio">~</div>
+                    <div class="col-xs-1 no-padding ratio">～</div>
                     <div class="col-xs-3">
                         <div class="form-group">
                             <input id="meterReadingRouteEnd" name="meterReadingRouteEnd" placeholder="9999999"
@@ -181,7 +181,7 @@
                                    type="text" value="" onchange="$.fn.onInputValueChange('consumerCodeStart', 'consumerCodeStartName')"/>
                         </div>
                     </div>
-                    <div class="col-xs-1 no-padding ratio">~</div>
+                    <div class="col-xs-1 no-padding ratio">～</div>
                     <div class="col-xs-2">
                         <div class="form-group">
                             <input id="consumeCodeEnd" name="consumeCodeEnd" placeholder="z" class="form-control"
@@ -194,7 +194,7 @@
                                    type="text" value=""/>
                         </div>
                     </div>
-                    <div class="col-xs-1 no-padding ratio">~</div>
+                    <div class="col-xs-1 no-padding ratio">～</div>
                     <div class="col-xs-2">
                         <div class="form-group">
                             <input id="consumerCodeEndName" name="consumerCodeEndName" class="form-control" type="text"

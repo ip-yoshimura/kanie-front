@@ -19,7 +19,6 @@
                         <div class="col-xs-1 ">
                             <input type="text" name="personStart" id="personStart" class="form-control" placeholder="000" value="" onchange="$.fn.onInputValueChange('personStart', 'personEnd')" >
                         </div>
-                        <div class="col-xs-1 no-padding ratio">~</div>
                         <div class="col-xs-3">
                             <input type="text" name="personEnd" id="personEnd" class="form-control" value=""/>
                         </div>
@@ -57,7 +56,7 @@
                                            type="text" value="" disabled onchange="$.fn.onInputValueChange('outputStartId', 'outputStartName')"/>
                                 </div>
                             </div>
-                            <div class="col-xs-1 no-padding ratio">~</div>
+                            <div class="col-xs-1 no-padding ratio">～</div>
                             <div class="col-xs-1">
                                 <div class="form-group">
                                     <input id="outputEndId" name="outputEndId" placeholder="999" class="form-control"
@@ -70,7 +69,7 @@
                                            value=""disabled/>
                                 </div>
                             </div>
-                            <div class="col-xs-1 no-padding ratio">~</div>
+                            <div class="col-xs-1 no-padding ratio">～</div>
                             <div class="col-xs-3">
                                 <div class="form-group">
                                     <input id="outputEndName" name="outputEndName" class="form-control" type="text"
@@ -86,7 +85,7 @@
                         <div class="col-xs-2">
                             <input type="date" class="form-control">
                         </div>
-                        <div class="col-xs-1 no-padding ratio">~</div>
+                        <div class="col-xs-1 no-padding ratio">～</div>
                         <div class="col-xs-2">
                             <input type="date" class="form-control">
                         </div>
@@ -98,7 +97,7 @@
                         <div class="col-xs-2">
                             <input type="date" class="form-control">
                         </div>
-                        <div class="col-xs-1 no-padding ratio">~</div>
+                        <div class="col-xs-1 no-padding ratio">～</div>
                         <div class="col-xs-2">
                             <input type="date" class="form-control">
                         </div>
@@ -146,10 +145,10 @@
                             <p>出力先</p>
                         </div>
                         <div class="col-xs-2">
-                            <input type="radio" name="output" id="output" value="all" onclick="$.fn.radioButtonSelectionChanged('output', 'outputId')"> プリンタ（印刷
+                            <input type="radio" name="output" id="output" value="all" onclick="$.fn.radioButtonSelectionChanged('output', 'outputId')"> プリンタ(印刷)
                         </div>
                         <div class="col-xs-2 no-padding">
-                            <input type="radio" name="output" id="output" value="output" onclick="$.fn.radioButtonSelectionChanged('output', 'outputId')"> 画面（印刷イメージ）
+                            <input type="radio" name="output" id="output" value="output" onclick="$.fn.radioButtonSelectionChanged('output', 'outputId')"> 画面(印刷イメージ)
                         </div>
                     </div>
 
