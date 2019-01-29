@@ -195,8 +195,8 @@ include "sidebar.php"
                 <td><input type="text" class="form-control tbl-input"></td>
                 <td><input type="text" class="form-control tbl-input"></td>
                 <td><input type="text" class="form-control tbl-input"></td>
-                <td><input type="text" class="form-control tbl-input"></td><input type="text" class="form-control tbl-input">
                 <td><input type="text" class="form-control tbl-input"></td>
+		<td><input type="text" class="form-control tbl-input"></td>
                 <td><input type="text" class="form-control tbl-input"></td>
                 <td><input type="text" class="form-control tbl-input"></td>
                 <td><input type="text" class="form-control tbl-input"></td>
@@ -326,7 +326,7 @@ include "sidebar.php"
             <table class="tale table-bordered col-xs-12">
                 <tr class="bg-color">
                     <td ></td>
-                    <td>使用量</td>
+                    <td class="td-style">使用量</td>
                     <td class="td-style">消費税</td>
                     <td class="td-style">ガス料金</td>
                     <td class="td-style">入金額</td>
