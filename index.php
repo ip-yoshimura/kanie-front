@@ -11,7 +11,7 @@
         <form action="/gas/meter-reading" id="meter" method="POST">
 
             <div class="col-xs-12 border1 no-padding">
-                <p class="back-end">印刷範囲指定 </p>
+                <p class="back-end">作成範囲指定</p>
 
                 <div class="col-xs-12">
                     <div class="col-xs-12 no-padding">
@@ -62,16 +62,16 @@
                             <p>受託区分</p>
                         </div>
                         <div class="col-xs-1">
-                            <input type="radio" name="trustSelection" id="trustSelection" value="all" checked onclick="$.fn.radioButtonSelectionChanged('trustSelection', 'trustSelectionId')"> 全て
+                            <input type="radio" name="trust1Selection" id="trust1Selection" value="all" checked onclick="$.fn.radioButtonSelectionChanged('trust1Selection', 'trust1SelectionId')"> 全て
                         </div>
                         <div class="col-xs-1 no-padding">
-                            <input type="radio" name="trustSelection" id="trustSelection" value="custom" onclick="$.fn.radioButtonSelectionChanged('trustSelection', 'trustSelectionId')"> 直売
+                            <input type="radio" name="trust1Selection" id="trust1Selection" value="custom" onclick="$.fn.radioButtonSelectionChanged('trust1Selection', 'trust1SelectionId')"> 直売
                         </div>
                         <div class="col-xs-2 no-padding">
-                            <input type="radio" name="trustSelection" id="trustSelection" value="custom" onclick="$.fn.radioButtonSelectionChanged('trustSelection', 'trustSelectionId')"> 販売店
+                            <input type="radio" name="trust1Selection" id="trust1Selection" value="custom" onclick="$.fn.radioButtonSelectionChanged('trust1Selection', 'trust1SelectionId')"> 販売店
                         </div>
                     </div>
-                    <div id="trustSelectionId">
+                    <div id="trust1SelectionId">
                         <div class="col-xs-12 no-padding">
                             <div class="col-xs-1 col-xs-offset-2">
                                 <div class="form-group">
@@ -106,22 +106,22 @@
                 <div class="col-xs-12">
                     <div class="col-xs-12 no-padding">
                         <div class="col-xs-2 no-padding">
-                            <p>受託区分</p>
+                            <p>出力区分</p>
                         </div>
                         <div class="col-xs-1">
-                            <input type="radio"  name="trust1Selection" id="trust1Selection" value="all" checked onclick="$.fn.radioButtonSelectionChanged('trust1Selection', 'trust1SelectionId')"> 全て
+                            <input type="radio"  name="trust2Selection" id="trust2Selection" value="all" checked onclick="$.fn.radioButtonSelectionChanged('trust2Selection', 'trust2SelectionId')"> 全て
                         </div>
                         <div class="col-xs-1 no-padding">
-                            <input type="radio" name="trust1Selection" id="trust1Selection" value="custom" onclick="$.fn.radioButtonSelectionChanged('trust1Selection', 'trust1SelectionId')"> 地区
+                            <input type="radio" name="trust2Selection" id="trust2Selection" value="custom" onclick="$.fn.radioButtonSelectionChanged('trust2Selection', 'trust2SelectionId')"> 地区
                         </div>
                         <div class="col-xs-2 no-padding">
-                            <input type="radio" name="trust1Selection" id="trust1Selection" value="custom" onclick="$.fn.radioButtonSelectionChanged('trust1Selection', 'trust1SelectionId')"> 検針担当者
+                            <input type="radio" name="trust2Selection" id="trust2Selection" value="custom" onclick="$.fn.radioButtonSelectionChanged('trust2Selection', 'trust2SelectionId')"> 検針担当者
                         </div>
                         <div class="col-xs-2" style="margin-left: -70px;">
-                            <input type="radio" name="trust1Selection" id="trust1Selection" value="custom" onclick="$.fn.radioButtonSelectionChanged('trust1Selection', 'trust1SelectionId')"> 配送委託先
+                            <input type="radio" name="trust2Selection" id="trust2Selection" value="custom" onclick="$.fn.radioButtonSelectionChanged('trust2Selection', 'trust2SelectionId')"> 配送委託先
                         </div>
                     </div>
-                    <div id="trust1SelectionId">
+                    <div id="trust2SelectionId">
                         <div class="col-xs-12 no-padding">
                             <div class="col-xs-1 col-xs-offset-2">
                                 <div class="form-group">
