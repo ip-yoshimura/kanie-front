@@ -835,9 +835,9 @@
                     <ul class="sub_menu">
                         <li class="dropdown"><a href="17.1顧客選択テスト画面.php">17-1.消費者選択</a>
                         </li>
-                        <li class="dropdown"><a href="17.2UFJ振替不能データ変換.php">17-2.ＵＦＪ振替結果データ変換</a>
+                        <li class="dropdown"><a href="17.2UFJ振替不能データ変換.php">17-2.UFJ振替結果データ変換</a>
                         </li>
-                        <li class="dropdown"><a href="17.3EXCEL消費者データ出力.php">17-50.Ｅｘｃｅｌデータ出力</a>
+                        <li class="dropdown"><a href="17.3EXCEL消費者データ出力.php">17-50.Excelデータ出力</a>
                         </li>
                     </ul>
                 </li>

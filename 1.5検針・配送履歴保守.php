@@ -10,11 +10,11 @@
             </p>
         </div>
                 <form id="meter" action="/gas/meter-reading" method="POST">
-                    <div class="col-xs-12" style="margin-bottom: 10px">
-                        <div class="col-xs-2">
+                    <div class="col-xs-12" style="margin-bottom: 20px">
+                        <div class="col-xs-2 no-padding">
                             <label>消費者コード</label>
                         </div>
-                        <div class="col-xs-2">
+                        <div class="col-xs-2 ml-n-40">
                             <input type="text" name="consumeStart" id="consumeStart" class="form-control" value="" onchange="$.fn.onInputValueChange('consumeStart', 'consumeEnd')" >
                         </div>
                         <div class="col-xs-1 no-padding ratio">~</div>
@@ -43,198 +43,198 @@
                             <tbody>
                                 <tr>
                                     <td class="tbl-31-tr "></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
                                 </tr>
                                 <tr>
                                     <td class="tbl-31-tr "></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
                                 </tr>
                                 <tr>
                                     <td class="tbl-31-tr "></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
                                 </tr>
                                 <tr>
                                     <td class="tbl-31-tr "></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
                                 </tr>
                                 <tr>
                                     <td class="tbl-31-tr "></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
                                 </tr>
                                 <tr>
                                     <td class="tbl-31-tr "></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
                                 </tr>
                                 <tr>
                                     <td class="tbl-31-tr "></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
                                 </tr>
                                 <tr>
                                     <td class="tbl-31-tr "></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
                                 </tr>
                                 <tr>
                                     <td class="tbl-31-tr "></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
                                 </tr>
                                 <tr>
                                     <td class="tbl-31-tr "></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
                                 </tr>
                                 <tr>
                                     <td class="tbl-31-tr "></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
                                 </tr>
                                 <tr>
                                     <td class="tbl-31-tr "></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
                                 </tr>
                                 <tr>
                                     <td class="tbl-31-tr "></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
                                 </tr>
                                 <tr>
                                     <td class="tbl-31-tr "></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
                                 </tr>
                                 <tr>
                                     <td class="tbl-31-tr "></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
+                                    <td><input type="text" class="form-control tbl-input"></td>
                                 </tr>
                             </tbody>
                         </table>

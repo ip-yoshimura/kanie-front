@@ -11,21 +11,21 @@
         </div>
                 <form id="meter" action="/gas/meter-reading" method="POST">
                     <div class="col-xs-12 border1 no-padding">
-                        <p class="backend">作成範囲指定 </p>
+                        <p class="back-end">作成範囲指定 </p>
                     <div class="col-xs-12 form-group">
-                        <div class="col-xs-1 no-padding">
+                        <div class="col-xs-2 no-padding">
                             <p>入力担当者</p>
                         </div>
                         <div class="col-xs-1 ">
                             <input type="text" name="personStart" id="personStart" class="form-control" placeholder="000" value="" onchange="$.fn.onInputValueChange('personStart', 'personEnd')" >
                         </div>
                         <div class="col-xs-1 no-padding ratio">~</div>
-                        <div class="col-xs-3 no-padding">
+                        <div class="col-xs-3">
                             <input type="text" name="personEnd" id="personEnd" class="form-control" value=""/>
                         </div>
                     </div>
                     <div class="col-xs-12 form-group">
-                        <div class="col-xs-1 no-padding">
+                        <div class="col-xs-2 no-padding">
                             <p>入力作業日</p>
                         </div>
                         <div class="col-xs-2">
@@ -33,14 +33,14 @@
                         </div>
                     </div>
                     <div class="col-xs-12 form-group">
-                        <div class="col-xs-1 no-padding">
+                        <div class="col-xs-2 no-padding">
                             <p>出力区分</p>
                         </div>
                         <div class="col-xs-1">
-                            <input type="radio" name="outputselection" id="outputselection" value="all" checked onclick="$.fn.radioButtonSelectionChanged('outputselection', 'outputselectionId')"> 全て
+                            <input type="radio" name="outputselection" id="outputselection" value="all" checked onclick="$.fn.radioButtonSelectionChanged('outputselection', 'outputselectionId')">  全て
                         </div>
                         <div class="col-xs-1">
-                            <input type="radio" name="outputselection" id="outputselection" value="output" onclick="$.fn.radioButtonSelectionChanged('outputselection', 'outputselectionId')"> 地区
+                            <input type="radio" name="outputselection" id="outputselection" value="output" onclick="$.fn.radioButtonSelectionChanged('outputselection', 'outputselectionId')">  地区
                         </div>
                         <div class="col-xs-1 no-padding">
                             <input type="radio" name="outputselection" id="outputselection" value="output" onclick="$.fn.radioButtonSelectionChanged('outputselection', 'outputselectionId')"> 検針担当者
@@ -50,8 +50,8 @@
                         </div>
                     </div>
                         <div id="outputselectionId">
-                        <div class="col-xs-12 no-padding">
-                            <div class="col-xs-1 col-xs-offset-1">
+                        <div class="col-xs-12 ">
+                            <div class="col-xs-1 col-xs-offset-2">
                                 <div class="form-group">
                                     <input id="outputStartId" name="outputStartId" placeholder="000" class="form-control"
                                            type="text" value="" disabled onchange="$.fn.onInputValueChange('outputStartId', 'outputStartName')"/>
@@ -80,7 +80,7 @@
                         </div>
                         </div>
                     <div class="col-xs-12 form-group">
-                        <div class="col-xs-1 no-padding">
+                        <div class="col-xs-2 no-padding">
                             <p>検針日</p>
                         </div>
                         <div class="col-xs-2">
@@ -92,7 +92,7 @@
                         </div>
                     </div>
                     <div class="col-xs-12 form-group">
-                        <div class="col-xs-1 no-padding">
+                        <div class="col-xs-2 no-padding">
                             <p>伝票番号</p>
                         </div>
                         <div class="col-xs-2">
@@ -104,7 +104,7 @@
                         </div>
                     </div>
                     <div class="col-xs-12 form-group">
-                        <div class="col-xs-1 no-padding">
+                        <div class="col-xs-2 no-padding">
                             <p>検針区分</p>
                         </div>
                         <div class="col-xs-1">
@@ -123,15 +123,15 @@
                     </div>
 
                     <div class="col-xs-12 border1 no-padding bottom-box">
-                        <p class="backend">出力指定 </p>
+                        <p class="back-end">出力指定 </p>
                     <div class="col-xs-12 form-group">
-                        <div class="col-xs-1 no-padding">
+                        <div class="col-xs-2 no-padding">
                             <p>並び順</p>
                         </div>
-                        <div class="col-xs-1">
+                        <div class="col-xs-2">
                             <input type="radio" name="sortby" id="sortby" value="all" onclick="$.fn.radioButtonSelectionChanged('sortby', 'sortbyId')"> 入力順
                         </div>
-                        <div class="col-xs-2">
+                        <div class="col-xs-2 no-padding">
                             <input type="radio" name="sortby" id="sortby" value="sortby" onclick="$.fn.radioButtonSelectionChanged('sortby', 'sortbyId')"> 消費者コード順
                         </div>
                         <div class="col-xs-2">
@@ -142,14 +142,14 @@
                         </div>
                     </div>
                     <div class="col-xs-12 form-group">
-                        <div class="col-xs-1 no-padding">
+                        <div class="col-xs-2 no-padding">
                             <p>出力先</p>
                         </div>
                         <div class="col-xs-2">
                             <input type="radio" name="output" id="output" value="all" onclick="$.fn.radioButtonSelectionChanged('output', 'outputId')"> プリンタ（印刷
                         </div>
-                        <div class="col-xs-3">
-                            <input type="radio" name="output" id="output" value="output" onclick="$.fn.radioButtonSelectionChanged('output', 'outputId')">画面（印刷イメージ）
+                        <div class="col-xs-2 no-padding">
+                            <input type="radio" name="output" id="output" value="output" onclick="$.fn.radioButtonSelectionChanged('output', 'outputId')"> 画面（印刷イメージ）
                         </div>
                     </div>
 

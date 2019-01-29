@@ -20,7 +20,7 @@
 
 .side_menu_title {
 	display: block;
-	font-size: 2rem;
+	font-size: 1.5rem;
 	padding: 1.2rem 0 1.2rem 20px;
 	color: #555;
 }
@@ -192,6 +192,7 @@ section.top_menu_popup_section > div.top_menu_popup_area > ul.sub_menu > li {
     background: #fff;
 }
 .sidebar {
+    width: 224px;
     padding-left: 0px;
     background: #fff;
 }

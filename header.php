@@ -17,7 +17,7 @@
     <script src="js/custom.js"></script>
 
 </head>
-<body style="background-color: #e9e9e9">
+<body>
 
 <div class="container-fluid no-padding">
     <div class="col-xs-12 no-padding">

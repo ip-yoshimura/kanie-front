@@ -34,7 +34,7 @@ include "sidebar.php"
                             </div>
                         </div>
                         <div class="col-xs-12 no-padding border-margin">
-                            <div class="col-xs-3"><p>売上締日</p></div>
+                            <div class="col-xs-2"><p>売上締日</p></div>
                             <div class="col-xs-2 no-padding">
                                 <div class="form-group">
                                     <input id="consumerCodeStartName" placeholder="0" name="consumerCodeStartName"
@@ -61,23 +61,29 @@ include "sidebar.php"
                             </div>
 
                         </div>
-                        <div class="col-xs-12 no-padding">
-                            <div class="col-xs-3">
+                        <div class="col-xs-12 border-margin-bottom ">
+                            <div class="col-xs-2 no-padding">
                                 <p>支払い予定日</p>
                             </div>
-                            <div class="col-xs-3 no-padding">
-                                <div class="form-group">
-                                    <select class="form-control" id="form-type" name="form-type">
-                                        <option>1:当月</option>
-                                        <option>2:翌月</option>
-                                        <option>3:翌々月</option>
-                                    </select>
+                            <div class="col-xs-6 no-padding">
+                                <div class="col-xs-12">
+                                    <div class="col-xs-4 no-padding"><input type="radio" id="" name=""><span>1:当月</span></div>
+                                    <div class="col-xs-4 no-padding"><input type="radio" id="" name=""><span>2:翌月</span></div>
+                                    <div class="col-xs-4 no-padding"><input type="radio" id="" name=""><span>3:翌々月</span></div>
+
                                 </div>
+<!--                                <div class="form-group">-->
+<!--                                    <select class="form-control" id="form-type" name="form-type">-->
+<!--                                        <option>1:当月</option>-->
+<!--                                        <option>2:翌月</option>-->
+<!--                                        <option>3:翌々月</option>-->
+<!--                                    </select>-->
+<!--                                </div>-->
                             </div>
                             <div class="col-xs-3">
                                 <input type="number" class="form-control" placeholder="0">
                             </div>
-                            <div class="col-xs-2 border-margin-exp">
+                            <div class="col-xs-1 border-margin-exp">
                                 <span>日</span>
                             </div>
                         </div>
@@ -405,17 +411,17 @@ include "sidebar.php"
                     </div>
                     <div class="col-xs-12 border1 no-padding">
                         <p class="backend">消費税</p>
-                        <div class="col-xs-12  ">
+                        <div class="col-xs-12 ">
 
-                            <div class="col-xs-2 no-padding ">
+                            <div class="col-xs-3 no-padding ">
 
                             </div>
-                            <div class="col-xs-3 no-padding ">
+                            <div class="col-xs-4 no-padding ">
                                 <span>消費税率</span>
 
                             </div>
 
-                            <div class="col-xs-3 no-padding">
+                            <div class="col-xs-4 no-padding">
                                 <span>端数処理</span>
 
                             </div>
@@ -423,7 +429,7 @@ include "sidebar.php"
                         </div>
                         <div class="col-xs-12 border-margin ">
 
-                            <div class="col-xs-2 no-padding">
+                            <div class="col-xs-3 no-padding">
                                 <p>ガス売上</p>
                             </div>
                             <div class="col-xs-2 no-padding">
@@ -434,12 +440,16 @@ include "sidebar.php"
                                 <span>%</span>
 
                             </div>
-                            <div class="col-xs-2 no-padding">
-                                <input type="number" class="form-control">
+                            <div class="col-xs-4 no-padding">
 
-                            </div>
-                            <div class="col-xs-4  ">
-                                <p>11:小数以下切捨て</p>
+                                <select class="form-control" name="" id="">
+                                    <option value="">11:小数以下切捨て</option>
+                                    <option value="">12:小数以下四捨五入</option>
+                                    <option value="">13:小数以下切上げ</option>
+                                    <option value="">21:1円桁切捨て</option>
+                                    <option value="">22:1円桁四捨五入</option>
+                                    <option value="">23:1円桁切上げ</option>
+                                </select>
 
                             </div>
 
@@ -447,7 +457,7 @@ include "sidebar.php"
                         </div>
                         <div class="col-xs-12 border-margin">
 
-                            <div class="col-xs-2 no-padding">
+                            <div class="col-xs-3 no-padding">
                                 <p>リース売上</p>
                             </div>
                             <div class="col-xs-2 no-padding">
@@ -458,19 +468,24 @@ include "sidebar.php"
                                 <span>%</span>
 
                             </div>
-                            <div class="col-xs-2 no-padding">
-                                <input type="number" class="form-control">
 
-                            </div>
-                            <div class="col-xs-5">
-                                <p>12:小数以下四捨五入</p>
+                            <div class="col-xs-4 no-padding">
+
+                                <select class="form-control" name="" id="">
+                                    <option value="">11:小数以下切捨て</option>
+                                    <option value="">12:小数以下四捨五入</option>
+                                    <option value="">13:小数以下切上げ</option>
+                                    <option value="">21:1円桁切捨て</option>
+                                    <option value="">22:1円桁四捨五入</option>
+                                    <option value="">23:1円桁切上げ</option>
+                                </select>
 
                             </div>
 
                         </div>
                         <div class="col-xs-12 border-margin">
 
-                            <div class="col-xs-2 no-padding">
+                            <div class="col-xs-3 no-padding">
                                 <p>その他売上</p>
                             </div>
                             <div class="col-xs-2 no-padding">
@@ -481,19 +496,23 @@ include "sidebar.php"
                                 %
 
                             </div>
-                            <div class="col-xs-2 no-padding">
-                                <input type="number" class="form-control">
+                            <div class="col-xs-4 no-padding">
 
-                            </div>
-                            <div class="col-xs-5  ">
-                                <p>13:小数以下切上げ</p>
+                                <select class="form-control" name="" id="">
+                                    <option value="">11:小数以下切捨て</option>
+                                    <option value="">12:小数以下四捨五入</option>
+                                    <option value="">13:小数以下切上げ</option>
+                                    <option value="">21:1円桁切捨て</option>
+                                    <option value="">22:1円桁四捨五入</option>
+                                    <option value="">23:1円桁切上げ</option>
+                                </select>
 
                             </div>
 
                         </div>
                         <div class="col-xs-12 border-margin">
 
-                            <div class="col-xs-2 no-padding">
+                            <div class="col-xs-3 no-padding">
                                 <p>その他売上</p>
                             </div>
                             <div class="col-xs-2 no-padding">
@@ -504,12 +523,16 @@ include "sidebar.php"
                                 %
 
                             </div>
-                            <div class="col-xs-2 no-padding">
-                                <input type="number" class="form-control">
+                            <div class="col-xs-4 no-padding">
 
-                            </div>
-                            <div class="col-xs-5">
-                                <p>21:1円桁切捨て</p>
+                                <select class="form-control" name="" id="">
+                                    <option value="">11:小数以下切捨て</option>
+                                    <option value="">12:小数以下四捨五入</option>
+                                    <option value="">13:小数以下切上げ</option>
+                                    <option value="">21:1円桁切捨て</option>
+                                    <option value="">22:1円桁四捨五入</option>
+                                    <option value="">23:1円桁切上げ</option>
+                                </select>
 
                             </div>
 
@@ -517,7 +540,7 @@ include "sidebar.php"
 
                         <div class="col-xs-12 border-margin">
 
-                            <div class="col-xs-2 no-padding">
+                            <div class="col-xs-3 no-padding">
                                 <p>仕入</p>
                             </div>
                             <div class="col-xs-2 no-padding">
@@ -528,15 +551,18 @@ include "sidebar.php"
                                 %
 
                             </div>
-                            <div class="col-xs-2 no-padding">
-                                <input type="number" class="form-control">
+                            <div class="col-xs-4 no-padding">
+
+                                <select class="form-control" name="" id="">
+                                    <option value="">11:小数以下切捨て</option>
+                                    <option value="">12:小数以下四捨五入</option>
+                                    <option value="">13:小数以下切上げ</option>
+                                    <option value="">21:1円桁切捨て</option>
+                                    <option value="">22:1円桁四捨五入</option>
+                                    <option value="">23:1円桁切上げ</option>
+                                </select>
 
                             </div>
-                            <div class="col-xs-5 ">
-                                <p>22:1円桁四捨五入</p>
-
-                            </div>
-
                         </div>
                         <div class="col-xs-12 border-margin border-margin-bottom">
 
@@ -551,12 +577,16 @@ include "sidebar.php"
                                 %
 
                             </div>
-                            <div class="col-xs-2 no-padding">
-                                <input type="number" class="form-control">
+                            <div class="col-xs-4 no-padding">
 
-                            </div>
-                            <div class="col-xs-4">
-                                <p>23:1円桁切上げ</p>
+                                <select class="form-control" name="" id="">
+                                    <option value="">11:小数以下切捨て</option>
+                                    <option value="">12:小数以下四捨五入</option>
+                                    <option value="">13:小数以下切上げ</option>
+                                    <option value="">21:1円桁切捨て</option>
+                                    <option value="">22:1円桁四捨五入</option>
+                                    <option value="">23:1円桁切上げ</option>
+                                </select>
 
                             </div>
 
@@ -600,17 +630,14 @@ include "sidebar.php"
                                     <p>金額への”+/-”表記</p>
                                 </div>
                                 <div class="col-xs-9">
-                                    <div class="col-xs-4 no-padding"><input type="radio" id="" name="amount" value="all"
-                                                                            onclick="$.fn.radioButtonSelectionChanged('amount', 'amountId')"><span> 先入先出法</span>
+                                    <div class="col-xs-3 "><input type="radio" id="" name="amount" value="all"
+                                                                            onclick="$.fn.radioButtonSelectionChanged('amount', 'amountId')"><span> しない</span>
                                     </div>
                                     <div class="col-xs-4 no-padding"><input type="radio" id="" name="amount"
                                                                             value="amount"
-                                                                            onclick="$.fn.radioButtonSelectionChanged('amount', 'amountId')"><span> 移動平均法</span>
+                                                                            onclick="$.fn.radioButtonSelectionChanged('amount', 'amountId')"><span> する</span>
                                     </div>
-                                    <div class="col-xs-4 no-padding"><input type="radio" id="" name="amount"
-                                                                            value="amount"
-                                                                            onclick="$.fn.radioButtonSelectionChanged('amount', 'amountId')"><span
-                                                style="font-size: 13px;"> 最終仕入原価法</span></div>
+
 
                                 </div>
 

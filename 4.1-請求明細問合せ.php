@@ -6,10 +6,10 @@ include "sidebar.php"
 ?>
 
 
-<div class="col-xs-10 col-md-10  no-padding body-background">
+<div class="col-xs-10 col-md-10  no-padding body-background bottom-box">
 
 
-    <div class="col-md-12 col-xs-12 no-padding">
+    <div class="col-md-12 col-xs-12 no-padding ">
 
         <div class="head-p">
             <p>請求明細問合せ
@@ -23,22 +23,19 @@ include "sidebar.php"
 
             </label>
             <div class="col-xs-2">
-                <input type="text" class="form-control" placeholder="" value="" name="consumerCodeSelection"
-                       id="consumerCodeSelection"
-                       onchange="$.fn.onInputValueChange('consumerCodeSelection', 'consumerCodeEnd')"/>
+                <input type="text" class="form-control" placeholder="" value="" name="consumerCodeSelection" id="consumerCodeSelection" onchange="$.fn.onInputValueChange('consumerCodeSelection', 'consumerCodeEnd')"/>
             </div>
 
             <div class="col-xs-3">
-                <input type="text" class="form-control" placeholder="" value="" name="consumerCodeEnd"
-                       id="consumerCodeEnd"/>
+                <input type="text" class="form-control" placeholder="" value="" name="consumerCodeEnd" id="consumerCodeEnd" />
             </div>
             <label class="col-xs-1 control-label">検針順路</label>
             <div class="col-xs-2">
-                <input type="text" class="form-control" placeholder=""/>
+                <input type="text" class="form-control" placeholder="" />
             </div>
             <label class="col-xs-1 control-label">集金区分</label>
             <div class="col-xs-2">
-                <input type="text" class="form-control" placeholder=""/>
+                <input type="text" class="form-control" placeholder="" />
             </div>
 
         </div>
@@ -48,23 +45,23 @@ include "sidebar.php"
             </label>
 
             <div class="col-xs-2">
-                <input type="date" class="form-control" placeholder=""/>
+                <input type="date" class="form-control" placeholder="" />
             </div>
             <label class="col-xs-1 no-padding">現在売掛額
 
             </label>
             <div class="col-xs-2">
-                <input type="number" class="form-control" placeholder=""/>
+                <input type="text" class="form-control" placeholder="" />
             </div>
             <label class="col-xs-1 control-label no-padding">振替予定日</label>
             <div class="col-xs-2">
-                <input type="text" class="form-control" placeholder=""/>
+                <input type="text" class="form-control" placeholder="" />
             </div>
             <label class="col-xs-1 control-label no-padding">振替依頼額
 
             </label>
             <div class="col-xs-2">
-                <input type="number" class="form-control" placeholder=""/>
+                <input type="text" class="form-control" placeholder="" />
             </div>
 
         </div>
@@ -72,7 +69,7 @@ include "sidebar.php"
     </div>
 
 
-    <div class="col-xs-12">
+    <div class="col-xs-12 no-padding">
         <div class="col-xs-9 no-padding">
             <table class="table table-bordered col-xs-12">
                 <thead>
@@ -111,174 +108,291 @@ include "sidebar.php"
 
             </label>
             <div class="col-xs-8">
-                <input type="text" class="form-control" placeholder=""/>
+                <input type="text" class="form-control" placeholder="" />
             </div>
         </div>
     </div>
 
-    <div class="col-xs-12 ">
 
-        <div class="col-xs-12 no-padding">
-            <div class="col-xs-6 div-border">
-                <p class="td-style">
-                    請求明細</p>
+
+    <div class="menu-border ">
+
+        <ul class="nav nav-tabs">
+            <li class="active"><a data-toggle="tab" href="#home">請求明細</a></li>
+            <li><a data-toggle="tab" href="#menu1">ガス料金履歴</a></li>
+
+        </ul>
+
+        <div class="tab-content">
+            <div id="home" class="tab-pane fade in active table-margin tab-scroll">
+                <div class="col-xs-12 no-padding table-scroll">
+                    <table class="table table-bordered col-xs-12">
+                        <thead>
+                        <tr class="bg-color">
+                            <th></th>
+                            <th>請求年月</th>
+                            <th>伝票日付</th>
+                            <th class="col-xs-3">商品名</th>
+                            <th>数量</th>
+                            <th>売上額</th>
+                            <th>うち消費税</th>
+
+                            <th>入金額</th>
+                            <th>入金値引額</th>
+                            <th>税区分</th>
+
+                        </tr>
+
+                        <tr>
+                            <th class="bg-color">1</th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+
+                        </tr>
+
+                        <tr>
+                            <th class="bg-color">2</th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+
+                        </tr>
+                        <tr>
+                            <th class="bg-color">3</th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+
+                        </tr>
+                        <tr>
+                            <th class="bg-color">4</th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+
+                        </tr>
+                        <tr>
+                            <th class="bg-color">5</th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+
+                        </tr>
+                        <tr>
+                            <th class="bg-color">1</th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+
+                        </tr>
+
+                        <tr>
+                            <th class="bg-color">2</th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+
+                        </tr>
+                        <tr>
+                            <th class="bg-color">3</th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+
+                        </tr>
+                        <tr>
+                            <th class="bg-color">4</th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+
+                        </tr>
+                        <tr>
+                            <th class="bg-color">5</th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+
+                        </tr>
+
+
+
+
+                        </thead>
+                    </table>
+                </div>
             </div>
-            <div class="col-xs-6 div-border">
-                <p class="td-style">ガス料金履歴 </p>
+            <div id="menu1" class="tab-pane table-margin tab-scroll">
+                <div class="col-xs-12 no-padding table-scroll">
+                    <table class="table table-bordered">
+                        <thead>
+                        <tr class="bg-color">
+                            <th></th>
+                            <th>請求年月</th>
+                            <th>伝票日付</th>
+                            <th class="col-xs-3">商品名</th>
+                            <th>数量</th>
+                            <th>売上額</th>
+                            <th>うち消費税</th>
+
+                            <th>入金額</th>
+                            <th>入金値引額</th>
+                            <th>税区分</th>
+
+                        </tr>
+
+                        <tr>
+                            <th class="bg-color">1</th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+
+                        </tr>
+
+                        <tr>
+                            <th class="bg-color">2</th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+
+                        </tr>
+                        <tr>
+                            <th class="bg-color">3</th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+
+                        </tr>
+                        <tr>
+                            <th class="bg-color">4</th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+
+                        </tr>
+                        <tr>
+                            <th class="bg-color">5</th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+
+                        </tr>
+
+
+
+
+
+                        </thead>
+                    </table>
+                </div>
             </div>
 
-        </div>
 
-    </div>
-    <div class="col-xs-12" style="height:150px;overflow: scroll;">
-        <table class="table table-bordered">
-            <thead>
-            <tr class="bg-color">
-                <th>請求年月</th>
-                <th>伝票日付</th>
-                <th>商品名</th>
-                <th>数量</th>
-                <th>売上額</th>
-                <th>うち消費税</th>
-                <th>うち消費税</th>
-                <th>入金額</th>
-                <th>入金値引額</th>
-                <th>税区分</th>
-
-            </tr>
-            <!-- <tr>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-
-             </tr>
-             <tr>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-
-             </tr>
-             <tr>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-
-             </tr>
-             <tr>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-
-             </tr>
-             <tr>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-
-             </tr>
-             <tr>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-
-             </tr>
-             <tr>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-
-             </tr>
-             <tr>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-                 <td></td>
-
-             </tr>-->
-
-
-            </thead>
-        </table>
-    </div>
-    <div class="col-xs-12 no-padding bottom-box">
-        <div class="col-xs-2">
-            <input type="text" name="" id="" class="form-control">
-        </div>
-        <div class="col-xs-2">
-            <input type="text" name="" id="" class="form-control">
-        </div>
-        <div class="col-xs-2">
-            <input type="text" name="" id="" class="form-control">
-        </div>
-        <div class="col-xs-2">
-            <input type="text" name="" id="" class="form-control">
         </div>
     </div>
 
-    <?php
+
+
+                <?php
     include "footer.php"
     ?>
 
-    </form>
+				</form>
 
-</div>
-</div>
-</div>
+		</div>
+	</div>
+	</div>
 
 </body>
 
