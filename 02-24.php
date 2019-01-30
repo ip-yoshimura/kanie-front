@@ -22,37 +22,42 @@
                             <p>営業所コード</p>
                         </div>
                         <div class="col-xs-1">
-                            <input type="radio" name="all" value="all"> 全て
+                            <input type="radio" name="officeCode" id="officeCode" value="all" checked
+                                   onclick="$.fn.radioButtonSelectionChanged('officeCode', 'officeCodeId')"> 全て
                         </div>
                         <div class="col-xs-1 no-padding">
-                            <input type="radio" name="directSales" value="directSales"> 選択
+                            <input type="radio" name="officeCode" id="officeCode" value="all-exp"
+                                   onclick="$.fn.radioButtonSelectionChanged('officeCode', 'officeCodeId')"> 選択
                         </div>
 
                     </div>
-                    <div class="col-xs-12 no-padding">
+                    <div class="col-xs-12 no-padding" id="officeCodeId">
                         <div class="col-xs-1 col-xs-offset-2">
                             <div class="form-group">
                                 <input id="trustStartId" name="trustStartId" placeholder="000" class="form-control"
-                                       type="text" value=""/>
+                                       type="text" value="" disabled
+                                       onchange="$.fn.onInputValueChange('trustStartId', 'trustStartName')"/>
                             </div>
                         </div>
                         <div class="col-xs-1 no-padding ratio">~</div>
                         <div class="col-xs-1">
                             <div class="form-group">
                                 <input id="trustEndId" name="trustEndId" placeholder="999" class="form-control"
-                                       type="text" value=""/>
+                                       type="text" value="" disabled
+                                       onchange="$.fn.onInputValueChange('trustEndId', 'trustEndName')"/>
                             </div>
                         </div>
                         <div class="col-xs-3">
                             <div class="form-group">
                                 <input id="trustStartName" name="trustStartName" class="form-control" type="text"
-                                       value=""/>
+                                       value="" disabled/>
                             </div>
                         </div>
                         <div class="col-xs-1 no-padding ratio">~</div>
                         <div class="col-xs-3">
                             <div class="form-group">
-                                <input id="trustEndName" name="trustEndName" class="form-control" type="text" value=""/>
+                                <input id="trustEndName" name="trustEndName" class="form-control" type="text"
+                                       value="" disabled/>
                             </div>
                         </div>
                     </div>
@@ -64,41 +69,46 @@
                             <p>受託区分</p>
                         </div>
                         <div class="col-xs-1">
-                            <input type="radio" name="all" value="all"> 全て
+                            <input type="radio" name="trusteeship" id="trusteeship" value="all" checked
+                                   onclick="$.fn.radioButtonSelectionChanged('trusteeship', 'trusteeshipId')"> 全て
                         </div>
                         <div class="col-xs-1 no-padding">
-                            <input type="radio" name="directSales" value="directSales"> 直売
+                            <input type="radio" name="trusteeship" id="trusteeship" value="all1"
+                                   onclick="$.fn.radioButtonSelectionChanged('trusteeship', 'trusteeshipId')"> 直売
                         </div>
                         <div class="col-xs-2">
-                            <input type="radio" name="salesOutlet" value="salesOutlet"> 販売店
+                            <input type="radio" name="trusteeship" id="trusteeship" value="all2"
+                                   onclick="$.fn.radioButtonSelectionChanged('trusteeship', 'trusteeshipId')"> 販売店
                         </div>
 
                     </div>
-                    <div class="col-xs-12 no-padding">
+                    <div class="col-xs-12 no-padding" id="trusteeshipId">
                         <div class="col-xs-1 col-xs-offset-2">
                             <div class="form-group">
-                                <input id="outputStartId" name="outputStartId" placeholder="000" class="form-control"
-                                       type="text" value=""/>
+                                <input id="trusteeshipStartId" name="trusteeshipStartId" placeholder="000" class="form-control"
+                                       type="text" value="" disabled
+                                       onchange="$.fn.onInputValueChange('trusteeshipStartId', 'trusteeshipStartName')"/>
                             </div>
                         </div>
                         <div class="col-xs-1 no-padding ratio">~</div>
                         <div class="col-xs-1">
                             <div class="form-group">
-                                <input id="outputEndId" name="outputEndId" placeholder="999" class="form-control"
-                                       type="text" value=""/>
+                                <input id="trusteeshipEndId" name="trusteeshipEndId" placeholder="999" class="form-control"
+                                       type="text" value="" disabled
+                                       onchange="$.fn.onInputValueChange('trusteeshipEndId', 'trusteeshipEndName')"/>
                             </div>
                         </div>
                         <div class="col-xs-3">
                             <div class="form-group">
-                                <input id="outputStartName" name="outputStartName" class="form-control" type="text"
-                                       value=""/>
+                                <input id="trusteeshipStartName" name="trusteeshipStartName" class="form-control" type="text"
+                                       value="" disabled/>
                             </div>
                         </div>
                         <div class="col-xs-1 no-padding ratio">~</div>
                         <div class="col-xs-3">
                             <div class="form-group">
-                                <input id="outputEndName" name="outputEndName" class="form-control" type="text"
-                                       value=""/>
+                                <input id="trusteeshipEndName" name="trusteeshipEndName" class="form-control" type="text"
+                                       value="" disabled/>
                             </div>
                         </div>
                     </div>

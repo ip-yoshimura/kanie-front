@@ -8,7 +8,7 @@
                 </div>
                 <form action="/gas/meter-reading" id="meter" method="POST">
                     <div class="col-xs-12">
-                        <div class="col-xs-1 no-padding">
+                        <div class="col-xs-1 no-padding border-margin-exp">
                             <p>消費者コード
 
                             </p>
@@ -29,7 +29,7 @@
                     </div>
 
                     <div class="col-xs-12">
-                        <div class="col-xs-1 no-padding">
+                        <div class="col-xs-1 no-padding border-margin-exp">
                             <p>営業所名
 
                             </p>
@@ -41,8 +41,8 @@
                             </div>
                         </div>
 
-                        <div class="col-xs-1 ">
-                            <p class="p-size">担当営業所
+                        <div class="col-xs-1 border-margin-exp">
+                            <p>担当営業所
 
                             </p>
                         </div>
@@ -56,20 +56,20 @@
                     </div>
 
                     <div class="col-xs-12">
-                        <div class="col-xs-1 no-padding">
+                        <div class="col-xs-1 no-padding border-margin-exp">
                             <p>伝票日付
 
                             </p>
                         </div>
-                        <div class="col-xs-3">
+                        <div class="col-xs-2">
                             <div class="form-group">
                                 <input class="form-control" name="officeCodeStartName" placeholder="" type="date"
                                        value=""/>
                             </div>
                         </div>
 
-                        <div class="col-xs-1">
-                            <p class="p-size">集金担当者
+                        <div class="col-xs-1 border-margin-exp">
+                            <p>集金担当者
 
                             </p>
                         </div>
@@ -86,12 +86,12 @@
                             </div>
                         </div>
 
-                        <div class="col-xs-1">
+                        <div class="col-xs-1 border-margin-exp">
                             <p>請求年月
 
                             </p>
                         </div>
-                        <div class="col-xs-3">
+                        <div class="col-xs-2">
                             <div class="form-group">
                                 <input class="form-control" name="officeCodeStartName" placeholder="" type="date"
                                        value=""/>
@@ -101,12 +101,23 @@
 
 
                     <div class="col-xs-12">
-                        <div class="col-xs-1 no-padding">
+                        <div class="col-xs-1 no-padding border-margin-exp">
                             <p>検針順路
 
 
                             </p>
                         </div>
+                        <div class="col-xs-2">
+                            <div class="form-group">
+                                <input class="form-control" name="officeCodeStartName" placeholder="" type="text"
+                                       value=""/>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-1 border-margin-exp">
+                            <p>前月請求額</p>
+                        </div>
+
                         <div class="col-xs-3">
                             <div class="form-group">
                                 <input class="form-control" name="officeCodeStartName" placeholder="" type="text"
@@ -114,27 +125,13 @@
                             </div>
                         </div>
 
-                        <div class="col-xs-1">
-                            <p class="p-size">前月請求額
+                        <div class="col-xs-1 border-margin-exp">
+                            <p>現在売掛額
 
 
                             </p>
                         </div>
-
-                        <div class="col-xs-3">
-                            <div class="form-group">
-                                <input class="form-control" name="officeCodeStartName" placeholder="" type="text"
-                                       value=""/>
-                            </div>
-                        </div>
-
-                        <div class="col-xs-1">
-                            <p class="p-size">現在売掛額
-
-
-                            </p>
-                        </div>
-                        <div class="col-xs-3">
+                        <div class="col-xs-2">
                             <div class="form-group">
                                 <input class="form-control" name="officeCodeStartName" placeholder="" type="text"
                                        value=""/>
@@ -152,7 +149,7 @@
                             <thead class="tbl-31">
                             <tr>
                                 <th style="width: 20px;height: 10px"></th>
-                                <th>区</th>
+                                <th style="width: 30px;height: 10px">区</th>
                                 <th>区分名
 
                                 </th>
@@ -174,9 +171,9 @@
                             <tbody>
                             <tr>
                                 <td class="tbl-31-tr" >1</td>
-                                <td></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
                                 <td>
-                                    <select name="" class="selclass">
+                                 <select name="" class="form-control selclass">
                                     <option value="現金 ">現金</option>
                                     <option value="小切手">小切手</option>
                                     <option value="振替">振替</option>
@@ -189,19 +186,16 @@
                                     <option value="その他">その他</option>
                                 </select>
                                 </td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-
-                                <td>
-
-                                </td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
 
                             </tr>
                             <tr>
                                 <td class="tbl-31-tr">2</td>
-                                <td></td>
-                                <td><select name="" class="selclass">
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><select name="" class="form-control selclass">
                                     <option value="現金 ">現金</option>
                                     <option value="小切手">小切手</option>
                                     <option value="振替">振替</option>
@@ -213,21 +207,18 @@
                                     <option value="償却">償却</option>
                                     <option value="その他">その他</option>
                                 </select></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-
-                                <td>
-
-                                </td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
 
                             </tr>
                             <tr>
                                 <td class="tbl-31-tr">
                                     3
                                 </td>
-                                <td></td>
-                                <td><select name="" class="selclass">
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><select name="" class="form-control selclass">
                                     <option value="現金 ">現金</option>
                                     <option value="小切手">小切手</option>
                                     <option value="振替">振替</option>
@@ -239,19 +230,16 @@
                                     <option value="償却">償却</option>
                                     <option value="その他">その他</option>
                                 </select></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-
-                                <td>
-
-                                </td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
 
                             </tr>
                             <tr>
                                 <td class="tbl-31-tr">4</td>
-                                <td></td>
-                                <td><select name="" class="selclass">
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><select name="" class="form-control selclass">
                                     <option value="現金 ">現金</option>
                                     <option value="小切手">小切手</option>
                                     <option value="振替">振替</option>
@@ -263,19 +251,17 @@
                                     <option value="償却">償却</option>
                                     <option value="その他">その他</option>
                                 </select></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
 
-                                <td>
-
-                                </td>
+                                <td><input type="text" class="form-control tbl-input"> </td>
 
                             </tr>
                             <tr>
                                 <td class="tbl-31-tr">5</td>
-                                <td></td>
-                                <td><select name="" class="selclass">
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><select name="" class="form-control selclass">
                                     <option value="現金 ">現金</option>
                                     <option value="小切手">小切手</option>
                                     <option value="振替">振替</option>
@@ -287,19 +273,18 @@
                                     <option value="償却">償却</option>
                                     <option value="その他">その他</option>
                                 </select></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
 
-                                <td>
-                                </td>
+                                <td><input type="text" class="form-control tbl-input"></td>
 
                             </tr>
 
                             <tr>
                                 <td class="tbl-31-tr">6</td>
-                                <td></td>
-                                <td><select name="" class="selclass">
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><select name="" class="form-control selclass">
                                     <option value="現金 ">現金</option>
                                     <option value="小切手">小切手</option>
                                     <option value="振替">振替</option>
@@ -311,20 +296,18 @@
                                     <option value="償却">償却</option>
                                     <option value="その他">その他</option>
                                 </select></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
 
-                                <td>
-
-                                </td>
+                                <td><input type="text" class="form-control tbl-input"></td>
 
                             </tr>
 
                             <tr>
                                 <td class="tbl-31-tr">7</td>
-                                <td></td>
-                                <td><select name="" class="selclass">
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><select name="" class="form-control selclass">
                                     <option value="現金 ">現金</option>
                                     <option value="小切手">小切手</option>
                                     <option value="振替">振替</option>
@@ -336,20 +319,18 @@
                                     <option value="償却">償却</option>
                                     <option value="その他">その他</option>
                                 </select></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
 
-                                <td>
-
-                                </td>
+                                <td><input type="text" class="form-control tbl-input"></td>
 
                             </tr>
 
                             <tr>
                                 <td class="tbl-31-tr">8</td>
-                                <td></td>
-                                <td><select name="" class="selclass">
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><select name="" class="form-control selclass">
                                     <option value="現金 ">現金</option>
                                     <option value="小切手">小切手</option>
                                     <option value="振替">振替</option>
@@ -361,19 +342,17 @@
                                     <option value="償却">償却</option>
                                     <option value="その他">その他</option>
                                 </select></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
 
-                                <td>
-
-                                </td>
+                                <td><input type="text" class="form-control tbl-input"></td>
 
                             </tr>
                             <tr>
                                 <td class="tbl-31-tr">9</td>
-                                <td></td>
-                                <td><select name="" class="selclass">
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><select name="" class="form-control selclass">
                                     <option value="現金 ">現金</option>
                                     <option value="小切手">小切手</option>
                                     <option value="振替">振替</option>
@@ -385,20 +364,18 @@
                                     <option value="償却">償却</option>
                                     <option value="その他">その他</option>
                                 </select></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
 
-                                <td>
-
-                                </td>
+                                <td><input type="text" class="form-control tbl-input"></td>
 
                             </tr>
 
                             <tr>
                                 <td class="tbl-31-tr">10</td>
-                                <td></td>
-                                <td><select name="" class="selclass">
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><select name="" class="form-control selclass">
                                     <option value="現金 ">現金</option>
                                     <option value="小切手">小切手</option>
                                     <option value="振替">振替</option>
@@ -410,19 +387,17 @@
                                     <option value="償却">償却</option>
                                     <option value="その他">その他</option>
                                 </select></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
 
-                                <td>
-
-                                </td>
+                                <td><input type="text" class="form-control tbl-input"></td>
 
                             </tr>
                             <tr>
                                 <td class="tbl-31-tr">11</td>
-                                <td></td>
-                                <td><select name="" class="selclass">
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><select name="" class="form-control selclass">
                                     <option value="現金 ">現金</option>
                                     <option value="小切手">小切手</option>
                                     <option value="振替">振替</option>
@@ -434,19 +409,17 @@
                                     <option value="償却">償却</option>
                                     <option value="その他">その他</option>
                                 </select></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
 
-                                <td>
-
-                                </td>
+                                <td><input type="text" class="form-control tbl-input"></td>
 
                             </tr>
                             <tr>
                                 <td class="tbl-31-tr">12</td>
-                                <td></td>
-                                <td><select name="" class="selclass">
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><select name="" class="form-control selclass">
                                     <option value="現金 ">現金</option>
                                     <option value="小切手">小切手</option>
                                     <option value="振替">振替</option>
@@ -458,19 +431,17 @@
                                     <option value="償却">償却</option>
                                     <option value="その他">その他</option>
                                 </select></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
 
-                                <td>
-
-                                </td>
+                                <td><input type="text" class="form-control tbl-input"></td>
 
                             </tr>
                             <tr>
                                 <td class="tbl-31-tr">13</td>
-                                <td></td>
-                                <td><select name="" class="selclass">
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><select name="" class="form-control selclass">
                                     <option value="現金 ">現金</option>
                                     <option value="小切手">小切手</option>
                                     <option value="振替">振替</option>
@@ -482,20 +453,18 @@
                                     <option value="償却">償却</option>
                                     <option value="その他">その他</option>
                                 </select></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
 
-                                <td>
-
-                                </td>
+                                <td><input type="text" class="form-control tbl-input"></td>
 
                             </tr>
 
                             <tr>
                                 <td class="tbl-31-tr">14</td>
-                                <td></td>
-                                <td><select name="" class="selclass">
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><select name="" class="form-control selclass">
                                     <option value="現金 ">現金</option>
                                     <option value="小切手">小切手</option>
                                     <option value="振替">振替</option>
@@ -507,19 +476,17 @@
                                     <option value="償却">償却</option>
                                     <option value="その他">その他</option>
                                 </select></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
 
-                                <td>
-
-                                </td>
+                                <td><input type="text" class="form-control tbl-input"></td>
 
                             </tr>
                             <tr>
                                 <td class="tbl-31-tr">15</td>
-                                <td></td>
-                                <td><select name="" class="selclass">
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><select name="" class="form-control selclass">
                                     <option value="現金 ">現金</option>
                                     <option value="小切手">小切手</option>
                                     <option value="振替">振替</option>
@@ -531,20 +498,18 @@
                                     <option value="償却">償却</option>
                                     <option value="その他">その他</option>
                                 </select></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
 
-                                <td>
-
-                                </td>
+                                <td><input type="text" class="form-control tbl-input"></td>
 
                             </tr>
 
                             <tr>
                                 <td class="tbl-31-tr">16</td>
-                                <td></td>
-                                <td><select name="" class="selclass">
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><select name="" class="form-control selclass">
                                     <option value="現金 ">現金</option>
                                     <option value="小切手">小切手</option>
                                     <option value="振替">振替</option>
@@ -556,19 +521,17 @@
                                     <option value="償却">償却</option>
                                     <option value="その他">その他</option>
                                 </select></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
 
-                                <td>
-
-                                </td>
+                                <td><input type="text" class="form-control tbl-input"></td>
 
                             </tr>
                             <tr>
                                 <td class="tbl-31-tr">17</td>
-                                <td></td>
-                                <td><select name="" class="selclass">
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><select name="" class="form-control selclass">
                                     <option value="現金 ">現金</option>
                                     <option value="小切手">小切手</option>
                                     <option value="振替">振替</option>
@@ -580,20 +543,18 @@
                                     <option value="償却">償却</option>
                                     <option value="その他">その他</option>
                                 </select></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
 
-                                <td>
-
-                                </td>
+                                <td><input type="text" class="form-control tbl-input"></td>
 
                             </tr>
 
                             <tr>
                                 <td class="tbl-31-tr">18</td>
-                                <td></td>
-                                <td><select name="" class="selclass">
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><select name="" class="form-control selclass">
                                     <option value="現金 ">現金</option>
                                     <option value="小切手">小切手</option>
                                     <option value="振替">振替</option>
@@ -605,13 +566,11 @@
                                     <option value="償却">償却</option>
                                     <option value="その他">その他</option>
                                 </select></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
 
-                                <td>
-
-                                </td>
+                                <td><input type="text" class="form-control tbl-input"></td>
 
                             </tr>
                             </tbody>
@@ -624,8 +583,8 @@
                         </div>
                     </div>
                     <div class="container ">
-                        <div class="col-xs-6 col-xs-offset-6">
-                            <div class="col-xs-2">
+                        <div class="col-xs-6 col-xs-offset-3">
+                            <div class="col-xs-2 border-margin-exp">
                                 <p>単位
 
                                 </p>

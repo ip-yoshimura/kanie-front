@@ -105,7 +105,7 @@
                             <ul class="sub_menu padding-left-10">
                                 <li class="dropdown">
                                     <i class="fa fa-minus" aria-hidden="true"></i>
-                                    <a href="#">02-30−40.配送バーコード読込</a>
+                                    <a href="02-30-40.php">02-30−40.配送バーコード読込</a>
                                 </li>
                             </ul>
                         </li>

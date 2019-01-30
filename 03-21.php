@@ -8,7 +8,7 @@
                 </div>
                 <form id="meter" action="/gas/meter-reading" method="POST">
                     <div class="col-xs-12">
-                        <div class="col-xs-1 no-padding">
+                        <div class="col-xs-1 no-padding border-margin-exp">
                             <p>消費者コード</p>
                         </div>
                         <div class="col-xs-2">
@@ -22,23 +22,21 @@
                             </div>
                         </div>
 
-                        <div class="col-xs-1">
-                            <p>検針順路
-
-                            </p>
+                        <div class="col-xs-1 border-margin-exp">
+                            <p>検針順路</p>
                         </div>
-                        <div class="col-xs-2">
+                        <div class="col-xs-2 ml-n-20">
                             <div class="form-group">
                                 <input  name="officeCodeStartName" placeholder="" class="form-control" type="text" value=""/>
                             </div>
                         </div>
 
-                        <div class="col-xs-1">
+                        <div class="col-xs-1 border-margin-exp">
                             <p>最終年月
 
                             </p>
                         </div>
-                        <div class="col-xs-3">
+                        <div class="col-xs-2 ml-n-20">
                             <div class="form-group">
                                 <input  name="officeCodeStartName" placeholder="" class="form-control" type="text" value=""/>
                             </div>
@@ -56,6 +54,7 @@
                                 <input  name="officeCodeStartName" placeholder="" class="form-control" type="date" value=""/>
                             </div>
                         </div>
+                        <div class="col-xs-1 no-padding ratio">~</div>
                         <div class="col-xs-2">
                             <div class="form-group">
                                 <input  name="officeCodeStartName" placeholder="" class="form-control" type="date" value=""/>
@@ -63,10 +62,10 @@
                         </div>
 
                         <div class="col-xs-1 col-xs-offset-3">
-                            <p>消込残
+                            <p class="ml-n-30">消込残
                             </p>
                         </div>
-                        <div class="col-xs-3">
+                        <div class="col-xs-2 ml-n-50">
                             <div class="form-group">
                                 <input  name="officeCodeStartName" placeholder="0" class="form-control" type="number" value=""/>
                             </div>
@@ -84,7 +83,7 @@
                         <table class="table table-bordered tbl-31-main">
                             <thead class="tbl-31">
                             <tr>
-                                <th></th>
+                                <th ></th>
                                 <th>伝票日付
 
                                 </th>
@@ -129,14 +128,14 @@
                             <tbody>
                             <tr>
                                 <td class="tbl-31-tr">1</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
                                 <td>
                                     <select name="" class="selclass form-control">
                                         <option value="リスト1 ">リスト1 </option>
@@ -147,33 +146,33 @@
                                         <option value="リスト1 ">リスト6 </option>
                                     </select>
                                 </td>
-                                <td></td>
-                                <td></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
                             </tr>
                             <tr>
                                 <td class="tbl-31-tr">  </td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
                             </tr>
                             <tr>
                                 <td class="tbl-31-tr">2</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
                                 <td><select name="" class="selclass form-control">
                                     <option value="リスト1 ">リスト1 </option>
                                     <option value="リスト1 ">リスト2 </option>
@@ -182,33 +181,33 @@
                                     <option value="リスト1 ">リスト5 </option>
                                     <option value="リスト1 ">リスト6 </option>
                                 </select></td>
-                                <td></td>
-                                <td></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
                             </tr>
                             <tr>
                                 <td class="tbl-31-tr"></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
                             </tr>
                             <tr>
                                 <td class="tbl-31-tr">3</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
                                 <td><select name="" class="selclass form-control">
                                     <option value="リスト1 ">リスト1 </option>
                                     <option value="リスト1 ">リスト2 </option>
@@ -217,35 +216,35 @@
                                     <option value="リスト1 ">リスト5 </option>
                                     <option value="リスト1 ">リスト6 </option>
                                 </select></td>
-                                <td></td>
-                                <td></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
                             </tr>
 
                             <tr>
                                 <td class="tbl-31-tr"></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
                             </tr>
 
                             <tr>
                                 <td class="tbl-31-tr">4</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
                                 <td><select name="" class="selclass form-control">
                                     <option value="リスト1 ">リスト1 </option>
                                     <option value="リスト1 ">リスト2 </option>
@@ -254,34 +253,34 @@
                                     <option value="リスト1 ">リスト5 </option>
                                     <option value="リスト1 ">リスト6 </option>
                                 </select></td>
-                                <td></td>
-                                <td></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
                             </tr>
 
                             <tr>
                                 <td class="tbl-31-tr"></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
                             </tr>
                             <tr>
                                 <td class="tbl-31-tr">5</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
                                 <td><select name="" class="selclass form-control">
                                     <option value="リスト1 ">リスト1 </option>
                                     <option value="リスト1 ">リスト2 </option>
@@ -290,34 +289,34 @@
                                     <option value="リスト1 ">リスト5 </option>
                                     <option value="リスト1 ">リスト6 </option>
                                 </select></td>
-                                <td></td>
-                                <td></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
                             </tr>
 
                             <tr>
                                 <td class="tbl-31-tr"></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
                             </tr>
                             <tr>
                                 <td class="tbl-31-tr">6</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
                                 <td><select name="" class="selclass form-control">
                                     <option value="リスト1 ">リスト1 </option>
                                     <option value="リスト1 ">リスト2 </option>
@@ -326,33 +325,33 @@
                                     <option value="リスト1 ">リスト5 </option>
                                     <option value="リスト1 ">リスト6 </option>
                                 </select></td>
-                                <td></td>
-                                <td></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
                             </tr>
                             <tr>
                                 <td class="tbl-31-tr"></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
                             </tr>
                             <tr>
                                 <td class="tbl-31-tr">7</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
                                 <td><select name="" class="selclass form-control">
                                     <option value="リスト1 ">リスト1 </option>
                                     <option value="リスト1 ">リスト2 </option>
@@ -361,34 +360,34 @@
                                     <option value="リスト1 ">リスト5 </option>
                                     <option value="リスト1 ">リスト6 </option>
                                 </select></td>
-                                <td></td>
-                                <td></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
                             </tr>
 
                             <tr>
                                 <td class="tbl-31-tr"></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
                             </tr>
                             <tr>
                                 <td class="tbl-31-tr">8</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
                                 <td><select name="" class="selclass form-control">
                                     <option value="リスト1 ">リスト1 </option>
                                     <option value="リスト1 ">リスト2 </option>
@@ -397,34 +396,34 @@
                                     <option value="リスト1 ">リスト5 </option>
                                     <option value="リスト1 ">リスト6 </option>
                                 </select></td>
-                                <td></td>
-                                <td></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
                             </tr>
 
                             <tr>
                                 <td class="tbl-31-tr"></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
                             </tr>
                             <tr>
                                 <td class="tbl-31-tr">9</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
                                 <td><select name="" class="selclass form-control">
                                     <option value="リスト1 ">リスト1 </option>
                                     <option value="リスト1 ">リスト2 </option>
@@ -433,31 +432,31 @@
                                     <option value="リスト1 ">リスト5 </option>
                                     <option value="リスト1 ">リスト6 </option>
                                 </select></td>
-                                <td></td>
-                                <td></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
                             </tr>
 
                             <tr>
                                 <td class="tbl-31-tr"></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
+                                <td><input type="text" class="form-control tbl-input"></td>
                             </tr>
                             </tbody>
                         </table>
 
                     </div>
                     <div class="container bottom-box">
-                        <div class="col-xs-6 col-xs-offset-6">
-                            <div class="col-xs-2">
+                        <div class="col-xs-6 col-xs-offset-3">
+                            <div class="col-xs-2 border-margin-exp">
                                 <p>単位
 
                                 </p>
