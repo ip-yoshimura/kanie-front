@@ -356,6 +356,9 @@ input[type=search] {
 .ml-30{
     margin-left: 30px;
 }
+.ml-33{
+    margin-left: 33px;
+}
 .ml-40{
     margin-left: 40px;
 }
@@ -379,6 +382,9 @@ input[type=search] {
 .ml-n-10{
     margin-left: -10px;
 }
+.ml-n-15{
+    margin-left: -15px;
+}
 .ml-n-20{
     margin-left: -20px;
 }
@@ -387,6 +393,9 @@ input[type=search] {
 }
 .ml-n-40{
     margin-left: -40px;
+}
+.ml-n-45{
+    margin-left: -45px;
 }
 .ml-n-50{
     margin-left: -50px;
