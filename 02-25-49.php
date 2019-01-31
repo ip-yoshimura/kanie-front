@@ -37,7 +37,7 @@ include "sidebar.php"
                                            class="form-control" type="text" value="" disabled onchange="$.fn.onInputValueChange('officeCodeStartId', 'officeCodeStartName')"/>
                                 </div>
                             </div>
-                            <div class="col-xs-1 no-padding ratio">~</div>
+                            <div class="col-xs-1 no-padding ratio">～</div>
                             <div class="col-xs-1   ">
                                 <div class="form-group">
                                     <input id="companyIdEndId" name="companyIdEndId" placeholder="999" class="form-control"
@@ -50,7 +50,7 @@ include "sidebar.php"
                                            class="form-control" type="text" value="" disabled/>
                                 </div>
                             </div>
-                            <div class="col-xs-1 no-padding ratio">~</div>
+                            <div class="col-xs-1 no-padding ratio">～</div>
                             <div class="col-xs-2">
                                 <div class="form-group">
                                     <input id="companyIdEndName" name="companyIdEndName" placeholder="Company 2"
@@ -87,7 +87,7 @@ include "sidebar.php"
                                            class="form-control" type="text" value="" disabled onchange="$.fn.onInputValueChange('trustStartId', 'trustStartName')"/>
                                 </div>
                             </div>
-                            <div class="col-xs-1 no-padding ratio">~</div>
+                            <div class="col-xs-1 no-padding ratio">～</div>
                             <div class="col-xs-1   ">
                                 <div class="form-group">
                                     <input id="trustEndId" name="trustEndId" placeholder="999" class="form-control"
@@ -100,7 +100,7 @@ include "sidebar.php"
                                            class="form-control" type="text" value="" disabled/>
                                 </div>
                             </div>
-                            <div class="col-xs-1 no-padding ratio">~</div>
+                            <div class="col-xs-1 no-padding ratio">～</div>
                             <div class="col-xs-3">
                                 <div class="form-group">
                                     <input id="trustEndName" name="trustEndName" placeholder="Company 2"
@@ -133,7 +133,7 @@ include "sidebar.php"
                                                class="form-control" type="text" value="" disabled onchange="$.fn.onInputValueChange('outputStartId', 'outputStartName')"/>
                                     </div>
                                 </div>
-                                <div class="col-xs-1 no-padding ratio">~</div>
+                                <div class="col-xs-1 no-padding ratio">～</div>
                                 <div class="col-xs-1">
                                     <div class="form-group">
                                         <input id="outputEndId" name="outputEndId" placeholder="999" class="form-control"
@@ -146,7 +146,7 @@ include "sidebar.php"
                                                value="" disabled/>
                                     </div>
                                 </div>
-                                <div class="col-xs-1 no-padding ratio">~</div>
+                                <div class="col-xs-1 no-padding ratio">～</div>
                                 <div class="col-xs-3">
                                     <div class="form-group">
                                         <input id="outputEndName" name="outputEndName" class="form-control" type="text"
@@ -173,14 +173,14 @@ include "sidebar.php"
                             <div class="col-xs-12">
                                 <div class="col-xs-1 col-xs-offset-2">
                                     <div class="form-group">
-                                        <input id="consumerDifferentiationStartId" name="consumerDifferentiationStartId" placeholder="000"
+                                        <input id="consumerDifferentiationStartId" name="consumerDifferentiationStartId" placeholder="00"
                                                class="form-control" type="text" value="" disabled onchange="$.fn.onInputValueChange('consumerDifferentiationStartId', 'consumerDifferentiationStartName')"/>
                                     </div>
                                 </div>
-                                <div class="col-xs-1 no-padding ratio">~</div>
+                                <div class="col-xs-1 no-padding ratio">～</div>
                                 <div class="col-xs-1">
                                     <div class="form-group">
-                                        <input id="consumerDifferentiationEndId" name="consumerDifferentiationEndId" placeholder="999" class="form-control"
+                                        <input id="consumerDifferentiationEndId" name="consumerDifferentiationEndId" placeholder="99" class="form-control"
                                                type="text" value="" disabled onchange="$.fn.onInputValueChange('consumerDifferentiationEndId', 'consumerDifferentiationEndName')"/>
                                     </div>
                                 </div>
@@ -190,7 +190,7 @@ include "sidebar.php"
                                                value="" disabled/>
                                     </div>
                                 </div>
-                                <div class="col-xs-1 no-padding ratio">~</div>
+                                <div class="col-xs-1 no-padding ratio">～</div>
                                 <div class="col-xs-3">
                                     <div class="form-group">
                                         <input id="consumerDifferentiationEndName" name="consumerDifferentiationEndName" class="form-control" type="text"
@@ -210,7 +210,7 @@ include "sidebar.php"
                                            class="form-control" type="text" value="" onchange="$.fn.onInputValueChange('consumerCodeStart', 'consumerCodeStartName')"/>
                                 </div>
                             </div>
-                            <div class="col-xs-1 no-padding ratio">~</div>
+                            <div class="col-xs-1 no-padding ratio">～</div>
                             <div class="col-xs-2">
                                 <div class="form-group">
                                     <input id="consumeCodeEnd" name="consumeCodeEnd" placeholder="z" class="form-control"
@@ -223,7 +223,7 @@ include "sidebar.php"
                                            type="text" value=""/>
                                 </div>
                             </div>
-                            <div class="col-xs-1 no-padding ratio">~</div>
+                            <div class="col-xs-1 no-padding ratio">～</div>
                             <div class="col-xs-2">
                                 <div class="form-group">
                                     <input id="consumerCodeEndName" name="consumerCodeEndName" class="form-control"
@@ -243,7 +243,7 @@ include "sidebar.php"
                                            value=""/>
                                 </div>
                             </div>
-                            <div class="col-xs-1 no-padding ratio">~</div>
+                            <div class="col-xs-1 no-padding ratio">～</div>
                             <div class="col-xs-2">
                                 <div class="form-group">
                                     <input id="outputEndName" name="outputEndName" class="form-control" type="date"
@@ -268,7 +268,7 @@ include "sidebar.php"
                                 <div class="col-xs-4">
                                     <div class="form-group">
                                         <select id="formType" name="formType" class="form-control">
-                                            <option value="11検針伝票_東北用">"配送実績表 （営業所・販売店別） 総括表</option>
+                                            <option value="11検針伝票_東北用">配送実績表 （営業所・販売店別） 総括表</option>
                                             <option value="New検針伝票_定期用">配送実績表 （ 配送担当者別 ） 総括表</option>
                                             <option value="検針伝票">配送実績表 （営業所・販売店別） 配送担当者別</option>
                                             <option value="検針伝票_定期用">配送実績表 （ 配送担当者別 ） 営業所・販売店別</option>
@@ -291,7 +291,7 @@ include "sidebar.php"
                                     <input type="radio" name="pagebreak" id="pagebreak" value="all" onclick="$.fn.radioButtonSelectionChanged('pagebreak', 'pagebreakId')"> 検針担当者
                                 </div>
                                 <div class="col-xs-3 no-padding ml-50">
-                                    <input type="radio" name="pagebreak" id="pagebreak" value="directSales" onclick="$.fn.radioButtonSelectionChanged('pagebreak', 'pagebreakId')"> 選択肢2
+                                    <input type="radio" name="pagebreak" id="pagebreak" value="directSales" onclick="$.fn.radioButtonSelectionChanged('pagebreak', 'pagebreakId')"> 配送担当者
                                 </div>
 
                             </div>
@@ -303,10 +303,10 @@ include "sidebar.php"
                                     <p>出力先</p>
                                 </div>
                                 <div class="col-xs-2 ml-20">
-                                    <input type="radio" name="output" id="output" value="all" onclick="$.fn.radioButtonSelectionChanged('output', 'outputId')"> プリンタ（印刷
+                                    <input type="radio" name="output" id="output" value="all" onclick="$.fn.radioButtonSelectionChanged('output', 'outputId')"> プリンタ(印刷)
                                 </div>
                                 <div class="col-xs-3 ml-n-45">
-                                    <input type="radio" name="output" id="output" value="directSales" onclick="$.fn.radioButtonSelectionChanged('output', 'outputId')"> 画面（印刷イメージ）
+                                    <input type="radio" name="output" id="output" value="directSales" onclick="$.fn.radioButtonSelectionChanged('output', 'outputId')"> 画面(印刷イメージ)
                                 </div>
 
                             </div>

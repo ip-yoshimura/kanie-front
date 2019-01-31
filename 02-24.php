@@ -25,7 +25,7 @@
                             <input type="radio" name="officeCode" id="officeCode" value="all" checked
                                    onclick="$.fn.radioButtonSelectionChanged('officeCode', 'officeCodeId')"> 全て
                         </div>
-                        <div class="col-xs-1 no-padding">
+                        <div class="col-xs-1">
                             <input type="radio" name="officeCode" id="officeCode" value="all-exp"
                                    onclick="$.fn.radioButtonSelectionChanged('officeCode', 'officeCodeId')"> 選択
                         </div>
@@ -39,7 +39,7 @@
                                        onchange="$.fn.onInputValueChange('trustStartId', 'trustStartName')"/>
                             </div>
                         </div>
-                        <div class="col-xs-1 no-padding ratio">~</div>
+                        <div class="col-xs-1 no-padding ratio">～</div>
                         <div class="col-xs-1">
                             <div class="form-group">
                                 <input id="trustEndId" name="trustEndId" placeholder="999" class="form-control"
@@ -53,7 +53,7 @@
                                        value="" disabled/>
                             </div>
                         </div>
-                        <div class="col-xs-1 no-padding ratio">~</div>
+                        <div class="col-xs-1 no-padding ratio">～</div>
                         <div class="col-xs-3">
                             <div class="form-group">
                                 <input id="trustEndName" name="trustEndName" class="form-control" type="text"
@@ -72,11 +72,11 @@
                             <input type="radio" name="trusteeship" id="trusteeship" value="all" checked
                                    onclick="$.fn.radioButtonSelectionChanged('trusteeship', 'trusteeshipId')"> 全て
                         </div>
-                        <div class="col-xs-1 no-padding">
+                        <div class="col-xs-1">
                             <input type="radio" name="trusteeship" id="trusteeship" value="all1"
                                    onclick="$.fn.radioButtonSelectionChanged('trusteeship', 'trusteeshipId')"> 直売
                         </div>
-                        <div class="col-xs-2">
+                        <div class="col-xs-1 no-padding">
                             <input type="radio" name="trusteeship" id="trusteeship" value="all2"
                                    onclick="$.fn.radioButtonSelectionChanged('trusteeship', 'trusteeshipId')"> 販売店
                         </div>
@@ -90,7 +90,7 @@
                                        onchange="$.fn.onInputValueChange('trusteeshipStartId', 'trusteeshipStartName')"/>
                             </div>
                         </div>
-                        <div class="col-xs-1 no-padding ratio">~</div>
+                        <div class="col-xs-1 no-padding ratio">～</div>
                         <div class="col-xs-1">
                             <div class="form-group">
                                 <input id="trusteeshipEndId" name="trusteeshipEndId" placeholder="999" class="form-control"
@@ -104,7 +104,7 @@
                                        value="" disabled/>
                             </div>
                         </div>
-                        <div class="col-xs-1 no-padding ratio">~</div>
+                        <div class="col-xs-1 no-padding ratio">～</div>
                         <div class="col-xs-3">
                             <div class="form-group">
                                 <input id="trusteeshipEndName" name="trusteeshipEndName" class="form-control" type="text"

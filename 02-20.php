@@ -16,7 +16,7 @@ include "sidebar.php"
         <form id="meter" action="/gas/meter-reading" method="POST">
             <div class="col-xs-12">
                 <div class="col-xs-1 no-padding border-margin-exp">
-                    <p>営業所コード</p>
+                    <p>消費者コード</p>
                 </div>
 
                 <div class="col-xs-1 ">
@@ -117,7 +117,7 @@ include "sidebar.php"
 
                     <div class="col-xs-2"></div>
                     <div class="col-xs-2 border-margin-exp">
-                        <p>配集計メータ区分</p>
+                        <p>集計メータ区分</p>
                     </div>
                     <div class="col-xs-1 ml-n-60">
 
@@ -163,9 +163,9 @@ include "sidebar.php"
                                onchange="$.fn.onInputValueChange('distributionDistinction', 'distributionDistinctionId')"><span> 無配送</span>
                     </div>
                     <div class="col-xs-1">
-                        <p>配送順路</p>
+                        <p>配送周期</p>
                     </div>
-                    <div class="col-xs-2 ml-33">
+                    <div class="col-xs-1 ml-33">
                         <div class="form-group">
                             <input id="companyIdEndName" name="companyIdEndName" placeholder=" " class="form-control"
                                    type="text" value=""/>
@@ -350,15 +350,15 @@ include "sidebar.php"
                     <div class="col-xs-4 no-padding">
                         <div class="col-xs-3 no-padding"><input type="radio" name="cutDistinction" id="cutDistinction"
                                                                 value="all"
-                                                                onchange="$.fn.onInputValueChange('cutDistinction', 'cutDistinctionId')"><span> 全数</span>
+                                                                onchange="$.fn.onInputValueChange('cutDistinction', 'cutDistinctionId')"><span> 自動</span>
                         </div>
                         <div class="col-xs-3 no-padding"><input type="radio" name="cutDistinction" id="cutDistinction"
                                                                 value="custom"
-                                                                onchange="$.fn.onInputValueChange('cutDistinction', 'cutDistinctionId')"><span> 交互</span>
+                                                                onchange="$.fn.onInputValueChange('cutDistinction', 'cutDistinctionId')"><span> 手動</span>
                         </div>
                         <div class="col-xs-3 no-padding"><input type="radio" name="cutDistinction" id="cutDistinction"
                                                                 value="custom"
-                                                                onchange="$.fn.onInputValueChange('cutDistinction', 'cutDistinctionId')"><span> 片側</span>
+                                                                onchange="$.fn.onInputValueChange('cutDistinction', 'cutDistinctionId')"><span> 無し</span>
                         </div>
 
 
@@ -367,7 +367,7 @@ include "sidebar.php"
                 </div>
             </div>
 
-            <div class="col-xs-12 border1 no-padding">
+            <div class="col-xs-12 border1 bottom-box no-padding">
                 <p class="back-end">
                     配送予測</p>
                 <div class="col-xs-12">
@@ -576,7 +576,7 @@ include "sidebar.php"
                                 </div>
                                 <div class="col-xs-6 no-padding"><input type="radio" name="specifiedSelection"
                                                                         id="specifiedSelection" value="custom"
-                                                                        onchange="$.fn.onInputValueChange('specifiedSelection', 'specifiedSelectionId')"><span> f使用する</span>
+                                                                        onchange="$.fn.onInputValueChange('specifiedSelection', 'specifiedSelectionId')"><span> 使用する</span>
                                 </div>
 
 
@@ -657,7 +657,7 @@ include "sidebar.php"
 
                             </div>
                             <div class="col-xs-2 no-padding border-margin-exp">
-                                <p>安全率</p>
+                                <p>安全日数</p>
                             </div>
                             <div class="col-xs-2 no-padding border-margin-exp">
                                 <p>共通</p>
@@ -676,7 +676,7 @@ include "sidebar.php"
 
                         <div class="col-xs-12 border-margin no-padding">
                             <div class="col-xs-4 no-padding border-margin-exp">
-                                <p>交換容器残量</p>
+                                <p>適用産気率</p>
                             </div>
                             <div class="col-xs-5">
 
@@ -756,26 +756,6 @@ include "sidebar.php"
                 </div>
 
             </div>
-
-            <div class="col-xs-12 bottom-box">
-                <div class="col-xs-2 no-padding">
-
-                    <div class="form-group">
-                        <input id="consumerCodeEndName" name="consumerCodeEndName" class="form-control" type="text"
-                               value=""/>
-                    </div>
-
-                </div>
-                <div class="col-xs-2">
-
-                    <div class="form-group">
-                        <input id="consumerCodeEndName" name="consumerCodeEndName" class="form-control" type="text"
-                               value=""/>
-                    </div>
-
-                </div>
-            </div>
-
 
             <?php
             include "footer.php"
