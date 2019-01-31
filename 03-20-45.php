@@ -40,19 +40,6 @@
                                        value=""/>
                             </div>
                         </div>
-
-                        <div class="col-xs-1 border-margin-exp">
-                            <p>担当営業所
-
-                            </p>
-                        </div>
-                        <div class="col-xs-3 no-padding">
-                            <div class="form-group">
-                                <input class="form-control" name="officeCodeStartName" placeholder="" type="text"
-                                       value=""/>
-                            </div>
-                        </div>
-
                     </div>
 
                     <div class="col-xs-12">
@@ -585,9 +572,7 @@
                     <div class="container ">
                         <div class="col-xs-6 col-xs-offset-3">
                             <div class="col-xs-2 border-margin-exp">
-                                <p>単位
-
-                                </p>
+                                <p>合計</p>
                             </div>
                             <div class="col-xs-3">
                                 <div class="form-group">
@@ -617,13 +602,13 @@
 
                         <div class="col-xs-2">
                             <div class="form-group">
-                                <input class="form-control" contenteditable="false" name="officeCodeStartName" placeholder=""
+                                <input class="form-control" contenteditable="false" name="officeCodeStartName" placeholder="モード：新規"
                                        type="text" value=""/>
                             </div>
                         </div>
                         <div class="col-xs-2">
                             <div class="form-group">
-                                <input class="form-control" contenteditable="false" name="companyIdEndName" placeholder="" type="text"
+                                <input class="form-control" contenteditable="false" name="companyIdEndName" placeholder="自動切換：なし" type="text"
                                        value=""/>
                             </div>
                         </div>
@@ -635,7 +620,7 @@
                         </div>
                         <div class="col-xs-2">
                             <div class="form-group">
-                                <input class="form-control" contenteditable="false" name="companyIdEndName" placeholder="" type="text"
+                                <input class="form-control" contenteditable="false" name="companyIdEndName" placeholder="1/1" type="text"
                                        value=""/>
                             </div>
                         </div>

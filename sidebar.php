@@ -343,7 +343,7 @@
                         <ul class="sub_menu padding-left-10">
                            <li class="dropdown">
                                <i class="fa fa-minus" aria-hidden="true"></i>
-                               <a href="javascript:alert('make it! have screen shot')">10-20-40.ハンディ検針データ作成</a>
+                               <a href="10-20-40.php">10-20-40.ハンディ検針データ作成</a>
                            </li>
                            <li class="dropdown">
                                <i class="fa fa-minus" aria-hidden="true"></i>
@@ -351,7 +351,7 @@
                            </li>
                            <li class="dropdown">
                                <i class="fa fa-minus" aria-hidden="true"></i>
-                               <a href="javascript:alert('please check')">10-20-42.ハンディ読込検針伝票チェックリスト</a>
+                               <a href="10-20-42.php">10-20-42.ハンディ読込検針伝票チェックリスト</a>
                            </li>
                         </ul>
                     </li>
@@ -361,11 +361,11 @@
                         <ul class="sub_menu padding-left-10">
                            <li class="dropdown">
                                <i class="fa fa-minus" aria-hidden="true"></i>
-                               <a href="javascript:alert('please check')">10-21-42.検針データＦＤ出力</a>
+                               <a href="10-21-42.php">10-21-42.検針データＦＤ出力</a>
                            </li>
                            <li class="dropdown">
                                <i class="fa fa-minus" aria-hidden="true"></i>
-                               <a href="javascript:alert('please check')">10-21-43.検針データＦＤ読込</a>
+                               <a href="javascript:alert('not need now')">10-21-43.検針データＦＤ読込</a>
                            </li>
                         </ul>
                     </li>
@@ -375,35 +375,35 @@
                         <ul class="sub_menu padding-left-10">
                            <li class="dropdown">
                                <i class="fa fa-minus" aria-hidden="true"></i>
-                               <a href="javascript:alert('please check')">10-22-1.マルエイデータ出力</a>
+                               <a href="10-22-1.php">10-22-1.マルエイデータ出力</a>
                            </li>
                            <li class="dropdown">
                                <i class="fa fa-minus" aria-hidden="true"></i>
-                               <a href="javascript:alert('please check')">10-22-2.大陽日酸データ出力</a>
+                               <a href="10-22-2.php">10-22-2.大陽日酸データ出力</a>
                            </li>
                            <li class="dropdown">
                                <i class="fa fa-minus" aria-hidden="true"></i>
-                               <a href="javascript:alert('please check')">10-22-3.忠燃高圧ガスデータ出力</a>
+                               <a href="10-22-3.php">10-22-3.忠燃高圧ガスデータ出力</a>
                            </li>
                            <li class="dropdown">
                                <i class="fa fa-minus" aria-hidden="true"></i>
-                               <a href="javascript:alert('please check')">10-22-4.岩谷データ出力</a>
+                               <a href="10-22-4.php">10-22-4.岩谷データ出力</a>
                            </li>
                            <li class="dropdown">
                                <i class="fa fa-minus" aria-hidden="true"></i>
-                               <a href="javascript:alert('please check')">10-22-5.第一ガスコムデータ出力</a>
+                               <a href="10-22-5.php">10-22-5.第一ガスコムデータ出力</a>
                            </li>
                            <li class="dropdown">
                                <i class="fa fa-minus" aria-hidden="true"></i>
-                               <a href="javascript:alert('please check')">10-22-6.伊藤忠データ出力</a>
+                               <a href="10-22-6.php">10-22-6.伊藤忠データ出力</a>
                            </li>
                            <li class="dropdown">
                                <i class="fa fa-minus" aria-hidden="true"></i>
-                               <a href="javascript:alert('please check')">10-22-7.明石産業（171）データ出力</a>
+                               <a href="10-22-7.php">10-22-7.明石産業（171）データ出力</a>
                            </li>
                            <li class="dropdown">
                                <i class="fa fa-minus" aria-hidden="true"></i>
-                               <a href="javascript:alert('please check')">10-22-8.明石産業（172）データ出力</a>
+                               <a href="10-22-8.php">10-22-8.明石産業（172）データ出力</a>
                            </li>
                            <li class="dropdown">
                                <i class="fa fa-minus" aria-hidden="true"></i>
@@ -431,18 +431,18 @@
                            </li>
                            <li class="dropdown">
                                <i class="fa fa-minus" aria-hidden="true"></i>
-                               <a href="javascript:alert('please check')">10-22-20.配送委託先検針データ作成</a>
+                               <a href="10-22-20.php">10-22-20.配送委託先検針データ作成</a>
                            </li>
                         </ul>
                     </li>
                     <li class="dropdown">
-                        <a href="javascript:alert('please check')">10-26.消費者マスタデータ読込</a>
+                        <a href="10-26.php">10-26.消費者マスタデータ読込</a>
                     </li>
                     <li class="dropdown">
-                        <a href="javascript:alert('please check')">10-27.保安データ書込</a>
+                        <a href="10-27.php">10-27.保安データ書込</a>
                     </li>
                     <li class="dropdown">
-                        <a href="javascript:alert('please check')">10-29.売上入金外部読込</a>
+                        <a href="10-29.php">10-29.売上入金外部読込</a>
                     </li>
                     <li class="dropdown">
                         <a href="javascript:alert('maybe not need')">10-30.集中監視データ取込</a>

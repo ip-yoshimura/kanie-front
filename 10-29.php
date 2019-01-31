@@ -1,18 +1,15 @@
 <?php include 'header.php';?>
 <?php include 'sidebar.php';?>
 <div class="col-xs-8 col-md-10 col-xs-12 no-padding">
-    <div class="col-md-12 col-xs-12 no-padding head-color">
+    <div class="col-md-12 col-xs-12 no-padding ">
         <div class="head-p">
-            <p>
-                検針日報印刷指定
-
-            </p>
+            <p>売上・入金の外部読込</p>
         </div>
 
         <div class="div1">
             <div class="div2">
 
-                <strong>現在のバージョンでは開けません。
+                <strong>売上・入金データの外部読込みを開始します。<br/>開始する場合は[実行]を選択してください。
                 </strong>
 
             </div>

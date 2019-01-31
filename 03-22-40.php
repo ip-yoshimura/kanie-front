@@ -16,9 +16,7 @@
                     <p class="back-end">消費者範囲指定</p>
                     <div class="col-xs-12 ">
                         <div class="col-xs-2 no-padding">
-                            <p>営業所コード
-
-                            </p>
+                            <p>営業所コード</p>
                         </div>
                         <div class="col-xs-1">
                             <input type="radio" name="officeCodeSelection" value="all" checked onclick="$.fn.radioButtonSelectionChanged('officeCodeSelection', 'officeCodeSelectionForm')"> <span> 全て</span>
@@ -35,7 +33,7 @@
                                             type="text" value="" disabled onchange="$.fn.onInputValueChange('officeCodeStartId', 'officeCodeStartName')" />
                                     </div>
                                 </div>
-                                <div class="col-xs-1 no-padding ratio">~</div>
+                                <div class="col-xs-1 no-padding ratio">～</div>
                                 <div class="col-xs-1">
                                     <div class="form-group no-padding">
                                         <input id="officeCodeEndId" name="officeCodeEndId" placeholder="999" class="form-control"
@@ -48,7 +46,7 @@
                                             type="text" value="" disabled />
                                     </div>
                                 </div>
-                                <div class="col-xs-1 no-padding ratio">~</div>
+                                <div class="col-xs-1 no-padding ratio">～</div>
                                 <div class="col-xs-3">
                                     <div class="form-group">
                                         <input id="officeCodeEndName" name="officeCodeEndName" class="form-control"
@@ -76,7 +74,7 @@
                                 <input type="radio" name="trustClassificationSelection" value="salesOutlet" onclick="$.fn.radioButtonSelectionChanged('trustClassificationSelection', 'trustClassificationForm')"><span> 販売店</span>
                             </div>
                         </div>
-                        <div id="officeCodeSelectionForm">
+                        <div id="trustClassificationForm">
                             <div class="col-xs-12 no-padding">
                                 <div class="col-xs-1 col-xs-offset-2">
                                     <div class="form-group">
@@ -84,7 +82,7 @@
                                                type="text" value="" disabled onchange="$.fn.onInputValueChange('officeCodeStartId', 'officeCodeStartName')" />
                                     </div>
                                 </div>
-                                <div class="col-xs-1 no-padding ratio">~</div>
+                                <div class="col-xs-1 no-padding ratio">～</div>
                                 <div class="col-xs-1">
                                     <div class="form-group no-padding">
                                         <input id="officeCodeEndId" name="officeCodeEndId" placeholder="999" class="form-control"
@@ -97,7 +95,7 @@
                                                type="text" value="" disabled />
                                     </div>
                                 </div>
-                                <div class="col-xs-1 no-padding ratio">~</div>
+                                <div class="col-xs-1 no-padding ratio">～</div>
                                 <div class="col-xs-3">
                                     <div class="form-group">
                                         <input id="officeCodeEndName" name="officeCodeEndName" class="form-control"
@@ -111,7 +109,7 @@
                     <div class="col-xs-12">
                         <div class="col-xs-12 no-padding">
                             <div class="col-xs-2 no-padding">
-                                <p>受託区分</p>
+                                <p>出力区分</p>
                             </div>
                             <div class="col-xs-1">
                                 <input type="radio" name="trustClassificationSelection1" value="all" checked onclick="$.fn.radioButtonSelectionChanged('trustClassificationSelection1', 'trustClassificationSelection1Form')"> <span> 全て</span>
@@ -131,7 +129,7 @@
                                             type="text" value="" disabled onchange="$.fn.onInputValueChange('outputStartId', 'outputStartName')" />
                                     </div>
                                 </div>
-                                <div class="col-xs-1 no-padding ratio">~</div>
+                                <div class="col-xs-1 no-padding ratio">～</div>
                                 <div class="col-xs-1">
                                     <div class="form-group">
                                         <input id="outputEndId" name="outputEndId" placeholder="999" class="form-control"
@@ -145,7 +143,7 @@
                                     </div>
 
                                 </div>
-                                <div class="col-xs-1 no-padding ratio">~</div>
+                                <div class="col-xs-1 no-padding ratio">～</div>
                                 <div class="col-xs-3">
                                     <div class="form-group">
                                         <input id="outputEndName" name="outputEndName" class="form-control" type="text"
@@ -167,7 +165,7 @@
                                         type="text" value="" onchange="$.fn.onInputValueChange('consumerCodeStartId', 'consumerCodeStartName')" />
                                 </div>
                             </div>
-                            <div class="col-xs-1 no-padding ratio">~</div>
+                            <div class="col-xs-1 no-padding ratio">～</div>
                             <div class="col-xs-2">
                                 <div class="form-group">
                                     <input id="consumeCodeEndId" name="consumeCodeEndId" placeholder="z" class="form-control"
@@ -180,7 +178,7 @@
                                         type="text" value="" />
                                 </div>
                             </div>
-                            <div class="col-xs-1 no-padding ratio">~</div>
+                            <div class="col-xs-1 no-padding ratio">～</div>
                             <div class="col-xs-2">
                                 <div class="form-group">
                                     <input id="consumerCodeEndName" name="consumerCodeEndName" class="form-control"
@@ -201,7 +199,7 @@
                             <div class="col-xs-2">
                                 <input type="date" class="form-control" />
                             </div>
-                            <div class="col-xs-1 no-padding ratio">~</div>
+                            <div class="col-xs-1 no-padding ratio">～</div>
                             <div class="col-xs-2">
                                 <input type="date" class="form-control" />
                             </div>
@@ -209,7 +207,7 @@
                         </div>
 
                         <div class="form-group">
-                            <label class="col-xs-2 no-padding">日付</label>
+                            <label class="col-xs-2 no-padding">帳票タイプ</label>
                             <div class="col-xs-2">
                                 <select name="" class="selclass form-control">
                                     <option value="専用用紙">専用用紙</option>

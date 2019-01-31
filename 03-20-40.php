@@ -46,16 +46,6 @@
                             <input name="officeCodeStartName" placeholder="" class="form-control" type="text" value="" />
                         </div>
                     </div>
-
-                    <div class="col-xs-1 border-margin-exp">
-                        <p>担当営業所</p>
-                    </div>
-                    <div class="col-xs-3 no-padding">
-                        <div class="form-group no-padding">
-                            <input name="officeCodeStartName" placeholder="" class="form-control" type="text" value="" />
-                        </div>
-                    </div>
-
                     <div class="col-xs-1 border-margin-exp">
                         <p>集金区分</p>
                     </div>
@@ -110,11 +100,11 @@
                     </div>
                     <div class="col-xs-1 no-padding ml-10">
                         <select class="form-control" id="invoiceDestinationSelect" name="invoiceDestinationSelect" >
-                            <option value="掛売 ">"掛売</option>
+                            <option value="掛売 ">掛売</option>
                             <option value="現金売">現金売 </option>
                             <option value="掛返品 ">掛返品 </option>
                             <option value="現金返品">現金返品</option>
-                            <option value="分割">分割"</option>
+                            <option value="分割">分割</option>
 
                         </select>
                     </div>
@@ -133,11 +123,11 @@
                     <div class="col-xs-3">
                         <div class="form-group">
                             <select class="form-control"  name="initialSelect" id="initialSelect">
-                                <option value="アイテム1をドロップダウン">アイテム1をドロップダウン</option>
-                                <option value="項目2をドロップダウン">項目2をドロップダウン</option>
-                                <option value="アイテム3をドロップダウン">アイテム3をドロップダウン</option>
-                                <option value="アイテム4をドロップダウン">アイテム4をドロップダウン</option>
-                                <option value="アイテム5をドロップダウン">アイテム5をドロップダウン</option>
+                                <option value="販売単価">販売単価</option>
+                                <option value="アイテム2">アイテム2</option>
+                                <option value="アイテム3">アイテム3</option>
+                                <option value="アイテム4">アイテム4</option>
+                                <option value="アイテム5">アイテム5</option>
 
                             </select>
                         </div>
@@ -169,26 +159,14 @@
                         <tr>
                             <th></th>
                             <th>区分</th>
-                            <th>"商品コード
-                                営業所"</th>
-                            <th>"商品名
-                                在庫管理店名"</th>
+                            <th>商品コード<br>営業所</th>
+                            <th>商品名<br>在庫管理店名</th>
                             <th>型式</th>
-                            <th>"数量
-
-                                販売入数"</th>
-                            <th>"販売単価
-
-                                仕入単価"</th>
-                            <th>単位
-
-                            </th>
-                            <th>"販売金額
-
-                                仕入金額"</th>
-                            <th>"外税
-
-                                税区分"</th>
+                            <th>数量<br>販売入数</th>
+                            <th>販売単価<br>仕入単価</th>
+                            <th>単位</th>
+                            <th>販売金額<br>仕入金額</th>
+                            <th>外税<br>税区分</th>
                             <th></th>
                             <th></th>
                             <th></th>
@@ -562,7 +540,7 @@
 
                     <div class="col-xs-6 col-xs-offset-8">
                         <div class="col-xs-2 no-padding border-margin-exp">
-                            <p>単位</p>
+                            <p>合計</p>
                         </div>
                         <div class="col-xs-4 ml-n-40">
                             <div class="form-group">
@@ -589,13 +567,13 @@
 
                         <div class="col-xs-2">
                             <div class="form-group">
-                                <input name="officeCodeStartName" placeholder="" class="form-control" type="text" value=""
+                                <input name="officeCodeStartName" placeholder="" class="form-control" type="text" value="モード：新規"
                                        contenteditable="false" />
                             </div>
                         </div>
                         <div class="col-xs-2">
                             <div class="form-group">
-                                <input name="companyIdEndName" placeholder="" class="form-control" type="text" value=""
+                                <input name="companyIdEndName" placeholder="" class="form-control" type="text" value="自動切換：なし"
                                        contenteditable="false" />
                             </div>
                         </div>

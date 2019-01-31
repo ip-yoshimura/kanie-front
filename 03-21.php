@@ -54,7 +54,7 @@
                                 <input  name="officeCodeStartName" placeholder="" class="form-control" type="date" value=""/>
                             </div>
                         </div>
-                        <div class="col-xs-1 no-padding ratio">~</div>
+                        <div class="col-xs-1 no-padding ratio">～</div>
                         <div class="col-xs-2">
                             <div class="form-group">
                                 <input  name="officeCodeStartName" placeholder="" class="form-control" type="date" value=""/>
@@ -84,43 +84,15 @@
                             <thead class="tbl-31">
                             <tr>
                                 <th ></th>
-                                <th>伝票日付
-
-                                </th>
-                                <th>商品名
-
-                                    型式
-
-                                </th>
-                                <th>数量
-
-                                </th>
-                                <th>単価
-
-
-
-                                </th>
-                                <th>売上額
-
-                                    うち消費税
-
-                                </th>
-                                <th>入金額
-
-                                    値引額
-
-                                </th>
-                                <th>売掛残高
-
-                                </th>
-                                <th>済マ
-
-                                    ーク
-
-                                </th>
-                                <th>税
-
-                                    区分</th>
+                                <th>伝票日付</th>
+                                <th>商品名<br>型式</th>
+                                <th>数量</th>
+                                <th>単価</th>
+                                <th>売上額<br>うち消費税</th>
+                                <th>入金額<br>値引額</th>
+                                <th>売掛残高</th>
+                                <th>済マーク</th>
+                                <th>税区分</th>
                                 <th></th>
                                 <th></th>
                             </tr>
@@ -457,9 +429,7 @@
                     <div class="container bottom-box">
                         <div class="col-xs-6 col-xs-offset-3">
                             <div class="col-xs-2 border-margin-exp">
-                                <p>単位
-
-                                </p>
+                                <p>合計</p>
                             </div>
                             <div class="col-xs-4">
                                 <div class="form-group">

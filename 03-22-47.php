@@ -57,7 +57,7 @@
                                        placeholder="000" type="text" value="" disabled onchange="$.fn.onInputValueChange('printingStart', 'prinitingStartName')"/>
                             </div>
                         </div>
-                        <div class="col-xs-1 no-padding ratio">~</div>
+                        <div class="col-xs-1 no-padding ratio">～</div>
                         <div class="col-xs-1">
                             <div class="form-group">
                                 <input class="form-control" id="printingEnd" name="printingEnd" placeholder="999"
@@ -71,7 +71,7 @@
                                        placeholder=" " type="text" value="" disabled/>
                             </div>
                         </div>
-                        <div class="col-xs-1 no-padding ratio">~</div>
+                        <div class="col-xs-1 no-padding ratio">～</div>
                         <div class="col-xs-3">
                             <div class="form-group">
                                 <input class="form-control" id="printingEndName" name="printingEndName"
@@ -111,7 +111,7 @@
                                        placeholder="000" type="text" value="" disabled onchange="$.fn.onInputValueChange('officeCodeStartId', 'officeCodeStartName')"/>
                             </div>
                         </div>
-                        <div class="col-xs-1 no-padding ratio">~</div>
+                        <div class="col-xs-1 no-padding ratio">～</div>
                         <div class="col-xs-1">
                             <div class="form-group">
                                 <input class="form-control" id="companyIdEndId" name="companyIdEndId" placeholder="999"
@@ -124,7 +124,7 @@
                                        placeholder=" " type="text" value="" disabled/>
                             </div>
                         </div>
-                        <div class="col-xs-1 no-padding ratio">~</div>
+                        <div class="col-xs-1 no-padding ratio">～</div>
                         <div class="col-xs-3">
                             <div class="form-group">
                                 <input class="form-control" id="companyIdEndName" name="companyIdEndName"
@@ -147,7 +147,7 @@
                             </div>
                         </div>
 
-                        <div class="col-xs-1 no-padding ratio">~</div>
+                        <div class="col-xs-1 no-padding ratio">～</div>
                         <div class="col-xs-2 no-padding ml-5">
                             <div class="form-group">
                                 <input id="trustEndId" name="trustEndId" placeholder="" class="form-control" type="date"
@@ -168,23 +168,18 @@
                                     <label class="col-xs-2 no-padding">出力先</label>
 
                                     <div class="col-xs-2 no-padding">
-                                        <input name="output" id="output" type="radio" value="all" onclick="$.fn.radioButtonSelectionChanged('output', 'outputId')"><span> プリンタ（印刷）</span>
+                                        <input name="output" id="output" type="radio" value="all" onclick="$.fn.radioButtonSelectionChanged('output', 'outputId')"><span> プリンタ(印刷)</span>
                                     </div>
 
                                     <div class="col-xs-2 no-padding ml-n-30">
-                                        <input name="output"  id="output" type="radio" value="salesOutlet" onclick="$.fn.radioButtonSelectionChanged('output', 'outputId')"><span> 画面（印刷イメージ）</span>
+                                        <input name="output"  id="output" type="radio" value="salesOutlet" onclick="$.fn.radioButtonSelectionChanged('output', 'outputId')"><span> 画面(印刷イメージ)</span>
 
                                     </div>
-
-
                                 </div>
                             </div>
-
                     </div>
 
-
-
-                    </div>
+                </div>
 
                     <?php include 'footer.php';?>
 

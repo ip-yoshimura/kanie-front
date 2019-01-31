@@ -18,15 +18,10 @@
                         </div>
                         <div class="col-xs-1 ">
                             <input type="radio" name="officeCode" value="all" checked onclick="$.fn.radioButtonSelectionChanged('officeCode', 'officeCodeId')">  <span> 全て</span>
-
-
                         </div>
                         <div class="col-xs-1  no-padding">
                             <input type="radio" name="officeCode" value="custom" onclick="$.fn.radioButtonSelectionChanged('officeCode', 'officeCodeId')">  <span> 選択</span>
-
-
                         </div>
-
                     </div>
                     <div class="col-xs-12">
                         <div id="officeCodeId">
@@ -36,7 +31,7 @@
                                            class="form-control" type="text" value="" disabled onchange="$.fn.onInputValueChange('officeCodeStartId', 'officeCodeStartName')"/>
                                 </div>
                             </div>
-                            <div class="col-xs-1 no-padding ratio">~</div>
+                            <div class="col-xs-1 no-padding ratio">～</div>
                             <div class="col-xs-1">
                                 <div class="form-group">
                                     <input id="companyIdEndId" name="companyIdEndId" placeholder="999" class="form-control"
@@ -49,7 +44,7 @@
                                            class="form-control" type="text" value="" disabled/>
                                 </div>
                             </div>
-                            <div class="col-xs-1 no-padding ratio">~</div>
+                            <div class="col-xs-1 no-padding ratio">～</div>
                             <div class="col-xs-3">
                                 <div class="form-group">
                                     <input id="companyIdEndName" name="companyIdEndName" placeholder=""
@@ -81,7 +76,7 @@
                                            type="text" value="" disabled onchange="$.fn.onInputValueChange('trustStartId', 'trustStartName')"/>
                                 </div>
                             </div>
-                            <div class="col-xs-1 no-padding ratio">~</div>
+                            <div class="col-xs-1 no-padding ratio">～</div>
                             <div class="col-xs-1">
                                 <div class="form-group">
                                     <input id="trustEndId" name="trustEndId" placeholder="999" class="form-control"
@@ -94,7 +89,7 @@
                                            value="" disabled/>
                                 </div>
                             </div>
-                            <div class="col-xs-1 no-padding ratio">~</div>
+                            <div class="col-xs-1 no-padding ratio">～</div>
                             <div class="col-xs-3">
                                 <div class="form-group">
                                     <input id="trustEndName" name="trustEndName" class="form-control" type="text"
@@ -108,7 +103,7 @@
                     <div class="col-xs-12">
                         <div class="col-xs-12 no-padding">
                             <div class="col-xs-2 no-padding">
-                                <p>受託区分</p>
+                                <p>出力区分</p>
                             </div>
                             <div class="col-xs-1">
                                 <input type="radio" name="Trusteeship_2" value="all" checked onclick="$.fn.radioButtonSelectionChanged('Trusteeship_2', 'Trusteeship_2Id')">  <span> 全て</span>
@@ -117,10 +112,7 @@
                                 <input type="radio" name="Trusteeship_2" value="directSales" onclick="$.fn.radioButtonSelectionChanged('Trusteeship_2', 'Trusteeship_2Id')">  <span> 地区</span>
                             </div>
                             <div class="col-xs-1 no-padding">
-                                <input type="radio" name="Trusteeship_2" value="salesOutlet" onclick="$.fn.radioButtonSelectionChanged('Trusteeship_2', 'Trusteeship_2Id')">  <span> 検針担当者</span>
-                            </div>
-                            <div class="col-xs-1 no-padding">
-                                <input type="radio" name="Trusteeship_2" value="salesOutlet" onclick="$.fn.radioButtonSelectionChanged('Trusteeship_2', 'Trusteeship_2Id')">  <span> .配送委託先</span>
+                                <input type="radio" name="Trusteeship_2" value="salesOutlet" onclick="$.fn.radioButtonSelectionChanged('Trusteeship_2', 'Trusteeship_2Id')">  <span> 営業担当者</span>
                             </div>
                         </div>
                         <div id="Trusteeship_2Id">
@@ -131,7 +123,7 @@
                                            class="form-control" type="text" value="" disabled onchange="$.fn.onInputValueChange('outputStartId', 'outputStartName')"/>
                                 </div>
                             </div>
-                            <div class="col-xs-1 no-padding ratio">~</div>
+                            <div class="col-xs-1 no-padding ratio">～</div>
                             <div class="col-xs-1">
                                 <div class="form-group">
                                     <input id="outputEndId" name="outputEndId" placeholder="999" class="form-control"
@@ -144,7 +136,7 @@
                                            value="" disabled/>
                                 </div>
                             </div>
-                            <div class="col-xs-1 no-padding ratio">~</div>
+                            <div class="col-xs-1 no-padding ratio">～</div>
                             <div class="col-xs-3">
                                 <div class="form-group">
                                     <input id="outputEndName" name="outputEndName" class="form-control" type="text"
@@ -165,7 +157,7 @@
                                        class="form-control" type="text" value=""  onchange="$.fn.onInputValueChange('consCodeStart', 'consCodeStartName')"/>
                             </div>
                         </div>
-                        <div class="col-xs-1 no-padding ratio">~</div>
+                        <div class="col-xs-1 no-padding ratio">～</div>
                         <div class="col-xs-2">
                             <div class="form-group">
                                 <input id="consCodeEnd" name="consCodeEnd" placeholder="z" class="form-control"
@@ -178,7 +170,7 @@
                                        type="text" value="" />
                             </div>
                         </div>
-                        <div class="col-xs-1 no-padding ratio">~</div>
+                        <div class="col-xs-1 no-padding ratio">～</div>
                         <div class="col-xs-3">
                             <div class="form-group">
                                 <input id="consCodeEndName" name="consCodeEndName" class="form-control"
@@ -216,43 +208,24 @@
 
                                 <div class="col-xs-1">
                                     <input type="radio" name="Amount" value="all" onclick="$.fn.radioButtonSelectionChanged('Amount', 'AmountId')">  <span>全て</span>
-
                                 </div>
-
                                 <div class="col-xs-1 no-padding">
-                                    <input type="radio" name="Amount" value="salesOutlet" onclick="$.fn.radioButtonSelectionChanged('Amount', 'AmountId')"> <span>\0以外全て</span>
-
-
+                                    <input type="radio" name="Amount" value="salesOutlet" onclick="$.fn.radioButtonSelectionChanged('Amount', 'AmountId')"> <span>￥0以外全て</span>
                                 </div>
-
                                 <div class="col-xs-1 no-padding">
-                                    <input type="radio" name="Amount" value="salesOutlet" onclick="$.fn.radioButtonSelectionChanged('Amount', 'AmountId')">  <span>\0のみ</span>
-
-
+                                    <input type="radio" name="Amount" value="salesOutlet" onclick="$.fn.radioButtonSelectionChanged('Amount', 'AmountId')">  <span>￥0のみ</span>
                                 </div>
-
                                 <div class="col-xs-1 no-padding">
-                                    <input type="radio" name="Amount" value="salesOutlet" onclick="$.fn.radioButtonSelectionChanged('Amount', 'AmountId')"> <span>\0より大</span>
-
-
+                                    <input type="radio" name="Amount" value="salesOutlet" onclick="$.fn.radioButtonSelectionChanged('Amount', 'AmountId')"> <span>￥0より大</span>
                                 </div>
-
                                 <div class="col-xs-1 no-padding">
-                                    <input type="radio" name="Amount" value="salesOutlet" onclick="$.fn.radioButtonSelectionChanged('Amount', 'AmountId')"> <span>\0より小</span>
-
-
+                                    <input type="radio" name="Amount" value="salesOutlet" onclick="$.fn.radioButtonSelectionChanged('Amount', 'AmountId')"> <span>￥0より小</span>
                                 </div>
-
                                 <div class="col-xs-1 no-padding">
-                                    <input type="radio" name="Amount" value="salesOutlet" onclick="$.fn.radioButtonSelectionChanged('Amount', 'AmountId')"> <span>\0以上</span>
-
-
+                                    <input type="radio" name="Amount" value="salesOutlet" onclick="$.fn.radioButtonSelectionChanged('Amount', 'AmountId')"> <span>￥0以上</span>
                                 </div>
-
                                 <div class="col-xs-1 no-padding">
-                                    <input type="radio" name="Amount" value="salesOutlet" onclick="$.fn.radioButtonSelectionChanged('Amount', 'AmountId')"> <span>\0以下</span>
-
-
+                                    <input type="radio" name="Amount" value="salesOutlet" onclick="$.fn.radioButtonSelectionChanged('Amount', 'AmountId')"> <span>￥0以下</span>
                                 </div>
 
                             </div>
@@ -300,18 +273,14 @@
 
                             <div class="col-xs-2">
                                 <input type="radio" name="sortBy" value="all" onclick="$.fn.radioButtonSelectionChanged('sortBy', 'sortById')"><span>消費者コード順</span>
-
                             </div>
 
                             <div class="col-xs-2 no-padding">
-                                <input type="radio" name="sortBy" value="salesOutlet" onclick="$.fn.radioButtonSelectionChanged('sortBy', 'sortById')"><span>検索名順</span>
-
+                                <input type="radio" name="sortBy" value="salesOutlet" onclick="$.fn.radioButtonSelectionChanged('sortBy', 'sortById')"><span>検針順路順</span>
                             </div>
 
                             <div class="col-xs-2 no-padding">
-                                <input type="radio" name="sortBy" value="directSales" onclick="$.fn.radioButtonSelectionChanged('sortBy', 'sortById')"><span>\0のみ</span>
-
-
+                                <input type="radio" name="sortBy" value="directSales" onclick="$.fn.radioButtonSelectionChanged('sortBy', 'sortById')"><span>検索名順</span>
                             </div>
 
 
@@ -326,13 +295,11 @@
                                 </label>
 
                                 <div class="col-xs-2">
-                                    <input type="radio" name="OutputDestination" value="all" onclick="$.fn.radioButtonSelectionChanged('OutputDestination', 'OutputDestinationId')"> <span>プリンタ（印刷）</span>
-
+                                    <input type="radio" name="OutputDestination" value="all" onclick="$.fn.radioButtonSelectionChanged('OutputDestination', 'OutputDestinationId')"> <span>プリンタ(印刷)</span>
                                 </div>
 
                                 <div class="col-xs-2 no-padding">
-                                    <input type="radio" name="OutputDestination" value="salesOutlet" onclick="$.fn.radioButtonSelectionChanged('OutputDestination', 'OutputDestinationId')"> <span>画面（印刷イメージ）</span>
-
+                                    <input type="radio" name="OutputDestination" value="salesOutlet" onclick="$.fn.radioButtonSelectionChanged('OutputDestination', 'OutputDestinationId')"> <span>画面(印刷イメージ)</span>
                                 </div>
                             </div>
 

@@ -5,11 +5,11 @@
     <div class="col-md-12 col-xs-12 no-padding body-background">
 
         <div class="head-p">
-            <p>入金伝票入力チェックリスト </p>
+            <p>入金伝票入力チェックリスト</p>
         </div>
         <form id="meter" action="/gas/meter-reading" method="POST">
             <div class="col-xs-12 border1 no-padding">
-                <p class="back-end">消費者範囲指定</p>
+                <p class="back-end">作成範囲指定</p>
                 <div class="col-xs-12 ">
                     <div class="col-xs-2 no-padding">
                         <p>伝票入力作業日
@@ -57,7 +57,7 @@
                                    type="text" value="" onchange="$.fn.onInputValueChange('slipStartId', 'slipEndId')"/>
                         </div>
                     </div>
-                    <div class="col-xs-1 no-padding ratio">~</div>
+                    <div class="col-xs-1 no-padding ratio">～</div>
                     <div class="col-xs-2">
                         <div class="form-group">
                             <input id="slipEndId" name="slipEndId" placeholder="" class="form-control" type="text"
@@ -96,7 +96,7 @@
                                    type="text" value="" onchange="$.fn.onInputValueChange('deleteStartId', 'deleteEndId')"/>
                         </div>
                     </div>
-                    <div class="col-xs-1 no-padding ratio">~</div>
+                    <div class="col-xs-1 no-padding ratio">～</div>
                     <div class="col-xs-2">
                         <div class="form-group">
                             <input id="deleteEndId" name="deleteEndId" placeholder="" class="form-control" type="text"
@@ -118,7 +118,7 @@
                                    type="date" value=""/>
                         </div>
                     </div>
-                    <div class="col-xs-1 no-padding ratio">~</div>
+                    <div class="col-xs-1 no-padding ratio">～</div>
                     <div class="col-xs-2">
                         <div class="form-group">
                             <input id="trustEndId" name="trustEndId" placeholder="" class="form-control" type="date"
@@ -153,18 +153,18 @@
             </div>
             <div class="col-xs-12 border1 no-padding">
                 <div class="col-xs-12 no-padding">
-                    <p class="back-end">出力してい</p>
+                    <p class="back-end">出力指定</p>
                     <div class="form-group">
 
                         <div class="col-xs-2">
                             <p>出力先</p>
                         </div>
                         <div class="col-xs-2">
-                            <input type="radio" name="classificationSelection" value="custom" onclick="$.fn.radioButtonSelectionChanged('classificationSelection', 'classificationSelectionId')"> <span> プリンタ（印刷）</span>
+                            <input type="radio" name="classificationSelection" value="custom" onclick="$.fn.radioButtonSelectionChanged('classificationSelection', 'classificationSelectionId')"> <span> プリンタ(印刷)</span>
 
                         </div>
                         <div class="col-xs-2 ml-n-30">
-                            <input type="radio" name="classificationSelection" value="custom" onclick="$.fn.radioButtonSelectionChanged('classificationSelection', 'classificationSelectionId')"> <span> 画面（印刷イメージ）</span>
+                            <input type="radio" name="classificationSelection" value="custom" onclick="$.fn.radioButtonSelectionChanged('classificationSelection', 'classificationSelectionId')"> <span> 画面(印刷イメージ)</span>
                         </div>
 
 

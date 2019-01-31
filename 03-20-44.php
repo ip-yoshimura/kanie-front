@@ -43,7 +43,7 @@ include "sidebar.php"
                     <div class="col-xs-2 no-padding">
                         <p>入力担当者</p>
                     </div>
-                    <div class="col-xs-2">
+                    <div class="col-xs-1">
                         <input type="text" class="form-control">
                     </div>
                     <div class="col-xs-2">
@@ -59,41 +59,22 @@ include "sidebar.php"
                     <div class="col-xs-2">
                         <input type="text" class="form-control">
                     </div>
-                    <div class="col-xs-1 no-padding ratio">~</div>
+                    <div class="col-xs-1 no-padding ratio">～</div>
                     <div class="col-xs-2">
                         <input type="text" class="form-control" >
                     </div>
-
-
-                </div>
-                <div class="col-xs-12 border-margin">
-                    <div class="col-xs-2 no-padding">
-                        <p>伝票番号</p>
-                    </div>
-                    <div class="col-xs-2">
-                        <input type="text" class="form-control">
-                    </div>
-                    <div class="col-xs-2">
-
-                    </div>
-
-
                 </div>
 
                 <div class="col-xs-12 border-margin">
                     <div class="col-xs-2 no-padding">
                         <p>削除伝票の印刷</p>
                     </div>
-                    <div class="col-xs-1">
-                        <input type="number" class="form-control">
-                    </div>
                     <div class="col-xs-3">
-                        <div class="col-xs-3 no-padding"><input type="radio" id="" name=""><span> する</span></div>
-                        <div class="col-xs-3 no-padding"><input type="radio" id="" name=""><span> しない </span></div>
+                        <div class="col-xs-3 no-padding"><input type="radio" id="" name="printDelete"><span> する</span></div>
+                        <div class="col-xs-3 no-padding"><input type="radio" id="" name="printDelete"><span> しない </span></div>
                     </div>
-
-
                 </div>
+
                 <div class="col-xs-12 border-margin">
                     <div class="col-xs-2 no-padding">
                         <p>削除伝票番号</p>
@@ -101,7 +82,7 @@ include "sidebar.php"
                     <div class="col-xs-2">
                         <input type="text" class="form-control">
                     </div>
-                    <div class="col-xs-1 no-padding ratio">~</div>
+                    <div class="col-xs-1 no-padding ratio">～</div>
                     <div class="col-xs-2">
                         <input type="text" class="form-control">
                     </div>
@@ -116,35 +97,22 @@ include "sidebar.php"
                     <div class="col-xs-2">
                         <input type="date" class="form-control">
                     </div>
-                    <div class="col-xs-1 no-padding ratio">~</div>
+                    <div class="col-xs-1 no-padding ratio">～</div>
                     <div class="col-xs-2">
                         <input type="date" class="form-control">
                     </div>
-
-
-
                 </div>
 
                 <div class="col-xs-12 border-margin border-margin-bottom">
                     <div class="col-xs-2 no-padding">
                         <p>入金日</p>
                     </div>
-                    <div class="col-xs-1">
-                        <input type="number" class="form-control">
-                    </div>
-
                     <div class="col-xs-4">
-                        <div class="col-xs-3 no-padding"><input type="radio" id="" name=""><span> 全て</span></div>
-                        <div class="col-xs-3 no-padding"><input type="radio" id="" name=""><span> 直売</span></div>
-                        <div class="col-xs-3 no-padding"><input type="radio" id="" name=""><span> 卸</span></div>
-
+                        <div class="col-xs-3 no-padding"><input type="radio" id="" name="paymentDay"><span> 全て</span></div>
+                        <div class="col-xs-3 no-padding"><input type="radio" id="" name="paymentDay"><span> 直売</span></div>
+                        <div class="col-xs-3 no-padding"><input type="radio" id="" name="paymentDay"><span> 卸</span></div>
                     </div>
-
-
-
                 </div>
-
-
 
             </div>
 
@@ -158,13 +126,9 @@ include "sidebar.php"
                     <div class="col-xs-2 no-padding">
                         <p>出力先</p>
                     </div>
-                    <div class="col-xs-1">
-                        <input type="number" class="form-control">
-                    </div>
-
                     <div class="col-xs-4">
-                        <div class="col-xs-6 no-padding"><input type="radio" id="" name=""><span> プリンタ（印刷）</span></div>
-                        <div class="col-xs-6 no-padding"><input type="radio" id="" name=""><span> 画面（印刷イメージ</span></div>
+                        <div class="col-xs-6 no-padding"><input type="radio" id="" name="outputTarget"><span> プリンタ(印刷)</span></div>
+                        <div class="col-xs-6 no-padding"><input type="radio" id="" name="outputTarget"><span> 画面(印刷イメージ)</span></div>
 
 
                     </div>

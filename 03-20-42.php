@@ -36,7 +36,7 @@
                                     </div>
                                 </div>
 
-                                <div class="col-xs-1 no-padding ratio">~</div>
+                                <div class="col-xs-1 no-padding ratio">～</div>
 
                                 <div class="col-xs-1 no-padding">
                                     <div class="form-group no-padding">
@@ -52,7 +52,7 @@
                                                value="" disabled/>
                                     </div>
                                 </div>
-                                <div class="col-xs-1 no-padding ratio">~</div>
+                                <div class="col-xs-1 no-padding ratio">～</div>
                                 <div class="col-xs-3">
                                     <div class="form-group">
                                         <input id="officeCodeEndName" name="officeCodeEndName" class="form-control"
@@ -84,7 +84,7 @@
                                                    type="text" value="" disabled onchange="$.fn.onInputValueChange('trustStartId', 'trustStartName')" />
                                         </div>
                                     </div>
-                                    <div class="col-xs-1 no-padding ratio">~</div>
+                                    <div class="col-xs-1 no-padding ratio">～</div>
                                     <div class="col-xs-1">
                                         <div class="form-group">
                                             <input id="trustEndId" name="trustEndId" placeholder="999" class="form-control"
@@ -98,7 +98,7 @@
 
                                         </div>
                                     </div>
-                                    <div class="col-xs-1 no-padding ratio">~</div>
+                                    <div class="col-xs-1 no-padding ratio">～</div>
                                     <div class="col-xs-3">
                                         <div class="form-group">
                                             <input id="trustEndName" name="trustEndName" class="form-control" type="text"
@@ -135,7 +135,7 @@
                                                    type="text" value="" disabled onchange="$.fn.onInputValueChange('outputStartId', 'outputStartName')" />
                                         </div>
                                     </div>
-                                    <div class="col-xs-1 no-padding ratio">~</div>
+                                    <div class="col-xs-1 no-padding ratio">～</div>
                                     <div class="col-xs-1">
                                         <div class="form-group">
                                             <input id="outputEndId" name="outputEndId" placeholder="999" class="form-control"
@@ -149,7 +149,7 @@
                                         </div>
 
                                     </div>
-                                    <div class="col-xs-1 no-padding ratio">~</div>
+                                    <div class="col-xs-1 no-padding ratio">～</div>
                                     <div class="col-xs-3">
                                         <div class="form-group">
                                             <input id="outputEndName" name="outputEndName" class="form-control" type="text"
@@ -171,7 +171,7 @@
                                                type="text" value="" onchange="$.fn.onInputValueChange('consumerCodeStartId', 'consumerCodeStartName')" />
                                     </div>
                                 </div>
-                                <div class="col-xs-1 no-padding ratio">~</div>
+                                <div class="col-xs-1 no-padding ratio">～</div>
                                 <div class="col-xs-2">
                                     <div class="form-group">
                                         <input id="consumeCodeEndId" name="consumeCodeEndId" placeholder="z" class="form-control"
@@ -184,7 +184,7 @@
                                                type="text" value="" />
                                     </div>
                                 </div>
-                                <div class="col-xs-1 no-padding ratio">~</div>
+                                <div class="col-xs-1 no-padding ratio">～</div>
                                 <div class="col-xs-2">
                                     <div class="form-group">
                                         <input id="consumerCodeEndName" name="consumerCodeEndName" class="form-control"
@@ -262,7 +262,7 @@
                                            value="" onchange="$.fn.onInputValueChange('slipId', 'slipName')"/>
                                 </div>
                             </div>
-                            <div class="col-xs-1 no-padding ratio">~</div>
+                            <div class="col-xs-1 no-padding ratio">～</div>
                             <div class="col-xs-4">
                                 <div class="form-group">
                                     <input id="slipName" name="slipName" placeholder="" class="form-control" type="text"
@@ -340,7 +340,7 @@
                                         <option value="納品書 （本社）">納品書 （本社）</option>
                                         <option value="納品書 （本社） 百五">納品書 （本社） 百五</option>
                                         <option value="納品書 （関東）">納品書 （関東）</option>
-                                        <option value="蟹江プロパン納品書">蟹江プロパン納品書"</option>
+                                        <option value="蟹江プロパン納品書">蟹江プロパン納品書</option>
                                     </select>
                                 </div>
                             </div>
