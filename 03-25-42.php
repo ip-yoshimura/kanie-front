@@ -33,186 +33,329 @@
                             <tbody>
                             <tr>
                                 <td class="tbl-31-tr" style="background-color: yellow;color: black">1</td>
-                                <td>2018/10/15
+                                <td class="col-xs-1"><input type="date" class="form-control tbl-input">
 
                                 </td>
-                                <td>2018/10/15
+                                <td class="col-xs-1"><input type="date" class="form-control tbl-input">
 
                                 </td>
-                                <td>00000
+                                <td><input type="number" class="form-control tbl-input">
 
                                 </td>
-                                <td>207:
+                                <td><input type="text" class="form-control tbl-input">
 
                                 </td>
 
                             </tr>
                             <tr>
                                 <td class="tbl-31-tr">  </td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                <td class="col-xs-1"><input type="date" class="form-control tbl-input">
+
+                                </td>
+                                <td class="col-xs-1"><input type="date" class="form-control tbl-input">
+
+                                </td>
+                                <td><input type="number" class="form-control tbl-input">
+
+                                </td>
+                                <td><input type="text" class="form-control tbl-input">
+
+                                </td>
 
 
                             </tr>
                             <tr>
                                 <td class="tbl-31-tr"></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                <td class="col-xs-1"><input type="date" class="form-control tbl-input">
+
+                                </td>
+                                <td class="col-xs-1"><input type="date" class="form-control tbl-input">
+
+                                </td>
+                                <td><input type="number" class="form-control tbl-input">
+
+                                </td>
+                                <td><input type="text" class="form-control tbl-input">
+
+                                </td>
 
 
                             </tr>
                             <tr>
                                 <td class="tbl-31-tr"></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                <td class="col-xs-1"><input type="date" class="form-control tbl-input">
+
+                                </td>
+                                <td class="col-xs-1"><input type="date" class="form-control tbl-input">
+
+                                </td>
+                                <td><input type="number" class="form-control tbl-input">
+
+                                </td>
+                                <td><input type="text" class="form-control tbl-input">
+
+                                </td>
 
 
                             </tr>
                             <tr>
                                 <td class="tbl-31-tr"></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                <td class="col-xs-1"><input type="date" class="form-control tbl-input">
 
+                                </td>
+                                <td class="col-xs-1"><input type="date" class="form-control tbl-input">
 
-                            </tr>
+                                </td>
+                                <td><input type="number" class="form-control tbl-input">
 
-                            <tr>
-                                <td class="tbl-31-tr"></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                </td>
+                                <td><input type="text" class="form-control tbl-input">
 
-
-                            </tr>
-
-                            <tr>
-                                <td class="tbl-31-tr"></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-
-
-                            </tr>
-
-                            <tr>
-                                <td class="tbl-31-tr"></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-
-
-                            </tr>
-                            <tr>
-                                <td class="tbl-31-tr"></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                </td>
 
 
                             </tr>
 
                             <tr>
                                 <td class="tbl-31-tr"></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                <td class="col-xs-1"><input type="date" class="form-control tbl-input">
 
+                                </td>
+                                <td class="col-xs-1"><input type="date" class="form-control tbl-input">
 
-                            </tr>
-                            <tr>
-                                <td class="tbl-31-tr"></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                </td>
+                                <td><input type="number" class="form-control tbl-input">
 
+                                </td>
+                                <td><input type="text" class="form-control tbl-input">
 
-                            </tr>
-                            <tr>
-                                <td class="tbl-31-tr"></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-
-
-                            </tr>
-                            <tr>
-                                <td class="tbl-31-tr"></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                </td>
 
 
                             </tr>
 
                             <tr>
                                 <td class="tbl-31-tr"></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                <td class="col-xs-1"><input type="date" class="form-control tbl-input">
 
+                                </td>
+                                <td class="col-xs-1"><input type="date" class="form-control tbl-input">
 
-                            </tr>
-                            <tr>
-                                <td class="tbl-31-tr"></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                </td>
+                                <td><input type="number" class="form-control tbl-input">
 
+                                </td>
+                                <td><input type="text" class="form-control tbl-input">
 
-                            </tr>
-
-                            <tr>
-                                <td class="tbl-31-tr"></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-
-
-                            </tr>
-                            <tr>
-                                <td class="tbl-31-tr"></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                </td>
 
 
                             </tr>
 
                             <tr>
                                 <td class="tbl-31-tr"></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                <td class="col-xs-1"><input type="date" class="form-control tbl-input">
+
+                                </td>
+                                <td class="col-xs-1"><input type="date" class="form-control tbl-input">
+
+                                </td>
+                                <td><input type="number" class="form-control tbl-input">
+
+                                </td>
+                                <td><input type="text" class="form-control tbl-input">
+
+                                </td>
 
 
                             </tr>
                             <tr>
                                 <td class="tbl-31-tr"></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                <td class="col-xs-1"><input type="date" class="form-control tbl-input">
+
+                                </td>
+                                <td class="col-xs-1"><input type="date" class="form-control tbl-input">
+
+                                </td>
+                                <td><input type="number" class="form-control tbl-input">
+
+                                </td>
+                                <td><input type="text" class="form-control tbl-input">
+
+                                </td>
+
+
+                            </tr>
+
+                            <tr>
+                                <td class="tbl-31-tr"></td>
+                                <td class="col-xs-1"><input type="date" class="form-control tbl-input">
+
+                                </td>
+                                <td class="col-xs-1"><input type="date" class="form-control tbl-input">
+
+                                </td>
+                                <td><input type="number" class="form-control tbl-input">
+
+                                </td>
+                                <td><input type="text" class="form-control tbl-input">
+
+                                </td>
+
+
+                            </tr>
+                            <tr>
+                                <td class="tbl-31-tr"></td>
+                                <td class="col-xs-1"><input type="date" class="form-control tbl-input">
+
+                                </td>
+                                <td class="col-xs-1"><input type="date" class="form-control tbl-input">
+
+                                </td>
+                                <td><input type="number" class="form-control tbl-input">
+
+                                </td>
+                                <td><input type="text" class="form-control tbl-input">
+
+                                </td>
+
+
+                            </tr>
+                            <tr>
+                                <td class="tbl-31-tr"></td>
+                                <td class="col-xs-1"><input type="date" class="form-control tbl-input">
+
+                                </td>
+                                <td class="col-xs-1"><input type="date" class="form-control tbl-input">
+
+                                </td>
+                                <td><input type="number" class="form-control tbl-input">
+
+                                </td>
+                                <td><input type="text" class="form-control tbl-input">
+
+                                </td>
+
+
+                            </tr>
+                            <tr>
+                                <td class="tbl-31-tr"></td>
+                                <td class="col-xs-1"><input type="date" class="form-control tbl-input">
+
+                                </td>
+                                <td class="col-xs-1"><input type="date" class="form-control tbl-input">
+
+                                </td>
+                                <td><input type="number" class="form-control tbl-input">
+
+                                </td>
+                                <td><input type="text" class="form-control tbl-input">
+
+                                </td>
+
+                            </tr>
+
+                            <tr>
+                                <td class="tbl-31-tr"></td>
+                                <td class="col-xs-1"><input type="date" class="form-control tbl-input">
+
+                                </td>
+                                <td class="col-xs-1"><input type="date" class="form-control tbl-input">
+
+                                </td>
+                                <td><input type="number" class="form-control tbl-input">
+
+                                </td>
+                                <td><input type="text" class="form-control tbl-input">
+
+                                </td>
+
+
+                            </tr>
+                            <tr>
+                                <td class="tbl-31-tr"></td>
+                                <td class="col-xs-1"><input type="date" class="form-control tbl-input">
+
+                                </td>
+                                <td class="col-xs-1"><input type="date" class="form-control tbl-input">
+
+                                </td>
+                                <td><input type="number" class="form-control tbl-input">
+
+                                </td>
+                                <td><input type="text" class="form-control tbl-input">
+
+                                </td>
+
+
+                            </tr>
+
+                            <tr>
+                                <td class="tbl-31-tr"></td>
+                                <td class="col-xs-1"><input type="date" class="form-control tbl-input">
+
+                                </td>
+                                <td class="col-xs-1"><input type="date" class="form-control tbl-input">
+
+                                </td>
+                                <td><input type="number" class="form-control tbl-input">
+
+                                </td>
+                                <td><input type="text" class="form-control tbl-input">
+
+                                </td>
+
+
+                            </tr>
+                            <tr>
+                                <td class="tbl-31-tr"></td>
+                                <td class="col-xs-1"><input type="date" class="form-control tbl-input">
+
+                                </td>
+                                <td class="col-xs-1"><input type="date" class="form-control tbl-input">
+
+                                </td>
+                                <td><input type="number" class="form-control tbl-input">
+
+                                </td>
+                                <td><input type="text" class="form-control tbl-input">
+
+                                </td>
+
+
+                            </tr>
+
+                            <tr>
+                                <td class="tbl-31-tr"></td>
+                                <td class="col-xs-1"><input type="date" class="form-control tbl-input">
+
+                                </td>
+                                <td class="col-xs-1"><input type="date" class="form-control tbl-input">
+
+                                </td>
+                                <td><input type="number" class="form-control tbl-input">
+
+                                </td>
+                                <td><input type="text" class="form-control tbl-input">
+
+                                </td>
+
+
+                            </tr>
+                            <tr>
+                                <td class="tbl-31-tr"></td>
+                                <td class="col-xs-1"><input type="date" class="form-control tbl-input">
+
+                                </td>
+                                <td class="col-xs-1"><input type="date" class="form-control tbl-input">
+
+                                </td>
+                                <td><input type="number" class="form-control tbl-input">
+
+                                </td>
+                                <td><input type="text" class="form-control tbl-input">
+
+                                </td>
 
 
                             </tr>

@@ -9,16 +9,16 @@
                 </div>
                 <form action="/gas/meter-reading" id="meter" method="POST">
                     <div class="col-xs-12 border1 no-padding">
-                        <p class="backend">消費者範囲指定</p>
+                        <p class="back-end">消費者範囲指定</p>
 
 
                     <div class="col-xs-12">
                         <div class="col-xs-12 no-padding">
-                            <div class="col-xs-1 no-padding">
+                            <div class="col-xs-2 no-padding">
                                 <p>営業所コード</p>
                             </div>
 
-                            <div class="col-xs-1 no-padding">
+                            <div class="col-xs-1">
                                 <input name="OfficeCode" type="radio" value="all" checked onclick="$.fn.radioButtonSelectionChanged('OfficeCode', 'OfficeCodeId')"> 全て
 
 
@@ -30,7 +30,7 @@
                         </div>
                         <div id="OfficeCodeId">
                         <div class="col-xs-12 no-padding">
-                            <div class="col-xs-1 col-xs-offset-1">
+                            <div class="col-xs-1 col-xs-offset-2">
                                 <div class="form-group">
                                     <input class="form-control" id="trustStartId" name="trustStartId" placeholder="000"
                                            type="text" value="" disabled onchange="$.fn.onInputValueChange('trustStartId', 'trustStartName')"/>
@@ -62,10 +62,10 @@
 
                     <div class="col-xs-12">
                         <div class="col-xs-12 no-padding">
-                            <div class="col-xs-1 no-padding">
+                            <div class="col-xs-2 no-padding">
                                 <p>受託区分</p>
                             </div>
-                            <div class="col-xs-1 no-padding">
+                            <div class="col-xs-1">
                                 <input name="Trusteeship" type="radio" value="all" checked onclick="$.fn.radioButtonSelectionChanged('Trusteeship', 'TrusteeshipId')"> 全て
 
                             </div>
@@ -81,7 +81,7 @@
                         </div>
                         <div id="TrusteeshipId">
                         <div class="col-xs-12 no-padding">
-                            <div class="col-xs-1 col-xs-offset-1">
+                            <div class="col-xs-1 col-xs-offset-2">
                                 <div class="form-group">
                                     <input class="form-control" id="TrusteeshipStartId" name="TrusteeshipStartId" placeholder="000"
                                            type="text" value="" disabled onchange="$.fn.onInputValueChange('TrusteeshipStartId', 'TrusteeshipStartName')"/>
@@ -114,31 +114,31 @@
 
                     </div>
                     <div class="col-xs-12 border1 no-padding bottom-box">
-                        <p class="backend">作成範囲指定</p>
+                        <p class="back-end">作成範囲指定</p>
                     <div class="col-xs-12">
 
 
-                        <div class="col-xs-1 no-padding">
+                        <div class="col-xs-2 no-padding">
                             <p>計上年月</p>
                         </div>
 
-                        <div class="form-group">
 
-                            <div class="col-xs-2 no-padding">
+
+                            <div class="col-xs-2">
                                 <input class="form-control" type="date"/>
                             </div>
 
 
-                        </div>
+
 
 
                     </div>
 
-                    <div class="col-xs-12">
-                        <div class="col-xs-1 no-padding">
+                    <div class="col-xs-12 border-margin-exp">
+                        <div class="col-xs-2 no-padding">
                             <p>商品コード</p>
                         </div>
-                        <div class="col-xs-3 no-padding">
+                        <div class="col-xs-3">
                             <div class="form-group">
                                 <input class="form-control" id="officeCodeStartId" name="officeCodeStartId"
                                        placeholder="000" type="number" value=""/>

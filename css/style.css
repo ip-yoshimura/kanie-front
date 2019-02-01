@@ -43,6 +43,7 @@ body{
 .tbl-31-tr {
     background-color: #3fa0cb;
     color: white;
+    text-align: center;
 }
 
 .tbl-31-main td {
@@ -371,6 +372,9 @@ input[type=search] {
 .ml-70{
    margin-left: 70px;
 }
+.ml-75{
+   margin-left: 75px;
+}
 .ml-90{
     margin-left: 90px;
 }
@@ -379,6 +383,9 @@ input[type=search] {
 }
 
 /*negative margin left*/
+.ml-n-5{
+    margin-left: -5px;
+}
 .ml-n-10{
     margin-left: -10px;
 }
@@ -416,3 +423,14 @@ input[type=search] {
    margin-left: -90px;
 }
 
+
+/*margin-new*/
+.ml-n-105{
+
+    margin-left: -105px;
+}
+
+.ml-n-100{
+
+    margin-left: -93px;
+}

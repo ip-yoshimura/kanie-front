@@ -8,26 +8,26 @@
         </div>
         <form action="/gas/meter-reading" id="meter" method="POST">
             <div class="col-xs-12 border1 no-padding">
-                <p class="backend">消費者範囲指定</p>
+                <p class="back-end">消費者範囲指定</p>
 
                 <div class="col-xs-12">
                     <div class="col-xs-12 no-padding">
-                        <div class="col-xs-1 no-padding">
+                        <div class="col-xs-2 no-padding">
                             <p>営業所コード</p>
                         </div>
 
                         <div class="col-xs-1">
-                            <input name="directSales" id="directSales" type="radio" value="all" checked onclick="$.fn.radioButtonSelectionChanged('directSales', 'directSalesId')"> <span>全て</span>
+                            <input name="directSales" id="directSales" type="radio" value="all" checked onclick="$.fn.radioButtonSelectionChanged('directSales', 'directSalesId')"> <span> 全て</span>
 
 
                         </div>
                         <div class="col-xs-1">
-                            <input name="directSales" id="directSales" type="radio" value="directSales" onclick="$.fn.radioButtonSelectionChanged('directSales', 'directSalesId')"> <span>選択</span>
+                            <input name="directSales" id="directSales" type="radio" value="directSales" onclick="$.fn.radioButtonSelectionChanged('directSales', 'directSalesId')"> <span> 選択</span>
 
                         </div>
                     </div>
                     <div id="directSalesId"><div class="col-xs-12 no-padding">
-                        <div class="col-xs-1 col-xs-offset-1">
+                        <div class="col-xs-1 col-xs-offset-2">
                             <div class="form-group">
                                 <input class="form-control" id="trustStartId" name="trustStartId" placeholder="000"
                                        type="text" value=""disabled onchange="$.fn.onInputValueChange('trustStartId', 'trustStartName')"/>
@@ -58,24 +58,24 @@
 
                 <div class="col-xs-12">
                     <div class="col-xs-12 no-padding">
-                        <div class="col-xs-1 no-padding">
+                        <div class="col-xs-2 no-padding">
                             <p>受託区分</p>
                         </div>
                         <div class="col-xs-1">
-                            <input name="trusteeShipSelection" type="radio" value="all" checked onclick="$.fn.radioButtonSelectionChanged('trusteeShipSelection', 'trusteeShipSelectionId')"> <span>全て</span>
+                            <input name="trusteeShipSelection" type="radio" value="all" checked onclick="$.fn.radioButtonSelectionChanged('trusteeShipSelection', 'trusteeShipSelectionId')"> <span> 全て</span>
 
                         </div>
                         <div class="col-xs-1">
-                            <input name="trusteeShipSelection" type="radio" value="custom" onclick="$.fn.radioButtonSelectionChanged('trusteeShipSelection', 'trusteeShipSelectionId')"> <span>直売</span>
+                            <input name="trusteeShipSelection" type="radio" value="custom" onclick="$.fn.radioButtonSelectionChanged('trusteeShipSelection', 'trusteeShipSelectionId')"> <span> 直売</span>
                         </div>
                         <div class="col-xs-1">
-                            <input name="trusteeShipSelection" type="radio" value="salesOutlet" onclick="$.fn.radioButtonSelectionChanged('trusteeShipSelection', 'trusteeShipSelectionId')"> <span>販売店</span>
+                            <input name="trusteeShipSelection" type="radio" value="salesOutlet" onclick="$.fn.radioButtonSelectionChanged('trusteeShipSelection', 'trusteeShipSelectionId')"> <span> 販売店</span>
                         </div>
 
                     </div>
                     <div id="trusteeShipSelectionId">
                     <div class="col-xs-12 no-padding">
-                        <div class="col-xs-1 col-xs-offset-1">
+                        <div class="col-xs-1 col-xs-offset-2">
                             <div class="form-group">
                                 <input class="form-control" id="trusteeShipStartId" name="trusteeShipStartId" placeholder="000"
                                        type="text" value="" disabled onchange="$.fn.onInputValueChange('trusteeShipStartId', 'trusteeShipStartName')" />
@@ -108,7 +108,7 @@
 
                <div id="">
                <div class="col-xs-12">
-                    <div class="col-xs-1 no-padding">
+                    <div class="col-xs-2 no-padding">
                         <p>消費者コード </p>
                     </div>
                     <div class="col-xs-1 ">
@@ -143,10 +143,10 @@
 
 
             <div class="col-xs-12 border1 no-padding">
-                <p class="backend">作成範囲指定</p>
+                <p class="back-end">作成範囲指定</p>
                 
                 <div class="col-xs-12">
-                    <div class="col-xs-1 no-padding">
+                    <div class="col-xs-2 no-padding">
                         <p>銀行コード</p>
                     </div>
                     <div class="col-xs-1">
@@ -166,15 +166,15 @@
 
 
                 <div class="col-xs-12">
-                    <div class="col-xs-1 no-padding">
+                    <div class="col-xs-2 no-padding">
                         <p>集金区分</p>
                     </div>
                     <div class="col-xs-2">
-                        <input name="Collection" type="radio" value="all" checked onclick="$.fn.radioButtonSelectionChanged('Collection', 'CollectionId')"> <span>直接取引分</span>
+                        <input name="Collection" type="radio" value="all" checked onclick="$.fn.radioButtonSelectionChanged('Collection', 'CollectionId')"> <span> 直接取引分</span>
 
                     </div>
-                    <div class="col-xs-3 no-padding">
-                        <input name="Collection" type="radio" value="directSales" onclick="$.fn.radioButtonSelectionChanged('Collection', 'CollectionId')"> <span>幹事銀行分（振替代行分）</span>
+                    <div class="col-xs-2 no-padding ml-n-50">
+                        <input name="Collection" type="radio" value="directSales" onclick="$.fn.radioButtonSelectionChanged('Collection', 'CollectionId')"> <span> 幹事銀行分（振替代行分）</span>
                     </div>
 
                 </div>
@@ -182,7 +182,7 @@
                 <div class="col-xs-12">
 
 
-                    <div class="col-xs-1 no-padding">
+                    <div class="col-xs-2 no-padding">
                         <p>振替日
 
                         </p>
@@ -198,17 +198,17 @@
 
                 </div>
                 <div class="col-xs-12">
-                    <div class="col-xs-1 no-padding">
+                    <div class="col-xs-2 no-padding">
                         <p>出力区分指定
 
                         </p>
                     </div>
                     <div class="col-xs-1">
-                        <input name="segment" type="radio" value="all" checked onclick="$.fn.radioButtonSelectionChanged('segment', 'segmentId')"> <span>なし</span>
+                        <input name="segment" type="radio" value="all" checked onclick="$.fn.radioButtonSelectionChanged('segment', 'segmentId')"> <span> なし</span>
 
                     </div>
                     <div class="col-xs-2">
-                        <input name="segment" type="radio" value="directSales" onclick="$.fn.radioButtonSelectionChanged('segment', 'segmentId')"> <span>支店ごと</span>
+                        <input name="segment" type="radio" value="directSales" onclick="$.fn.radioButtonSelectionChanged('segment', 'segmentId')"> <span> 支店ごと</span>
 
                     </div>
 
@@ -218,37 +218,37 @@
 
 
             <div class="col-xs-12 border1 no-padding bottom-box">
-                <p class="backend">作成範囲指定</p>
+                <p class="back-end">作成範囲指定</p>
 
                 <div class="col-xs-12">
-                    <div class="col-xs-1 no-padding">
+                    <div class="col-xs-2 no-padding">
                         <p>並び順
 
                         </p>
                     </div>
                     <div class="col-xs-2 no-padding">
-                        <input name="SortBy" type="radio" value="all" onclick="$.fn.radioButtonSelectionChanged('SortBy', 'SortById')"> <span>消費者コード順</span>
+                        <input name="SortBy" type="radio" value="all" onclick="$.fn.radioButtonSelectionChanged('SortBy', 'SortById')"> <span> 消費者コード順</span>
 
 
                     </div>
                     <div class="col-xs-2 no-padding">
-                        <input name="SortBy" type="radio" value="directSales" onclick="$.fn.radioButtonSelectionChanged('SortBy', 'SortById')"> <span>口座番号順</span>
+                        <input name="SortBy" type="radio" value="directSales" onclick="$.fn.radioButtonSelectionChanged('SortBy', 'SortById')"> <span> 口座番号順</span>
 
 
                     </div>
                     <div class="col-xs-2 no-padding">
-                        <input name="SortBy" type="radio" value="salesOutlet" onclick="$.fn.radioButtonSelectionChanged('SortBy', 'SortById')"> <span>預金者コード順</span>
+                        <input name="SortBy" type="radio" value="salesOutlet" onclick="$.fn.radioButtonSelectionChanged('SortBy', 'SortById')"> <span> 預金者コード順</span>
 
                     </div>
                     <div class="col-xs-2 no-padding">
-                        <input name="SortBy" type="radio" value="salesOutlet" onclick="$.fn.radioButtonSelectionChanged('SortBy', 'SortById')"> <span>検索名順</span>
+                        <input name="SortBy" type="radio" value="salesOutlet" onclick="$.fn.radioButtonSelectionChanged('SortBy', 'SortById')"> <span> 検索名順</span>
 
                     </div>
                 </div>
 
 
                 <div class="col-xs-12">
-                    <div class="col-xs-1 no-padding">
+                    <div class="col-xs-2 no-padding">
                         <p>出力先</p>
                     </div>
                     <div class="col-xs-2 no-padding">

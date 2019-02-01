@@ -22,122 +22,122 @@
                     <tr>
                         <td class="bg-color">1</td>
 
-                        <td><input type="text" class="border-none form-control no-padding"></td>
-                        <td><input type="text" class="border-none form-control no-padding"></td>
+                        <td><input type="text" class="form-control tbl-input"></td>
+                        <td><input type="text" class="form-control tbl-input"></td>
                     </tr>
                     <tr>
                         <td class="bg-color">2</td>
 
-                        <td><input type="text" class="border-none form-control no-padding"></td>
-                        <td><input type="text" class="border-none form-control no-padding"></td>
+                        <td><input type="text" class="form-control tbl-input"></td>
+                        <td><input type="text" class="form-control tbl-input"></td>
                     </tr>
                     <tr>
                         <td class="bg-color">3</td>
 
-                        <td><input type="text" class="border-none form-control no-padding"></td>
-                        <td><input type="text" class="border-none form-control no-padding"></td>
+                        <td><input type="text" class="form-control tbl-input"></td>
+                        <td><input type="text" class="form-control tbl-input"></td>
                     </tr>
                     <tr>
                         <td class="bg-color">4</td>
 
-                        <td><input type="text" class="border-none form-control no-padding"></td>
-                        <td><input type="text" class="border-none form-control no-padding"></td>
+                        <td><input type="text" class="form-control tbl-input"></td>
+                        <td><input type="text" class="form-control tbl-input"></td>
                     </tr>
                     <tr>
                         <td class="bg-color">5</td>
 
-                        <td><input type="text" class="border-none form-control no-padding"></td>
-                        <td><input type="text" class="border-none form-control no-padding"></td>
+                        <td><input type="text" class="form-control tbl-input"></td>
+                        <td><input type="text" class="form-control tbl-input"></td>
                     </tr>
                     <tr>
                         <td class="bg-color">6</td>
 
-                        <td><input type="text" class="border-none form-control no-padding"></td>
-                        <td><input type="text" class="border-none form-control no-padding"></td>
+                        <td><input type="text" class="form-control tbl-input"></td>
+                        <td><input type="text" class="form-control tbl-input"></td>
                     </tr>
                     <tr>
                         <td class="bg-color">7</td>
 
-                        <td><input type="text" class="border-none form-control no-padding"></td>
-                        <td><input type="text" class="border-none form-control no-padding"></td>
+                        <td><input type="text" class="form-control tbl-input"></td>
+                        <td><input type="text" class="form-control tbl-input"></td>
                     </tr>
                     <tr>
                         <td class="bg-color">8</td>
 
-                        <td><input type="text" class="border-none form-control no-padding"></td>
-                        <td><input type="text" class="border-none form-control no-padding"></td>
+                        <td><input type="text" class="form-control tbl-input"></td>
+                        <td><input type="text" class="form-control tbl-input"></td>
                     </tr>
                     <tr>
                         <td class="bg-color">9</td>
 
-                        <td><input type="text" class="border-none form-control no-padding"></td>
-                        <td><input type="text" class="border-none form-control no-padding"></td>
+                        <td><input type="text" class="form-control tbl-input"></td>
+                        <td><input type="text" class="form-control tbl-input"></td>
                     </tr>
                     <tr>
                         <td class="bg-color">10</td>
 
-                        <td><input type="text" class="border-none form-control no-padding"></td>
-                        <td><input type="text" class="border-none form-control no-padding"></td>
+                        <td><input type="text" class="form-control tbl-input"></td>
+                        <td><input type="text" class="form-control tbl-input"></td>
                     </tr>
                     <tr>
                         <td class="bg-color">11</td>
 
-                        <td><input type="text" class="border-none form-control no-padding"></td>
-                        <td><input type="text" class="border-none form-control no-padding"></td>
+                        <td><input type="text" class="form-control tbl-input"></td>
+                        <td><input type="text" class="form-control tbl-input"></td>
                     </tr>
                     <tr>
                         <td class="bg-color">12</td>
 
-                        <td><input type="text" class="border-none form-control no-padding"></td>
-                        <td><input type="text" class="border-none form-control no-padding"></td>
+                        <td><input type="text" class="form-control tbl-input"></td>
+                        <td><input type="text" class="form-control tbl-input"></td>
                     </tr>
                     <tr>
                         <td class="bg-color">13</td>
 
-                        <td><input type="text" class="border-none form-control no-padding"></td>
-                        <td><input type="text" class="border-none form-control no-padding"></td>
+                        <td><input type="text" class="form-control tbl-input"></td>
+                        <td><input type="text" class="form-control tbl-input"></td>
                     </tr>
                     <tr>
                         <td class="bg-color">13</td>
 
-                        <td><input type="text" class="border-none form-control no-padding"></td>
-                        <td><input type="text" class="border-none form-control no-padding"></td>
+                        <td><input type="text" class="form-control tbl-input"></td>
+                        <td><input type="text" class="form-control tbl-input"></td>
                     </tr>
                     <tr>
                         <td class="bg-color">14</td>
 
-                        <td><input type="text" class="border-none form-control no-padding"></td>
-                        <td><input type="text" class="border-none form-control no-padding"></td>
+                        <td><input type="text" class="form-control tbl-input"></td>
+                        <td><input type="text" class="form-control tbl-input"></td>
                     </tr>
                     <tr>
                         <td class="bg-color">15</td>
 
-                        <td><input type="text" class="border-none form-control no-padding"></td>
-                        <td><input type="text" class="border-none form-control no-padding"></td>
+                        <td><input type="text" class="form-control tbl-input"></td>
+                        <td><input type="text" class="form-control tbl-input"></td>
                     </tr>
                     <tr>
                         <td class="bg-color">16</td>
 
-                        <td><input type="text" class="border-none form-control no-padding"></td>
-                        <td><input type="text" class="border-none form-control no-padding"></td>
+                        <td><input type="text" class="form-control tbl-input"></td>
+                        <td><input type="text" class="form-control tbl-input"></td>
                     </tr>
                     <tr>
                         <td class="bg-color">17</td>
 
-                        <td><input type="text" class="border-none form-control no-padding"></td>
-                        <td><input type="text" class="border-none form-control no-padding"></td>
+                        <td><input type="text" class="form-control tbl-input"></td>
+                        <td><input type="text" class="form-control tbl-input"></td>
                     </tr>
                     <tr>
                         <td class="bg-color">18</td>
 
-                        <td><input type="text" class="border-none form-control no-padding"></td>
-                        <td><input type="text" class="border-none form-control no-padding"></td>
+                        <td><input type="text" class="form-control tbl-input"></td>
+                        <td><input type="text" class="form-control tbl-input"></td>
                     </tr>
                     <tr>
                         <td class="bg-color">19</td>
 
-                        <td><input type="text" class="border-none form-control no-padding"></td>
-                        <td><input type="text" class="border-none form-control no-padding"></td>
+                        <td><input type="text" class="form-control tbl-input"></td>
+                        <td><input type="text" class="form-control tbl-input"></td>
                     </tr>
                     </thead>
                 </table>
@@ -145,7 +145,7 @@
 
             <div class="col-xs-7">
                 <div class="col-xs-12">
-                    <div class="col-xs-2 no-padding">
+                    <div class="col-xs-2 no-padding border-margin-exp">
                         <p>銀行コード</p>
                     </div>
                     <div class="col-xs-4">
@@ -158,20 +158,20 @@
                 </div>
 
                 <div class="col-xs-12 border-margin">
-                    <div class="col-xs-2 no-padding">
+                    <div class="col-xs-2 no-padding border-margin-exp">
                         <p>銀行区分</p>
                     </div>
                     <div class="col-xs-3">
                         <input type="number" class="form-control">
                     </div>
                     <div class="col-xs-7">
-                        <div class="col-xs-5 no-padding"><input type="radio" id="" name=""><span> 直接取引分</span></div>
-                        <div class="col-xs-7 no-padding"><input type="radio" id="" name=""><span> 幹事銀行（振替代行分）</span></div>
+                        <div class="col-xs-5 no-padding"><input type="radio" id="" name="bank_classification"><span> 直接取引分</span></div>
+                        <div class="col-xs-7 no-padding"><input type="radio" id="" name="bank_classification"><span> 幹事銀行（振替代行分）</span></div>
                     </div>
 
                 </div>
                 <div class="col-xs-12 border-margin">
-                    <div class="col-xs-2 no-padding">
+                    <div class="col-xs-2 no-padding border-margin-exp">
                         <p>振替日</p>
                     </div>
                     <div class="col-xs-4">

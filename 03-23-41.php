@@ -23,32 +23,28 @@ include "sidebar.php"
 
 
 
-                <label class="col-xs-1 no-padding">銀行コード</label>
+                <label class="col-xs-2 no-padding border-margin-exp">銀行コード</label>
 
                 <div class="col-xs-1">
                     <div class="form-group">
-                        <input id="consumerCodeEndName" name="consumerCodeEndName" class="form-control"
-                               type="text" value=""/>
+                        <input id="trustStartId" name="trustStartId" placeholder="000" class="form-control"
+                               type="text" value=""
+                               onchange="$.fn.onInputValueChange('trustStartId', 'trustStartName')"/>
                     </div>
                 </div>
                 <div class="col-xs-2">
                     <div class="form-group">
-                        <input id="consumerCodeEndName" name="consumerCodeEndName" class="form-control"
-                               type="text" value=""/>
+                        <input id="trustStartName" name="trustStartName" class="form-control" type="text"
+                               value=""/>
                     </div>
                 </div>
-                <div class="col-xs-1 no-padding">
+                <div class="col-xs-1 no-padding border-margin-exp col-xs-offset-1">
                     <p>銀行区分</p>
                 </div>
-                <div class="col-xs-2">
-                    <div class="form-group">
-                        <input id="consumerCodeEndName" name="consumerCodeEndName" class="form-control"
-                               type="number" value=""/>
-                    </div>
-                </div>
-                <div class="col-xs-5 no-padding">
-                    <div class="col-xs-3 no-padding"><input type="radio" id="" name=""><span> 直接取引分</span></div>
-                    <div class="col-xs-7 no-padding"><input type="radio" id="" name=""><span> 幹事銀行（振替代行分）</span></div>
+
+                <div class="col-xs-5 no-padding border-margin-exp">
+                    <div class="col-xs-3 no-padding"><input type="radio" id="bankClassification" name="bankClassification"><span> 直接取引分</span></div>
+                    <div class="col-xs-7 no-padding"><input type="radio" id="bankClassification" name="bankClassification"><span> 幹事銀行（振替代行分）</span></div>
                 </div>
 
 
@@ -56,7 +52,7 @@ include "sidebar.php"
             </div>
 
             <div class="col-xs-12 no-padding">
-                <div class="col-xs-1 no-padding">
+                <div class="col-xs-2 no-padding">
                     <p>振替日</p>
                 </div>
                 <div class="col-xs-2">
@@ -67,30 +63,28 @@ include "sidebar.php"
             </div>
 
             <div class="col-xs-12 border-margin no-padding">
-                <div class="col-xs-1 no-padding">
+                <div class="col-xs-2 no-padding">
                     <p>表示選択</p>
                 </div>
-                <div class="col-xs-1 no-padding">
+                <div class="col-xs-1 border-margin-exp">
                     <p>入金未処理</p>
                 </div>
                 <div class="col-xs-1">
                     <input type="number" class="form-control">
                 </div>
-                <div class="col-xs-1 no-padding">
+                <div class="col-xs-1 border-margin-exp">
                     <p>入金済み</p>
                 </div>
                 <div class="col-xs-1">
                     <input type="number" class="form-control">
                 </div>
-                <div class="col-xs-1 no-padding">
+                <div class="col-xs-1 no-padding border-margin-exp">
                     <p>入金不能</p>
                 </div>
-                <div class="col-xs-1">
-                    <input type="number" class="form-control">
-                </div>
+
                 <div class="col-xs-3 no-padding">
-                    <div class="col-xs-5 no-padding"><input type="radio" id="" name=""><span> 表示する</span></div>
-                    <div class="col-xs-6 no-padding"><input type="radio" id="" name=""><span> 表示しない</span></div>
+                    <div class="col-xs-5 no-padding"><input type="radio" id="depositCanBe" name="depositCanBe"><span> 表示する</span></div>
+                    <div class="col-xs-6 no-padding"><input type="radio" id="depositCanBe" name="depositCanBe"><span> 表示しない</span></div>
                 </div>
 
 
@@ -98,17 +92,15 @@ include "sidebar.php"
 
             </div>
             <div class="col-xs-12 border-margin no-padding">
-                <div class="col-xs-1 no-padding">
+                <div class="col-xs-2 no-padding">
                     <p>並び順</p>
                 </div>
-                <div class="col-xs-1">
-                    <input type="number" class="form-control">
-                </div>
+
                 <div class="col-xs-10">
-                    <div class="col-xs-2 no-padding"><input type="radio" id="" name=""><span> 消費者コード順</span></div>
-                    <div class="col-xs-2 no-padding"><input type="radio" id="" name=""><span> 口座名義順</span></div>
-                    <div class="col-xs-2 no-padding"><input type="radio" id="" name=""><span> 預金者コード</span></div>
-                    <div class="col-xs-2 no-padding"><input type="radio" id="" name=""><span> 検索名順</span></div>
+                    <div class="col-xs-2 no-padding"><input type="radio" id="sortBy" name="sortBy"><span> 消費者コード順</span></div>
+                    <div class="col-xs-2 no-padding"><input type="radio" id="sortBy" name="sortBy"><span> 口座名義順</span></div>
+                    <div class="col-xs-2 no-padding"><input type="radio" id="sortBy" name="sortBy"><span> 預金者コード</span></div>
+                    <div class="col-xs-2 no-padding"><input type="radio" id="sortBy" name="sortBy"><span> 検索名順</span></div>
                 </div>
 
 
@@ -116,21 +108,18 @@ include "sidebar.php"
             </div>
 
             <div class="col-xs-12 border-margin no-padding">
-                <div class="col-xs-1 no-padding">
+                <div class="col-xs-2 no-padding">
                     <p>初期表示</p>
                 </div>
-                <div class="col-xs-1">
-                    <input type="number" class="form-control">
-                </div>
                 <div class="col-xs-3">
-                    <div class="col-xs-6 no-padding"><input type="radio" id="" name=""><span> 現在状態</span></div>
-                    <div class="col-xs-6 no-padding"><input type="radio" id="" name=""><span> 入金あり</span></div>
+                    <div class="col-xs-7 no-padding"><input type="radio" id="earlyRepresentation" name="earlyRepresentation"><span> 現在状態</span></div>
+                    <div class="col-xs-5 ml-n-10"><input type="radio" id="earlyRepresentation" name="earlyRepresentation"><span> 入金あり</span></div>
 
                 </div>
-                <div class="col-xs-2 no-padding">
+                <div class="col-xs-2 no-padding col-xs-offset-1 border-margin-exp">
                     <p>請求書掲載年月</p>
                 </div>
-                <div class="col-xs-2">
+                <div class="col-xs-2 ml-n-105">
                     <input type="date" class="form-control">
                 </div>
 
@@ -141,7 +130,7 @@ include "sidebar.php"
 
             <div class="col-xs-12 border1 no-padding border-margin">
 
-                <p class="backend">振替結果欄</p>
+                <p class="back-end">振替結果欄</p>
 
                 <div class="col-xs-12 border-margin border-margin-bottom table-scroll">
                     <div class="col-xs-12 no-padding">
@@ -157,49 +146,49 @@ include "sidebar.php"
 
                             </tr>
                             <tr>
-                                <td>1</td>
-                                <td><input type="text" class="form-control border-none"> </td>
-                                <td><input type="text" class="form-control border-none"> </td>
-                                <td><input type="text" class="form-control border-none"> </td>
-                                <td><input type="text" class="form-control border-none"> </td>
-                                <td><input type="text" class="form-control border-none"> </td>
-                                <td><input type="text" class="form-control border-none"> </td>
+                                <td class="bg-color">1</td>
+                                <td><input type="text" class="form-control tbl-input"> </td>
+                                <td><input type="text" class="form-control tbl-input"> </td>
+                                <td><input type="text" class="form-control tbl-input"> </td>
+                                <td><input type="text" class="form-control tbl-input"> </td>
+                                <td><input type="text" class="form-control tbl-input"> </td>
+                                <td><input type="text" class="form-control tbl-input"> </td>
                             </tr>
                             <tr>
-                                <td>2</td>
-                                <td><input type="text" class="form-control border-none"> </td>
-                                <td><input type="text" class="form-control border-none"> </td>
-                                <td><input type="text" class="form-control border-none"> </td>
-                                <td><input type="text" class="form-control border-none"> </td>
-                                <td><input type="text" class="form-control border-none"> </td>
-                                <td><input type="text" class="form-control border-none"> </td>
+                                <td class="bg-color">2</td>
+                                <td><input type="text" class="form-control tbl-input"> </td>
+                                <td><input type="text" class="form-control tbl-input"> </td>
+                                <td><input type="text" class="form-control tbl-input"> </td>
+                                <td><input type="text" class="form-control tbl-input"> </td>
+                                <td><input type="text" class="form-control tbl-input"> </td>
+                                <td><input type="text" class="form-control tbl-input"> </td>
                             </tr>
                             <tr>
-                                <td>3</td>
-                                <td><input type="text" class="form-control border-none"> </td>
-                                <td><input type="text" class="form-control border-none"> </td>
-                                <td><input type="text" class="form-control border-none"> </td>
-                                <td><input type="text" class="form-control border-none"> </td>
-                                <td><input type="text" class="form-control border-none"> </td>
-                                <td><input type="text" class="form-control border-none"> </td>
+                                <td class="bg-color">3</td>
+                                <td><input type="text" class="form-control tbl-input"> </td>
+                                <td><input type="text" class="form-control tbl-input"> </td>
+                                <td><input type="text" class="form-control tbl-input"> </td>
+                                <td><input type="text" class="form-control tbl-input"> </td>
+                                <td><input type="text" class="form-control tbl-input"> </td>
+                                <td><input type="text" class="form-control tbl-input"> </td>
                             </tr>
                             <tr>
-                                <td>4</td>
-                                <td><input type="text" class="form-control border-none"> </td>
-                                <td><input type="text" class="form-control border-none"> </td>
-                                <td><input type="text" class="form-control border-none"> </td>
-                                <td><input type="text" class="form-control border-none"> </td>
-                                <td><input type="text" class="form-control border-none"> </td>
-                                <td><input type="text" class="form-control border-none"> </td>
+                                <td class="bg-color">4</td>
+                                <td><input type="text" class="form-control tbl-input"> </td>
+                                <td><input type="text" class="form-control tbl-input"> </td>
+                                <td><input type="text" class="form-control tbl-input"> </td>
+                                <td><input type="text" class="form-control tbl-input"> </td>
+                                <td><input type="text" class="form-control tbl-input"> </td>
+                                <td><input type="text" class="form-control tbl-input"> </td>
                             </tr>
                             <tr>
-                                <td>5</td>
-                                <td><input type="text" class="form-control border-none"> </td>
-                                <td><input type="text" class="form-control border-none"> </td>
-                                <td><input type="text" class="form-control border-none"> </td>
-                                <td><input type="text" class="form-control border-none"> </td>
-                                <td><input type="text" class="form-control border-none"> </td>
-                                <td><input type="text" class="form-control border-none"> </td>
+                                <td class="bg-color">5</td>
+                                <td><input type="text" class="form-control tbl-input"> </td>
+                                <td><input type="text" class="form-control tbl-input"> </td>
+                                <td><input type="text" class="form-control tbl-input"> </td>
+                                <td><input type="text" class="form-control tbl-input"> </td>
+                                <td><input type="text" class="form-control tbl-input"> </td>
+                                <td><input type="text" class="form-control tbl-input"> </td>
                             </tr>
 
 
@@ -215,34 +204,34 @@ include "sidebar.php"
             </div>
 
             <div class="col-xs-12 border-margin-bottom">
-                <div class="col-xs-1 no-padding">
+                <div class="col-xs-1 no-padding border-margin-exp">
                     <p>振替済</p>
                 </div>
-                <div class="col-xs-1">
+                <div class="col-xs-1 ml-n-50">
                     <input type="number" class="form-control">
                 </div>
-                <div class="col-xs-1 no-padding">
+                <div class="col-xs-1 no-padding border-margin-exp">
                     <p>件</p>
                 </div>
                 <div class="col-xs-2">
                     <input type="number" class="form-control">
                 </div>
-                <div class="col-xs-1 no-padding">
+                <div class="col-xs-1 no-padding border-margin-exp">
                     <p>円</p>
                 </div>
-                <div class="col-xs-1 no-padding">
+                <div class="col-xs-1 no-padding border-margin-exp">
                     <p>不能者</p>
                 </div>
-                <div class="col-xs-1">
+                <div class="col-xs-1 ml-n-40">
                     <input type="number" class="form-control">
                 </div>
-                <div class="col-xs-1 no-padding">
+                <div class="col-xs-1 no-padding border-margin-exp">
                     <p>件</p>
                 </div>
                 <div class="col-xs-2">
                     <input type="number" class="form-control">
                 </div>
-                <div class="col-xs-1 no-padding">
+                <div class="col-xs-1 no-padding border-margin-exp">
                     <p>円</p>
                 </div>
             </div>

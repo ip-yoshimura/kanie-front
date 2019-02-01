@@ -8,11 +8,11 @@
             </div>
             <form action="/gas/meter-reading" id="meter" method="POST">
                 <div class="col-xs-12 border1 no-padding">
-                    <p class="backend">消費者範囲指定</p>
+                    <p class="back-end">消費者範囲指定</p>
 
                     <div class="col-xs-12">
                         <div class="col-xs-12 no-padding">
-                            <div class="col-xs-1 no-padding">
+                            <div class="col-xs-2 no-padding">
                                 <p>営業所コード</p>
                             </div>
 
@@ -28,7 +28,7 @@
                         </div>
                        <div id="OfficeCodeId">
                        <div class="col-xs-12 no-padding">
-                            <div class="col-xs-1 col-xs-offset-1">
+                            <div class="col-xs-1 col-xs-offset-2">
                                 <div class="form-group">
                                     <input class="form-control" id="trustStartId" name="trustStartId" placeholder="000"
                                            type="text" value="" disabled onchange="$.fn.onInputValueChange('trustStartId', 'trustStartName')"/>
@@ -60,7 +60,7 @@
 
                     <div class="col-xs-12">
                         <div class="col-xs-12 no-padding">
-                            <div class="col-xs-1 no-padding">
+                            <div class="col-xs-2 no-padding">
                                 <p>受託区分</p>
                             </div>
                             <div class="col-xs-1">
@@ -79,7 +79,7 @@
                         </div>
                         <div id="TrustClassificationId">
                         <div class="col-xs-12 no-padding">
-                            <div class="col-xs-1 col-xs-offset-1">
+                            <div class="col-xs-1 col-xs-offset-2">
                                 <div class="form-group">
                                     <input class="form-control" id="TrustClassificationStartId" name="TrustClassificationStartId" placeholder="000"
                                            type="text" value="" disabled onchange="$.fn.onInputValueChange('TrustClassificationStartId', 'TrustClassificationStartName')"/>
@@ -111,7 +111,7 @@
 
                     <div class="col-xs-12">
                         <div class="col-xs-12 no-padding">
-                            <div class="col-xs-1 no-padding">
+                            <div class="col-xs-2 no-padding">
                                 <p>出力区分
 
                                 </p>
@@ -132,7 +132,7 @@
                         </div>
                         <div id="OutputDifferentiationId">
                         <div class="col-xs-12 no-padding">
-                            <div class="col-xs-1 col-xs-offset-1">
+                            <div class="col-xs-1 col-xs-offset-2">
                                 <div class="form-group">
                                     <input class="form-control" id="OutputDifferentiationStartId" name="OutputDifferentiationStartId" placeholder="000"
                                            type="text" value="" disabled onchange="$.fn.onInputValueChange('OutputDifferentiationStartId', 'OutputDifferentiationStartName')"/>
@@ -164,7 +164,7 @@
 
 
                     <div class="col-xs-12">
-                        <div class="col-xs-1 no-padding">
+                        <div class="col-xs-2 no-padding">
                             <p>消費者コード </p>
                         </div>
                         <div class="col-xs-1">
@@ -183,23 +183,23 @@
                         <div class="col-xs-3">
                             <div class="form-group">
                                 <input class="form-control" id="consumerCodeStartName" name="consumerCodeStartName"
-                                       placeholder="Company 1" type="text" value=""/>
+                                       placeholder="" type="text" value=""/>
                             </div>
                         </div>
                         <div class="col-xs-1 no-padding ratio">~</div>
                         <div class="col-xs-3">
                             <div class="form-group">
                                 <input class="form-control" id="consumerCodeIdEndName" name="consumerCodeIdEndName"
-                                       placeholder="Company 2" type="text" value=""/>
+                                       placeholder="" type="text" value=""/>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-xs-12 border1 no-padding bottom-box">
-                    <p class="backend">作成範囲指定</p>
+                    <p class="back-end">作成範囲指定</p>
                     <div class="col-xs-12">
-                        <div class="col-xs-1 no-padding">
+                        <div class="col-xs-2 no-padding">
                             <p>滞留月数
 
                             </p>
@@ -212,7 +212,7 @@
                         </div>
 
 
-                        <div class="col-xs-3">
+                        <div class="col-xs-3 border-margin-exp">
                             <div class="form-group">
                                 <span>ヶ月以上</span>
 
@@ -222,25 +222,25 @@
 
 
                     <div class="col-xs-12">
-                        <div class="col-xs-1 no-padding">
+                        <div class="col-xs-2 no-padding">
                             <p>締切日指定
                             </p>
                         </div>
                         <div class="col-xs-1">
-                            <input name="DeadlineSpecification" type="radio" value="all" onclick="$.fn.radioButtonSelectionChanged('DeadlineSpecification', 'DeadlineSpecificationId')"><span>する</span>
+                            <input name="DeadlineSpecification" type="radio" value="all" onclick="$.fn.radioButtonSelectionChanged('DeadlineSpecification', 'DeadlineSpecificationId')"><span> する</span>
                         </div>
                         <div class="col-xs-2">
-                            <input name="DeadlineSpecification" type="radio" value="directSales" onclick="$.fn.radioButtonSelectionChanged('DeadlineSpecification', 'DeadlineSpecificationId')"> <span>しない</span>
+                            <input name="DeadlineSpecification" type="radio" value="directSales" onclick="$.fn.radioButtonSelectionChanged('DeadlineSpecification', 'DeadlineSpecificationId')"> <span> しない</span>
 
                         </div>
-                        <div class="col-xs-1 no-padding">
+                        <div class="col-xs-1 no-padding ml-n-50">
                             <div class="form-group">
                                 <input class="form-control" id="trustStartId" name="trustStartId" placeholder=""
                                        type="text" value=""/>
                             </div>
                         </div>
 
-                        <div class="col-xs-1">
+                        <div class="col-xs-1 border-margin-exp">
                             <div class="form-group">
                                 日
 
@@ -252,13 +252,13 @@
                     <div class="col-xs-12">
 
 
-                        <div class="col-xs-1 no-padding">
+                        <div class="col-xs-2 no-padding">
                             <p>計上年月</p>
                         </div>
 
                         <div class="form-group">
 
-                            <div class="col-xs-2">
+                            <div class="col-xs-2 no-padding ml-10">
                                 <input class="form-control" type="date"/>
                             </div>
 
@@ -271,13 +271,13 @@
                     <div class="col-xs-12">
 
 
-                        <div class="col-xs-1 no-padding">
+                        <div class="col-xs-2 no-padding">
                             <p>計上日</p>
                         </div>
 
                         <div class="form-group">
 
-                            <div class="col-xs-2">
+                            <div class="col-xs-2 no-padding ml-10">
                                 <input class="form-control" type="date"/>
                             </div>
 
@@ -287,7 +287,7 @@
 
                     </div>
                     <div class="col-xs-12">
-                        <div class="col-xs-1 no-padding">
+                        <div class="col-xs-2 no-padding">
                             <p>計上日</p>
                         </div>
                         <div class="col-xs-2">
@@ -296,7 +296,7 @@
                                        placeholder="000" type="number" value=""/>
                             </div>
                         </div>
-                        <div class="col-xs-1">
+                        <div class="col-xs-1 border-margin-exp">
                             <p>消費税</p>
                         </div>
                         <div class="col-xs-2  no-padding">
@@ -305,7 +305,7 @@
                                        type="number" value=""/>
                             </div>
                         </div>
-                        <div class="col-xs-1">
+                        <div class="col-xs-1 border-margin-exp">
                             <p>税込金額</p>
                         </div>
                         <div class="col-xs-2  no-padding">
@@ -317,10 +317,10 @@
 
                     </div>
                     <div class="col-xs-12">
-                        <div class="col-xs-1 no-padding">
+                        <div class="col-xs-2 no-padding">
                             <p>商品コード</p>
                         </div>
-                        <div class="col-xs-2">
+                        <div class="col-xs-3">
                             <div class="form-group">
                                 <input class="form-control" id="officeCodeStartId" name="officeCodeStartId"
                                        placeholder="000" type="number" value=""/>
