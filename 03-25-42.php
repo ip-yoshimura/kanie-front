@@ -15,19 +15,10 @@
                             <thead class="tbl-31">
                             <tr>
                                 <th style="width: 40px;height: 10px"></th>
-                                <th>作成日時
-
-                                </th>
-                                <th>取込作業日
-
-                                </th>
-                                <th>メーカーコード
-
-                                </th>
-                                <th>メーカーコード
-
-                                </th>
-
+                                <th>作成日時</th>
+                                <th>取込作業日</th>
+                                <th>メーカーコード</th>
+                                <th>取込担当者</th>
                             </tr>
                             </thead>
                             <tbody>

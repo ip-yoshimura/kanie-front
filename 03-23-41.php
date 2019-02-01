@@ -9,21 +9,12 @@ include "sidebar.php"
     <div class="col-md-12 col-xs-12 no-padding body-background bottom-box">
 
         <div class="head-p ">
-            <p>口座振替消費者一括入金
-            </p>
+            <p>口座振替消費者一括入金</p>
         </div>
         <form id="meter" action="/gas/meter-reading" method="POST">
 
-
-
-
-
-
             <div class="col-xs-12 no-padding">
-
-
-
-                <label class="col-xs-2 no-padding border-margin-exp">銀行コード</label>
+                <label class="col-xs-1 no-padding border-margin-exp">銀行コード</label>
 
                 <div class="col-xs-1">
                     <div class="form-group">
@@ -41,58 +32,57 @@ include "sidebar.php"
                 <div class="col-xs-1 no-padding border-margin-exp col-xs-offset-1">
                     <p>銀行区分</p>
                 </div>
-
                 <div class="col-xs-5 no-padding border-margin-exp">
                     <div class="col-xs-3 no-padding"><input type="radio" id="bankClassification" name="bankClassification"><span> 直接取引分</span></div>
                     <div class="col-xs-7 no-padding"><input type="radio" id="bankClassification" name="bankClassification"><span> 幹事銀行（振替代行分）</span></div>
                 </div>
-
-
-
             </div>
 
             <div class="col-xs-12 no-padding">
-                <div class="col-xs-2 no-padding">
+                <div class="col-xs-1 no-padding">
                     <p>振替日</p>
                 </div>
                 <div class="col-xs-2">
                     <input type="date" class="form-control">
                 </div>
-
-
             </div>
 
             <div class="col-xs-12 border-margin no-padding">
-                <div class="col-xs-2 no-padding">
+                <div class="col-xs-1 no-padding">
                     <p>表示選択</p>
                 </div>
-                <div class="col-xs-1 border-margin-exp">
-                    <p>入金未処理</p>
-                </div>
-                <div class="col-xs-1">
-                    <input type="number" class="form-control">
-                </div>
-                <div class="col-xs-1 border-margin-exp">
-                    <p>入金済み</p>
-                </div>
-                <div class="col-xs-1">
-                    <input type="number" class="form-control">
-                </div>
-                <div class="col-xs-1 no-padding border-margin-exp">
-                    <p>入金不能</p>
-                </div>
-
-                <div class="col-xs-3 no-padding">
-                    <div class="col-xs-5 no-padding"><input type="radio" id="depositCanBe" name="depositCanBe"><span> 表示する</span></div>
-                    <div class="col-xs-6 no-padding"><input type="radio" id="depositCanBe" name="depositCanBe"><span> 表示しない</span></div>
-                </div>
-
-
-
-
+		<div class="col-xs-10">
+		    <div class="col-xs-4">
+			<div class="col-xs-4 border-margin-exp">
+			    <p>入金未処理</p>
+			</div>
+			<div class="col-xs-8">
+			    <div class="col-xs-5 no-padding"><input type="radio" id="depositNotDone" name="depositNotDone"><span> 表示する</span></div>
+			    <div class="col-xs-6 no-padding"><input type="radio" id="depositNotDone" name="depositNotDone"><span> 表示しない</span></div>
+			</div>
+		    </div>
+		    <div class="col-xs-4">
+			<div class="col-xs-4 border-margin-exp">
+			    <p>入金済み</p>
+			</div>
+		    <div class="col-xs-8">
+			<div class="col-xs-5 no-padding"><input type="radio" id="depositDone" name="depositDone"><span> 表示する</span></div>
+			<div class="col-xs-6 no-padding"><input type="radio" id="depositDone" name="depositDone"><span> 表示しない</span></div>
+		    </div>
+		</div>
+		<div class="col-xs-4">
+		    <div class="col-xs-4 no-padding border-margin-exp">
+			<p>入金不能</p>
+		    </div>
+		    <div class="col-xs-8 no-padding">
+			<div class="col-xs-5 no-padding"><input type="radio" id="depositCanBe" name="depositCanBe"><span> 表示する</span></div>
+			<div class="col-xs-6 no-padding"><input type="radio" id="depositCanBe" name="depositCanBe"><span> 表示しない</span></div>
+		    </div>
+		</div>
             </div>
+
             <div class="col-xs-12 border-margin no-padding">
-                <div class="col-xs-2 no-padding">
+                <div class="col-xs-1 no-padding">
                     <p>並び順</p>
                 </div>
 
@@ -102,13 +92,10 @@ include "sidebar.php"
                     <div class="col-xs-2 no-padding"><input type="radio" id="sortBy" name="sortBy"><span> 預金者コード</span></div>
                     <div class="col-xs-2 no-padding"><input type="radio" id="sortBy" name="sortBy"><span> 検索名順</span></div>
                 </div>
-
-
-
             </div>
 
             <div class="col-xs-12 border-margin no-padding">
-                <div class="col-xs-2 no-padding">
+                <div class="col-xs-1 no-padding">
                     <p>初期表示</p>
                 </div>
                 <div class="col-xs-3">
@@ -122,14 +109,9 @@ include "sidebar.php"
                 <div class="col-xs-2 ml-n-105">
                     <input type="date" class="form-control">
                 </div>
-
-
             </div>
 
-
-
             <div class="col-xs-12 border1 no-padding border-margin">
-
                 <p class="back-end">振替結果欄</p>
 
                 <div class="col-xs-12 border-margin border-margin-bottom table-scroll">

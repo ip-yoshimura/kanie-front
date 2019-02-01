@@ -212,7 +212,7 @@
                                 </li>
                                 <li class="dropdown">
                                     <i class="fa fa-minus" aria-hidden="true"></i>
-                                    <a href="03-23-44.php">03-23-44.振替データＦＤ書込</a>
+                                    <a href="javascript:alert('not need now')">03-23-44.振替データＦＤ書込</a>
                                 </li>
                                 <li class="dropdown">
                                     <i class="fa fa-minus" aria-hidden="true"></i>
@@ -445,7 +445,7 @@
                         <a href="10-29.php">10-29.売上入金外部読込</a>
                     </li>
                     <li class="dropdown">
-                        <a href="javascript:alert('maybe not need')">10-30.集中監視データ取込</a>
+                        <a href="javascript:alert('not need now')">10-30.集中監視データ取込</a>
                     </li>
                   </ul>
                 </il>
@@ -478,10 +478,10 @@
                                 class="fa fa-cab"></i><span class="toplevel-menu-font">12.消費者情報</span><b class="caret"></b></a>
                     <ul class="sub_menu">
                         <li class="dropdown">
-                            <a href="javascript:alert('please check')">12-20.消費者情報問合せ</a>
+                            <a href="12-20.php">12-20.消費者情報問合せ</a>
                         </li>
                         <li class="dropdown">
-                            <a href="javascript:alert('please check')">12-30.入力・退去受付</a>
+                            <a href="12-30.php">12-30.入力・退去受付</a>
                         </li>
                     </ul>
                 </li>

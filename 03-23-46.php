@@ -4,9 +4,7 @@
     <div class="col-md-12 col-xs-12 no-padding body-background">
         <div class="head-p">
             <p>口座振替依頼表印刷指定</p>
-
         </div>
-        <h3>Japan team will work</h3>
         <form action="/gas/meter-reading" id="meter" method="POST">
             <div class="col-xs-12 border1 no-padding">
                 <p class="backend">消費者範囲指定</p>
@@ -34,7 +32,7 @@
                                            type="text" value=""disabled onchange="$.fn.onInputValueChange('trustStartId', 'trustStartName')"/>
                                 </div>
                             </div>
-                            <div class="col-xs-1 no-padding ratio">~</div>
+                            <div class="col-xs-1 no-padding ratio">～</div>
                             <div class="col-xs-1">
                                 <div class="form-group">
                                     <input class="form-control" id="trustEndId" name="trustEndId" placeholder="999"
@@ -47,7 +45,7 @@
                                            value=""disabled/>
                                 </div>
                             </div>
-                            <div class="col-xs-1 no-padding ratio">~</div>
+                            <div class="col-xs-1 no-padding ratio">～</div>
                             <div class="col-xs-3">
                                 <div class="form-group">
                                     <input class="form-control" id="trustEndName" name="trustEndName" type="text"
@@ -82,7 +80,7 @@
                                            type="text" value="" disabled onchange="$.fn.onInputValueChange('trusteeShipStartId', 'trusteeShipStartName')" />
                                 </div>
                             </div>
-                            <div class="col-xs-1 no-padding ratio">~</div>
+                            <div class="col-xs-1 no-padding ratio">～</div>
                             <div class="col-xs-1">
                                 <div class="form-group">
                                     <input class="form-control" id="trusteeShipEndId" name="trusteeShipEndId" placeholder="999"
@@ -95,7 +93,7 @@
                                            value="" disabled/>
                                 </div>
                             </div>
-                            <div class="col-xs-1 no-padding ratio">~</div>
+                            <div class="col-xs-1 no-padding ratio">～</div>
                             <div class="col-xs-3">
                                 <div class="form-group">
                                     <input class="form-control" id="trusteeShipEndName" name="trusteeShipEndName" type="text"
@@ -112,14 +110,14 @@
                         <div class="col-xs-1 no-padding">
                             <p>消費者コード </p>
                         </div>
-                        <div class="col-xs-1 ">
+                        <div class="col-xs-2">
                             <div class="form-group">
                                 <input class="form-control" id="consumerCodeStartId" name="consumerCodeStartId"
                                        placeholder="000" type="text" value="" onchange="$.fn.onInputValueChange('consumerCodeStartId', 'consumerCodeStartName')"/>
                             </div>
                         </div>
-                        <div class="col-xs-1 no-padding ratio">~</div>
-                        <div class="col-xs-1">
+                        <div class="col-xs-1 no-padding ratio">～</div>
+                        <div class="col-xs-2">
                             <div class="form-group">
                                 <input class="form-control" id="consumerCodeEndId" name="consumerCodeEndId" placeholder="999"
                                        type="text" value="" onchange="$.fn.onInputValueChange('consumerCodeEndId', 'consumerCodeEndName')"/>
@@ -131,7 +129,7 @@
                                        placeholder="Company 1" type="text" value=""/>
                             </div>
                         </div>
-                        <div class="col-xs-1 no-padding ratio">~</div>
+                        <div class="col-xs-1 no-padding ratio">～</div>
                         <div class="col-xs-3">
                             <div class="form-group">
                                 <input class="form-control" id="consumerCodeEndName" name="consumerCodeEndName"
@@ -219,31 +217,24 @@
 
 
             <div class="col-xs-12 border1 no-padding bottom-box">
-                <p class="backend">作成範囲指定</p>
+                <p class="backend">出力指定</p>
 
                 <div class="col-xs-12">
                     <div class="col-xs-1 no-padding">
                         <p>並び順
-
                         </p>
                     </div>
                     <div class="col-xs-2 no-padding">
                         <input name="SortBy" type="radio" value="all" onclick="$.fn.radioButtonSelectionChanged('SortBy', 'SortById')"> <span>消費者コード順</span>
-
-
                     </div>
                     <div class="col-xs-2 no-padding">
                         <input name="SortBy" type="radio" value="directSales" onclick="$.fn.radioButtonSelectionChanged('SortBy', 'SortById')"> <span>口座番号順</span>
-
-
                     </div>
                     <div class="col-xs-2 no-padding">
                         <input name="SortBy" type="radio" value="salesOutlet" onclick="$.fn.radioButtonSelectionChanged('SortBy', 'SortById')"> <span>預金者コード順</span>
-
                     </div>
                     <div class="col-xs-2 no-padding">
                         <input name="SortBy" type="radio" value="salesOutlet" onclick="$.fn.radioButtonSelectionChanged('SortBy', 'SortById')"> <span>検索名順</span>
-
                     </div>
                 </div>
 
@@ -253,16 +244,11 @@
                         <p>出力先</p>
                     </div>
                     <div class="col-xs-2 no-padding">
-                        <input name="OutputDestination" type="radio" value="all" onclick="$.fn.radioButtonSelectionChanged('OutputDestination', 'OutputDestinationId')"> <span>プリンタ（印刷）</span>
-
-
+                        <input name="OutputDestination" type="radio" value="all" onclick="$.fn.radioButtonSelectionChanged('OutputDestination', 'OutputDestinationId')"> <span>プリンタ(印刷)</span>
                     </div>
                     <div class="col-xs-2 no-padding">
-                        <input name="OutputDestination" type="radio" value="directSales" onclick="$.fn.radioButtonSelectionChanged('OutputDestination', 'OutputDestinationId')"> <span>画面（印刷イメージ）</span>
-
-
+                        <input name="OutputDestination" type="radio" value="directSales" onclick="$.fn.radioButtonSelectionChanged('OutputDestination', 'OutputDestinationId')"> <span>画面(印刷イメージ)</span>
                     </div>
-
                 </div>
             </div>
 

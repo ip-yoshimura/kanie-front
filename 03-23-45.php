@@ -162,13 +162,14 @@
                         <p>銀行区分</p>
                     </div>
                     <div class="col-xs-3">
-                        <input type="number" class="form-control">
+                        <input type="number" class="form-control" value="1" disabled>
                     </div>
-                    <div class="col-xs-7">
-                        <div class="col-xs-5 no-padding"><input type="radio" id="" name="bank_classification"><span> 直接取引分</span></div>
-                        <div class="col-xs-7 no-padding"><input type="radio" id="" name="bank_classification"><span> 幹事銀行（振替代行分）</span></div>
-                    </div>
-
+		    <div class="col-xs-2">
+			1:直接取引分
+		    </div>
+		    <div class="col-xs-3">
+			2:幹事銀行(振替代行分)
+		    </div>
                 </div>
                 <div class="col-xs-12 border-margin">
                     <div class="col-xs-2 no-padding border-margin-exp">

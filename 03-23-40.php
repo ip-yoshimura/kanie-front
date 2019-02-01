@@ -8,7 +8,6 @@
                 </div>
                 <form id="meter" action="/gas/meter-reading" method="POST">
 
-
                     <div class="col-xs-12">
                         <div class="col-xs-2 no-padding border-margin-exp ">
                             <p>消費者コード</p>
@@ -53,7 +52,6 @@
                                 <input  name="officeCodeStartName" placeholder="" class="form-control" type="text" value=""/>
                             </div>
                         </div>
-
                     </div>
 
                     <div class="col-xs-12 no-padding">
@@ -65,13 +63,11 @@
                                 <input  name="officeCodeStartName" placeholder="" class="form-control" type="text" value=""/>
                             </div>
                         </div>
-
-
                     </div>
 
                     <div class="col-xs-12 no-padding border-margin-exp">
                         <div class="col-xs-2">
-                            <p>幹事銀行名</p>
+                            <p>請求金額</p>
                         </div>
                         <div class="col-xs-2">
                             <div class="form-group">
@@ -142,10 +138,7 @@
                                 <input  name="officeCodeStartName" placeholder="0" class="form-control" type="number" value=""/>
                             </div>
                         </div>
-
-
                     </div>
-
 
                         <div class="col-xs-12" style="margin-bottom: 10px">
                             <div style="border: 0.5px solid #E2E2E2">
@@ -158,28 +151,14 @@
                                 <thead class="tbl-31">
                                 <tr>
                                     <th></th>
-                                    <th>伝票日付
-
-                                    </th>
-                                    <th>"商品名
-
-                                        型式"</th>
+                                    <th>伝票日付</th>
+                                    <th>商品名<br/>型式</th>
                                     <th>数量</th>
                                     <th>単価</th>
-                                    <th>"売上額
-
-                                        消費税"</th>
-                                    <th>"税
-
-                                        区分"</th>
-                                    <th>摘要
-
-                                    </th>
-                                    <th>列8</th>
-                                    <th>"済マ
-
-                                        ーク"</th>
-
+                                    <th>売上額<br/>消費税</th>
+                                    <th>税<br/>区分</th>
+                                    <th>摘要</th>
+                                    <th>済マーク</th>
                                 </tr>
                                 </thead>
                                 <tbody>
@@ -193,8 +172,6 @@
                                     <td><input type="text" class="form-control tbl-input"></td>
                                     <td><input type="text" class="form-control tbl-input"></td>
                                     <td><input type="text" class="form-control tbl-input"></td>
-                                    <td><input type="text" class="form-control tbl-input"> </td>
-
                                 </tr>
                                 <tr>
                                     <td class="tbl-31-tr">  </td>
@@ -206,8 +183,6 @@
                                     <td><input type="text" class="form-control tbl-input"></td>
                                     <td><input type="text" class="form-control tbl-input"></td>
                                     <td><input type="text" class="form-control tbl-input"></td>
-                                    <td><input type="text" class="form-control tbl-input"></td>
-
                                 </tr>
                                 <tr>
                                     <td class="tbl-31-tr">2</td>
@@ -219,8 +194,6 @@
                                     <td><input type="text" class="form-control tbl-input"></td>
                                     <td><input type="text" class="form-control tbl-input"></td>
                                     <td><input type="text" class="form-control tbl-input"></td>
-                                    <td><input type="text" class="form-control tbl-input"></td>
-
                                 </tr>
                                 <tr>
                                     <td class="tbl-31-tr"></td>
@@ -232,8 +205,6 @@
                                     <td><input type="text" class="form-control tbl-input"></td>
                                     <td><input type="text" class="form-control tbl-input"></td>
                                     <td><input type="text" class="form-control tbl-input"></td>
-                                    <td><input type="text" class="form-control tbl-input"></td>
-
                                 </tr>
                                 <tr>
                                     <td class="tbl-31-tr">3</td>
@@ -245,8 +216,6 @@
                                     <td><input type="text" class="form-control tbl-input"></td>
                                     <td><input type="text" class="form-control tbl-input"></td>
                                     <td><input type="text" class="form-control tbl-input"></td>
-                                    <td><input type="text" class="form-control tbl-input"></td>
-
                                 </tr>
 
                                 <tr>
@@ -259,8 +228,6 @@
                                     <td><input type="text" class="form-control tbl-input"></td>
                                     <td><input type="text" class="form-control tbl-input"></td>
                                     <td><input type="text" class="form-control tbl-input"></td>
-                                    <td><input type="text" class="form-control tbl-input"></td>
-
                                 </tr>
 
                                 <tr>
@@ -273,8 +240,6 @@
                                     <td><input type="text" class="form-control tbl-input"></td>
                                     <td><input type="text" class="form-control tbl-input"></td>
                                     <td><input type="text" class="form-control tbl-input"></td>
-                                    <td><input type="text" class="form-control tbl-input"></td>
-
                                 </tr>
 
                                 <tr>
@@ -287,8 +252,6 @@
                                     <td></td>
                                     <td></td>
                                     <td></td>
-                                    <td></td>
-
                                 </tr>
                                 <tr>
                                     <td class="tbl-31-tr">5</td>
@@ -300,8 +263,6 @@
                                     <td><input type="text" class="form-control tbl-input"></td>
                                     <td><input type="text" class="form-control tbl-input"></td>
                                     <td><input type="text" class="form-control tbl-input"></td>
-                                    <td><input type="text" class="form-control tbl-input"></td>
-
                                 </tr>
 
                                 <tr>
@@ -314,8 +275,6 @@
                                     <td><input type="text" class="form-control tbl-input"></td>
                                     <td><input type="text" class="form-control tbl-input"></td>
                                     <td><input type="text" class="form-control tbl-input"></td>
-                                    <td><input type="text" class="form-control tbl-input"></td>
-
                                 </tr>
                                 <tr>
                                     <td class="tbl-31-tr">6</td>
@@ -327,8 +286,6 @@
                                     <td><input type="text" class="form-control tbl-input"></td>
                                     <td><input type="text" class="form-control tbl-input"></td>
                                     <td><input type="text" class="form-control tbl-input"></td>
-                                    <td><input type="text" class="form-control tbl-input"></td>
-
                                 </tr>
                                 <tr>
                                     <td class="tbl-31-tr"></td>
@@ -340,8 +297,6 @@
                                     <td><input type="text" class="form-control tbl-input"></td>
                                     <td></td>
                                     <td></td>
-                                    <td></td>
-
                                 </tr>
                                 <tr>
                                     <td class="tbl-31-tr">7</td>
@@ -353,8 +308,6 @@
                                     <td><input type="text" class="form-control tbl-input"></td>
                                     <td><input type="text" class="form-control tbl-input"></td>
                                     <td><input type="text" class="form-control tbl-input"></td>
-                                    <td><input type="text" class="form-control tbl-input"></td>
-
                                 </tr>
 
                                 <tr>
@@ -367,8 +320,6 @@
                                     <td><input type="text" class="form-control tbl-input"></td>
                                     <td><input type="text" class="form-control tbl-input"></td>
                                     <td><input type="text" class="form-control tbl-input"></td>
-                                    <td><input type="text" class="form-control tbl-input"></td>
-
                                 </tr>
                                 <tr>
                                     <td class="tbl-31-tr">8</td>
@@ -380,8 +331,6 @@
                                     <td><input type="text" class="form-control tbl-input"></td>
                                     <td><input type="text" class="form-control tbl-input"></td>
                                     <td><input type="text" class="form-control tbl-input"></td>
-                                    <td><input type="text" class="form-control tbl-input"></td>
-
                                 </tr>
 
                                 <tr>
@@ -394,8 +343,6 @@
                                     <td><input type="text" class="form-control tbl-input"></td>
                                     <td><input type="text" class="form-control tbl-input"></td>
                                     <td><input type="text" class="form-control tbl-input"></td>
-                                    <td><input type="text" class="form-control tbl-input"></td>
-
                                 </tr>
                                 <tr>
                                     <td class="tbl-31-tr">9</td>
@@ -407,8 +354,6 @@
                                     <td><input type="text" class="form-control tbl-input"></td>
                                     <td><input type="text" class="form-control tbl-input"></td>
                                     <td><input type="text" class="form-control tbl-input"></td>
-                                    <td><input type="text" class="form-control tbl-input"></td>
-
                                 </tr>
 
                                 <tr>
@@ -421,8 +366,6 @@
                                     <td><input type="text" class="form-control tbl-input"></td>
                                     <td><input type="text" class="form-control tbl-input"></td>
                                     <td><input type="text" class="form-control tbl-input"></td>
-                                    <td><input type="text" class="form-control tbl-input"></td>
-
                                 </tr>
                                 </tbody>
                             </table>
