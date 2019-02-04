@@ -14,10 +14,7 @@ include "sidebar.php"
         <form id="meter" action="/gas/meter-reading" method="POST">
             <div class="col-xs-8 no-padding">
                 <div class="col-xs-12 border1 no-padding">
-
-                    <p class="back-end">
-                        ユーザ登録</p>
-
+                    <p class="back-end">ユーザ登録</p>
 
                     <div class="col-xs-12">
                         <div class="col-xs-2 no-padding border-margin-exp">
@@ -27,12 +24,10 @@ include "sidebar.php"
                             <input type="text" class="form-control">
                         </div>
                         <div class="col-xs-5 no-padding">
-
                         </div>
                         <div class="col-xs-2">
                             <input type="text" class="form-control" value="閲覧" style="color: red;text-align: center">
                         </div>
-
                     </div>
 
                     <div class="col-xs-12 border-margin">
@@ -135,12 +130,11 @@ include "sidebar.php"
                             <input type="text" class="form-control" name="affiliationName" id="affiliationName"
                                    value="">
                         </div>
-
                     </div>
 
                     <div class="col-xs-12 border-margin">
                         <div class="col-xs-2 no-padding border-margin-exp">
-                            <p>所属営業所</p>
+                            <p>担当者</p>
                         </div>
                         <div class="col-xs-2 ">
                             <input type="number" class="form-control" name="officeId" id="officeId"

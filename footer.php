@@ -1,4 +1,4 @@
-<div class="col-xs-10 bottom-bg">
+<div class="col-xs-10 bottom-bg" style="background-color:#cccccc;">
     <div class="form-group btn-save ">
         <button name="submit" class="btn footer-button bottom-button-group ">切替</button>
         <button name="submit" class="btn footer-button button-color float-right bottom-button-group   ">実行</button>

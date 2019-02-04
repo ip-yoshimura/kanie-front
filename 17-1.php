@@ -5,10 +5,8 @@ include "header.php"
 include "sidebar.php"
 ?>
 <div class="col-xs-10 col-md-10 no-padding body-background">
-
-
     <div class="head-p">
-        <p class="">UFJ振替不能データ変換</p>
+        <p>顧客選択</p>
     </div>
 
 
