@@ -297,50 +297,34 @@ include "sidebar.php"
                 <div class="col-xs-12">
                     <div class="form-group">
 
-                        <label class="col-xs-1 no-padding"> 設置年月
-                        </label>
-
+                        <label class="col-xs-1 no-padding"> 設置年月</label>
                         <div class="col-xs-2">
                             <div class="form-group">
                                 <input class="form-control" id="consumer7CodeStart" name="consumer7CodeStart"
-                                       placeholder="0" type="text" value=""  onchange="$.fn.onInputValueChange('consumer7CodeStart', 'consume7CodeEnd')"/>
+                                       type="date" value=""  onchange="$.fn.onInputValueChange('consumer7CodeStart', 'consume7CodeEnd')"/>
                             </div>
                         </div>
-
                         <div class="col-xs-1 no-padding ratio">~</div>
-
                         <div class="col-xs-2">
                             <div class="form-group">
                                 <input class="form-control" id="consume7CodeEnd" name="consume7CodeEnd"
-                                       placeholder="0" type="text" value=""/>
+                                       type="date" value=""/>
                             </div>
                         </div>
-
-
-                    </div>
-                </div>
-
-                <div class="col-xs-12">
-                    <div class="form-group">
-
-                        <label class="col-xs-1 no-padding"> 交換期限
-                        </label>
-
+                        <label class="col-xs-1 no-padding"> 交換期限</label>
                         <div class="col-xs-2">
                             <div class="form-group">
                                 <input class="form-control" id="consumer9CodeStart" name="consumer9CodeStart"
-                                       placeholder="0" type="text" value=""  onchange="$.fn.onInputValueChange('consumer9CodeStart', 'consumer9CodeEnd')"/>
+                                       type="date" value=""  onchange="$.fn.onInputValueChange('consumer9CodeStart', 'consumer9CodeEnd')"/>
                             </div>
                         </div>
                         <div class="col-xs-1 no-padding ratio">~</div>
                         <div class="col-xs-2">
                             <div class="form-group">
                                 <input class="form-control" id="consumer9CodeEnd" name="consumer9CodeEnd"
-                                       placeholder="0" type="text" value=""/>
+                                       type="date" value=""/>
                             </div>
                         </div>
-
-
                     </div>
                 </div>
 
@@ -381,8 +365,6 @@ include "sidebar.php"
                     <div class="form-group">
 
                         <div class="col-xs-12 no-padding">
-                            <div class="form-group">
-
                                 <label class="col-xs-1 no-padding"> 出力帳票
                                 </label>
 
@@ -393,37 +375,26 @@ include "sidebar.php"
                                 <div class="col-xs-1">
                                     <input type="radio" name="form" id="form" value="form" onclick="$.fn.radioButtonSelectionChanged('form', 'formId')"/> <span>集計表</span>
                                 </div>
-
-
-                            </div>
                         </div>
-
                     </div>
-
                 </div>
 
                 <div class="col-xs-12">
                     <div class="form-group">
-
                         <label class="col-xs-1 no-padding"> 改ページ指定
                         </label>
-
                         <div class="col-xs-2">
                             <input type="radio" name="pagebreak" id="pagebreak" value="all" onclick="$.fn.radioButtonSelectionChanged('pagebreak', 'pagebreakId')"/> <span>営業所・販売店</span>
                         </div>
-
                         <div class="col-xs-2">
                             <input type="radio" name="pagebreak" id="pagebreak" value="pagebreak" onclick="$.fn.radioButtonSelectionChanged('pagebreak', 'pagebreakId')"/> <span>地区</span>
                         </div>
-
                         <div class="col-xs-2">
                             <input type="radio" name="pagebreak" id="pagebreak" value="pagebreak" onclick="$.fn.radioButtonSelectionChanged('pagebreak', 'pagebreakId')"/> <span>営業担当者</span>
                         </div>
-
                         <div class="col-xs-2">
                             <input type="radio" name="pagebreak" id="pagebreak" value="pagebreak" onclick="$.fn.radioButtonSelectionChanged('pagebreak', 'pagebreakId')"/> <span>なし</span>
                         </div>
-
                     </div>
                 </div>
 
@@ -461,11 +432,11 @@ include "sidebar.php"
                         </label>
 
                         <div class="col-xs-2">
-                            <input type="radio" name="out" id="out" value="all" onclick="$.fn.radioButtonSelectionChanged('out', 'outId')"/> <span>プリンタ（印刷）</span>
+                            <input type="radio" name="out" id="out" value="all" onclick="$.fn.radioButtonSelectionChanged('out', 'outId')"/> <span>プリンタ(印刷)</span>
                         </div>
 
                         <div class="col-xs-2 no-padding">
-                            <input type="radio" name="out" id="out" value="out" onclick="$.fn.radioButtonSelectionChanged('out', 'outId')"/> <span>画面（印刷イメージ）</span>
+                            <input type="radio" name="out" id="out" value="out" onclick="$.fn.radioButtonSelectionChanged('out', 'outId')"/> <span>画面(印刷イメージ)</span>
                         </div>
 
 

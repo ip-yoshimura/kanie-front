@@ -8,21 +8,18 @@ include "sidebar.php"
 <div class="col-md-10 col-xs-8 col-xs-12 no-padding">
 
     <div class="col-md-12 col-xs-12 no-padding body-background">
-
         <div class="head-p ">
-            <p>改善状況帳票印刷指定
-
-            </p>
+            <p>改善状況帳票印刷指定</p>
         </div>
-                <form action="/gas/meter-reading" id="meter" method="POST">
 
-                    <div class="col-xs-12 border1 no-padding">
-                        <p class="backend">消費者範囲指定</p>
-                        <div class="col-xs-12">
-                            <div class="col-xs-12 no-padding">
-                                <div class="col-xs-1 no-padding">
-                                    <p>営業所コード</p>
-                                </div>
+	<form action="/gas/meter-reading" id="meter" method="POST">
+	    <div class="col-xs-12 border1 no-padding">
+		<p class="backend">消費者範囲指定</p>
+		    <div class="col-xs-12">
+			<div class="col-xs-12 no-padding">
+			    <div class="col-xs-1 no-padding">
+				<p>営業所コード</p>
+			    </div>
                                 <div class="col-xs-1">
                                     <input name="officeSelection" id="officeSelection" type="radio" value="all" checked onclick="$.fn.radioButtonSelectionChanged('officeSelection', 'officeSelectionId')"> <span>全て</span>
                                 </div>
@@ -71,22 +68,14 @@ include "sidebar.php"
                                 </div>
                                 <div class="col-xs-1">
                                     <input name="otherSelection" id="otherSelection" type="radio" value="all" checked onclick="$.fn.radioButtonSelectionChanged('otherSelection', 'otherSelectionId')"> <span>全て</span>
-
-
                                 </div>
                                 <div class="col-xs-1">
                                     <input name="otherSelection" id="otherSelection" type="radio" value="directSales" onclick="$.fn.radioButtonSelectionChanged('otherSelection', 'otherSelectionId')"> <span>自社</span>
-
-
                                 </div>
                                 <div class="col-xs-1">
                                     <input name="otherSelection" id="otherSelection" type="radio" value="salesOutlet" onclick="$.fn.radioButtonSelectionChanged('otherSelection', 'otherSelectionId')"> <span>他社</span>
-
-
                                 </div>
                             </div>
-
-
                             <div id="otherSelectionId">
                             <div class="col-xs-12 no-padding">
                                 <div class="col-xs-1 col-xs-offset-1">
@@ -120,7 +109,6 @@ include "sidebar.php"
                             </div>
                             </div>
                         </div>
-
 
                         <div class="col-xs-12">
                             <div class="col-xs-12 no-padding">
@@ -225,7 +213,7 @@ include "sidebar.php"
                         </div>
 
                         <div class="col-xs-12">
-                            <div class="col-xs-1 no-padding">
+                            <div class="col-xs-1 col-xs-offset-1 no-padding">
                                 <p>調査員</p>
                             </div>
                             <div class="col-xs-2">
@@ -242,13 +230,19 @@ include "sidebar.php"
                                            type="text" value=""/>
                                 </div>
                             </div>
-                            <div class="col-xs-3">
+                            <div class="col-xs-2">
                                 <div class="form-group">
                                     <input class="form-control" id="consumerCodeStartName" name="consumerCodeStartName"
                                            type="text" value=""/>
                                 </div>
                             </div>
-
+                            <div class="col-xs-1 no-padding ratio">~</div>
+                            <div class="col-xs-2">
+                                <div class="form-group">
+                                    <input class="form-control" id="consumerCodeStartName" name="consumerCodeStartName"
+                                           type="text" value=""/>
+                                </div>
+                            </div>
                         </div>
 
                         <div class="col-xs-12">
@@ -269,13 +263,19 @@ include "sidebar.php"
                                            type="text" value=""/>
                                 </div>
                             </div>
-                            <div class="col-xs-3">
+                            <div class="col-xs-2">
                                 <div class="form-group">
                                     <input class="form-control" id="consumerCodeStartName" name="consumerCodeStartName"
                                            type="text" value=""/>
                                 </div>
                             </div>
-
+                            <div class="col-xs-1 no-padding ratio">~</div>
+                            <div class="col-xs-2">
+                                <div class="form-group">
+                                    <input class="form-control" id="consumerCodeStartName" name="consumerCodeStartName"
+                                           type="text" value=""/>
+                                </div>
+                            </div>
                         </div>
 
                         <div class="col-xs-12">
@@ -288,56 +288,38 @@ include "sidebar.php"
                                 </div>
                                 <div class="col-xs-2">
                                     <input name="move" id="move" type="radio" value="directSales" onclick="$.fn.radioButtonSelectionChanged('move', 'moveId')"><span>閉栓・休止除く</span>
-
-
                                 </div>
                                 <div class="col-xs-2">
                                     <input name="move" id="move" type="radio" value="directSales" onclick="$.fn.radioButtonSelectionChanged('move', 'moveId')"><span>未入居除く</span>
-
                                 </div>
-
                             </div>
-
                         </div>
-
-
                     </div>
-
 
                     <div class="col-xs-12 border1 no-padding">
                         <p class="backend">作成範囲指定</p>
                         <div class="col-xs-12">
-
                             <div class="form-group">
-
-                                <label class="col-xs-1 no-padding"> 改善更新日
-
-                                </label>
-
+                                <label class="col-xs-1 no-padding">改善更新日</label>
                                 <div class="col-xs-2" >
                                     <div class="form-group">
                                         <input class="form-control" id="consumerCodeStart" name="consumerCodeStart"
-                                               placeholder="0" type="date" value=""/>
+                                               type="date" value=""/>
                                     </div>
                                 </div>
                                 <div class="col-xs-1 no-padding ratio">~</div>
                                 <div class="col-xs-2">
                                     <div class="form-group">
                                         <input class="form-control" id="consumerCodeStart" name="consumerCodeStart"
-                                               placeholder="0" type="date" value=""/>
+                                               type="date" value=""/>
                                     </div>
                                 </div>
-
                             </div>
                         </div>
 
-
                         <div class="col-xs-12">
-
                             <div class="form-group">
-                                <label class="col-xs-1 no-padding"> 対象法律
-                                </label>
-
+                                <label class="col-xs-1 no-padding"> 対象法律</label>
                                 <div class="col-xs-1">
                                     <input type="radio" name="terget" id="terget" value="all" onclick="$.fn.radioButtonSelectionChanged('terget', 'tergetId')"/> <span>全て</span>
                                 </div>
@@ -350,17 +332,14 @@ include "sidebar.php"
                                 <div class="col-xs-1 no-padding">
                                     <input type="radio" name="terget" id="terget" value="terget" onclick="$.fn.radioButtonSelectionChanged('terget', 'tergetId')"/> <span>ガス事業法</span>
                                 </div>
-
-
                             </div>
                         </div>
-
                     </div>
 
                     <div class="col-xs-12 border1 no-padding bottom-box">
                         <p class="backend"> 出力指定</p>
-                        <div class="col-xs-12">
 
+                        <div class="col-xs-12">
                             <div class="form-group">
                                 <div class="col-xs-12 no-padding">
                                     <div class="col-xs-1 no-padding">
@@ -372,80 +351,52 @@ include "sidebar.php"
                                     <div class="col-xs-1">
                                         <input type="radio" name="output" id="output" value="output" onclick="$.fn.radioButtonSelectionChanged('output', 'outputId')"/> <span>集計表</span>
                                     </div>
-
-
                                 </div>
-
                             </div>
-
                         </div>
 
                         <div class="col-xs-12">
                             <div class="form-group">
-
-                                <label class="col-xs-1 no-padding"> 改ページ指定
-                                </label>
-
+                                <label class="col-xs-1 no-padding">改ページ指定</label>
                                 <div class="col-xs-2">
                                     <input type="radio" name="pagebreak" id="pagebreak" value="all" onclick="$.fn.radioButtonSelectionChanged('pagebreak', 'pagebreakId')"/> <span>営業所・販売店</span>
                                 </div>
-
                                 <div class="col-xs-2">
                                     <input type="radio" name="pagebreak" id="pagebreak" value="pagebreak" onclick="$.fn.radioButtonSelectionChanged('pagebreak', 'pagebreakId')"/> <span>地区</span>
                                 </div>
-
                                 <div class="col-xs-2">
                                     <input type="radio" name="pagebreak" id="pagebreak" value="pagebreak" onclick="$.fn.radioButtonSelectionChanged('pagebreak', 'pagebreakId')"/> <span>営業担当者</span>
                                 </div>
-
                                 <div class="col-xs-2">
                                     <input type="radio" name="pagebreak" id="pagebreak" value="pagebreak" onclick="$.fn.radioButtonSelectionChanged('pagebreak', 'pagebreakId')"/> <span>なし</span>
                                 </div>
-
                             </div>
                         </div>
 
                         <div class="col-xs-12">
-
                             <div class="form-group">
-
-                                <label class="col-xs-1 no-padding"> 並び順
-
-                                </label>
-
+                                <label class="col-xs-1 no-padding">並び順</label>
                                 <div class="col-xs-2">
                                     <input type="radio" name="sortby" id="sortby" value="all" onclick="$.fn.radioButtonSelectionChanged('sortby', 'sortbyId')"/>  <span>消費者コード順</span>
                                 </div>
-
                                 <div class="col-xs-2">
                                     <input type="radio" name="sortby" id="sortby" value="sortby" onclick="$.fn.radioButtonSelectionChanged('sortby', 'sortbyId')"/> <span>検針順路順</span>
                                 </div>
-
                                 <div class="col-xs-2">
                                     <input type="radio" name="sortby" id="sortby" value="sortby" onclick="$.fn.radioButtonSelectionChanged('sortby', 'sortbyId')"/> <span>検索名順</span>
                                 </div>
-
-
                             </div>
                         </div>
 
                         <div class="col-xs-12">
-
                             <div class="form-group">
-
-                                <label class="col-xs-1 no-padding"> 出力先
-
-                                </label>
-
+                                <label class="col-xs-1 no-padding">出力先</label>
                                 <div class="col-xs-2">
-                                    <input type="radio" name="order" id="order" value="all" onclick="$.fn.radioButtonSelectionChanged('order', 'orderId')"/> <span>プリンタ（印刷）</span>
+                                    <input type="radio" name="order" id="order" value="all" onclick="$.fn.radioButtonSelectionChanged('order', 'orderId')"/> <span>プリンタ(印刷)</span>
                                 </div>
-
                                 <div class="col-xs-3">
-                                    <input type="radio" name="order" id="order" value="order" onclick="$.fn.radioButtonSelectionChanged('order', 'orderId')"/> <span>画面（印刷イメージ）</span>
+                                    <input type="radio" name="order" id="order" value="order" onclick="$.fn.radioButtonSelectionChanged('order', 'orderId')"/> <span>画面(印刷イメージ)</span>
                                 </div>
-
-
                             </div>
                         </div>
 

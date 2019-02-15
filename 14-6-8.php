@@ -8,8 +8,7 @@ include "sidebar.php"
 
     <div class="col-md-12 col-xs-12 no-padding head-color">
         <div class="head-p">
-            <p>消費設備種別一覧表印刷指定
-            </p>
+            <p>消費設備種別一覧表印刷指定</p>
         </div>
                 <form action="/gas/meter-reading" id="meter" method="POST">
 
@@ -18,7 +17,7 @@ include "sidebar.php"
                 <div class="col-xs-12">
                     <div class="col-xs-12 no-padding">
                         <div class="col-xs-1 no-padding">
-                            <p>型式区分</p>
+                            <p>種別区分</p>
                         </div>
                         <div class="col-xs-1">
                             <input type="radio" name="classification" value="all" checked onclick="$.fn.radioButtonSelectionChanged('classification', 'classificationId')"><span> 全て</span> 
@@ -55,17 +54,6 @@ include "sidebar.php"
                             </div>
                         </div>
                         </div>
-
-                        <div class="col-xs-4">
-                            <input type="radio" name="directSales" value="all"><span> 燃焼器具</span> 
-                            <input type="radio" name="directSales" value="directSales"><span> 消費設備配管</span> 
-
-                        </div>
-
-                        <div class="col-xs-3">
-                            <input type="radio" name="directSales" value="directSales"><span> 末端ガス栓</span> 
-                            <input type="radio" name="directSales" value="directSales"><span> 接続具</span> 
-                        </div>
                     </div>
                 </div>
             </div>
@@ -77,9 +65,11 @@ include "sidebar.php"
                     <div class="col-xs-1 no-padding">
                         <p>出力先</p>
                     </div>
-                    <div class="col-xs-6">
-                        <input type="radio" name="output" value="all" onclick="$.fn.radioButtonSelectionChanged('output', 'outputId')"><span> プリンタ（印刷）</span> 
-                        <input type="radio" name="output" value="directSales" onclick="$.fn.radioButtonSelectionChanged('output', 'outputId')"><span> 画面（印刷イメージ）</span> 
+                    <div class="col-xs-2">
+                        <input type="radio" name="output" value="all" onclick="$.fn.radioButtonSelectionChanged('output', 'outputId')"><span> プリンタ(印刷)</span> 
+		    </div>
+		    <div class="col-xs-2">
+                        <input type="radio" name="output" value="directSales" onclick="$.fn.radioButtonSelectionChanged('output', 'outputId')"><span> 画面(印刷イメージ)</span> 
                     </div>
 
                 </div>

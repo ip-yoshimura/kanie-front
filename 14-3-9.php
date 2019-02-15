@@ -9,9 +9,7 @@ include "sidebar.php"
     <div class="col-md-12 col-xs-12 no-padding body-background">
 
         <div class="head-p ">
-            <p>保安業務受託件数問い合わせ
-
-            </p>
+            <p>保安業務受託件数問い合わせ</p>
         </div>
 
                 <form action="/gas/meter-reading" id="meter" method="POST">
@@ -25,7 +23,6 @@ include "sidebar.php"
                                        class="form-control" type="text" value="" onchange="$.fn.onInputValueChange('agencyStart', 'agencyEnd')"/>
                             </div>
                         </div>
-                        <div class="col-xs-1 no-padding ratio">~</div>
                         <div class="col-xs-6">
                             <div class="form-group">
                                 <input id="agencyEnd" name="agencyEnd" placeholder="z" class="form-control"
@@ -42,22 +39,16 @@ include "sidebar.php"
                         </div>
                         <div class="col-xs-2">
                             <div class="form-group">
-                                <input id="consumerCodeStart" name="consumerCodeStart" placeholder="000"
-                                       class="form-control" type="date" value=""/>
+                                <input id="consumerCodeStart" name="consumerCodeStart" class="form-control" type="date" value=""/>
                             </div>
                         </div>
                         <div class="col-xs-1 no-padding ratio">~</div>
                         <div class="col-xs-2">
                             <div class="form-group">
-                                <input id="consumeCodeEnd" name="consumeCodeEnd" placeholder="z" class="form-control"
-                                       type="date" value=""/>
+                                <input id="consumeCodeEnd" name="consumeCodeEnd" class="form-control" type="date" value=""/>
                             </div>
                         </div>
-
-
                     </div>
-
-
             </div>
 
 
@@ -69,27 +60,19 @@ include "sidebar.php"
                         <th></th>
                         <th></th>
                         <th>営業所・販売店名</th>
-                        <th>供給
-                            開始時</th>
-                        <th>容器
-                            交換時</th>
-                        <th>容器
-                            交換時</th>
-                        <th>供給
-                            設備</th>
-                        <th>消費
-                            設備</th>
+                        <th>供給<br/>開始時</th>
+                        <th>容器<br/>交換時</th>
+                        <th>容器<br/>交換時</th>
+                        <th>供給<br/>設備</th>
+                        <th>消費<br/>設備</th>
                         <th>周知</th>
-                        <th>緊急時
-                            対応</th>
-                        <th>緊急時
-                            連絡</th>
-
+                        <th>緊急時<br/>対応</th>
+                        <th>緊急時<br/>連絡</th>
                     </tr>
                     </thead>
                     <tbody>
                     <tr>
-                        <td class="tbl-31-tr "></td>
+                        <td class="tbl-31-tr">1</td>
                         <td></td>
                         <td></td>
                         <td></td>
@@ -100,10 +83,9 @@ include "sidebar.php"
                         <td></td>
                         <td></td>
                         <td></td>
-
                     </tr>
                     <tr>
-                        <td class="tbl-31-tr "> 1</td>
+                        <td class="tbl-31-tr"></td>
                         <td></td>
                         <td></td>
                         <td></td>
@@ -114,10 +96,9 @@ include "sidebar.php"
                         <td></td>
                         <td></td>
                         <td></td>
-
                     </tr>
                     <tr>
-                        <td class="tbl-31-tr "></td>
+                        <td class="tbl-31-tr">2</td>
                         <td></td>
                         <td></td>
                         <td></td>
@@ -128,10 +109,9 @@ include "sidebar.php"
                         <td></td>
                         <td></td>
                         <td></td>
-
                     </tr>
                     <tr>
-                        <td class="tbl-31-tr ">2</td>
+                        <td class="tbl-31-tr"></td>
                         <td></td>
                         <td></td>
                         <td></td>
@@ -142,10 +122,9 @@ include "sidebar.php"
                         <td></td>
                         <td></td>
                         <td></td>
-
                     </tr>
                     <tr>
-                        <td class="tbl-31-tr "></td>
+                        <td class="tbl-31-tr">3</td>
                         <td></td>
                         <td></td>
                         <td></td>
@@ -156,11 +135,9 @@ include "sidebar.php"
                         <td></td>
                         <td></td>
                         <td></td>
-
                     </tr>
-
                     <tr>
-                        <td class="tbl-31-tr ">3</td>
+                        <td class="tbl-31-tr"></td>
                         <td></td>
                         <td></td>
                         <td></td>
@@ -171,11 +148,9 @@ include "sidebar.php"
                         <td></td>
                         <td></td>
                         <td></td>
-
                     </tr>
-
                     <tr>
-                        <td class="tbl-31-tr "></td>
+                        <td class="tbl-31-tr">4</td>
                         <td></td>
                         <td></td>
                         <td></td>
@@ -186,11 +161,9 @@ include "sidebar.php"
                         <td></td>
                         <td></td>
                         <td></td>
-
                     </tr>
-
                     <tr>
-                        <td class="tbl-31-tr ">4</td>
+                        <td class="tbl-31-tr"></td>
                         <td></td>
                         <td></td>
                         <td></td>
@@ -201,10 +174,7 @@ include "sidebar.php"
                         <td></td>
                         <td></td>
                         <td></td>
-
                     </tr>
-
-
                     </tbody>
                 </table>
             </div>

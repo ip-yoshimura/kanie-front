@@ -109,10 +109,7 @@ include "sidebar.php"
                             <input type="radio" name="differentiation" id="differentiation" value="custom" onclick="$.fn.radioButtonSelectionChanged('differentiation', 'differentiationId')"><span> 地区</span>
                         </div>
                         <div class="col-xs-2">
-                            <input type="radio" name="differentiation" id="differentiation" value="custom" onclick="$.fn.radioButtonSelectionChanged('differentiation', 'differentiationId')"><span> 検針担当者</span>
-                        </div>
-                        <div class="col-xs-2">
-                            <input type="radio" name="differentiation" id="differentiation" value="custom" onclick="$.fn.radioButtonSelectionChanged('differentiation', 'differentiationId')"> <span>配送委託先</span>
+                            <input type="radio" name="differentiation" id="differentiation" value="custom" onclick="$.fn.radioButtonSelectionChanged('differentiation', 'differentiationId')"><span> 営業担当者</span>
                         </div>
                     </div>
                     <div id="differentiationId">
@@ -143,23 +140,8 @@ include "sidebar.php"
                             </div>
                         </div>
                     </div>
-                
                 </div>
-                <!--<div class="col-xs-12">
-                    <div class="col-xs-2">
-                        <p>検針順路</p>
-                    </div>
-                    <div class="col-xs-3">
-                        <div class="form-group">
-                            <input id="meterReadingRouteStart" name="meterReadingRouteStart" placeholder="0" class="form-control" type="text" value=""/>
-                        </div>
-                    </div>
-                    <div class="col-xs-3">
-                        <div class="form-group">
-                            <input id="meterReadingRouteEnd" name="meterReadingRouteEnd" placeholder="9999999" class="form-control" type="text" value=""/>
-                        </div>
-                    </div>
-                </div>-->
+
                 <div class="col-xs-12">
                     <div class="col-xs-1 no-padding">
                         <p>消費者コード</p>
@@ -193,23 +175,17 @@ include "sidebar.php"
                 <div class="col-xs-12 border1 no-padding">
                     <p class="backend">作成範囲指定</p>
                     <div class="form-group">
-
-                    </div>
-                    <div class="form-group">
-                        <label class="control-label col-xs-1  ">作成日付</label>
+                        <label class="control-label col-xs-1  ">請求年月</label>
                         <div class="col-xs-2">
-                            <input type="date" class="form-control"  />
+                            <input type="date" class="form-control" />
                         </div>
                     </div>
                     <div class="form-group">
                         <label class="control-label col-xs-1">締切日</label>
                         <div class="col-xs-1">
-                            <input type="text" class="form-control" placeholder="3">
+                            <input type="text" class="form-control">
                         </div>
-                        <div class="col-xs-1" style="margin-top:10px;">
-                            日
-                        </div>
-
+			<label class="col-xs-1 no-padding">日</label>
                     </div>
 
 
@@ -272,9 +248,6 @@ include "sidebar.php"
                             <div class="col-xs-2 no-padding">
                                 <input type="radio" name="sortBySelection" id="sortBySelection" value="custom" onclick="$.fn.radioButtonSelectionChanged('sortBySelection', 'sortBySelectionId')"> <span>検索名順</span>
                             </div>
-                            <!--<div class="col-xs-2">
-                                <input type="radio" name="directSales" value="directSales"> 集金順路順
-                            </div>-->
                         </div>
                     </div>
                     <div class="col-xs-12">
@@ -283,18 +256,11 @@ include "sidebar.php"
                                 <p>出力先</p>
                             </div>
                             <div class="col-xs-2">
-                                <input type="radio" name="destinationSelection" id="destinationSelection" value="all" onclick="$.fn.radioButtonSelectionChanged('destinationSelection', 'destinationSelectionId')"> <span>プリンタ（印刷）</span>
+                                <input type="radio" name="destinationSelection" id="destinationSelection" value="all" onclick="$.fn.radioButtonSelectionChanged('destinationSelection', 'destinationSelectionId')"> <span>プリンタ(印刷)</span>
                             </div>
                             <div class="col-xs-4">
-                                <input type="radio" name="destinationSelection" id="destinationSelection" value="custom" onclick="$.fn.radioButtonSelectionChanged('destinationSelection', 'destinationSelectionId')"> <span>画面（印刷イメージ）</span>
+                                <input type="radio" name="destinationSelection" id="destinationSelection" value="custom" onclick="$.fn.radioButtonSelectionChanged('destinationSelection', 'destinationSelectionId')"> <span>画面(印刷イメージ)</span>
                             </div>
-
-                            <!--<div class="col-xs-2">
-                                <input type="radio" name="all" value="all"> 検索名順
-                            </div>-->
-                            <!--<div class="col-xs-2">
-                                <input type="radio" name="directSales" value="directSales"> 集金順路順
-                            </div>-->
                         </div>
                     </div>
 

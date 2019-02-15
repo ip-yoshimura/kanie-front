@@ -220,10 +220,10 @@
                                    value="テレメ" onclick="$.fn.radioButtonSelectionChanged('meterReadingClassification', 'meterReadingClassification1')"/> テレメ
                         </div>
 
-                        <div class="col-xs-2 no-padding">
+                        <div class="col-xs-1 no-padding">
                             <p>検針状態</p>
                         </div>
-                        <div class="col-xs-2">
+                        <div class="col-xs-2 no-padding">
                             <input id="meterReadingState1" name="meterReadingState" type="radio" value="all" onclick="$.fn.radioButtonSelectionChanged('meterReadingState', 'meterReadingState1')"/> 全て
                         </div>
                         <div class="col-xs-2 no-padding" style="margin-left: -70px">

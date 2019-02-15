@@ -9,43 +9,35 @@ include "sidebar.php"
     <div class="col-md-12 col-xs-12 no-padding head-color">
 
         <div class="head-p ">
-            <p>保安業務委託件数問合せ
-            </p>
+            <p>保安業務委託件数問い合わせ</p>
         </div>
 
-                <form action="/gas/meter-reading" id="meter" method="POST">
-                    <div class="col-xs-12">
+        <form action="/gas/meter-reading" id="meter" method="POST">
 
-                        <div class="col-xs-1 no-padding">
-                            <p>消費者コード</p>
-                        </div>
-                        <div class="col-xs-2">
-                            <div class="form-group">
-                                <input id="consumerCodeStart" name="consumerCodeStart" placeholder="000"
-                                       class="form-control" type="text" value="" onchange="$.fn.onInputValueChange('consumerCodeStart', 'consumeCodeEnd')"/>
-                            </div>
-                        </div>
-                        <div class="col-xs-4">
-                            <div class="form-group">
-                                <input id="consumeCodeEnd" name="consumeCodeEnd" placeholder="z" class="form-control"
-                                       type="text" value=""/>
-                            </div>
-                        </div>
-                        <div class="col-xs-2">
-                            <div class="form-group">
-                                <input id="consumerCodeStartName" name="consumerCodeStartName" class="form-control"
-                                       type="text" value=""/>
-                            </div>
-                        </div>
-
-                    </div>
-
-
+        <div class="col-xs-12">
+            <div class="col-xs-1 no-padding">
+                <p>営業所・販売店</p>
             </div>
-
+            <div class="col-xs-2">
+                <div class="form-group">
+                    <input id="consumerCodeStart" name="consumerCodeStart" placeholder="000"
+                           class="form-control" type="text" value="" onchange="$.fn.onInputValueChange('consumerCodeStart', 'consumeCodeEnd')"/>
+                </div>
+            </div>
+            <div class="col-xs-4">
+                <div class="form-group">
+                    <input id="consumeCodeEnd" name="consumeCodeEnd" class="form-control" type="text" value=""/>
+                </div>
+            </div>
+            <div class="col-xs-2">
+                <div class="form-group">
+                    <input id="consumerCodeStartName" name="consumerCodeStartName" class="form-control" type="text" value=""/>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <div class="container tbl-scroll col-xs-12 bottom-box">
-
         <table class="table table-bordered tbl-30-main" style="background-color: whitesmoke">
                     <thead class="tbl-31">
                     <tr>
@@ -74,7 +66,6 @@ include "sidebar.php"
                         <td></td>
                         <td></td>
                         <td></td>
-
                     </tr>
                     <tr>
                         <td class="tbl-31-tr"> 1</td>
@@ -87,7 +78,6 @@ include "sidebar.php"
                         <td></td>
                         <td></td>
                         <td></td>
-
                     </tr>
                     <tr>
                         <td class="tbl-31-tr"></td>
@@ -100,7 +90,6 @@ include "sidebar.php"
                         <td></td>
                         <td></td>
                         <td></td>
-
                     </tr>
                     <tr>
                         <td class="tbl-31-tr">2</td>
@@ -113,7 +102,6 @@ include "sidebar.php"
                         <td></td>
                         <td></td>
                         <td></td>
-
                     </tr>
                     <tr>
                         <td class="tbl-31-tr"></td>
@@ -126,9 +114,7 @@ include "sidebar.php"
                         <td></td>
                         <td></td>
                         <td></td>
-
                     </tr>
-
                     <tr>
                         <td class="tbl-31-tr"> 3</td>
                         <td></td>
@@ -140,9 +126,7 @@ include "sidebar.php"
                         <td></td>
                         <td></td>
                         <td></td>
-
                     </tr>
-
                     <tr>
                         <td class="tbl-31-tr"></td>
                         <td></td>
@@ -154,9 +138,7 @@ include "sidebar.php"
                         <td></td>
                         <td></td>
                         <td></td>
-
                     </tr>
-
                     <tr>
                         <td class="tbl-31-tr">4</td>
                         <td></td>
@@ -168,10 +150,7 @@ include "sidebar.php"
                         <td></td>
                         <td></td>
                         <td></td>
-
                     </tr>
-
-
                     </tbody>
                 </table>
             </div>

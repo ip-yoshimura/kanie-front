@@ -232,9 +232,7 @@ include "sidebar.php"
 
                         <div class="form-group">
 
-                            <label class="col-xs-1 no-padding"> 区分
-
-                            </label>
+                            <label class="col-xs-1 no-padding"> 区分</label>
 
                             <div class="col-xs-10">
                                 <input type="radio" name="distinguishSelection" id="distinguishSelection" value="all" onclick="$.fn.radioButtonSelectionChanged('distinguishSelection', 'distinguishSelectionId')"/> <span>全て</span>
@@ -259,7 +257,7 @@ include "sidebar.php"
                                 <input type="radio" name="speciesSelection" id="speciesSelection" value="custom" onclick="$.fn.radioButtonSelectionChanged('speciesSelection', 'speciesSelectionId')"/> <span>種別指定</span>
                             </div>
                             <div id="speciesSelectionId">
-                                <div class="col-xs-2">
+                                <div class="col-xs-2 col-xs-offset-1">
                                     <div class="form-group">
                                         <input id="speciesStartId" name="speciesStartId" placeholder="0"
                                                class="form-control" type="text" value="" disabled onchange="$.fn.onInputValueChange('speciesStartId', 'speciesStartName')"/>
@@ -294,68 +292,37 @@ include "sidebar.php"
 
                     <div class="col-xs-12">
                         <div class="form-group">
-                            <label class="col-xs-1 no-padding"> 製造年月
-
-                            </label>
+                            <label class="col-xs-1 no-padding"> 製造年月</label>
 
                             <div class="col-xs-2">
                                 <div class="form-group">
                                     <input id="manufacturingStartName" name="manufacturingStartName" class="form-control"
-                                    type="text" value="" onchange="$.fn.onInputValueChange('manufacturingStartName', 'manufacturingEndName')"/>
+                                    type="date" value="" onchange="$.fn.onInputValueChange('manufacturingStartName', 'manufacturingEndName')"/>
                                 </div>
                             </div>
                             <div class="col-xs-1 no-padding ratio">~</div>
                             <div class="col-xs-2">
                                 <div class="form-group">
                                     <input id="manufacturingEndName" name="manufacturingEndName" class="form-control"
-                                    type="text" value=""/>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="col-xs-12">
-                        <div class="form-group">
-                            <label class="col-xs-1 no-padding"> 設置年月
-
-                            </label>
-
-                            <div class="col-xs-3">
-                                <div class="form-group">
-                                    <input id="settingStart" name="settingStart" placeholder="0"
-                                    class="form-control" type="text" value="" onchange="$.fn.onInputValueChange('settingStart', 'settingEnd')"/>
-                                </div>
-                            </div>
-                            <div class="col-xs-1 no-padding ratio">~</div>
-                            <div class="col-xs-3">
-                                <div class="form-group">
-                                    <input id="settingEnd" name="settingEnd" placeholder="z" class="form-control"
-                                    type="text" value=""/>
+                                    type="date" value=""/>
                                 </div>
                             </div>
 
-                        </div>
-
-                    </div>
-
-                    <div class="col-xs-12">
-                        <div class="form-group">
                             <label class="col-xs-1 no-padding"> 交換期限
 
                             </label>
 
-                            <div class="col-xs-3">
+                            <div class="col-xs-2">
                                 <div class="form-group">
                                     <input id="periodStart" name="periodStart" placeholder="0"
-                                    class="form-control" type="text" value="" onchange="$.fn.onInputValueChange('periodStart', 'periodEnd')"/>
+                                    class="form-control" type="date" value="" onchange="$.fn.onInputValueChange('periodStart', 'periodEnd')"/>
                                 </div>
                             </div>
                             <div class="col-xs-1 no-padding ratio">~</div>
-                            <div class="col-xs-3">
+                            <div class="col-xs-2">
                                 <div class="form-group">
                                     <input id="periodEnd" name="periodEnd" placeholder="z" class="form-control"
-                                    type="text" value=""/>
+                                    type="date" value=""/>
                                 </div>
                             </div>
 
@@ -466,11 +433,11 @@ include "sidebar.php"
                             </label>
 
                             <div class="col-xs-2 ">
-                                <input type="radio" name="destinationSelection" id="destinationSelection" value="all" onclick="$.fn.radioButtonSelectionChanged('destinationSelection', 'destinationSelectionId')"/> <span>プリンタ（印刷）</span>
+                                <input type="radio" name="destinationSelection" id="destinationSelection" value="all" onclick="$.fn.radioButtonSelectionChanged('destinationSelection', 'destinationSelectionId')"/> <span>プリンタ(印刷)</span>
                             </div>
 
                             <div class="col-xs-3">
-                                <input type="radio" name="destinationSelection" id="destinationSelection" value="custom" onclick="$.fn.radioButtonSelectionChanged('destinationSelection', 'destinationSelectionId')"/> <span>画面（印刷イメージ）</span>
+                                <input type="radio" name="destinationSelection" id="destinationSelection" value="custom" onclick="$.fn.radioButtonSelectionChanged('destinationSelection', 'destinationSelectionId')"/> <span>画面(印刷イメージ)</span>
                             </div>
 
                         </div>

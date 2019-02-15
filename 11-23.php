@@ -36,16 +36,14 @@ include "sidebar.php"
                             <p>パスワード</p>
                         </div>
                         <div class="col-xs-4  ">
-                            <input type="text" class="form-control">
+                            <input type="password" class="form-control">
                         </div>
                         <div class="col-xs-1 " style="padding:5px;">
                             <p>（再）</p>
                         </div>
                         <div class="col-xs-4 no-padding">
-                            <input type="text" class="form-control">
+                            <input type="password" class="form-control">
                         </div>
-
-
                     </div>
 
                     <div class="col-xs-12 border-margin">

@@ -8,31 +8,36 @@ include "sidebar.php"
 
     <div class="col-md-12 col-xs-12 no-padding head-color">
         <div class="head-p">
-            <p>市町村名一覧表印刷指定
-
-
-            </p>
+            <p>市町村名一覧表印刷指定</p>
         </div>
         <form action="/gas/meter-reading" id="meter" method="POST">
 
+	    <div class="col-xs-12 border1 no-padding">
+		<p class="backend">種類</p>
+		<div class="col-xs-12">
+		    <label class="col-xs-1 no-padding">一覧表タイプ</label>
+		    <div class="col-xs-2">
+			<input type="radio" name="prefectureCode" value="all" checked onclick="$.fn.radioButtonSelectionChanged('prefectureCode', 'prefectureCodeId')"><span>保安機関名一覧表</span>
+		    </div>
+                    <div class="col-xs-2">
+                        <input type="radio" name="prefectureCode" value="all" checked onclick="$.fn.radioButtonSelectionChanged('prefectureCode', 'prefectureCodeId')"><span>保安機関別調査員名一覧表</span>
+                    </div>
+		</div>
+	    </div>
+
             <div class="col-xs-12 border1 no-padding">
-
-                <p class="backend">印刷範囲指定
-
-
-                </p>
+                <p class="backend">印刷範囲指定</p>
                 <div class="col-xs-12">
                     <div class="col-xs-12 no-padding">
                         <div class="col-xs-1 no-padding">
-                            <p class="p-size">都道府県コード</p>
+                            <p class="p-size">保安機関コード</p>
                         </div>
                         <div class="col-xs-1">
-                            <input type="radio" name="prefectureCode" value="all" checked onclick="$.fn.radioButtonSelectionChanged('prefectureCode', 'prefectureCodeId')"><span> 全て</span>
+                            <input type="radio" name="prefectureCode" value="all" checked onclick="$.fn.radioButtonSelectionChanged('prefectureCode', 'prefectureCodeId')"><span>全て</span>
                         </div>
                         <div class="col-xs-1">
                             <input type="radio" name="prefectureCode" value="directSales" onclick="$.fn.radioButtonSelectionChanged('prefectureCode', 'prefectureCodeId')"><span>選択</span>
                         </div>
-
                     </div>
                     <div id="prefectureCodeId">
                     <div class="col-xs-12 no-padding">
@@ -67,18 +72,18 @@ include "sidebar.php"
             </div>
 
             <div class="col-xs-12 border1 no-padding bottom-box">
-
                 <p class="backend">出力指定</p>
-                <div class="col-xs-12">
 
+                <div class="col-xs-12">
                     <div class="col-xs-1 no-padding">
                         <p>出力先</p>
                     </div>
-                    <div class="col-xs-9">
-                        <input type="radio" name="output" value="all"  onclick="$.fn.radioButtonSelectionChanged('output', 'outputId')"><span>プリンタ（印刷）</span>
-                        <input type="radio" name="output" value="output" onclick="$.fn.radioButtonSelectionChanged('output', 'outputId')"><span>画面（印刷イメージ）</span>
+                    <div class="col-xs-2">
+                        <input type="radio" name="output" value="all"  onclick="$.fn.radioButtonSelectionChanged('output', 'outputId')"><span>プリンタ(印刷)</span>
+		    </div>
+                    <div class="col-xs-2">
+                        <input type="radio" name="output" value="output" onclick="$.fn.radioButtonSelectionChanged('output', 'outputId')"><span>画面(印刷イメージ)</span>
                     </div>
-
                 </div>
             </div>
 

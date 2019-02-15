@@ -7,29 +7,23 @@ include "sidebar.php"
 <div class="col-xs-10 col-md-10 col-xs-12 no-padding body-background">
 
     <div class="head-p">
-        <p>
-            保安台帳保守</p>
+        <p>保安台帳保守</p>
     </div>
     <div class="col-xs-12 no-padding">
         <div class="col-xs-2  border-margin-exp">
-            <p>消費者コード
-
-            </p>
+            <p>消費者コード</p>
         </div>
-
-
-        <div class="col-xs-1">
+        <div class="col-xs-2">
             <input class="form-control" id="directStartId" name="directStartId"
                    type="number" value="" onchange="$.fn.onInputValueChange('directStartId', 'directStartName')">
         </div>
-
         <div class="col-xs-2">
             <input class="form-control" type="text" id="directStartName" name="directStartName">
         </div>
         <div class="col-xs-2 border-margin-exp ml-40">
             <p>営業所・販売店</p>
         </div>
-        <div class="col-xs-3 ml-n-40">
+        <div class="col-xs-2 ml-n-40">
             <input type="text" class="form-control" id="directStart_2Id" name="directStart_2Id"
                    value="" onchange="$.fn.onInputValueChange('directStart_2Id', 'directEnd_2')">
         </div>
@@ -64,10 +58,10 @@ include "sidebar.php"
                         <div class="col-xs-2"><p>入居区分</p></div>
                         <div class="col-xs-4">
                             <div class="col-xs-4 no-padding"><input type="radio" id="" name="tenancy" value="all"
-                                                                    onclick="$.fn.radioButtonSelectionChanged('tenancy', 'tenancyId')"><span> 入居（開栓）</span>
+                                                                    onclick="$.fn.radioButtonSelectionChanged('tenancy', 'tenancyId')"><span> 入居(開栓)</span>
                             </div>
                             <div class="col-xs-4 no-padding"><input type="radio" id="" name="tenancy" value="tenancy"
-                                                                    onclick="$.fn.radioButtonSelectionChanged('tenancy', 'tenancyId')"><span> 空家（閉栓）</span>
+                                                                    onclick="$.fn.radioButtonSelectionChanged('tenancy', 'tenancyId')"><span> 空家(閉栓)</span>
                             </div>
                         </div>
                     </div>
@@ -109,16 +103,12 @@ include "sidebar.php"
                                                                     value="closurCode"
                                                                     onclick="$.fn.radioButtonSelectionChanged('closurCode', 'closurCodeId')"><span> (ガス事業法）</span>
                             </div>
-
-
                         </div>
-
-
                     </div>
                     <div class="col-xs-12 border-margin no-padding">
                         <div class="col-xs-2 border-margin-exp"><p>郵便番号</p></div>
-                        <div class="col-xs-3"><input type="date" class="form-control"></div>
-                        <div class="col-xs-1"></div>
+                        <div class="col-xs-2"><input type="text" class="form-control"></div>
+                        <div class="col-xs-2"></div>
                         <div class="col-xs-2">
                             <p>用途区分</p>
                         </div>
@@ -134,15 +124,11 @@ include "sidebar.php"
                                                                     value="application"
                                                                     onclick="$.fn.radioButtonSelectionChanged('application', 'applicationId')"><span>  その他</span>
                             </div>
-
                         </div>
-
-
                     </div>
                     <div class="col-xs-12 border-margin no-padding">
                         <div class="col-xs-2 border-margin-exp"><p>住所1</p></div>
                         <div class="col-xs-4"><input type="text" class="form-control"></div>
-
                         <div class="col-xs-2 border-margin-exp">
                             <p>供給区分</p>
                         </div>
@@ -156,38 +142,31 @@ include "sidebar.php"
                                 <option>特定単独</option>
                                 <option>特定集団戸建</option>
                                 <option>特定集団共同</option>
-                                <option>質量販売"</option>
-
+                                <option>質量販売</option>
                             </select>
                         </div>
-
                     </div>
                     <div class="col-xs-12 border-margin no-padding">
                         <div class="col-xs-2 border-margin-exp"><p>住所2</p></div>
-                        <div class="col-xs-3"><input type="text" class="form-control"></div>
-                        <div class="col-xs-1"></div>
+                        <div class="col-xs-4"><input type="text" class="form-control"></div>
                         <div class="col-xs-2">
                             <p>親子</p>
                         </div>
                         <div class="col-xs-4">
                             <div class="col-xs-4 no-padding"><input type="radio" id="" name="child" value="all"
-                                                                    onclick="$.fn.radioButtonSelectionChanged('child', 'childId')"><span>  空白:該当なし</span>
+                                                                    onclick="$.fn.radioButtonSelectionChanged('child', 'childId')"><span> 該当なし</span>
                             </div>
                             <div class="col-xs-4 no-padding"><input type="radio" id="" name="child" value="child"
                                                                     onclick="$.fn.radioButtonSelectionChanged('child', 'childId')"><span> 親</span>
                             </div>
                             <div class="col-xs-4 no-padding"><input type="radio" id="" name="child" value="child"
-                                                                    onclick="$.fn.radioButtonSelectionChanged('child', 'childId')"><span> 個</span>
+                                                                    onclick="$.fn.radioButtonSelectionChanged('child', 'childId')"><span> 子</span>
                             </div>
-
                         </div>
-
-
                     </div>
                     <div class="col-xs-12 border-margin no-padding">
                         <div class="col-xs-2 border-margin-exp"><p>目標</p></div>
                         <div class="col-xs-4"><input type="text" class="form-control"></div>
-
                         <div class="col-xs-2 border-margin-exp">
                             <p>施設区分</p>
                         </div>
@@ -198,7 +177,6 @@ include "sidebar.php"
                         <div class="col-xs-3">
                             <input type="text" class="form-control " name="facilityEndId" id="facilityEndId">
                         </div>
-
                     </div>
                     <div class="col-xs-12 border-margin no-padding">
                         <div class="col-xs-2 border-margin-exp"><p>電話番号</p></div>
@@ -209,13 +187,13 @@ include "sidebar.php"
                         </div>
                         <div class="col-xs-4">
                             <div class="col-xs-4 no-padding"><input type="radio" id="" name="building" value="all"
-                                                                    onclick="$.fn.radioButtonSelectionChanged('building', 'buildingId')"><span>  鉄筋コンクリート</span>
+                                                                    onclick="$.fn.radioButtonSelectionChanged('building', 'buildingId')"><span> 鉄筋コンクリート</span>
                             </div>
                             <div class="col-xs-4 no-padding"><input type="radio" id="" name="building" value="building"
                                                                     onclick="$.fn.radioButtonSelectionChanged('building', 'buildingId')"><span> 木造</span>
                             </div>
                             <div class="col-xs-4 no-padding"><input type="radio" id="" name="building" value="building"
-                                                                    onclick="$.fn.radioButtonSelectionChanged('building', 'buildingId')"><span>  (その他）</span>
+                                                                    onclick="$.fn.radioButtonSelectionChanged('building', 'buildingId')"><span> その他</span>
                             </div>
 
 
@@ -268,11 +246,9 @@ include "sidebar.php"
                                 <option>一人住まい・老人世帯</option>
                                 <option>一人住まい・外国人世帯</option>
                                 <option>老人・外国人世帯</option>
-                                <option>一人住まい・老人・外国人世帯"</option>
-
+                                <option>一人住まい・老人・外国人世帯</option>
                             </select>
                         </div>
-
                     </div>
                     <div class="col-xs-12 border-margin no-padding">
                         <div class="col-xs-2 border-margin-exp"><p>保安担当者</p></div>
@@ -302,7 +278,7 @@ include "sidebar.php"
 
                     </div>
                     <div class="col-xs-12 border-margin no-padding">
-                        <div class="col-xs-2 border-margin-exp"><p>保安担当者</p></div>
+                        <div class="col-xs-2 border-margin-exp"><p>配送担当者</p></div>
                         <div class="col-xs-1"><input type="text" class="form-control" name="securityOfficer_2Id"
                                                      id="securityOfficer_2Id"
                                                      value=""
@@ -328,9 +304,8 @@ include "sidebar.php"
                     </div>
                     <div class="col-xs-12 border-margin no-padding">
                         <div class="col-xs-2 border-margin-exp"><p>販売店からの距離</p></div>
-
-                        <div class="col-xs-3"><input type="text" class="form-control"></div>
-
+                        <div class="col-xs-2"><input type="text" class="form-control"></div>
+			<div class="col-xs-1 no-padding"><p>km</p></div>
                         <div class="col-xs-2  col-xs-offset-1">
                             <p>保安業務</p>
                         </div>
@@ -631,37 +606,7 @@ include "sidebar.php"
                                     </table>
                                 </div>
                                 <div class="col-xs-12 border-margin-bottom">
-
-<!--                                    <div class="col-xs-2 col-xs-offset-2 ">-->
-<!--                                        <input type="text" class="form-control">-->
-<!--                                    </div>-->
-                                    <div class="col-xs-1  no-padding  mt-3 col-xs-offset-2">
-                                        <p>設置区分</p>
-                                    </div>
-                                    <div class="col-xs-2">
-                                        <div class="col-xs-4 no-padding"><input type="radio" id="" name="Installation"
-                                                                                value="all"
-                                                                                onclick="$.fn.radioButtonSelectionChanged('Installation', 'InstallationId')"><span>  地上</span>
-                                        </div>
-                                        <div class="col-xs-8"><input type="radio" id="" name="Installation"
-                                                                                value="Installation"
-                                                                                onclick="$.fn.radioButtonSelectionChanged('Installation', 'InstallationId')"><span>  地下</span>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-xs-1 no-padding mt-3"><p>形態</p></div>
-                                    <div class="col-xs-2 no-padding">
-
-                                        <div class="col-xs-4 no-padding"><input type="radio" id="" name="Form_2"
-                                                                                value="all"
-                                                                                onclick="$.fn.radioButtonSelectionChanged('Form_2', 'Form_2Id')"><span>  縦型</span>
-                                        </div>
-                                        <div class="col-xs-6 no-padding"><input type="radio" id="" name="Form_2"
-                                                                                value="Form_2"
-                                                                                onclick="$.fn.radioButtonSelectionChanged('Form_2', 'Form_2Id')"><span>  横型</span>
-                                        </div>
-
-                                    </div>
+                                        <p style="text-align:center;">(設置区分 1:地上 2:地下) (形態 1:縦型 2:横型)</p>
                                 </div>
                             </div>
                         </div>
@@ -675,65 +620,7 @@ include "sidebar.php"
                         </div>
 
                         <div class="col-xs-12">
-                            <div class="col-xs-1 no-padding mt-3">
-                                <p>圧力</p>
-                            </div>
-                            <div class="col-xs-4">
-                                <div class="col-xs-3 no-padding"><input type="radio" id="" name="pressure" value="all"
-                                                                        onclick="$.fn.radioButtonSelectionChanged('pressure', 'pressureId')"><span> 高圧</span>
-                                </div>
-                                <div class="col-xs-3 no-padding"><input type="radio" id="" name="pressure"
-                                                                        value="pressure"
-                                                                        onclick="$.fn.radioButtonSelectionChanged('pressure', 'pressureId')"><span> 中圧</span>
-                                </div>
-                                <div class="col-xs-3 no-padding"><input type="radio" id="" name="pressure"
-                                                                        value="pressure"
-                                                                        onclick="$.fn.radioButtonSelectionChanged('pressure', 'pressureId')"><span> 低圧</span>
-                                </div>
-
-                            </div>
-                            <div class="col-xs-1 no-padding mt-3">
-                                <p>埋設</p>
-                            </div>
-                            <div class="col-xs-4">
-                                <div class="col-xs-3 no-padding"><input type="radio" id="" name="embedding" value="all"
-                                                                        onclick="$.fn.radioButtonSelectionChanged('embedding', 'embeddingId')"><span> 露出管</span>
-                                </div>
-                                <div class="col-xs-3 no-padding"><input type="radio" id="" name="embedding"
-                                                                        value="embedding"
-                                                                        onclick="$.fn.radioButtonSelectionChanged('embedding', 'embeddingId')"><span> 埋設管</span>
-                                </div>
-
-
-                            </div>
-
-                        </div>
-                        <div class="col-xs-12">
-                            <div class="col-xs-1 no-padding">
-                                <p>設置</p>
-                            </div>
-
-                            <div class="col-xs-4">
-                                <div class="col-xs-3 no-padding"><input type="radio" id="" name="Installation_2"
-                                                                        value="all"
-                                                                        onclick="$.fn.radioButtonSelectionChanged('Installation_2', 'Installation_2Id')"><span> 無償貸与</span>
-                                </div>
-                                <div class="col-xs-3 no-padding"><input type="radio" id="" name="Installation_2"
-                                                                        value="Installation_2"
-                                                                        onclick="$.fn.radioButtonSelectionChanged('Installation_2', 'Installation_2Id')"><span> 有償施工</span>
-                                </div>
-                                <div class="col-xs-3 no-padding"><input type="radio" id="" name="Installation_2"
-                                                                        value="Installation_2"
-                                                                        onclick="$.fn.radioButtonSelectionChanged('Installation_2', 'Installation_2Id')"><span> :客先施工</span>
-                                </div>
-                                <div class="col-xs-3 no-padding"><input type="radio" id="" name="Installation_2"
-                                                                        value="Installation_2"
-                                                                        onclick="$.fn.radioButtonSelectionChanged('Installation_2', 'Installation_2Id')"><span> その他</span>
-                                </div>
-
-
-                            </div>
-
+                                <p style="text-align:center;">(圧力 1:高圧 2:中圧 3:低圧) (埋設 1:露出管 2:埋設管) (設置 1:無償貸与 2:有償施工 3:客先施工 4:その他)</p>
                         </div>
 
                         <div class="col-xs-12 table-scroll">
@@ -755,7 +642,6 @@ include "sidebar.php"
                                         <td class="td-style">単位</td>
                                         <td></td>
                                         <td class="td-style">設置方法</td>
-
                                     </tr>
                                     <tr>
                                         <td class="bg-color td-style">1</td>
@@ -773,8 +659,6 @@ include "sidebar.php"
                                         <td> </td>
                                         <td><input type="text" class="form-control tbl-input"></td>
                                     </tr>
-
-
                                     <tr>
                                         <td class="bg-color td-style">2</td>
                                         <td> </td>
@@ -919,42 +803,14 @@ include "sidebar.php"
                         </div>
                         <div class="col-xs-5">
                             <div class="col-xs-12">
-                                <div class="col-xs-4 mt-3">
-                                    <p>圧力</p>
-                                </div>
-                                <div class="col-xs-8">
-                                    <div class="col-xs-3 no-padding"><input type="radio" id="" name="pressure_2"
-                                                                            value="all"
-                                                                            onclick="$.fn.radioButtonSelectionChanged('pressure_2', 'pressure_2Id')"><span>  高圧f</span>
-                                    </div>
-                                    <div class="col-xs-3 no-padding"><input type="radio" id="" name="pressure_2"
-                                                                            value="pressure_2"
-                                                                            onclick="$.fn.radioButtonSelectionChanged('pressure_2', 'pressure_2Id')"><span>  低圧</span>
-                                    </div>
-
-                                </div>
-
+                                    <p>(圧力 1:高圧 2:低圧)</p>
                             </div>
                             <div class="col-xs-12">
-                                <div class="col-xs-4">
-                                    <p>安全機構</p>
-                                </div>
-                                <div class="col-xs-8">
-                                    <div class="col-xs-3 no-padding"><input type="radio" id="" name="safety" value="all"
-                                                                            onclick="$.fn.radioButtonSelectionChanged('safety', 'safetyId')"><span>  有</span>
-                                    </div>
-                                    <div class="col-xs-3 no-padding"><input type="radio" id="" name="safety"
-                                                                            value="safety"
-                                                                            onclick="$.fn.radioButtonSelectionChanged('safety', 'safetyId')"><span>  無</span>
-                                    </div>
-
-                                </div>
+                                    <p>(安全機構 1:有 2:無)</p>
                             </div>
-
                         </div>
-
-
                     </div>
+
                     <div class="col-xs-12  no-padding bottom-box border-margin-exp">
                         <div class="col-xs-8 no-padding">
                             <div class="col-xs-12 border1 no-padding">
@@ -1039,26 +895,12 @@ include "sidebar.php"
                                 <div class="col-xs-4" style="margin-top:30px;">
 
                                     <div class="col-xs-12">
-                                        <div class="col-xs-3 no-padding mt-3">
-                                            <p>圧力</p>
-                                        </div>
-                                        <div class="col-xs-9">
-                                            <div class="col-xs-6 no-padding"><input type="radio" id="" name="pressure_3"
-                                                                                    value="all"
-                                                                                    onclick="$.fn.radioButtonSelectionChanged('pressure_3', 'pressure_3Id')"><span> 高圧</span>
-                                            </div>
-                                            <div class="col-xs-6 no-padding"><input type="radio" id="" name="pressure_3"
-                                                                                    value="pressure_3"
-                                                                                    onclick="$.fn.radioButtonSelectionChanged('pressure_3', 'pressure_3Id')"><span> 中圧</span>
-                                            </div>
-
-                                        </div>
+                                            <p>(圧力 1:高圧 2:中圧)</p>
                                     </div>
                                 </div>
 
                             </div>
                         </div>
-
 
                         <div class="col-xs-4">
                             <div class="col-xs-12 border1 no-padding">
@@ -1071,49 +913,42 @@ include "sidebar.php"
                                         <th>A</th>
                                         <th>個数</th>
                                         <th>製造年月</th>
-
                                     </tr>
                                     <tr>
                                         <th class="bg-color">1</th>
                                         <th><input type="text" class="form-control tbl-input"></th>
                                         <th><input type="text" class="form-control tbl-input"></th>
                                         <th><input type="text" class="form-control tbl-input"></th>
-
                                     </tr>
                                     <tr>
                                         <th class="bg-color">2</th>
                                         <th><input type="text" class="form-control tbl-input"></th>
                                         <th><input type="text" class="form-control tbl-input"></th>
                                         <th><input type="text" class="form-control tbl-input"></th>
-
                                     </tr>
                                     <tr>
                                         <th class="bg-color">3</th>
                                         <th><input type="text" class="form-control tbl-input"></th>
                                         <th><input type="text" class="form-control tbl-input"></th>
                                         <th><input type="text" class="form-control tbl-input"></th>
-
                                     </tr>
                                     <tr>
                                         <th class="bg-color">4</th>
                                         <th><input type="text" class="form-control tbl-input"></th>
                                         <th><input type="text" class="form-control tbl-input"></th>
                                         <th><input type="text" class="form-control tbl-input"></th>
-
                                     </tr>
                                     <tr>
                                         <th class="bg-color">5</th>
                                         <th><input type="text" class="form-control tbl-input"></th>
                                         <th><input type="text" class="form-control tbl-input"></th>
                                         <th><input type="text" class="form-control tbl-input"></th>
-
                                     </tr>
                                     <tr>
                                         <th class="bg-color">5</th>
                                         <th><input type="text" class="form-control tbl-input"></th>
                                         <th><input type="text" class="form-control tbl-input"></th>
                                         <th><input type="text" class="form-control tbl-input"></th>
-
                                     </tr>
                                     </thead>
                                     </table>
@@ -1123,35 +958,13 @@ include "sidebar.php"
                     </div>
                 </div>
             </div>
+
             <!--third Tab-->
             <div id="menu2" class="tab-pane fade border-margin tab-scroll">
                 <div class="col-xs-12 border1 no-padding">
                     <p class="back-end">調整器等</p>
                     <div class="col-xs-12">
-
-                        <div class="col-xs-1 no-padding mt-3">
-                            <p>区分</p>
-                        </div>
-                        <div class="col-xs-10">
-                            <div class="col-xs-3 no-padding "><input type="radio" id="" name="classification" value="all"
-                                                                    onclick="$.fn.radioButtonSelectionChanged('classification', 'classificationId')"><span> 警報機連動遮断装置</span>
-                            </div>
-                            <div class="col-xs-3 no-padding ml-n-20"><input type="radio" id="" name="classification"
-                                                                    value="classification"
-                                                                    onclick="$.fn.radioButtonSelectionChanged('classification', 'classificationId')"><span> ガス放出防止器</span>
-                            </div>
-                            <div class="col-xs-3 no-padding ml-n-30"><input type="radio" id="" name="classification"
-                                                                    value="classification"
-                                                                    onclick="$.fn.radioButtonSelectionChanged('classification', 'classificationId')"><span> 耐震自動ガス遮断装置</span>
-                            </div>
-                            <div class="col-xs-3 no-padding"><input type="radio" id="" name="classification"
-                                                                    value="classification"
-                                                                    onclick="$.fn.radioButtonSelectionChanged('classification', 'classificationId')"><span> 気化器</span>
-                            </div>
-
-                        </div>
-
-
+                            <p>(区分 空白,0:調整器 1:警報機連動遮断装置 2:ガス放出防止器 3:耐震 自動ガス遮断装置 4:気化器)</p>
                     </div>
                     <div class="col-xs-12 table-scroll">
                         <table class="table table-bordered col-xs-12">
@@ -1160,17 +973,14 @@ include "sidebar.php"
                                 <th class="w-20"></th>
                                 <th>区分</th>
                                 <th class="w-20"></th>
-                                <th class="">種別 <br>メーカ</th>
+                                <th class="">種別<br>メーカ</th>
                                 <th class="w-20"></th>
                                 <th>型式</th>
-                                <th class="cl-xs-5">個数<br>
-                                    容量
-                                </th>
+                                <th class="cl-xs-5">個数<br>容量</th>
                                 <th>ロット番号</th>
                                 <th>製造年月</th>
                                 <th>期限年数</th>
                                 <th>交換期限</th>
-
                             </tr>
                             <tr>
                                 <th class="bg-color">1</th>
@@ -1184,7 +994,6 @@ include "sidebar.php"
                                 <th><input type="text" class="form-control tbl-input"></th>
                                 <th><input type="text" class="form-control tbl-input"></th>
                                 <th><input type="text" class="form-control tbl-input"></th>
-
                             </tr>
                             <tr>
                                 <th class="bg-color">2</th>
@@ -1198,7 +1007,6 @@ include "sidebar.php"
                                 <th><input type="text" class="form-control tbl-input"></th>
                                 <th><input type="text" class="form-control tbl-input"></th>
                                 <th><input type="text" class="form-control tbl-input"></th>
-
                             </tr>
                             <tr>
                                 <th class="bg-color">3</th>
@@ -1212,7 +1020,6 @@ include "sidebar.php"
                                 <th><input type="text" class="form-control tbl-input"></th>
                                 <th><input type="text" class="form-control tbl-input"></th>
                                 <th><input type="text" class="form-control tbl-input"></th>
-
                             </tr>
                             <tr>
                                 <th class="bg-color">4</th>
@@ -1226,7 +1033,6 @@ include "sidebar.php"
                                 <th><input type="text" class="form-control tbl-input"></th>
                                 <th><input type="text" class="form-control tbl-input"></th>
                                 <th><input type="text" class="form-control tbl-input"></th>
-
                             </tr>
                             </thead>
                         </table>
@@ -1253,7 +1059,7 @@ include "sidebar.php"
                         <div class="col-xs-2 col-xs-offset-1">
                             <p>設定区分</p>
                         </div>
-                        <div class="col-xs-2">
+                        <div class="col-xs-1">
                             <input type="number" class="form-control">
                         </div>
                         <div class="col-xs-2">
@@ -1353,8 +1159,10 @@ include "sidebar.php"
                         <div class="col-xs-2">
                             <input type="number" class="form-control">
                         </div>
-
-                        <div class="col-xs-2 col-xs-offset-2 ">
+			<div class="col-xs-1 no-padding">
+			    <p>m3/h</p>
+			</div>
+                        <div class="col-xs-2 col-xs-offset-1">
                             <p>警報機との接続状況</p>
                         </div>
 
@@ -1368,8 +1176,8 @@ include "sidebar.php"
                             </div>
                             <div class="col-xs-4 no-padding ml-n-20"><input type="radio" id="" name="connection"
                                                                     alue="connection"
-                                                                    onclick="$.fn.radioButtonSelectionChanged('connection', 'connectionId')"><span
-                                        class=""> DAアダプタ</span></div>
+                                                                    onclick="$.fn.radioButtonSelectionChanged('connection', 'connectionId')"><span class=""> DAアダプタ</span>
+			    </div>
                             <div class="col-xs-2 no-padding"><input type="radio" id="" name="connection"
                                                                     alue="connection"
                                                                     onclick="$.fn.radioButtonSelectionChanged('connection', 'connectionId')"><span> 不要</span>
@@ -1465,73 +1273,13 @@ include "sidebar.php"
 
             </div>
             <!--third Tab-->
+
             <!--fourth Tab-->
             <div id="menu3" class="tab-pane fade tab-scroll1 table-margin">
                 <div class="col-xs-12 border1 no-padding">
                     <p class="back-end">消費設備配管</p>
                     <div class="col-xs-12">
-
-                        <div class="col-xs-1 no-padding mt-3">
-                            <p>圧力</p>
-                        </div>
-
-                        <div class="col-xs-3 ml-n-30">
-                            <div class="col-xs-3 no-padding"><input type="radio" id="" name="consumption" value="all"
-                                                                    onclick="$.fn.radioButtonSelectionChanged('consumption', 'consumptionId')"><span> 高圧</span>
-                            </div>
-                            <div class="col-xs-3 no-padding"><input type="radio" id="" name="consumption"
-                                                                    value="consumption"
-                                                                    onclick="$.fn.radioButtonSelectionChanged('consumption', 'consumptionId')"><span> 中圧</span>
-                            </div>
-                            <div class="col-xs-3 no-padding"><input type="radio" id="" name="consumption"
-                                                                    value="consumption"
-                                                                    onclick="$.fn.radioButtonSelectionChanged('consumption', 'consumptionId')"><span> 低圧</span>
-                            </div>
-
-
-                        </div>
-                        <div class="col-xs-1 no-padding mt-3">
-                            <p>埋設</p>
-                        </div>
-
-                        <div class="col-xs-2 ml-n-30">
-                            <div class="col-xs-6 no-padding"><input type="radio" id="" name="embedding_2" value="all"
-                                                                    onclick="$.fn.radioButtonSelectionChanged('embedding_2', 'embedding_2Id')"><span> 露出管</span>
-                            </div>
-                            <div class="col-xs-6 no-padding"><input type="radio" id="" name="embedding_2"
-                                                                    value="embedding_2"
-                                                                    onclick="$.fn.radioButtonSelectionChanged('embedding_2', 'embedding_2Id')"><span> 埋設管</span>
-                            </div>
-
-
-                        </div>
-                        <div class="col-xs-1 no-padding mt-3">
-                            <p>設置</p>
-                        </div>
-                        <div class="col-xs-4 ml-n-30">
-                            <div class="col-xs-3 no-padding"><input type="radio" id="" name="installation_3" value="all"
-                                                                    onclick="$.fn.radioButtonSelectionChanged('installation_3', 'installation_3Id')"><span> 無償貸与</span>
-                            </div>
-                            <div class="col-xs-3 no-padding"><input type="radio" id="" name="installation_3"
-                                                                    value="installation_3"
-                                                                    onclick="$.fn.radioButtonSelectionChanged('installation_3', 'installation_3Id')"><span> 有償施工</span>
-                            </div>
-                            <div class="col-xs-3 no-padding"><input type="radio" id="" name="installation_3"
-                                                                    value="installation_3"
-                                                                    onclick="$.fn.radioButtonSelectionChanged('installation_3', 'installation_3Id')"><span> 客先施工</span>
-                            </div>
-                            <div class="col-xs-3 no-padding"><input type="radio" id="" name="installation_3"
-                                                                    value="installation_3"
-                                                                    onclick="$.fn.radioButtonSelectionChanged('installation_3', 'installation_3Id')"><span> その他</span>
-                            </div>
-
-
-                        </div>
-
-                    </div>
-                    <div class="col-xs-12">
-
-
+                            <p style="text-align:center;">(圧力 1:高圧 2:中圧 3:低圧) (埋設 1:露出管 2:埋設管) (設置 1:無償貸与 2:有償施工 3:客先施工 4:その他)</p>
                     </div>
                     <div class="col-xs-12 table-scroll">
                         <table class="table table-bordered">
@@ -1619,95 +1367,28 @@ include "sidebar.php"
                 </div>
             </div>
             <!--fourth Tab-->
+
             <!--fifth Tab-->
             <div id="menu4" class="tab-pane fade table-margin tab-scroll">
                 <div class="col-xs-12 border1 no-padding">
                     <p class="back-end">燃焼器具</p>
-
-
                     <div class="col-xs-12">
-
-                        <div class="col-xs-1 no-padding">
-                            <p>購入先</p>
-                        </div>
-
-                        <div class="col-xs-2">
-                            <div class="col-xs-6 no-padding"><input type="radio" id="" name="retailer" value="all"
-                                                                    onclick="$.fn.radioButtonSelectionChanged('retailer', 'retailerId')"><span> 自社 </span>
-                            </div>
-                            <div class="col-xs-6 no-padding"><input type="radio" id="" name="retailer" value="retailer"
-                                                                    onclick="$.fn.radioButtonSelectionChanged('retailer', 'retailerId')"><span> 他社</span>
-                            </div>
-
-
-                        </div>
-                        <div class="col-xs-1 no-padding mt-3">
-                            <p>年月確認 空白.</p>
-                        </div>
-
-                        <div class="col-xs-4 ">
-                            <div class="col-xs-5 no-padding"><input type="radio" id="" name="yearMonth" value="all"
-                                                                    onclick="$.fn.radioButtonSelectionChanged('yearMonth', 'yearMonthId')"><span> ネイ像年月入力</span>
-                            </div>
-                            <div class="col-xs-4 no-padding"><input type="radio" id="" name="yearMonth"
-                                                                    value="yearMonth"
-                                                                    onclick="$.fn.radioButtonSelectionChanged('yearMonth', 'yearMonthId')"><span> 未調査f</span>
-                            </div>
-                            <div class="col-xs-3 no-padding"><input type="radio" id="" name="yearMonth"
-                                                                    value="yearMonth"
-                                                                    onclick="$.fn.radioButtonSelectionChanged('yearMonth', 'yearMonthId')"><span> 不明</span>
-                            </div>
-
-
-                        </div>
-                        <div class="col-xs-1 no-padding mt-3">
-                            <p>立消〜過熱</p>
-                        </div>
-
-                        <div class="col-xs-3">
-                            <div class="col-xs-3 no-padding"><input type="radio" id="" name="standing" value="all"
-                                                                    onclick="$.fn.radioButtonSelectionChanged('standing', 'standingId')"><span> 有</span>
-                            </div>
-                            <div class="col-xs-3 no-padding"><input type="radio" id="" name="standing" value="standing"
-                                                                    onclick="$.fn.radioButtonSelectionChanged('standing', 'standingId')"><span> 無</span>
-                            </div>
-                            <div class="col-xs-6 no-padding"><input type="radio" id="" name="standing" value="standing"
-                                                                    onclick="$.fn.radioButtonSelectionChanged('standing', 'standingId')"><span
-                                        class=""> 該当なし</span></div>
-
-
-                        </div>
-
-
+                            <p style="text-align:center;">(購入先 1:自社 2:他社) (年月確認 空白,0:製造年月入力 1:未調査 2:不明) (立消～加熱 1:有 2:無 3:該当なし)</p>
                     </div>
                     <div class="col-xs-10">
                         <div class="col-xs-12 table-scroll no-padding">
-
-
                         <table class="table table-bordered" class="col-xs-12">
-
                             <tr class="bg-color">
                                 <th></th>
                                 <th></th>
-                                <th>燃焼器具種別<br>
-                                    メーカー
-                                </th>
-                                <th>型式<br>
-                                    製造番号
-                                </th>
-                                <th>台数 <br>
-                                    購入先
-                                </th>
-                                <th>消費量<br>
-                                    年月確認
-                                </th>
-                                <th>設置年月<br>
-                                    製造年月
-                                </th>
+                                <th>燃焼器具種別<br>メーカー</th>
+                                <th>型式<br>製造番号</th>
+                                <th>台数<br>購入先</th>
+                                <th>消費量<br>年月確認</th>
+                                <th>設置年月<br>製造年月</th>
                                 <th>立消</th>
                                 <th>不燃防</th>
                                 <th>過熱</th>
-
                             </tr>
                             </thead>
                             <tr>
@@ -1721,7 +1402,6 @@ include "sidebar.php"
                                 <th><input type="text" class="form-control tbl-input"></th>
                                 <th><input type="text" class="form-control tbl-input"></th>
                                 <th><input type="text" class="form-control tbl-input"></th>
-
                             </tr>
                             <tr>
                                 <th class="bg-color">2</th>
@@ -1734,7 +1414,6 @@ include "sidebar.php"
                                 <th><input type="text" class="form-control tbl-input"></th>
                                 <th><input type="text" class="form-control tbl-input"></th>
                                 <th><input type="text" class="form-control tbl-input"></th>
-
                             </tr>
                             <tr>
                                 <th class="bg-color">3</th>
@@ -1747,7 +1426,6 @@ include "sidebar.php"
                                 <th><input type="text" class="form-control tbl-input"></th>
                                 <th><input type="text" class="form-control tbl-input"></th>
                                 <th><input type="text" class="form-control tbl-input"></th>
-
                             </tr>
                             <tr>
                                 <th class="bg-color">4</th>
@@ -1760,9 +1438,7 @@ include "sidebar.php"
                                 <th><input type="text" class="form-control tbl-input"></th>
                                 <th><input type="text" class="form-control tbl-input"></th>
                                 <th><input type="text" class="form-control tbl-input"></th>
-
                             </tr>
-
                             <tr>
                                 <th class="bg-color">5</th>
                                 <th></th>
@@ -1774,10 +1450,7 @@ include "sidebar.php"
                                 <th><input type="text" class="form-control tbl-input"></th>
                                 <th><input type="text" class="form-control tbl-input"></th>
                                 <th><input type="text" class="form-control tbl-input"></th>
-
                             </tr>
-
-
                         </table>
                         </div>
                     </div>
@@ -1787,10 +1460,8 @@ include "sidebar.php"
                             <p>消費量合計</p>
                         </div>
                         <div class="col-xs-2"><input type="number" class="form-control"></div>
-                        <div class="col-xs-1 border-margin-exp ml-n-10"> kw</div>
+                        <div class="col-xs-1 border-margin-exp ml-n-10"><p> kw</p></div>
                         <div class="col-xs-3"></div>
-
-
                     </div>
                 </div>
 
@@ -1800,7 +1471,6 @@ include "sidebar.php"
                         <div class="col-xs-1 no-padding mt-3">
                             <p>設置施設</p>
                         </div>
-
                         <div class="col-xs-2">
                             <div class="col-xs-6 no-padding"><input type="radio" id="" name="facility_2" value="all"
                                                                     onclick="$.fn.radioButtonSelectionChanged('facility_2', 'facility_2Id')"><span
@@ -1809,77 +1479,35 @@ include "sidebar.php"
                                                                     value="facility_2"
                                                                     onclick="$.fn.radioButtonSelectionChanged('facility_2', 'facility_2Id')"><span
                                         class="font-exp-size"> 指導施設</span></div>
-
-
                         </div>
-                        <div class="col-xs-1 no-padding border-margin-exp">
+                        <div class="col-xs-1 no-padding mt-3">
                             <p>交換対象個数</p>
                         </div>
-                        <div class="col-xs-1 ">
+                        <div class="col-xs-1">
                             <input type="number" class="form-control">
                         </div>
-
-                        <div class="col-xs-1 no-padding border-margin-exp">
-                            <p>使用状況</p>
+                        <div class="col-xs-4 mt-3">
+                            <p>(使用状況 1:接続 2:未接続) (安全～アダプタ 1:有 2:無)</p>
                         </div>
-                        <div class="col-xs-2 ml-n-20">
-                            <div class="col-xs-6 no-padding"><input type="radio" id="" name="status" value="all"
-                                                                    onclick="$.fn.radioButtonSelectionChanged('status', 'statusId')"><span> 接続</span>
-                            </div>
-                            <div class="col-xs-6 no-padding"><input type="radio" id="" name="status" value="status"
-                                                                    onclick="$.fn.radioButtonSelectionChanged('status', 'statusId')"><span> 未接続</span>
-                            </div>
-
-
-                        </div>
-                        <div class="col-xs-2 no-padding border-margin-exp mt-3><input type="text" class="form-control tbl-input">
-                            <p>安全〜アダプタ</p>
-                        </div>
-                        <div class="col-xs-2 ml-n-60">
-                            <div class="col-xs-6 no-padding"><input type="radio" id="" name="adapter" value="all"
-                                                                    onclick="$.fn.radioButtonSelectionChanged('adapter', 'adapterId')"><span> 有</span>
-                            </div>
-                            <div class="col-xs-6 no-padding"><input type="radio" id="" name="adapter" value="adapter"
-                                                                    onclick="$.fn.radioButtonSelectionChanged('adapter', 'adapterId')"><span> 無</span>
-                            </div>
-
-
-                        </div>
-
-
                     </div>
+
                     <div class="col-xs-12 table-scroll border-margin">
-
-
                         <table class="table table-bordered">
                             <thead>
                             <thead>
                             <tr class="bg-color">
                                 <th></th>
                                 <th></th>
-                                <th class="col-xs-3">末端ガス栓種別<br>
-                                    接続管種別
-                                </th>
-                                <th>数<br>
-                                    本
-                                </th>
-                                <th>使用<br>
-                                    器具
-                                </th>
-                                <th>埋設</th>
-
+                                <th class="col-xs-3">末端ガス栓種別<br>接続管種別</th>
+                                <th>数<br>本</th>
+                                <th>使用<br>器具</th>
                                 <th>設置</th>
-
+                                <th>製造</th>
                                 <th></th>
                                 <th class="col-xs-2">メーカ</th>
-
                                 <th>型式</th>
                                 <th>製造番号</th>
-                                <th>安全<br>
-                                    検査孔<br>
-                                    アダプタ
-                                </th>
-
+                                <th>安全<br>検査孔<br>アダプタ</th>
                             </tr>
                             </thead>
                             <tr>
@@ -1895,7 +1523,6 @@ include "sidebar.php"
                                 <th><input type="text" class="form-control tbl-input"></th>
                                 <th><input type="text" class="form-control tbl-input"></th>
                                 <th><input type="text" class="form-control tbl-input"></th>
-
                             </tr>
                             <tr>
                                 <th class="bg-color">2</th>
@@ -1910,7 +1537,6 @@ include "sidebar.php"
                                 <th><input type="text" class="form-control tbl-input"></th>
                                 <th><input type="text" class="form-control tbl-input"></th>
                                 <th><input type="text" class="form-control tbl-input"></th>
-
                             </tr>
                             <tr>
                                 <th class="bg-color">3</th>
@@ -1925,7 +1551,6 @@ include "sidebar.php"
                                 <th><input type="text" class="form-control tbl-input"></th>
                                 <th><input type="text" class="form-control tbl-input"></th>
                                 <th><input type="text" class="form-control tbl-input"></th>
-
                             </tr>
                             <tr>
                                 <th class="bg-color">4</th>
@@ -1940,20 +1565,17 @@ include "sidebar.php"
                                 <th><input type="text" class="form-control tbl-input"></th>
                                 <th><input type="text" class="form-control tbl-input"></th>
                                 <th><input type="text" class="form-control tbl-input"></th>
-
                             </tr>
-
                         </table>
                     </div>
                 </div>
             </div>
             <!--fifth Tab-->
+
             <!--six Tab-->
             <div id="menu5" class="tab-pane fade table-margin tab-scroll">
                 <div class="col-xs-12 border1 no-padding">
                     <p class="back-end">警報器</p>
-
-
                     <div class="col-xs-12">
                         <div class="col-xs-12 border1 no-padding">
                             <p class="back-end">ガス漏れ警報器</p>
@@ -1961,7 +1583,6 @@ include "sidebar.php"
                                 <div class="col-xs-1  no-padding">
                                     <p>設置施設区分</p>
                                 </div>
-
                                 <div class="col-xs-4 no-padding ml-5">
                                     <div class="col-xs-4 no-padding"><input type="radio" id="" name="installation_4"
                                                                             value="all"
@@ -1975,10 +1596,7 @@ include "sidebar.php"
                                                                             value="installation_4"
                                                                             onclick="$.fn.radioButtonSelectionChanged('installation_4', 'installation_4Id')"><span> 不要施設</span>
                                     </div>
-
-
                                 </div>
-
                                 <div class="col-xs-1  no-padding border-margin-exp">
                                     <p>必要個数</p>
                                 </div>
@@ -1991,88 +1609,15 @@ include "sidebar.php"
                                 <div class="col-xs-1  border-margin-bottom ml-n-20">
                                     <input type="text" class="form-control">
                                 </div>
-
                             </div>
-
-
                         </div>
                     </div>
 
-
                     <div class="col-xs-12">
-
-
-                        <div class="col-xs-1 no-padding ">
-                            <p>区分 空白</p>
-                        </div>
-                        <div class="col-xs-5">
-                            <div class="col-xs-2 no-padding"><input type="radio" id="" name="segmentBlank" value="all"
-                                                                    onclick="$.fn.radioButtonSelectionChanged('segmentBlank', 'segmentBlankId')"><span> 警報機</span>
-                            </div>
-                            <div class="col-xs-3 no-padding"><input type="radio" id="" name="segmentBlank"
-                                                                    value="segmentBlank"
-                                                                    onclick="$.fn.radioButtonSelectionChanged('segmentBlank', 'segmentBlankId')"><span> CO警報器</span>
-                            </div>
-
-
-
-                        </div>
-                        <div class="col-xs-1 no-padding">
-                            <p>供消 </p>
-                        </div>
-                        <div class="col-xs-3">
-                            <div class="col-xs-6 no-padding"><input type="radio" id="" name="supply" value="all"
-                                                                    onclick="$.fn.radioButtonSelectionChanged('supply', 'supplyId')"><span> 供給設備</span>
-                            </div>
-                            <div class="col-xs-6 no-padding"><input type="radio" id="" name="supply" value="supply"
-                                                                    onclick="$.fn.radioButtonSelectionChanged('supply', 'supplyId')"><span> 消費設備</span>
-                            </div>
-
-
-                        </div>
-
-                    </div>
+                            <p>(区分 空白,0:警報機 1:CO警報機) (供消 1:供給設備 2:消費設備)</p>
+		    </div>
                     <div class="col-xs-12">
-                        <div class="col-xs-1 no-padding">
-                            <p>設置方法</p>
-                        </div>
-                        <div class="col-xs-5">
-                            <div class="col-xs-2 no-padding"><input type="radio" id="" name="Installation_5" value="all"
-                                                                    onclick="$.fn.radioButtonSelectionChanged('Installation_5', 'Installation_5Id')"><span> リース</span>
-                            </div>
-                            <div class="col-xs-3 no-padding"><input type="radio" id="" name="Installation_5"
-                                                                    value="Installation_5"
-                                                                    onclick="$.fn.radioButtonSelectionChanged('Installation_5', 'Installation_5Id')"><span>無償貸与</span>
-                            </div>
-                            <div class="col-xs-3 no-padding"><input type="radio" id="" name="Installation_5"
-                                                                    value="Installation_5"
-                                                                    onclick="$.fn.radioButtonSelectionChanged('Installation_5', 'Installation_5Id')"><span> 自社販売</span>
-                            </div>
-                            <div class="col-xs-2 no-padding"><input type="radio" id="" name="Installation_5"
-                                                                    value="Installation_5"
-                                                                    onclick="$.fn.radioButtonSelectionChanged('Installation_5', 'Installation_5Id')"><span
-                                        class=""> 客先所有</span></div>
-                            <div class="col-xs-2 no-padding"><input type="radio" id="" name="Installation_5"
-                                                                    value="Installation_5"
-                                                                    onclick="$.fn.radioButtonSelectionChanged('Installation_5', 'Installation_5Id')"><span> その他</span>
-                            </div>
-
-
-                        </div>
-                        <div class="col-xs-1 no-padding">
-                            <p>連動単独</p>
-                        </div>
-                        <div class="col-xs-3">
-                            <div class="col-xs-6 no-padding"><input type="radio" id="" name="interlocking" value="all"
-                                                                    onclick="$.fn.radioButtonSelectionChanged('interlocking', 'interlockingId')"><span
-                                        class="font-exp-size"> 単独</span></div>
-                            <div class="col-xs-6 no-padding"><input type="radio" id="" name="interlocking"
-                                                                    value="interlocking"
-                                                                    onclick="$.fn.radioButtonSelectionChanged('Installinterlockingation_5', 'interlockingId')"><span> 連動</span>
-                            </div>
-
-
-                        </div>
+                            <p>(設置方法 1:リース 2:無償貸与 3:自社販売 4:客先所有 5:その他) (連動単独 1:単独 2:連動)</p>
                     </div>
                     <div class="col-xs-12 table-scroll">
                         <table class="table table-bordered">
@@ -2081,27 +1626,16 @@ include "sidebar.php"
                             <tr class="bg-color">
                                 <th></th>
                                 <th>区分</th>
-                                <th>供消
-                                </th>
-
+                                <th>供消</th>
                                 <th></th>
-                                <th class="col-xs-3">種別<br>
-                                    メーカ
-                                </th>
-                                <th>
-                                </th>
-                                <th>型式<br>設置方法
-                                </th>
-                                <th>連動<br>
-                                    単独
-                                </th>
-                                <th>個数<br>
-                                    製造番号
-                                </th>
+                                <th class="col-xs-3">種別<br>メーカ</th>
+                                <th></th>
+                                <th>型式<br>設置方法</th>
+                                <th>連動<br>単独</th>
+                                <th>個数<br>製造番号</th>
                                 <th>製造年月</th>
                                 <th>期限年数</th>
                                 <th>交換期限</th>
-
                             </tr>
                             </thead>
                             <tr>
@@ -2109,7 +1643,6 @@ include "sidebar.php"
                                 <th><input type="text" class="form-control tbl-input"></th>
                                 <th><input type="text" class="form-control tbl-input"></th>
                                 <th></th>
-
                                 <th><input type="text" class="form-control tbl-input"></th>
                                 <th></th>
                                 <th><input type="text" class="form-control tbl-input"></th>
@@ -2118,14 +1651,12 @@ include "sidebar.php"
                                 <th><input type="text" class="form-control tbl-input"></th>
                                 <th><input type="text" class="form-control tbl-input"></th>
                                 <th><input type="text" class="form-control tbl-input"></th>
-
                             </tr>
                             <tr>
                                 <th class="bg-color">2</th>
                                 <th><input type="text" class="form-control tbl-input"></th>
                                 <th><input type="text" class="form-control tbl-input"></th>
                                 <th></th>
-
                                 <th><input type="text" class="form-control tbl-input"></th>
                                 <th></th>
                                 <th><input type="text" class="form-control tbl-input"></th>
@@ -2134,14 +1665,12 @@ include "sidebar.php"
                                 <th><input type="text" class="form-control tbl-input"></th>
                                 <th><input type="text" class="form-control tbl-input"></th>
                                 <th><input type="text" class="form-control tbl-input"></th>
-
                             </tr>
                             <tr>
                                 <th class="bg-color">3</th>
                                 <th><input type="text" class="form-control tbl-input"></th>
                                 <th><input type="text" class="form-control tbl-input"></th>
                                 <th></th>
-
                                 <th><input type="text" class="form-control tbl-input"></th>
                                 <th></th>
                                 <th><input type="text" class="form-control tbl-input"></th>
@@ -2150,15 +1679,12 @@ include "sidebar.php"
                                 <th><input type="text" class="form-control tbl-input"></th>
                                 <th><input type="text" class="form-control tbl-input"></th>
                                 <th><input type="text" class="form-control tbl-input"></th>
-
-
                             </tr>
                             <tr>
                                 <th class="bg-color">4</th>
                                 <th><input type="text" class="form-control tbl-input"></th>
                                 <th><input type="text" class="form-control tbl-input"></th>
                                 <th></th>
-
                                 <th><input type="text" class="form-control tbl-input"></th>
                                 <th></th>
                                 <th><input type="text" class="form-control tbl-input"></th>
@@ -2167,54 +1693,19 @@ include "sidebar.php"
                                 <th><input type="text" class="form-control tbl-input"></th>
                                 <th><input type="text" class="form-control tbl-input"></th>
                                 <th><input type="text" class="form-control tbl-input"></th>
-
                             </tr>
-
-
                         </table>
                     </div>
                 </div>
+
                 <div class="col-xs-12 border1 no-padding bottom-box">
                     <p class="back-end">集中監視端末</p>
                     <div class="col-xs-12">
-
-
-                        <div class="col-xs-1 no-padding">
-                            <p>個数</p>
-                        </div>
-                        <div class="col-xs-5">
-                            <div class="col-xs-3 no-padding"><input type="radio" id="" name="number" value="all"
-                                                                    onclick="$.fn.radioButtonSelectionChanged('number', 'numberId')"><span> 接続中</span>
-                            </div>
-                            <div class="col-xs-3 no-padding"><input type="radio" id="" name="number" value="number"
-                                                                    onclick="$.fn.radioButtonSelectionChanged('number', 'numberId')"><span> 未接続</span>
-                            </div>
-                            <div class="col-xs-3 no-padding"><input type="radio" id="" name="number" value="number"
-                                                                    onclick="$.fn.radioButtonSelectionChanged('number', 'numberId')"><span> 休止中</span>
-                            </div>
-
-
-                        </div>
-                        <div class="col-xs-1 no-padding">
-                            <p>伝送</p>
-                        </div>
-                        <div class="col-xs-4">
-                            <div class="col-xs-4 no-padding"><input type="radio" id="" name="transmission" value="all"
-                                                                    onclick="$.fn.radioButtonSelectionChanged('transmission', 'transmissionId')"><span> 端末発呼</span>
-                            </div>
-                            <div class="col-xs-6 no-padding"><input type="radio" id="" name="transmission"
-                                                                    value="transmission"
-                                                                    onclick="$.fn.radioButtonSelectionChanged('transmission', 'transmissionId')"><span> 双方向</span>
-                            </div>
-
-
-                        </div>
-
+                            <p>(接続 1:接続中 2:未接続 3:休止中) (伝送 1:端末発呼 2:双方向)</p>
                     </div>
                     <div class="col-xs-11">
                         <div class="col-xs-12 table-scroll no-padding">
                         <table class="table table-bordered" class="">
-
                             <tr class="bg-color">
                                 <th></th>
                                 <th></th>
@@ -2227,8 +1718,6 @@ include "sidebar.php"
                                 <th>接続</th>
                                 <th>伝送</th>
                                 <th>製造年月</th>
-
-
                             </tr>
                             </thead>
                             <tr>
@@ -2243,8 +1732,6 @@ include "sidebar.php"
                                 <th><input type="text" class="form-control tbl-input"></th>
                                 <th><input type="text" class="form-control tbl-input"></th>
                                 <th><input type="text" class="form-control tbl-input"></th>
-
-
                             </tr>
                             <tr>
                                 <th class="bg-color">2</th>
@@ -2258,8 +1745,6 @@ include "sidebar.php"
                                 <th><input type="text" class="form-control tbl-input"></th>
                                 <th><input type="text" class="form-control tbl-input"></th>
                                 <th><input type="text" class="form-control tbl-input"></th>
-
-
                             </tr>
                             <tr>
                                 <th class="bg-color">3</th>
@@ -2273,8 +1758,6 @@ include "sidebar.php"
                                 <th><input type="text" class="form-control tbl-input"></th>
                                 <th><input type="text" class="form-control tbl-input"></th>
                                 <th><input type="text" class="form-control tbl-input"></th>
-
-
                             </tr>
                             <tr>
                                 <th class="bg-color">4</th>
@@ -2288,8 +1771,6 @@ include "sidebar.php"
                                 <th><input type="text" class="form-control tbl-input"></th>
                                 <th><input type="text" class="form-control tbl-input"></th>
                                 <th><input type="text" class="form-control tbl-input"></th>
-
-
                             </tr>
                             <tr>
                                 <th class="bg-color">5</th>
@@ -2303,8 +1784,6 @@ include "sidebar.php"
                                 <th><input type="text" class="form-control tbl-input"></th>
                                 <th><input type="text" class="form-control tbl-input"></th>
                                 <th><input type="text" class="form-control tbl-input"></th>
-
-
                             </tr>
                             <tr>
                                 <th class="bg-color">6</th>
@@ -2318,17 +1797,14 @@ include "sidebar.php"
                                 <th><input type="text" class="form-control tbl-input"></th>
                                 <th><input type="text" class="form-control tbl-input"></th>
                                 <th><input type="text" class="form-control tbl-input"></th>
-
-
                             </tr>
-
-
                         </table>
                         </div>
                     </div>
                 </div>
             </div>
             <!--six Tab-->
+
             <!--seven Tab-->
             <div id="menu6" class="tab-pane fade table-margin tab-scroll">
                 <div class="col-xs-12 no-padding">
@@ -2359,17 +1835,14 @@ include "sidebar.php"
                                                                 onclick="$.fn.radioButtonSelectionChanged('structure', 'structureId')"><span> 木造</span>
                         </div>
                         <div class="col-xs-3 no-padding"><input type="radio" id="" name="structure" value="structure"
-                                                                onclick="$.fn.radioButtonSelectionChanged('structure', 'structureId')"><span> その他）</span>
+                                                                onclick="$.fn.radioButtonSelectionChanged('structure', 'structureId')"><span> その他</span>
                         </div>
-
                     </div>
-
                 </div>
                 <div class="col-xs-12 border-margin no-padding ">
                     <div class="col-xs-2 no-padding">
                         <p>漏洩検知装置設置</p>
                     </div>
-
                     <div class="col-xs-8">
                         <div class="col-xs-3 no-padding"><input type="radio" id="" name="detector" value="all"
                                                                 onclick="$.fn.radioButtonSelectionChanged('detector', 'detectorId')"><span> 設置施設 </span>
@@ -2377,17 +1850,13 @@ include "sidebar.php"
                         <div class="col-xs-6 no-padding"><input type="radio" id="" name="detector" value="detector"
                                                                 onclick="$.fn.radioButtonSelectionChanged('detector', 'detectorId')"><span> 未設置施設</span>
                         </div>
-
-
                     </div>
-
                 </div>
 
                 <div class="col-xs-12 border-margin no-padding">
                     <div class="col-xs-2 no-padding">
                         <p>漏洩検知装置種別</p>
                     </div>
-
                     <div class="col-xs-8">
                         <div class="col-xs-3 no-padding"><input type="radio" id="" name="detection" value="all"
                                                                 onclick="$.fn.radioButtonSelectionChanged('detection', 'detectionId')"><span> マイコン型</span>
@@ -2401,10 +1870,9 @@ include "sidebar.php"
                         <div class="col-xs-3 no-padding"><input type="radio" id="" name="detection" value="detection"
                                                                 onclick="$.fn.radioButtonSelectionChanged('detection', 'detectionId')"><span> その他</span>
                         </div>
-
                     </div>
-
                 </div>
+
                 <div class="col-xs-12 border-margin no-padding">
                     <div class="col-xs-2 no-padding">
                         <p>漏洩検知設置年月</p>
@@ -2412,10 +1880,6 @@ include "sidebar.php"
                     <div class="col-xs-2">
                         <input type="date" class="form-control">
                     </div>
-                    <div class="col-xs-4">
-
-                    </div>
-
                 </div>
                 <div class="col-xs-12 border-margin no-padding">
                     <div class="col-xs-2 no-padding">
@@ -2424,10 +1888,6 @@ include "sidebar.php"
                     <div class="col-xs-2">
                         <input type="date" class="form-control">
                     </div>
-                    <div class="col-xs-4">
-
-                    </div>
-
                 </div>
                 <div class="col-xs-12 border-margin no-padding">
                     <div class="col-xs-2 no-padding">
@@ -2436,54 +1896,15 @@ include "sidebar.php"
                     <div class="col-xs-2">
                         <input type="date" class="form-control">
                     </div>
-                    <div class="col-xs-4">
-
-                    </div>
-
                 </div>
                 <div class="col-xs-12 no-padding border-margin">
-                    <div class="col-xs-2 no-padding">
-                        <p>共消 </p>
-                    </div>
-                    <div class="col-xs-3">
-                        <div class="col-xs-6 no-padding"><input type="radio" id="" name="collapse" value="all"
-                                                                onclick="$.fn.radioButtonSelectionChanged('collapse', 'collapseId')"><span> 供給設備</span>
-                        </div>
-                        <div class="col-xs-6 no-padding"><input type="radio" id="" name="collapse" value="collapse"
-                                                                onclick="$.fn.radioButtonSelectionChanged('collapse', 'collapseId')"><span> 消費設備</span>
-                        </div>
-
-                    </div>
-                    <div class="col-xs-1 no-padding">
-                        <p>漏洩 </p>
-                    </div>
-                    <div class="col-xs-2">
-                        <div class="col-xs-6 no-padding"><input type="radio" id="" name="leakage" value="all"
-                                                                onclick="$.fn.radioButtonSelectionChanged('leakage', 'leakageId')"><span> 有</span>
-                        </div>
-                        <div class="col-xs-6 no-padding"><input type="radio" id="" name="leakage" value="leakage"
-                                                                onclick="$.fn.radioButtonSelectionChanged('leakage', 'leakageId')"><span> 無備</span>
-                        </div>
-
-                    </div>
-                    <div class="col-xs-1 no-padding">
-                        <p>地盤沈下 </p>
-                    </div>
-                    <div class="col-xs-2">
-                        <div class="col-xs-6 no-padding"><input type="radio" id="" name="ground" value="all"
-                                                                onclick="$.fn.radioButtonSelectionChanged('ground', 'groundId')"><span> 有</span>
-                        </div>
-                        <div class="col-xs-6 no-padding"><input type="radio" id="" name="ground" value="ground"
-                                                                onclick="$.fn.radioButtonSelectionChanged('ground', 'groundId')"><span> 無し</span>
-                        </div>
-
-                    </div>
+                        <p style="text-align:center;">(共消 1:供給設備 2:消費設備) (漏洩 1:有 2:無) (地盤沈下 1:有 2:無)</p>
                 </div>
                 <div class="col-xs-12 no-padding table-scroll">
                 <table class="table table-bordered no-padding">
                     <tr class="bg-color">
                         <td></td>
-                        <td class="td-style">共消</td>
+                        <td class="td-style">供消</td>
                         <td></td>
                         <td class="col-xs-2 td-style">種別</td>
                         <td class="td-style">A</td>

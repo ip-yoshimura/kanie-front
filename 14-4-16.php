@@ -9,10 +9,9 @@ include "sidebar.php"
     <div class="col-md-12 col-xs-12 no-padding body-background">
 
         <div class="head-p ">
-            <p>燃焼器具帳票印刷指定
-
-            </p>
+            <p>燃焼器具帳票印刷指定</p>
         </div>
+
         <form action="/gas/meter-reading" id="meter" method="POST">
 
             <div class="col-xs-12 border1 no-padding">
@@ -215,85 +214,59 @@ include "sidebar.php"
                         <div class="col-xs-1 no-padding">
                             <p>入居状態</p>
                         </div>
-                        <div class="col-xs-1">
-                            <input name="moveIn" type="radio" value="all" onclick="$.fn.radioButtonSelectionChanged('moveIn', 'moveInId')"><span>全て</span>
+			<div class="col-xs-5">
+                            <div class="col-xs-4">
+                                <input name="moveIn" type="radio" value="all" onclick="$.fn.radioButtonSelectionChanged('moveIn', 'moveInId')"><span>全て</span>
+                            </div>
+                            <div class="col-xs-4">
+                                <input name="moveIn" type="radio" value="directSales" onclick="$.fn.radioButtonSelectionChanged('moveIn', 'moveInId')"><span>閉栓・休止除く</span>
+                            </div>
+                            <div class="col-xs-4">
+                                <input name="moveIn" type="radio" value="directSales" onclick="$.fn.radioButtonSelectionChanged('moveIn', 'moveInId')"><span>未入居除く</span>
+                            </div>
                         </div>
-                        <div class="col-xs-1">
-                            <input name="moveIn" type="radio" value="directSales" onclick="$.fn.radioButtonSelectionChanged('moveIn', 'moveInId')"><span>閉栓・休止除く</span>
-
-
-                        </div>
-                        <div class="col-xs-1">
-                            <input name="moveIn" type="radio" value="directSales" onclick="$.fn.radioButtonSelectionChanged('moveIn', 'moveInId')"><span>未入居除く</span>
-
-                        </div>
-
-                    </div>
-
+		    </div>
                 </div>
             </div>
             <div class="col-xs-12 border1 no-padding">
                 <p class="backend">作成範囲指定 </p>
 
-                <div class="form-group">
-
-                    <label class="col-xs-1"> 共消
-
-                    </label>
-
-                    <div class="col-xs-10">
-                        <input type="radio" name="total" value="all" onclick="$.fn.radioButtonSelectionChanged('total', 'totalId')"/> <span>全て</span>
-                        <input type="radio" name="total" value="total" onclick="$.fn.radioButtonSelectionChanged('total', 'totalId')"/> <span>供給管</span>
-                        <input type="radio" name="total" value="total" onclick="$.fn.radioButtonSelectionChanged('total', 'totalId')"/> <span>配管</span>
-
-
-                    </div>
-
-                </div>
                 <div class="col-xs-12">
-
                     <div class="form-group">
-                        <label class="col-xs-1 no-padding"> 種別
-                        </label>
-
-                        <div class="col-xs-10 no-padding">
-                            <input type="radio" name="Classification" value="all" checked onclick="$.fn.radioButtonSelectionChanged('Classification', 'ClassificationId')"/> <span>全て</span>
-                            <input type="radio" name="Classification" value="Classification" onclick="$.fn.radioButtonSelectionChanged('Classification', 'ClassificationId')"/> <span>選択</span>
+                        <label class="col-xs-1 no-padding"> 種別</label>
+                        <div class="col-xs-2 no-padding">
+			    <div class="col-xs-6">
+                                <input type="radio" name="Classification" value="all" checked onclick="$.fn.radioButtonSelectionChanged('Classification', 'ClassificationId')"/> <span>全て</span>
+			    </div>
+			    <div class="col-xs-6">
+                                <input type="radio" name="Classification" value="Classification" onclick="$.fn.radioButtonSelectionChanged('Classification', 'ClassificationId')"/> <span>選択</span>
+			    </div>
                         </div>
-
-                       <div id="ClassificationId">
-                        <div class="col-xs-2">
-                            <div class="form-group">
-                                <input class="form-control" id="consumerCode_1Start" name="consumerCode_1Start"
-                                       placeholder="0" type="text" value="" disabled onchange="$.fn.onInputValueChange('consumerCode_1Start', 'consumerCode_1StartName')"/>
+			<div id="ClassificationId">
+                            <div class="col-xs-1">
+                                <div class="form-group">
+                                    <input class="form-control" id="consumerCode_1Start" name="consumerCode_1Start"
+                                           placeholder="0" type="text" value="" disabled onchange="$.fn.onInputValueChange('consumerCode_1Start', 'consumerCode_1StartName')"/>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-xs-1 no-padding ratio">~</div>
-                        <div class="col-xs-2">
-                            <div class="form-group">
+                            <div class="col-xs-1 no-padding ratio">~</div>
+                            <div class="col-xs-1">
                                 <input class="form-control" id="consumeCode_1End" name="consumeCode_1End"
-                                       placeholder="z"
-                                       type="text" value="" disabled onchange="$.fn.onInputValueChange('consumeCode_1End', 'consumerCode_1EndName')"/>
+                                       placeholder="z" type="text" value="" disabled onchange="$.fn.onInputValueChange('consumeCode_1End', 'consumerCode_1EndName')"/>
                             </div>
-                        </div>
-                        <div class="col-xs-3">
-                            <div class="form-group">
+                            <div class="col-xs-3">
                                 <input class="form-control" id="consumerCode_1StartName"
-                                       name="consumerCode_1Start_1Name"
-                                       type="text" value="" dsabled/>
+                                       name="consumerCode_1Start_1Name" type="text" value="" dsabled/>
                             </div>
-                        </div>
-                        <div class="col-xs-1 no-padding ratio">~</div>
-                        <div class="col-xs-3">
-                            <div class="form-group">
+                            <div class="col-xs-1 no-padding ratio">~</div>
+                            <div class="col-xs-3">
                                 <input class="form-control" id="consumerCode_1EndName" name="consumerCode_1EndName"
                                        type="text" value="" disabled/>
                             </div>
-                        </div>
-                       </div>
-
-                    </div>
+			</div>
+		    </div>
                 </div>
+
                 <div class="col-xs-12">
                     <div class="form-group">
                         <label class="col-xs-1 no-padding"> メーカ
@@ -336,35 +309,24 @@ include "sidebar.php"
                                        type="text" value="" disabled/>
                             </div>
                         </div>
-                       </div>
-
-                    </div>
+		    </div>
                 </div>
+
                 <div class="col-xs-12">
                     <div class="form-group">
-                        <label class="col-xs-1 no-padding"> 型式
-
-                        </label>
+                        <label class="col-xs-1 no-padding"> 型式</label>
 
                         <div class="col-xs-1 no-padding">
                             <input type="radio" name="type" value="all" checked onclick="$.fn.radioButtonSelectionChanged('type', 'typeId')"/> <span>全て</span>
                         </div>
-
                         <div class="col-xs-1">
                             <input type="radio" name="type" value="type" onclick="$.fn.radioButtonSelectionChanged('type', 'typeId')"/> <span>指定</span>
                         </div>
                         <div id="typeId">
-                            <div class="col-xs-3">
+                            <div class="col-xs-2">
                                 <div class="form-group">
                                     <input class="form-control" id="typeStart" name="typeStart"
                                            placeholder="0" type="text" value="" disabled onchange="$.fn.onInputValueChange('typeStart', 'typeEnd')"/>
-                                </div>
-                            </div>
-                            <div class="col-xs-1">
-                                <div class="form-group">
-                                    <input class="form-control" id="typeEnd" name="typeEnd"
-                                           placeholder="z"
-                                           type="text" value="" disabled/>
                                 </div>
                             </div>
                         </div>
@@ -376,15 +338,7 @@ include "sidebar.php"
                             <input type="radio" name="type_2" value="type_2" onclick="$.fn.radioButtonSelectionChanged('type_2', 'type_2Id')"/> <span>で始まる</span>
                         </div>
 
-
-                    </div>
-                </div>
-
-                <div class="col-xs-12">
-                    <div class="form-group">
-                        <label class="col-xs-1 p-size no-padding"> 大小文字判別
-
-                        </label>
+                        <label class="col-xs-1 p-size no-padding"> 大小文字判別</label>
 
                         <div class="col-xs-1 no-padding">
                             <input type="radio" name="sizeword" value="all" onclick="$.fn.radioButtonSelectionChanged('sizeword', 'sizewordId')"/> <span>しない</span>
@@ -396,456 +350,209 @@ include "sidebar.php"
                     </div>
                 </div>
 
-                <div class="col-xs-12">
+                <div class="col-xs-12 no-padding">
                     <div class="form-group">
-                        <label class="col-xs-1 no-padding"> 立消え
-
-                        </label>
-                        <div class="col-xs-1">
-                            <div class="form-group">
-                                <input class="form-control" id="consumerCodeStart" name="consumerCodeStart"
-                                       placeholder="0" type="text" value=""/>
+			<div class="col-xs-3">
+                            <label class="col-xs-3 no-padding"> 立消え</label>
+                            <div class="col-xs-9">
+				<input type="radio" name="size" value="all" onclick="$.fn.radioButtonSelectionChanged('size', 'sizeId')"/> <span>全て</span>
+				<input type="radio" name="size" value="all" onclick="$.fn.radioButtonSelectionChanged('size', 'sizeId')"/> <span>有</span>
+				<input type="radio" name="size" value="all" onclick="$.fn.radioButtonSelectionChanged('size', 'sizeId')"/> <span>無</span>
+				<input type="radio" name="size" value="all" onclick="$.fn.radioButtonSelectionChanged('size', 'sizeId')"/> <span>該当なし</span>
                             </div>
-                        </div>
-                        <label class="col-xs-1 no-padding"> 不燃防止
+			</div>
 
-                        </label>
-                        <div class="col-xs-1">
-                            <div class="form-group">
-                                <input class="form-control" id="consumeCodeEnd" name="consumeCodeEnd"
-                                       placeholder="z"
-                                       type="text" value=""/>
+			<div class="col-xs-3">
+                            <label class="col-xs-3 no-padding"> 不燃防止</label>
+                            <div class="col-xs-9">
+                                <input type="radio" name="size" value="all" onclick="$.fn.radioButtonSelectionChanged('size', 'sizeId')"/> <span>全て</span>
+                                <input type="radio" name="size" value="all" onclick="$.fn.radioButtonSelectionChanged('size', 'sizeId')"/> <span>有</span>
+                                <input type="radio" name="size" value="all" onclick="$.fn.radioButtonSelectionChanged('size', 'sizeId')"/> <span>無</span>
+				<input type="radio" name="size" value="all" onclick="$.fn.radioButtonSelectionChanged('size', 'sizeId')"/> <span>該当なし</span>
                             </div>
-                        </div>
-                        <label class="col-xs-1 no-padding"> 過熱防止
+			</div>
 
-                        </label>
-                        <div class="col-xs-1">
-                            <div class="form-group">
-                                <input class="form-control" id="consumeCodeEnd" name="consumeCodeEnd"
-                                       placeholder="z"
-                                       type="text" value=""/>
-                            </div>
-                        </div>
-                        <div class="col-xs-1">
-                            <input type="radio" name="size" value="all" onclick="$.fn.radioButtonSelectionChanged('size', 'sizeId')"/> <span>全て</span>
-                        </div>
-
-                        <div class="col-xs-1">
-                            <input type="radio" name="size" value="size" onclick="$.fn.radioButtonSelectionChanged('size', 'sizeId')"/> <span>有</span>
-                        </div>
-
-                        <div class="col-xs-1">
-                            <input type="radio" name="size" value="size" onclick="$.fn.radioButtonSelectionChanged('size', 'sizeId')"/> <span>無</span>
-                        </div>
-
-                        <div class="col-xs-2">
-                            <input type="radio" name="size" value="size" onclick="$.fn.radioButtonSelectionChanged('size', 'sizeId')"/> <span>該当なし</span>
-                        </div>
-
-
-                    </div>
-                </div>
-
-                <div class="col-xs-12">
-                    <div class="form-group">
-                        <label class="col-xs-1 no-padding"> 製造番号
-
-                        </label>
                         <div class="col-xs-3">
-                            <div class="form-group">
-                                <input class="form-control" id="consumeCodeEnd" name="consumeCodeEnd"
-                                       placeholder="z"
-                                       type="text" value=""/>
+                            <label class="col-xs-3 no-padding"> 不燃防止</label>
+                            <div class="col-xs-9">
+                                <input type="radio" name="size" value="all" onclick="$.fn.radioButtonSelectionChanged('size', 'sizeId')"/> <span>全て</span>
+                                <input type="radio" name="size" value="all" onclick="$.fn.radioButtonSelectionChanged('size', 'sizeId')"/> <span>有</span>
+                                <input type="radio" name="size" value="all" onclick="$.fn.radioButtonSelectionChanged('size', 'sizeId')"/> <span>無</span>
+                                <input type="radio" name="size" value="all" onclick="$.fn.radioButtonSelectionChanged('size', 'sizeId')"/> <span>該当なし</span>
                             </div>
                         </div>
-                        <label class="col-xs-2 control-label"> で始まる
+		    </div>
+		</div>
 
-                        </label>
-                    </div>
-                </div>
                 <div class="col-xs-12">
                     <div class="form-group">
-
-                        <label class="col-xs-1 no-padding"> 年月指定
-                        </label>
-
-                        <div class="col-xs-1 no-padding">
-                            <input type="radio" name="yearMonth" value="all" onclick="$.fn.radioButtonSelectionChanged('yearMonth', 'yearMonthId')"/> <span>指定なし</span>
+                        <label class="col-xs-1 no-padding"> 製造番号</label>
+                        <div class="col-xs-3">
+                            <input class="form-control" id="consumeCodeEnd" name="consumeCodeEnd" placeholder="z" type="text" value=""/>
                         </div>
-
-                        <div class="col-xs-2">
-                            <input type="radio" name="yearMonth" value="yearMonth" onclick="$.fn.radioButtonSelectionChanged('yearMonth', 'yearMonthId')"/> <span>経過年数</span>
-                        </div>
-
-                        <div class="col-xs-2">
-                            <input type="radio" name="yearMonth" value="yearMonth" onclick="$.fn.radioButtonSelectionChanged('yearMonth', 'yearMonthId')"/> <span>製造年月</span>
-                        </div>
-
+                        <label class="col-xs-2 control-label"> で始まる</label>
                     </div>
                 </div>
 
                 <div class="col-xs-12">
                     <div class="form-group">
+			<div class="col-xs-4 no-padding">
+                            <label class="col-xs-2 no-padding"> 年月指定</label>
+			    <div class="col-xs-8">
+				    <input type="radio" name="yearMonth" value="all" onclick="$.fn.radioButtonSelectionChanged('yearMonth', 'yearMonthId')"/> <span>指定なし</span>
+                                    <input type="radio" name="yearMonth" value="yearMonth" onclick="$.fn.radioButtonSelectionChanged('yearMonth', 'yearMonthId')"/> <span>経過年数</span>
+                                    <input type="radio" name="yearMonth" value="yearMonth" onclick="$.fn.radioButtonSelectionChanged('yearMonth', 'yearMonthId')"/> <span>製造年月</span>
+			    </div>
+			</div>
 
-                        <label class="col-xs-1 no-padding"> 年以上
-                        </label>
-                        <label class="col-xs-1 no-padding"> 不明  
-                        </label>
+			<div class="col-xs-6">
+			    <div class="col-xs-4">
+				<div class="col-xs-6">
+				    <input class="form-control" id="consumeCodeEnd" name="consumeCodeEnd" type="number" value=""/>
+				</div>
+				<div class="col-xs-6">
+				    <label> 年以上</label>
+				</div>
+			    </div>
 
-                        <div class="col-xs-1">
-                            <input type="radio" name="unknown" value="all" onclick="$.fn.radioButtonSelectionChanged('unknown', 'unknownId')"/> <span>含む</span>
-                        </div>
-
-                        <div class="col-xs-2">
-                            <input type="radio" name="unknown" value="unknown" onclick="$.fn.radioButtonSelectionChanged('unknown', 'unknownId')"/> <span>除く</span>
-                        </div>
-
-
+			    <div class="col-xs-8">
+				<div class="col-xs-4">
+				    <label> 不明</label>
+				</div>
+				<div class="col-xs-8">
+                                    <input type="radio" name="unknown" value="all" onclick="$.fn.radioButtonSelectionChanged('unknown', 'unknownId')"/> <span>含む</span>
+                                    <input type="radio" name="unknown" value="unknown" onclick="$.fn.radioButtonSelectionChanged('unknown', 'unknownId')"/> <span>除く</span>
+				</div>
+			    </div>
+			</div>
                     </div>
                 </div>
 
                 <div class="col-xs-12">
                     <div class="form-group">
+			<div class="col-xs-6 no-padding">
+			    <label class="col-xs-2 no-padding"> 対象法律</label>
+			    <div class="col-xs-10">
+				<div class="col-xs-3 no-padding">
+				    <input type="radio" name="targetLow" value="all" onclick="$.fn.radioButtonSelectionChanged('targetLow', 'targetLowId')"/> <span>全て</span>
+				</div>
+				<div class="col-xs-3">
+				    <input type="radio" name="targetLow" value="targetLow" onclick="$.fn.radioButtonSelectionChanged('targetLow', 'targetLowId')"/> <span>液石法</span>
+				</div>
+				<div class="col-xs-3">
+				    <input type="radio" name="targetLow" value="targetLow" onclick="$.fn.radioButtonSelectionChanged('targetLow', 'targetLowId')"/> <span>高圧法</span>
+				</div>
+				<div class="col-xs-3">
+				    <input type="radio" name="targetLow" value="targetLow" onclick="$.fn.radioButtonSelectionChanged('targetLow', 'targetLowId')"/> <span>ガス事業法</span>
+				</div>
+			    </div>
+			</div>
 
-                        <label class="col-xs-1 no-padding"> 対象法律
-                        </label>
-
-                        <div class="col-xs-1 no-padding">
-                            <input type="radio" name="targetLow" value="all" onclick="$.fn.radioButtonSelectionChanged('targetLow', 'targetLowId')"/> <span>全て</span>
-                        </div>
-
-                        <div class="col-xs-2">
-                            <input type="radio" name="targetLow" value="targetLow" onclick="$.fn.radioButtonSelectionChanged('targetLow', 'targetLowId')"/> <span>液石法</span>
-                        </div>
-
-                        <div class="col-xs-2">
-                            <input type="radio" name="targetLow" value="targetLow" onclick="$.fn.radioButtonSelectionChanged('targetLow', 'targetLowId')"/> <span>高圧法</span>
-                        </div>
-
-                        <div class="col-xs-2">
-                            <input type="radio" name="targetLow" value="targetLow" onclick="$.fn.radioButtonSelectionChanged('targetLow', 'targetLowId')"/> <span>ガス事業法</span>
-                        </div>
-
-
+			<div class="col-xs-6 no-padding">
+			    <label class="col-xs-2 no-padding"> 製造年月状態</label>
+			    <div class="col-xs-10">
+				<div class="col-xs-3 no-padding">
+				    <input type="radio" name="production" value="all" onclick="$.fn.radioButtonSelectionChanged('production', 'productionId')"/> <span>全て</span>
+				</div>
+				<div class="col-xs-3">
+				    <input type="radio" name="production" value="production" onclick="$.fn.radioButtonSelectionChanged('production', 'productionId')"/> <span>未調査</span>
+				</div>
+				<div class="col-xs-3">
+				    <input type="radio" name="production" value="production" onclick="$.fn.radioButtonSelectionChanged('production', 'productionId')"/> <span>不明</span>
+				</div>
+			    </div>
+			</div>
                     </div>
                 </div>
 
                 <div class="col-xs-12">
                     <div class="form-group">
-
-                        <label class="col-xs-1 no-padding"> 製造年月状態
-                        </label>
-
-                        <div class="col-xs-1 no-padding">
-                            <input type="radio" name="production" value="all" onclick="$.fn.radioButtonSelectionChanged('production', 'productionId')"/> <span>全て</span>
-                        </div>
-
-                        <div class="col-xs-2">
-                            <input type="radio" name="production" value="production" onclick="$.fn.radioButtonSelectionChanged('production', 'productionId')"/> <span>未調査</span>
-                        </div>
-
-                        <div class="col-xs-2">
-                            <input type="radio" name="production" value="production" onclick="$.fn.radioButtonSelectionChanged('production', 'productionId')"/> <span>不明</span>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-xs-12">
-                    <div class="form-group">
-
-                        <label class="col-xs-1 no-padding"> 施設区分
-                        </label>
-
+                        <label class="col-xs-1 no-padding"> 施設区分</label>
                         <div class="col-xs-1 no-padding">
                             <input type="radio" name="facility" value="all" checked onclick="$.fn.radioButtonSelectionChanged('facility', 'facilityId')"/> <span>全て</span>
                         </div>
-
-                        <div class="col-xs-2">
+                        <div class="col-xs-1">
                             <input type="radio" name="facility" value="facility" onclick="$.fn.radioButtonSelectionChanged('facility', 'facilityId')"/> <span>選択</span>
                         </div>
-                     <div id="facilityId">
-                        <div class="col-xs-1">
-                            <div class="form-group">
+
+                        <div id="facilityId">
+                            <div class="col-xs-1">
                                 <input class="form-control" id="facilityStart" name="facilityStart"
                                        placeholder="0" type="text" value="" disabled onchange="$.fn.onInputValueChange('facilityStart', 'facilityStartName')"/>
                             </div>
-                        </div>
-                        <div class="col-xs-1">
-                            <div class="form-group">
+                            <div class="col-xs-1 no-padding ratio">~</div>
+                            <div class="col-xs-1">
                                 <input class="form-control" id="facilityEnd" name="facilityEnd"
                                        placeholder="0" type="text" value="" disabled onchange="$.fn.onInputValueChange('facilityEnd', 'facilityName')"/>
-                            </div>
-                        </div>
-
-                        <div class="col-xs-2">
-                            <div class="form-group">
-                                <input class="form-control" id="facilityStartName" name="facilityStartName"
-                                       placeholder="0" type="text" value="" disabled/>
-                            </div>
-                        </div>
-                        <div class="col-xs-2">
-                            <div class="form-group">
-                                <input class="form-control" id="facilityName" name="facilityName"
-                                       placeholder="0" type="text" value="" disabled/>
-                            </div>
-                        </div>
-                     </div>
-                    </div>
-                </div>
-            </div>
-
-
-    </div>
-
-
-    <div class="col-xs-12 border1 no-padding" style="background-color: white">
-        <p class="backend">年異常 </p>
-
-
-        <div class="col-xs-12">
-            <div class="form-group">
-
-                <label class="col-xs-1 no-padding">年数不明
-                </label>
-
-                <div class="col-xs-1 no-padding">
-                    <input type="radio" name="number" value="all" onclick="$.fn.radioButtonSelectionChanged('number', 'numberId')"/> <span>含む</span>
-                </div>
-
-                <div class="col-xs-1">
-                    <input type="radio" name="number" value="number" onclick="$.fn.radioButtonSelectionChanged('number', 'numberId')"/> <span>除く</span>
-                </div>
-
-
-            </div>
-        </div>
-        <div class="col-xs-12">
-            <div class="form-group">
-
-                <label class="col-xs-1 no-padding">漏洩
-                </label>
-
-                <div class="col-xs-1 no-padding">
-                    <input type="radio" name="leakage" value="all" onclick="$.fn.radioButtonSelectionChanged('leakage', 'leakageId')"/> <span>全て</span>
-                </div>
-
-                <div class="col-xs-1">
-                    <input type="radio" name="leakage" value="leakage" onclick="$.fn.radioButtonSelectionChanged('leakage', 'leakageId')"/> <span>有</span>
-                </div>
-
-                <div class="col-xs-1">
-                    <input type="radio" name="leakage" value="leakage" onclick="$.fn.radioButtonSelectionChanged('leakage', 'leakageId')"/> <span>無</span>
-                </div>
-
-            </div>
-        </div>
-
-        <div class="col-xs-12">
-
-            <div class="form-group">
-
-                <label class="col-xs-1 no-padding"> 地盤沈下
-
-                </label>
-
-                <div class="col-xs-1 no-padding">
-                    <input type="radio" name="ground" value="all" onclick="$.fn.radioButtonSelectionChanged('ground', 'groundId')"/> <span>全て</span>
-                </div>
-
-                <div class="col-xs-1">
-                    <input type="radio" name="ground" value="ground" onclick="$.fn.radioButtonSelectionChanged('ground', 'groundId')"/> <span>有</span>
-                </div>
-
-                <div class="col-xs-1">
-                    <input type="radio" name="ground" value="ground" onclick="$.fn.radioButtonSelectionChanged('ground', 'groundId')"/> <span>無</span>
-                </div>
-
-            </div>
-        </div>
-
-        <div class="col-xs-12">
-            <div class="form-group">
-
-                <label class="col-xs-1 p-size-1 no-padding"> 漏洩検知装置設置
-                </label>
-
-                <div class="col-xs-1 no-padding">
-                    <input type="radio" name="detector" value="all" onclick="$.fn.radioButtonSelectionChanged('detector', 'detectorId')"/> <span>全て</span>
-                </div>
-
-                <div class="col-xs-2">
-                    <input type="radio" name="detector" value="detector" onclick="$.fn.radioButtonSelectionChanged('detector', 'detectorId')"/> <span>未設置のみ</span>
-                </div>
-
-
-            </div>
-        </div>
-        <div class="col-xs-12">
-            <div class="form-group">
-
-                <label class="col-xs-1 no-padding"> 対象法律
-                </label>
-
-                <div class="col-xs-1 no-padding">
-                    <input type="radio" name="targetLow_2" value="all" onclick="$.fn.radioButtonSelectionChanged('targetLow_2', 'targetLow_2Id')"/> <span>全て</span>
-                </div>
-
-                <div class="col-xs-2">
-                    <input type="radio" name="targetLow_2" value="targetLow_2" onclick="$.fn.radioButtonSelectionChanged('targetLow_2', 'targetLow_2Id')"/> <span>液石法</span>
-                </div>
-
-                <div class="col-xs-2">
-                    <input type="radio" name="targetLow_2" value="targetLow_2" onclick="$.fn.radioButtonSelectionChanged('targetLow_2', 'targetLow_2Id')"/> <span>高圧法</span>
-                </div>
-
-                <div class="col-xs-2">
-                    <input type="radio" name="targetLow_2" value="targetLow_2" onclick="$.fn.radioButtonSelectionChanged('targetLow_2', 'targetLow_2Id')"/> <span>ガス事業法</span>
-                </div>
-
-            </div>
-        </div>
-
-        <div class="col-xs-12">
-            <div class="form-group">
-
-                <label class="col-xs-1 no-padding"> 施設区分
-                </label>
-
-                <div class="col-xs-1 no-padding">
-                    <input type="radio" name="classification_2" value="all" checked onclick="$.fn.radioButtonSelectionChanged('classification_2', 'classification_2Id')"/> <span>全て</span>
-                </div>
-
-                <div class="col-xs-1">
-                    <input type="radio" name="classification_2" value="classification_2" onclick="$.fn.radioButtonSelectionChanged('classification_2', 'classification_2Id')"/> <span>選択</span>
-                </div>
-              <div id="classification_2Id">
-                <div class="col-xs-1">
-                    <div class="form-group">
-                        <input class="form-control" id="classification_2Start" name="classification_2Start"
-                               placeholder="0" type="text" value="" disabled onchange="$.fn.onInputValueChange('classification_2Start', 'classification_2StartName')"/>
-                    </div>
-                </div>
-                <div class="col-xs-1 no-padding ratio">~</div>
-                <div class="col-xs-1">
-                    <div class="form-group">
-                        <input class="form-control" id="classification_2End" name="classification_2End"
-                               placeholder="z"
-                               type="text" value="" disabled onchange="$.fn.onInputValueChange('classification_2End', 'classification_2EndName')"/>
-                    </div>
-                </div>
-                <div class="col-xs-3">
-                    <div class="form-group">
-                        <input class="form-control" id="classification_2StartName"
-                               name="classification_2StartName"
-                               type="text" value="" disabled/>
-                    </div>
-                </div>
-                <div class="col-xs-1 no-padding ratio">~</div>
-                <div class="col-xs-3">
-                    <div class="form-group">
-                        <input class="form-control" id="classification_2EndName" name="classification_2EndName"
-                               type="text" value="" disabled/>
-                    </div>
-                </div>
-              </div>
-
-            </div>
-
-
-        </div>
-
-</div>
+                           </div>
+                           <div class="col-xs-2">
+                               <input class="form-control" id="facilityStartName" name="facilityStartName"
+                                      placeholder="0" type="text" value="" disabled/>
+                           </div>
+                           <div class="col-xs-1 no-padding ratio">~</div>
+                           <div class="col-xs-2">
+                               <input class="form-control" id="facilityName" name="facilityName"
+                                      placeholder="0" type="text" value="" disabled/>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+	    </div>
+	</div>
 
     <div class="col-xs-12 border1 no-padding bottom-box" style="background-color: white">
-        <p class="backend">消費者範囲指定 </p>
-    <div class="col-xs-12">
-        <div class="form-group">
-            <div class="col-xs-12 no-padding">
-                <div class="form-group">
+        <p class="backend">出力指定 </p>
 
-                    <label class="col-xs-1 no-padding"> 出力帳票
-                    </label>
+	<div class="form-group">
+	    <div class="col-xs-3">
+		<label class="col-xs-4 no-padding"> 出力帳票</label>
+		<div class="col-xs-4">
+		    <input type="radio" name="outputFrom" value="all" onclick="$.fn.radioButtonSelectionChanged('outputFrom', 'outputFromId')"/> <span>一覧表</span>
+		</div>
+		<div class="col-xs-4">
+		    <input type="radio" name="outputFrom" value="outputFrom" onclick="$.fn.radioButtonSelectionChanged('outputFrom', 'outputFromId')"/> <span>集計表</span>
+		</div>
+	    </div>
+	    <div class="col-xs-9">
+                <label class="col-xs-1 no-padding"> 改ページ指定</label>
+		<div class="col-xs-2">
+                    <input type="radio" name="pageBreak" value="all" onclick="$.fn.radioButtonSelectionChanged('pageBreak', 'pageBreakId')"/> <span>営業所・販売店</span>
+		</div>
+		<div class="col-xs-2">
+                    <input type="radio" name="pageBreak" value="pageBreak" onclick="$.fn.radioButtonSelectionChanged('pageBreak', 'pageBreakId')"/> <span>地区</span>
+		</div>
+		<div class="col-xs-2">
+                    <input type="radio" name="pageBreak" value="pageBreak" onclick="$.fn.radioButtonSelectionChanged('pageBreak', 'pageBreakId')"/> <span>営業担当者</span>
+		</div>
+		<div class="col-xs-2">
+                    <input type="radio" name="pageBreak" value="pageBreak" onclick="$.fn.radioButtonSelectionChanged('pageBreak', 'pageBreakId')"/> <span>なし</span>
+		</div>
+            </div>
 
-                    <div class="col-xs-1">
-                        <input type="radio" name="outputFrom" value="all" onclick="$.fn.radioButtonSelectionChanged('outputFrom', 'outputFromId')"/> <span>一覧表</span>
-                    </div>
-
-                    <div class="col-xs-2">
-                        <input type="radio" name="outputFrom" value="outputFrom" onclick="$.fn.radioButtonSelectionChanged('outputFrom', 'outputFromId')"/> <span>集計表</span>
-                    </div>
-
-
+	    <div class="col-xs-12">
+		<label class="col-xs-1 no-padding"> 並び順</label>
+            	<div class="col-xs-2">
+                    <input type="radio" name="sortBy" value="all" onclick="$.fn.radioButtonSelectionChanged('sortBy', 'sortById')"/> <span>消費者コード順</span>
                 </div>
-            </div>
+                <div class="col-xs-2">
+                    <input type="radio" name="sortBy" value="sortBy" onclick="$.fn.radioButtonSelectionChanged('sortBy', 'sortById')"/> <span>検針順路順</span>
+                </div>
+                <div class="col-xs-2">
+                    <input type="radio" name="sortBy" value="sortBy" onclick="$.fn.radioButtonSelectionChanged('sortBy', 'sortById')"/> <span>検索名順</span>
+                </div>
+	    </div>
 
-        </div>
-
+	    <div class="col-xs-12">
+                <label class="col-xs-1 no-padding"> 出力先</label>
+		<div class="col-xs-2">
+                    <input type="radio" name="destination" value="all" onclick="$.fn.radioButtonSelectionChanged('destination', 'destinationId')"/> <span>プリンタ(印刷)</span>
+		</div>
+		<div class="col-xs-2 no-padding">
+                    <input type="radio" name="destination" value="destination" onclick="$.fn.radioButtonSelectionChanged('destination', 'destinationId')"/> <span>画面(印刷イメージ)</span>
+		</div>
+	    </div>
+	</div>
     </div>
-
-    <div class="col-xs-12">
-        <div class="form-group">
-
-            <label class="col-xs-1 no-padding"> 改ページ指定
-            </label>
-
-            <div class="col-xs-2">
-                <input type="radio" name="pageBreak" value="all" onclick="$.fn.radioButtonSelectionChanged('pageBreak', 'pageBreakId')"/> <span>営業所・販売店</span>
-            </div>
-
-            <div class="col-xs-2">
-                <input type="radio" name="pageBreak" value="pageBreak" onclick="$.fn.radioButtonSelectionChanged('pageBreak', 'pageBreakId')"/> <span>地区</span>
-            </div>
-
-            <div class="col-xs-2">
-                <input type="radio" name="pageBreak" value="pageBreak" onclick="$.fn.radioButtonSelectionChanged('pageBreak', 'pageBreakId')"/> <span>営業担当者</span>
-            </div>
-
-            <div class="col-xs-2">
-                <input type="radio" name="pageBreak" value="pageBreak" onclick="$.fn.radioButtonSelectionChanged('pageBreak', 'pageBreakId')"/> <span>なし</span>
-            </div>
-
-        </div>
-    </div>
-
-    <div class="col-xs-12">
-
-        <div class="form-group">
-
-            <label class="col-xs-1 no-padding"> 並び順
-
-            </label>
-
-            <div class="col-xs-2">
-                <input type="radio" name="sortBy" value="all" onclick="$.fn.radioButtonSelectionChanged('sortBy', 'sortById')"/> <span>消費者コード順</span>
-            </div>
-
-            <div class="col-xs-2">
-                <input type="radio" name="sortBy" value="sortBy" onclick="$.fn.radioButtonSelectionChanged('sortBy', 'sortById')"/> <span>検針順路順</span>
-            </div>
-
-
-        </div>
-    </div>
-
-    <div class="col-xs-12">
-        <div class="form-group">
-
-            <label class="col-xs-1 no-padding"> 出力先
-            </label>
-
-            <div class="col-xs-2">
-                <input type="radio" name="destination" value="all" onclick="$.fn.radioButtonSelectionChanged('destination', 'destinationId')"/> <span>プリンタ（印刷）</span>
-            </div>
-
-            <div class="col-xs-2 no-padding">
-                <input type="radio" name="destination" value="destination" onclick="$.fn.radioButtonSelectionChanged('destination', 'destinationId')"/> <span>画面（印刷イメージ）</span>
-            </div>
-
-
-        </div>
-    </div>
-
 </div>
 
 <?php

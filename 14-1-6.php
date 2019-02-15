@@ -10,17 +10,21 @@ include "sidebar.php"
             </div>
 
             <div class="col-xs-12 border1 no-padding">
-                <p class="backend">変更前調査員 </p>
+                <p class="back-end">変更前調査員 </p>
             <div class="col-xs-12 border-margin-bottom">
 
-                    <div class="col-xs-1 no-padding">
+                    <div class="col-xs-1 no-padding border-margin-exp">
                         <p>調査員</p>
                     </div>
+                    <div class="col-xs-1">
+                        <input type="text" class="form-control">
+                    </div>
+
                     <div class="col-xs-4">
                         <input type="text" class="form-control">
                     </div>
-                    <div class="col-xs-1 no-padding">
-                        <p>保安機関</p>
+                    <div class="col-xs-1 no-padding border-margin-exp ">
+                        <p class="ml-20">保安機関</p>
                     </div>
                     <div class="col-xs-1">
                         <input type="text" class="form-control" placeholder="999" name="securityId" id="securityId" value=""
@@ -32,17 +36,20 @@ include "sidebar.php"
                 </div>
             </div>
             <div class="col-xs-12 border1 no-padding ">
-                <p class="backend">変更前調査員 </p>
+                <p class="back-end">変更後調査員 </p>
                 <div class="col-xs-12 border-margin-bottom">
 
-                    <div class="col-xs-1 no-padding">
+                    <div class="col-xs-1 no-padding border-margin-exp">
                         <p>調査員</p>
+                    </div>
+                    <div class="col-xs-1">
+                        <input type="text" class="form-control">
                     </div>
                     <div class="col-xs-4">
                         <input type="text" class="form-control">
                     </div>
-                    <div class="col-xs-1 no-padding">
-                        <p>保安機関</p>
+                    <div class="col-xs-1 no-padding border-margin-exp">
+                        <p class="ml-20">保安機関</p>
                     </div>
                     <div class="col-xs-1">
                         <input type="text" class="form-control" placeholder="999" name="security_2Id" id="security_2Id" value=""

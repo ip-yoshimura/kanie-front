@@ -290,54 +290,40 @@ include "sidebar.php"
                 </div>
                 <div class="col-xs-12">
                     <div class="form-group">
-                        <label class="col-xs-1 no-padding"> 経過年数
-
-                        </label>
-
-                        <div class="col-xs-3">
-                            <div class="form-group">
-                                <input id="consumer7CodeStart" name="consumer7CodeStart" placeholder="0"
-                                       class="form-control" type="text" value=""  onchange="$.fn.onInputValueChange('consumer7CodeStart', 'consume7CodeEnd')"/>
+			<div class="col-xs-1 no-padding">
+                            <label> 経過年数</label>
+			</div>
+			<div class="col-xs-3">
+			    <div class="col-xs-6">
+				<input type="radio" name="years" id="years" value="all" onclick="$.fn.radioButtonSelectionChanged('distinguish', 'distinguishId')"/> <span>指定なし</span>
+			    </div>
+                            <div class="col-xs-6">
+                                <input type="radio" name="years" id="years" value="all" onclick="$.fn.radioButtonSelectionChanged('distinguish', 'distinguishId')"/> <span>年数指定</span>
                             </div>
-                        </div>
-                        <div class="col-xs-1 no-padding ratio">~</div>
-                        <div class="col-xs-3">
-                            <div class="form-group">
-                                <input id="consume7CodeEnd" name="consume7CodeEnd" placeholder="z" class="form-control"
-                                       type="text" value=""/>
+			</div>
+			<div class="col-xs-1">
+                            <input id="overYears" name="overYears" class="form-control" type="number" value="" />
+			</div>
+			<div class="col-xs-1">
+			    <label>年以上</label>
+			</div>
+			<div class="col-xs-1">
+			    <label>年数不明</label>
+			</div>
+			<div class="col-xs-3">
+                            <div class="col-xs-6">
+                                <input type="radio" name="unknownYears" id="unknownYears" value="all" onclick="$.fn.radioButtonSelectionChanged('distinguish', 'distinguishId')"/> <span>指定なし</span>
                             </div>
-                        </div>
-
+                            <div class="col-xs-6">
+                                <input type="radio" name="unknownYears" id="unknownYears" value="all" onclick="$.fn.radioButtonSelectionChanged('distinguish', 'distinguishId')"/> <span>年数指定</span>
+                            </div>
+			</div> 
                     </div>
 
-                </div>
-            </div>
-            <div class="col-xs-12 border1 no-padding">
-                <p class="backend">年異常
-                </p>
-
-                <div class="col-xs-12">
+                <div class="col-xs-12 no-padding">
                     <div class="form-group">
 
-                        <label class="col-xs-1 no-padding">年数不明
-                        </label>
-
-                        <div class="col-xs-1 no-padding">
-                            <input type="radio" name="number" id="number" value="all" onclick="$.fn.radioButtonSelectionChanged('number', 'numberId')"/> <span>含む</span>
-                        </div>
-
-                        <div class="col-xs-1">
-                            <input type="radio" name="number" id="number" value="number" onclick="$.fn.radioButtonSelectionChanged('number', 'numberId')"/> <span>除く</span>
-                        </div>
-
-
-                    </div>
-                </div>
-                <div class="col-xs-12">
-                    <div class="form-group">
-
-                        <label class="col-xs-1 no-padding">対象法律
-                        </label>
+                        <label class="col-xs-1 no-padding">対象法律</label>
 
                         <div class="col-xs-1 no-padding">
                             <input type="radio" name="law" id="law" value="all" onclick="$.fn.radioButtonSelectionChanged('law', 'lawId')"/> <span>全て</span>
@@ -422,7 +408,7 @@ include "sidebar.php"
                         </div>
 
                         <div class="col-xs-2">
-                            <input type="radio" name="sortby" id="sortby" value="sortby" onclick="$.fn.radioButtonSelectionChanged('sortby', 'sortbyId')"/> <span>交換期限順</span>
+                            <input type="radio" name="sortby" id="sortby" value="sortby" onclick="$.fn.radioButtonSelectionChanged('sortby', 'sortbyId')"/> <span>設置年月順</span>
                         </div>
 
                     </div>
@@ -435,11 +421,11 @@ include "sidebar.php"
                         </label>
 
                         <div class="col-xs-2 no-padding">
-                            <input type="radio" name="out" id="out" value="all" onclick="$.fn.radioButtonSelectionChanged('out', 'outId')"/> <span>プリンタ（印刷）</span>
+                            <input type="radio" name="out" id="out" value="all" onclick="$.fn.radioButtonSelectionChanged('out', 'outId')"/> <span>プリンタ(印刷)</span>
                         </div>
 
                         <div class="col-xs-2 no-padding">
-                            <input type="radio" name="out" id="out" value="out" onclick="$.fn.radioButtonSelectionChanged('out', 'outId')"/> <span>画面（印刷イメージ）</span>
+                            <input type="radio" name="out" id="out" value="out" onclick="$.fn.radioButtonSelectionChanged('out', 'outId')"/> <span>画面(印刷イメージ)</span>
                         </div>
 
                     </div>

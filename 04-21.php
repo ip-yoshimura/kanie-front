@@ -316,7 +316,7 @@ include "sidebar.php"
                             <span>しない</span>
                         </div>
                         <div class="col-xs-2 no-padding">
-                            <p>明細が検針区分のみ消費者</p>
+                            <p>明細が検針分のみ消費者</p>
                         </div>
 
                         <div class="col-xs-1 no-padding">

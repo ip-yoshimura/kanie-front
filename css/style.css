@@ -37,6 +37,7 @@ body{
 .tbl-31 {
     background-color: #3fa0cb;
     color: white;
+    text-align: center;
 
 }
 
@@ -345,12 +346,15 @@ input[type=search] {
 .ml-5{
     margin-left: 5px;
 }
+.ml-2{margin-left: 2px;}
+.ml-3{margin-left: 3px;}
 .ml-10{
     margin-left: 10px;
 }
 .ml-15{
     margin-left: 15px;
 }
+.ml-17{margin-left: 17px;}
 .ml-20{
     margin-left: 20px;
 }
@@ -368,6 +372,9 @@ input[type=search] {
 }
 .ml-60{
    margin-left: 60px;
+}
+.ml-61{
+    margin-left: 61px;
 }
 .ml-70{
    margin-left: 70px;
@@ -395,6 +402,10 @@ input[type=search] {
 .ml-n-20{
     margin-left: -20px;
 }
+.ml-n-18{
+    margin-left: -18px;
+}
+.ml-n-22{ margin-left: -22px;}
 .ml-n-30{
     margin-left: -30px;
 }
@@ -434,6 +445,17 @@ input[type=search] {
 
     margin-left: -93px;
 }
+.mt-2{margin-top: 2px !important;}
 .mt-3{margin-top: 3px !important;}
+.mt-4{margin-top: 4px;}
+.mt-3-exp{margin-top:3.5px;}
 .w-15{width: 15px !important;}
 .w-20{width: 20px !important;}
+.w-50{width: 50px;}
+.w-80{width: 80px;}
+.w-100{width:100px;}
+.w-120{width:120px;}
+.p-12{
+    padding: 12px;}
+.left-1{border: 0.5px solid #DDDDDD;width: 62.20%;float: left}
+.left-2{border: 0.5px solid #DDDDDD; width: 33.99%; float: right}

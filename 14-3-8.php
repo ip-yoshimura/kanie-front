@@ -10,8 +10,7 @@ include "sidebar.php"
     <div class="col-md-12 col-xs-12 no-padding body-background">
 
         <div class="head-p ">
-            <p>保安委託先提出用一覧表印刷指定
-            </p>
+            <p>保安委託先提出用一覧表印刷指定</p>
         </div>
         <form id="meter" action="/gas/meter-reading" method="POST">
             <div class="col-xs-12 border1 no-padding">
@@ -119,7 +118,7 @@ include "sidebar.php"
                 <div class="col-xs-12">
                     <div class="col-xs-12 no-padding">
                         <div class="col-xs-1 no-padding">
-                            <p>出力区分1</p>
+                            <p>出力区分</p>
                         </div>
                         <div class="col-xs-1">
                             <input type="radio" name="output" value="all" checked onclick="$.fn.radioButtonSelectionChanged('output', 'outputId')"> 全て
@@ -218,6 +217,7 @@ include "sidebar.php"
 
             <div class="col-xs-12 border1 no-padding">
                 <p class="backend">作成範囲指定</p>
+
                 <div class="col-xs-12">
                     <div class="form-group">
                         <label class="col-xs-1 no-padding">保安機関
@@ -231,104 +231,106 @@ include "sidebar.php"
                             <div class="col-xs-1 no-padding">
                                 <input type="radio" name="security" value="directSales" onclick="$.fn.radioButtonSelectionChanged('security', 'securityId')"/>保安機関
                             </div> 
-
-
                         </div>
                     </div>
                 </div>
 
                 <div class="col-xs-12">
+                    <div class="col-xs-2 col-xs-offset-1">
+                        <div class="form-group">
+                            <input id="consumerCodeStart" name="consumerCodeStart" placeholder="0"
+                                   class="form-control" type="text" value="" onchange="$.fn.onInputValueChange('consumerCodeStart', 'consumerCodeStartName')"/>
+                        </div>
+                    </div>
+                    <div class="col-xs-1 no-padding ratio">~</div>
+                    <div class="col-xs-2">
+                        <div class="form-group">
+                            <input id="consumeCodeEnd" name="consumeCodeEnd" placeholder="z" class="form-control"
+                                   type="text" value="" onchange="$.fn.onInputValueChange('consumeCodeEnd', 'consumerCodeEndName')"/>
+                        </div>
+                    </div>
+                    <div class="col-xs-3">
+                        <div class="form-group">
+                            <input id="consumerCodeStartName" name="consumerCodeStartName" class="form-control"
+                                   type="text" value=""/>
+                        </div>
+                    </div>
+                    <div class="col-xs-3">
+                        <div class="form-group">
+                            <input id="consumerCodeEndName" name="consumerCodeEndName" class="form-control"
+                                   type="text" value=""/>
+                        </div>
+                    </div>
+                </div>
 
+                <div class="col-xs-12">
                     <div class="form-group">
-
-                        <label class="col-xs-1 no-padding">保安業務   
-                        </label>
-
-                        <div class="col-xs-1">
-                            <input type="radio" name="service" value="all" onclick="$.fn.radioButtonSelectionChanged('service', 'serviceId')"/>全て
-                        </div>
-
-                        <div class="col-xs-2 no-padding">
-                            <input type="radio" name="service" value="service" onclick="$.fn.radioButtonSelectionChanged('service', 'serviceId')"/> 供給開始時
-                        </div>
-
-                        <div class="col-xs-2 no-padding">
-                            <input type="radio" name="service" value="service" onclick="$.fn.radioButtonSelectionChanged('service', 'serviceId')"/> 容器交換時
-                        </div>
-
-                        <div class="col-xs-2 no-padding">
-                            <input type="radio" name="service" value="service" onclick="$.fn.radioButtonSelectionChanged('service', 'serviceId')"/> 容器交換時
-                        </div>
-
-                        <div class="col-xs-2 no-padding">
-                            <input type="radio" name="service" value="service" onclick="$.fn.radioButtonSelectionChanged('service', 'serviceId')"/> 供給設備
-                        </div>
-
-                        <div class="col-xs-2 no-padding">
-                            <input type="radio" name="service" value="service" onclick="$.fn.radioButtonSelectionChanged('service', 'serviceId')"/> 消費設備
-                        </div>
-
-                        <div class="col-xs-1 ">
-                            <input type="radio" name="service" value="service" onclick="$.fn.radioButtonSelectionChanged('service', 'serviceId')"/> 周知
-                        </div>
-
-                        <div class="col-xs-1 no-padding">
-                            <input type="radio" name="service" value="service" onclick="$.fn.radioButtonSelectionChanged('service', 'serviceId')"/> 緊急時対応
-                        </div>
-
-                        <div class="col-xs-2">
-                            <input type="radio" name="service" value="service" onclick="$.fn.radioButtonSelectionChanged('service', 'serviceId')"/> 緊急時連絡
-                        </div>
-
+                        <label class="col-xs-1 no-padding">保安業務   </label>
+			<div class="col-xs-5 no-padding">
+                            <div class="col-xs-3 no-padding">
+                                <input type="radio" name="service" value="all" onclick="$.fn.radioButtonSelectionChanged('service', 'serviceId')"/>全て
+                            </div>
+                            <div class="col-xs-3 no-padding">
+                                <input type="radio" name="service" value="service" onclick="$.fn.radioButtonSelectionChanged('service', 'serviceId')"/> 供給開始時
+                            </div>
+                            <div class="col-xs-3 no-padding">
+                                <input type="radio" name="service" value="service" onclick="$.fn.radioButtonSelectionChanged('service', 'serviceId')"/> 容器交換時
+                            </div>
+                            <div class="col-xs-3 no-padding">
+                                <input type="radio" name="service" value="service" onclick="$.fn.radioButtonSelectionChanged('service', 'serviceId')"/> 供給設備
+                            </div>
+			</div>
+			<div class="col-xs-5 no-padding">
+                            <div class="col-xs-3 no-padding">
+                                <input type="radio" name="service" value="service" onclick="$.fn.radioButtonSelectionChanged('service', 'serviceId')"/> 消費設備
+                            </div>
+                            <div class="col-xs-3 no-padding">
+                                <input type="radio" name="service" value="service" onclick="$.fn.radioButtonSelectionChanged('service', 'serviceId')"/> 周知
+                            </div>
+                            <div class="col-xs-3 no-padding">
+                                <input type="radio" name="service" value="service" onclick="$.fn.radioButtonSelectionChanged('service', 'serviceId')"/> 緊急時対応
+                            </div>
+                            <div class="col-xs-3 no-padding">
+                                <input type="radio" name="service" value="service" onclick="$.fn.radioButtonSelectionChanged('service', 'serviceId')"/> 緊急時連絡
+                            </div>
+			</div>
                     </div>
                 </div>
             </div>
+
             <div class="col-xs-12 border1 no-padding bottom-box">
-                <p class="backend">消費者範囲指定</p>
+                <p class="backend">出力指定</p>
+
                 <div class="col-xs-12">
-
                     <div class="form-group">
-
-                        <label class="col-xs-1 no-padding">並び順
-                        </label>
+                        <label class="col-xs-1 no-padding">並び順</label>
                         <div class="col-xs-10">
                             <div class="col-xs-2 no-padding">
                                 <input type="radio" name="sortBy" value="all" onclick="$.fn.radioButtonSelectionChanged('sortBy', 'sortById')"/>センタコード順
                             </div>
-
                             <div class="col-xs-2 no-padding">
                                 <input type="radio" name="sortBy" value="sortBy" onclick="$.fn.radioButtonSelectionChanged('sortBy', 'sortById')"/>消費者コード順
                             </div>
-
                             <div class="col-xs-2">
                                 <input type="radio" name="sortBy" value="sortBy" onclick="$.fn.radioButtonSelectionChanged('sortBy', 'sortById')"/>検針順路順
                             </div>
-
                             <div class="col-xs-2">
                                 <input type="radio" name="sortBy" value="sortBy" onclick="$.fn.radioButtonSelectionChanged('sortBy', 'sortById')"/>検索名順
                             </div>
-
                         </div>
-
-
                     </div>
                 </div>
 
                 <div class="col-xs-12">
-
                     <div class="form-group">
-                        <label class="col-xs-1 no-padding"> 出力先  
-                        </label>
+                        <label class="col-xs-1 no-padding"> 出力先  </label>
                         <div class="col-xs-10">
                             <div class="col-xs-2 no-padding">
-                                <input type="radio" name="destination" value="all" onclick="$.fn.radioButtonSelectionChanged('destination', 'destinationId')"/> プリンタ（印刷）
+                                <input type="radio" name="destination" value="all" onclick="$.fn.radioButtonSelectionChanged('destination', 'destinationId')"/> プリンタ(印刷)
                             </div>
-
                             <div class="col-xs-3 no-padding">
-                                <input type="radio" name="destination" value="destination" onclick="$.fn.radioButtonSelectionChanged('destination', 'destinationId')"/> 画面（印刷イメージ）
+                                <input type="radio" name="destination" value="destination" onclick="$.fn.radioButtonSelectionChanged('destination', 'destinationId')"/> 画面(印刷イメージ)
                             </div>
-
-
                         </div>
                     </div>
                 </div>

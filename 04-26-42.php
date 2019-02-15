@@ -110,10 +110,7 @@ include "sidebar.php"
                             <input type="radio" name="differentiation" id="differentiation" value="custom" onclick="$.fn.radioButtonSelectionChanged('differentiation', 'differentiationId')"><span> 地区</span>
                         </div>
                         <div class="col-xs-2">
-                            <input type="radio" name="differentiation" id="differentiation" value="custom" onclick="$.fn.radioButtonSelectionChanged('differentiation', 'differentiationId')"><span> 検針担当者</span>
-                        </div>
-                        <div class="col-xs-2">
-                            <input type="radio" name="differentiation" id="differentiation" value="custom" onclick="$.fn.radioButtonSelectionChanged('differentiation', 'differentiationId')"> <span>配送委託先</span>
+                            <input type="radio" name="differentiation" id="differentiation" value="custom" onclick="$.fn.radioButtonSelectionChanged('differentiation', 'differentiationId')"><span> 営業担当者</span>
                         </div>
                     </div>
                     <div id="differentiationId">
@@ -210,51 +207,33 @@ include "sidebar.php"
                         <div class="col-xs-1" style="margin-top:10px;">
                            <span>日</span>
                         </div>
-
                     </div>
-
-
-
-
-
-
-
-
                 </div>
             </div>
-
-
-
 
             <div class="col-xs-12 no-padding bottom-box">
                 <div class="col-xs-12 border1 no-padding">
                     <p class="backend">出力指定</p>
-
 
                     <div class="col-xs-12">
                         <div class="no-padding">
                             <div class="col-xs-1 no-padding">
                                 <p>改ページ指定</p>
                             </div>
+			    <div class="col-xs-9">
                             <div class="col-xs-2">
                                 <input type="radio" name="breakSelection" id="breakSelection" value="all" onclick="$.fn.radioButtonSelectionChanged('breakSelection', 'breakSelectionId')"> <span>営業所・販売店</span>
                             </div>
-                            <div class="col-xs-1">
+                            <div class="col-xs-2">
                                 <input type="radio" name="breakSelection" id="breakSelection" value="custom" onclick="$.fn.radioButtonSelectionChanged('breakSelection', 'breakSelectionId')"> <span>地区</span>
                             </div>
                             <div class="col-xs-2">
                                 <input type="radio" name="breakSelection" id="breakSelection" value="custom" onclick="$.fn.radioButtonSelectionChanged('breakSelection', 'breakSelectionId')"> <span>営業担当者</span>
                             </div>
-
-                            <!--<div class="col-xs-2">
-                                <input type="radio" name="all" value="all"> 検針担当者
-                            </div>
                             <div class="col-xs-2">
-                                <input type="radio" name="directSales" value="directSales"> 集金担当者
-                            </div>-->
-                            <div class="col-xs-1">
                                 <input type="radio" name="breakSelection" id="breakSelection" value="custom" onclick="$.fn.radioButtonSelectionChanged('breakSelection', 'breakSelectionId')"> <span>なし</span>
                             </div>
+			    </div>
                         </div>
                     </div>
 
