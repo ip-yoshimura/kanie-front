@@ -193,14 +193,11 @@ include "sidebar.php"
                         <p>締切実行日</p>
                     </div>
                     <div class="col-xs-2">
-                        <input type="date" class="form-control" placeholder="3">
+                        <input type="date" class="form-control">
                     </div>
-
-
                 </div>
-
-
             </div>
+
             <?php
             include "footer.php"
             ?>

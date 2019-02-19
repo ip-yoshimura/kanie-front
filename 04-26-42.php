@@ -246,22 +246,21 @@ include "sidebar.php"
                                 <input type="radio" name="sortBySelection" id="sortBySelection" value="all" onclick="$.fn.radioButtonSelectionChanged('sortBySelection', 'sortBySelectionId')"><span> 消費者コード順</span>
                             </div>
                             <div class="col-xs-2">
-                                <input type="radio" name="sortBySelection" id="sortBySelection" value="custom" onclick="$.fn.radioButtonSelectionChanged('sortBySelection', 'sortBySelectionId')"><span> 検針順路順</span>
+                                <input type="radio" name="sortBySelection" id="sortBySelection" value="custom" onclick="$.fn.radioButtonSelectionChanged('sortBySelection', 'sortBySelectionId')"><span> 検針名順</span>
                             </div>
-
+                            <div class="col-xs-2">
+                                <input type="radio" name="sortBySelection" id="sortBySelection" value="custom" onclick="$.fn.radioButtonSelectionChanged('sortBySelection', 'sortBySelectionId')"><span> 売上高順</span>
+                            </div>
                             <div class="col-xs-2 no-padding">
                                 <input type="radio" name="sortBySelection" id="sortBySelection" value="custom" onclick="$.fn.radioButtonSelectionChanged('sortBySelection', 'sortBySelectionId')"> <span>検索名順</span>
                             </div>
-                            <!--<div class="col-xs-2">
-                                <input type="radio" name="directSales" value="directSales"> 集金順路順
-                            </div>-->
                         </div>
                     </div>
 
                     <div class="col-xs-12">
                         <div class="no-padding">
                             <div class="col-xs-1 no-padding">
-                                <p>上位件数指</p>
+                                <p>上位件数指定</p>
                             </div>
                             <div class="col-xs-1">
                                 <input type="radio" name="fingersSelection" id="fingersSelection" value="all" onclick="$.fn.radioButtonSelectionChanged('fingersSelection', 'fingersSelectionId')"><span> なし</span>
@@ -279,13 +278,8 @@ include "sidebar.php"
                             <div class="col-xs-1" style="margin-top:10px;">
                                 <span>日</span>
                             </div>
-                            <!--<div class="col-xs-2">
-                                <input type="radio" name="directSales" value="directSales"> 集金順路順
-                            </div>-->
                         </div>
                     </div>
-
-
 
                     <div class="col-xs-12">
                         <div class="no-padding">
@@ -293,18 +287,11 @@ include "sidebar.php"
                                 <p>出力先</p>
                             </div>
                             <div class="col-xs-2">
-                                <input type="radio" name="destinationSelection" id="destinationSelection" value="all" onclick="$.fn.radioButtonSelectionChanged('destinationSelection', 'destinationSelectionId')"> <span>プリンタ（印刷）</span>
+                                <input type="radio" name="destinationSelection" id="destinationSelection" value="all" onclick="$.fn.radioButtonSelectionChanged('destinationSelection', 'destinationSelectionId')"> <span>プリンタ(印刷)</span>
                             </div>
                             <div class="col-xs-4">
-                                <input type="radio" name="destinationSelection" id="destinationSelection" value="custom" onclick="$.fn.radioButtonSelectionChanged('destinationSelection', 'destinationSelectionId')"> <span>画面（印刷イメージ）</span>
+                                <input type="radio" name="destinationSelection" id="destinationSelection" value="custom" onclick="$.fn.radioButtonSelectionChanged('destinationSelection', 'destinationSelectionId')"> <span>画面(印刷イメージ)</span>
                             </div>
-
-                            <!--<div class="col-xs-2">
-                                <input type="radio" name="all" value="all"> 検索名順
-                            </div>-->
-                            <!--<div class="col-xs-2">
-                                <input type="radio" name="directSales" value="directSales"> 集金順路順
-                            </div>-->
                         </div>
                     </div>
 

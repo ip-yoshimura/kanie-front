@@ -110,10 +110,7 @@ include "sidebar.php"
                             <input type="radio" name="segmentSelection" id="segmentSelection" value="custom" onclick="$.fn.radioButtonSelectionChanged('segmentSelection', 'segmentSelectionId')"><span> 地区</span>
                         </div>
                         <div class="col-xs-2">
-                            <input type="radio" name="segmentSelection" id="segmentSelection" value="custom" onclick="$.fn.radioButtonSelectionChanged('segmentSelection', 'segmentSelectionId')"><span> 検針担当者</span>
-                        </div>
-                        <div class="col-xs-2">
-                            <input type="radio" name="segmentSelection" id="segmentSelection" value="custom" onclick="$.fn.radioButtonSelectionChanged('segmentSelection', 'segmentSelectionId')"> <span>配送委託先</span>
+                            <input type="radio" name="segmentSelection" id="segmentSelection" value="custom" onclick="$.fn.radioButtonSelectionChanged('segmentSelection', 'segmentSelectionId')"><span> 集金担当者</span>
                         </div>
                     </div>
                     <div id="segmentSelectionId">
@@ -144,23 +141,8 @@ include "sidebar.php"
                             </div>
                         </div>
                     </div>
-                   
                 </div>
-                <!--<div class="col-xs-12">
-                    <div class="col-xs-2">
-                        <p>検針順路</p>
-                    </div>
-                    <div class="col-xs-3">
-                        <div class="form-group">
-                            <input id="meterReadingRouteStart" name="meterReadingRouteStart" placeholder="0" class="form-control" type="text" value=""/>
-                        </div>
-                    </div>
-                    <div class="col-xs-3">
-                        <div class="form-group">
-                            <input id="meterReadingRouteEnd" name="meterReadingRouteEnd" placeholder="9999999" class="form-control" type="text" value=""/>
-                        </div>
-                    </div>
-                </div>-->
+
                 <div class="col-xs-12">
                     <div class="col-xs-1 no-padding">
                         <p>消費者コード</p>
@@ -193,9 +175,6 @@ include "sidebar.php"
             <div class="col-xs-12 no-padding">
                 <div class="col-xs-12 border1 no-padding">
                     <p class="backend">作成範囲指定</p>
-                    <div class="form-group">
-
-                    </div>
                     <div class="form-group">
                         <label class="control-label col-xs-1  ">指定年月</label>
                         <div class="col-xs-2">
@@ -241,29 +220,13 @@ include "sidebar.php"
                         <div class="col-xs-1 no-padding">
                             <input type="radio" name="collectionSelection" id="collectionSelection" value="custom" onclick="$.fn.radioButtonSelectionChanged('collectionSelection', 'collectionSelectionId')"><span> クレジット</span>
                         </div>
-
-
-
-
-
                     </div>
-
-
-
-
-
-
-
                 </div>
             </div>
-
-
-
 
             <div class="col-xs-12 no-padding bottom-box">
                 <div class="col-xs-12 border1 no-padding">
                     <p class="backend">出力指定</p>
-
 
                     <div class="col-xs-12">
                         <div class="no-padding">
@@ -273,20 +236,13 @@ include "sidebar.php"
                             <div class="col-xs-2">
                                 <input type="radio" name="pageSelection" id="pageSelection" value="all" onclick="$.fn.radioButtonSelectionChanged('pageSelection', 'pageSelectionId')"> <span>営業所・販売店</span>
                             </div>
-                            <div class="col-xs-1">
+                            <div class="col-xs-2">
                                 <input type="radio" name="pageSelection" id="pageSelection" value="custom" onclick="$.fn.radioButtonSelectionChanged('pageSelection', 'pageSelectionId')"> <span>地区</span>
                             </div>
                             <div class="col-xs-2">
-                                <input type="radio" name="pageSelection" id="pageSelection" value="custom" onclick="$.fn.radioButtonSelectionChanged('pageSelection', 'pageSelectionId')"> <span>営業担当者</span>
-                            </div>
-
-                            <!--<div class="col-xs-2">
-                                <input type="radio" name="all" value="all"> 検針担当者
+                                <input type="radio" name="pageSelection" id="pageSelection" value="custom" onclick="$.fn.radioButtonSelectionChanged('pageSelection', 'pageSelectionId')"> <span>集金担当者</span>
                             </div>
                             <div class="col-xs-2">
-                                <input type="radio" name="directSales" value="directSales"> 集金担当者
-                            </div>-->
-                            <div class="col-xs-1">
                                 <input type="radio" name="pageSelection" id="pageSelection" value="custom" onclick="$.fn.radioButtonSelectionChanged('pageSelection', 'pageSelectionId')"> <span>なし</span>
                             </div>
                         </div>
@@ -298,30 +254,30 @@ include "sidebar.php"
                                 <p>並び順</p>
                             </div>
                             <div class="col-xs-2">
-                                <input type="radio" name="sortBySelection" id="sortBySelection" value="all" onclick="$.fn.radioButtonSelectionChanged('sortBySelection', 'sortBySelectionId')"><span> 消費者コード順</span>
+                                <input type="radio" name="sortBySelection" id="sortBySelection" value="all" onclick="$.fn.radioButtonSelectionChanged('sortBySelection', 'sortBySelectionId')"><span> 集金順路順</span>
                             </div>
                             <div class="col-xs-2">
-                                <input type="radio" name="sortBySelection" id="sortBySelection" value="custom" onclick="$.fn.radioButtonSelectionChanged('sortBySelection', 'sortBySelectionId')"><span> 検針順路順</span>
+                                <input type="radio" name="sortBySelection" id="sortBySelection" value="custom" onclick="$.fn.radioButtonSelectionChanged('sortBySelection', 'sortBySelectionId')"><span> 消費者コード順</span>
                             </div>
-
                             <div class="col-xs-2 no-padding">
-                                <input type="radio" name="sortBySelection" id="sortBySelection" value="custom" onclick="$.fn.radioButtonSelectionChanged('sortBySelection', 'sortBySelectionId')"> <span>検索名順</span>
+                                <input type="radio" name="sortBySelection" id="sortBySelection" value="custom" onclick="$.fn.radioButtonSelectionChanged('sortBySelection', 'sortBySelectionId')"> <span> 検針順路順</span>
                             </div>
-                            <!--<div class="col-xs-2">
-                                <input type="radio" name="directSales" value="directSales"> 集金順路順
-                            </div>-->
+                            <div class="col-xs-2 no-padding">
+                                <input type="radio" name="sortBySelection" id="sortBySelection" value="custom" onclick="$.fn.radioButtonSelectionChanged('sortBySelection', 'sortBySelectionId')"> <span> 検索名順</span>
+                            </div>
                         </div>
                     </div>
+
                     <div class="col-xs-12">
                         <div class="no-padding">
                             <div class="col-xs-1 no-padding">
                                 <p>出力先</p>
                             </div>
                             <div class="col-xs-2">
-                                <input type="radio" name="destinationSelection" id="destinationSelection" value="all" onclick="$.fn.radioButtonSelectionChanged('destinationSelection', 'destinationSelectionId')"> <span>プリンタ（印刷）</span>
+                                <input type="radio" name="destinationSelection" id="destinationSelection" value="all" onclick="$.fn.radioButtonSelectionChanged('destinationSelection', 'destinationSelectionId')"> <span>プリンタ(印刷)</span>
                             </div>
                             <div class="col-xs-4">
-                                <input type="radio" name="destinationSelection" id="destinationSelection" value="all" onclick="$.fn.radioButtonSelectionChanged('destinationSelection', 'destinationSelectionId')"> <span>画面（印刷イメージ）</span>
+                                <input type="radio" name="destinationSelection" id="destinationSelection" value="all" onclick="$.fn.radioButtonSelectionChanged('destinationSelection', 'destinationSelectionId')"> <span>画面(印刷イメージ)</span>
                             </div>
 
                             <!--<div class="col-xs-2">
